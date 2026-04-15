@@ -1,0 +1,22 @@
+node_modules
+.next
+out
+.env.local
+.DS_Store
+*.log
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Scripts cache
+scripts/pipeline/*.json
+!scripts/pipeline/config.json
+
+# Data pipeline outputs
+data/raw/
+data/cache/
+tsconfig.tsbuildinfo
+scripts/*.json
+scripts/*.log
