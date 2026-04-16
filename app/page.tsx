@@ -195,6 +195,13 @@ export default function HomePage() {
               </a>
             </div>
           </div>
+          <div className="flex items-center justify-center gap-4 text-xs text-bokumo-ink/50 mb-3">
+            <a href="/about" className="hover:text-bokumo-accent transition">BOKUMOについて</a>
+            <span>|</span>
+            <a href="/contact" className="hover:text-bokumo-accent transition">お問い合わせ</a>
+            <span>|</span>
+            <a href="/privacy" className="hover:text-bokumo-accent transition">プライバシーポリシー</a>
+          </div>
           <p className="text-xs text-bokumo-ink/50">
             © BOKUMO ・ 北海道の子連れ歓迎店ガイド
           </p>
