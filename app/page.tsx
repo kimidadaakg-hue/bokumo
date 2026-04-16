@@ -64,6 +64,7 @@ export default function HomePage() {
         <h1 className="mt-3 text-5xl md:text-7xl text-bokumo-ink tracking-wide font-extrabold" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
           BOKUMO
         </h1>
+        <p className="mt-1 text-xs text-bokumo-sub/60">ボクモ / ぼくも</p>
         <p className="mt-2 text-sm text-bokumo-sub" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
           子供と楽しむ、おいしい時間
         </p>

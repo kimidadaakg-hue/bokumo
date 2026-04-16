@@ -2,9 +2,26 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BOKUMO | 子供と楽しむ、おいしい時間",
+  title: "BOKUMO（ボクモ / ぼくも）| 北海道の子連れ歓迎飲食店ガイド",
   description:
-    "北海道の子連れ歓迎飲食店まとめサイト。ベビーカーOK・個室・キッズメニューで絞り込みできます。",
+    "BOKUMO（ボクモ・ぼくも）は北海道の子連れ歓迎飲食店まとめサイト。札幌・旭川・函館など全道602店。ベビーカーOK・個室・座敷・キッズメニューで絞り込みできます。子供と楽しむ、おいしい時間。",
+  keywords: ["BOKUMO", "ボクモ", "ぼくも", "北海道", "子連れ", "飲食店", "レストラン", "キッズ", "ベビーカー", "個室", "札幌", "子供"],
+  openGraph: {
+    title: "BOKUMO（ボクモ）| 北海道の子連れ歓迎飲食店ガイド",
+    description: "北海道の子連れで行ける飲食店602店をまとめました。ベビーカーOK・個室・キッズメニューで検索できます。",
+    url: "https://boku-mo.com",
+    siteName: "BOKUMO（ボクモ）",
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BOKUMO（ボクモ）| 北海道の子連れ歓迎飲食店ガイド",
+    description: "北海道の子連れで行ける飲食店602店をまとめました。",
+  },
+  alternates: {
+    canonical: "https://boku-mo.com",
+  },
   verification: {
     google: "8QfIyx_ySpadk-crZDjwnFaSb86ZEC7ecI6wMOEW61k",
   },
