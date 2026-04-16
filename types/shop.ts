@@ -27,4 +27,5 @@ export interface Shop {
   is_chain: boolean;
   evidence: string[];
   source: string;
+  hotpepper_url: string;
 }

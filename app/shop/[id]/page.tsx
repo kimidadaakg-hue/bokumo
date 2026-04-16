@@ -186,6 +186,16 @@ export default async function ShopDetailPage({
 
           {/* アクションボタン */}
           <div className="mt-8 space-y-3">
+            {shop.hotpepper_url && (
+              <a
+                href={shop.hotpepper_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-full py-3 text-sm rounded-full bg-[#e60012] text-white hover:opacity-90 transition font-bold"
+              >
+                ホットペッパーで予約する →
+              </a>
+            )}
             <a
               href={shop.tabelog_url}
               target="_blank"
