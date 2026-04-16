@@ -3,11 +3,10 @@ export type Area = string;
 export type Genre = string;
 
 export const ALL_TAGS = [
-  "ベビーカーOK",
+  "子連れOK",
   "座敷/小上がりあり",
   "キッズチェアあり",
   "個室あり",
-  "子連れOK",
   "子供メニューあり"
 ] as const;
 
