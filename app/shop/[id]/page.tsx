@@ -27,12 +27,13 @@ export function generateStaticParams() {
   return shops.map((shop) => ({ id: String(shop.id) }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { id: string };
-}): Metadata {
-  const shop = shops.find((s) => String(s.id) === params.id);
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const shop = shops.find((s) => String(s.id) === id);
   if (!shop) {
     return { title: "お店が見つかりません | BOKUMO" };
   }
@@ -60,12 +61,13 @@ function Stars({ score }: { score: number }) {
   );
 }
 
-export default function ShopDetailPage({
+export default async function ShopDetailPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  const shop = shops.find((s) => String(s.id) === params.id);
+  const { id } = await params;
+  const shop = shops.find((s) => String(s.id) === id);
 
   if (!shop) {
     return (
