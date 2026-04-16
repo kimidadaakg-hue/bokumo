@@ -1,0 +1,228 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import shopsData from "@/data/shops.json";
+import type { Shop } from "@/types/shop";
+
+const shops = shopsData as Shop[];
+
+const NEGATIVE_WORDS = [
+  "不向き", "遠慮", "お断り", "難しそう",
+  "狭い", "激狭", "窮屈", "汚い", "汚れ", "不衛生", "臭い", "暑い", "寒い",
+  "うるさい", "騒がしい", "怖い",
+  "気分が悪", "ひどく", "ひどい", "ぶっきらぼう", "無愛想", "態度が悪",
+  "対応が悪", "接客が悪", "感じが悪", "不親切", "失礼",
+  "まずい", "不味い", "しょっぱ", "しつこい", "冷たい", "ぬるい",
+  "残念", "ガッカリ", "がっかり", "期待はずれ", "期待外れ",
+  "おすすめできません", "オススメできません", "おすすめしない",
+  "回転が悪", "待たされ", "遅い", "遅すぎ",
+  "不十分", "不満", "最悪", "二度と", "行かない",
+  "高い", "高すぎ", "コスパが悪", "割高", "ぼったくり",
+];
+
+function filterPositive(evs: string[]): string[] {
+  return evs.filter((ev) => !NEGATIVE_WORDS.some((ng) => ev.includes(ng)));
+}
+
+export function generateStaticParams() {
+  return shops.map((shop) => ({ id: String(shop.id) }));
+}
+
+export function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Metadata {
+  const shop = shops.find((s) => String(s.id) === params.id);
+  if (!shop) {
+    return { title: "お店が見つかりません | BOKUMO" };
+  }
+  const tagText = shop.tags.length > 0 ? shop.tags.join("・") + "。" : "";
+  return {
+    title: `${shop.name}（${shop.area}）| BOKUMO`,
+    description: `${shop.name}は${shop.area}の${shop.genre}。${tagText}子連れで行ける北海道の飲食店ガイド BOKUMO（ボクモ）。`,
+    openGraph: {
+      title: `${shop.name} | BOKUMO`,
+      description: `${shop.area}の${shop.genre}。${tagText}`,
+      images: shop.image_url ? [{ url: shop.image_url }] : undefined,
+    },
+  };
+}
+
+function Stars({ score }: { score: number }) {
+  return (
+    <span
+      className="text-bokumo-accent tracking-tight text-lg"
+      aria-label={`子連れ安心度 ${score}`}
+    >
+      {"★".repeat(score)}
+      <span className="text-bokumo-line">{"★".repeat(5 - score)}</span>
+    </span>
+  );
+}
+
+export default function ShopDetailPage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const shop = shops.find((s) => String(s.id) === params.id);
+
+  if (!shop) {
+    return (
+      <main className="min-h-screen bg-bokumo-bg flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-bokumo-sub text-lg mb-4">
+            お店が見つかりませんでした
+          </p>
+          <Link
+            href="/"
+            className="text-bokumo-accent hover:underline text-sm"
+          >
+            ← 一覧に戻る
+          </Link>
+        </div>
+      </main>
+    );
+  }
+
+  const evidence = filterPositive(shop.evidence || []);
+
+  return (
+    <main className="min-h-screen bg-bokumo-bg">
+      {/* 戻るリンク */}
+      <div className="max-w-3xl mx-auto px-6 pt-6">
+        <Link
+          href="/"
+          className="inline-flex items-center text-sm text-bokumo-sub hover:text-bokumo-accent transition"
+        >
+          ← 一覧に戻る
+        </Link>
+      </div>
+
+      {/* メインコンテンツ */}
+      <article className="max-w-3xl mx-auto px-6 py-6">
+        {/* 写真 */}
+        {shop.image_url && (
+          <div className="aspect-[16/9] bg-bokumo-pink-light rounded-2xl overflow-hidden shadow-card mb-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={shop.image_url}
+              alt={shop.name}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        )}
+
+        {/* 店舗情報 */}
+        <div className="bg-white rounded-2xl shadow-card border border-bokumo-line/50 p-6 md:p-8">
+          {/* エリア・ジャンル・スコア */}
+          <div className="flex items-center justify-between gap-2 mb-2">
+            <span className="text-xs text-bokumo-sub tracking-widest">
+              {shop.area} ・ {shop.genre}
+            </span>
+            <Stars score={shop.score} />
+          </div>
+
+          {/* 店名 */}
+          <h1
+            className="text-2xl md:text-3xl text-bokumo-ink font-bold leading-tight"
+            style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+          >
+            {shop.name}
+          </h1>
+
+          {/* タグ */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            {shop.tags.map((t) => (
+              <span
+                key={t}
+                className="text-xs px-3 py-1 rounded-full bg-bokumo-pink-light border border-bokumo-line text-bokumo-ink/70"
+              >
+                {t}
+              </span>
+            ))}
+          </div>
+
+          {/* 紹介文 */}
+          {shop.description && (
+            <div className="mt-6">
+              <h2
+                className="text-sm font-bold text-bokumo-ink mb-2"
+                style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+              >
+                お店について
+              </h2>
+              <p className="text-sm text-bokumo-ink/70 leading-relaxed">
+                {shop.description}
+              </p>
+            </div>
+          )}
+
+          {/* 口コミ */}
+          {evidence.length > 0 && (
+            <div className="mt-6">
+              <h2
+                className="text-sm font-bold text-bokumo-accent mb-3"
+                style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+              >
+                口コミ
+              </h2>
+              <div className="space-y-2">
+                {evidence.map((ev, i) => (
+                  <div
+                    key={i}
+                    className="bg-bokumo-pink-light/50 rounded-lg px-4 py-3"
+                  >
+                    <p className="text-sm text-bokumo-ink/70 leading-relaxed">
+                      「{ev}」
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* アクションボタン */}
+          <div className="mt-8 space-y-3">
+            <a
+              href={shop.tabelog_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full py-3 text-sm rounded-full bg-bokumo-accent text-white hover:opacity-90 transition font-bold"
+            >
+              Googleマップで見る →
+            </a>
+            <div className="flex gap-3">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdG-VGN1WEj53rtg9OkX0ehH88nGK3ZKJPkOnfq174kyeUQOA/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center py-2.5 text-xs rounded-full bg-white border border-bokumo-line text-bokumo-ink hover:border-bokumo-accent hover:text-bokumo-accent transition"
+              >
+                お店を提案する
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfhF2zUpZVfjcUQu-NQaFqraAi7UwNQ8CMc_U8rD-CnDFVPnA/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center py-2.5 text-xs rounded-full bg-white border border-bokumo-line text-bokumo-ink hover:border-bokumo-accent hover:text-bokumo-accent transition"
+              >
+                口コミを送る
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* フッターリンク */}
+        <div className="mt-8 text-center">
+          <Link
+            href="/"
+            className="text-sm text-bokumo-sub hover:text-bokumo-accent transition"
+          >
+            ← BOKUMO トップに戻る
+          </Link>
+        </div>
+      </article>
+    </main>
+  );
+}

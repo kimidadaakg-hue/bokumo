@@ -25,4 +25,6 @@ export interface Shop {
   tabelog_url: string;
   image_url: string;
   is_chain: boolean;
+  evidence: string[];
+  source: string;
 }

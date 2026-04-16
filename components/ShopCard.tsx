@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import type { Shop } from "@/types/shop";
 
 function Stars({ score }: { score: number }) {
@@ -35,72 +36,68 @@ function filterPositive(evs: string[]): string[] {
 }
 
 export default function ShopCard({ shop }: { shop: Shop }) {
-  const rawEvidence = (shop as any).evidence as string[] | undefined;
-  const evidence = rawEvidence ? filterPositive(rawEvidence) : undefined;
+  const evidence = shop.evidence ? filterPositive(shop.evidence) : undefined;
 
   return (
-    <article className="card-hover bg-white rounded-2xl overflow-hidden shadow-card border border-bokumo-line/50">
-      {shop.image_url && (
-        <div className="aspect-[4/3] bg-bokumo-pink-light overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={shop.image_url}
-            alt={shop.name}
-            className="w-full h-full object-cover"
-            loading="lazy"
-          />
-        </div>
-      )}
-      <div className="p-5">
-        <div className="flex items-center justify-between gap-2">
-          <span className="text-xs text-bokumo-sub tracking-widest">
-            {shop.area} ・ {shop.genre}
-          </span>
-          <Stars score={shop.score} />
-        </div>
-        <h3 className="mt-2 text-lg text-bokumo-ink leading-snug font-bold" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
-          {shop.name}
-        </h3>
-
-        <div className="mt-3 flex flex-wrap gap-1.5">
-          {shop.tags.slice(0, 3).map((t) => (
-            <span
-              key={t}
-              className="text-[11px] px-2.5 py-0.5 rounded-full bg-bokumo-pink-light border border-bokumo-line text-bokumo-ink/70"
-            >
-              {t}
-            </span>
-          ))}
-        </div>
-
-        {evidence && evidence.length > 0 && (
-          <div className="mt-3 bg-bokumo-pink-light/50 rounded-lg px-3 py-2">
-            <p className="text-[11px] text-bokumo-accent font-bold mb-1" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
-              口コミ
-            </p>
-            {evidence.slice(0, 2).map((ev, i) => (
-              <p key={i} className="text-xs text-bokumo-ink/70 leading-relaxed line-clamp-1">
-                「{ev.length > 40 ? ev.slice(0, 40) + "…" : ev}」
-              </p>
-            ))}
+    <Link href={`/shop/${shop.id}`} className="block">
+      <article className="card-hover bg-white rounded-2xl overflow-hidden shadow-card border border-bokumo-line/50">
+        {shop.image_url && (
+          <div className="aspect-[4/3] bg-bokumo-pink-light overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={shop.image_url}
+              alt={shop.name}
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
           </div>
         )}
+        <div className="p-5">
+          <div className="flex items-center justify-between gap-2">
+            <span className="text-xs text-bokumo-sub tracking-widest">
+              {shop.area} ・ {shop.genre}
+            </span>
+            <Stars score={shop.score} />
+          </div>
+          <h3 className="mt-2 text-lg text-bokumo-ink leading-snug font-bold" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
+            {shop.name}
+          </h3>
 
-        {shop.description && !evidence?.length && (
-          <p className="mt-3 text-sm text-bokumo-sub leading-relaxed line-clamp-2">
-            {shop.description}
-          </p>
-        )}
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {shop.tags.slice(0, 3).map((t) => (
+              <span
+                key={t}
+                className="text-[11px] px-2.5 py-0.5 rounded-full bg-bokumo-pink-light border border-bokumo-line text-bokumo-ink/70"
+              >
+                {t}
+              </span>
+            ))}
+          </div>
 
-        <a
-          href={shop.tabelog_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 inline-flex items-center justify-center w-full py-2.5 text-sm rounded-full bg-bokumo-accent text-white hover:opacity-90 transition"
-        >
-          Googleマップで見る →
-        </a>
-      </div>
-    </article>
+          {evidence && evidence.length > 0 && (
+            <div className="mt-3 bg-bokumo-pink-light/50 rounded-lg px-3 py-2">
+              <p className="text-[11px] text-bokumo-accent font-bold mb-1" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
+                口コミ
+              </p>
+              {evidence.slice(0, 2).map((ev, i) => (
+                <p key={i} className="text-xs text-bokumo-ink/70 leading-relaxed line-clamp-1">
+                  「{ev.length > 40 ? ev.slice(0, 40) + "…" : ev}」
+                </p>
+              ))}
+            </div>
+          )}
+
+          {shop.description && !evidence?.length && (
+            <p className="mt-3 text-sm text-bokumo-sub leading-relaxed line-clamp-2">
+              {shop.description}
+            </p>
+          )}
+
+          <span className="mt-4 inline-flex items-center justify-center w-full py-2.5 text-sm rounded-full bg-bokumo-accent text-white hover:opacity-90 transition">
+            詳しく見る →
+          </span>
+        </div>
+      </article>
+    </Link>
   );
 }
