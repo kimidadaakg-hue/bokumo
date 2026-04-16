@@ -204,13 +204,39 @@ def search_keywords(text: str) -> tuple[list[str], list[str], bool]:
 # Tag extraction & scoring
 # ---------------------------------------------------------------------------
 def extract_tags(text: str) -> list[str]:
-    """Determine which tags apply based on text content."""
+    """Determine which tags apply based on text content.
+
+    厳格ルール:
+    - 否定文脈（不可/NG/ございません/ありません/折り畳み等）を検出したらタグ除外
+    - キーワードの前後40文字を確認し、否定表現があればスキップ
+    """
+    # 否定文脈パターン
+    NEGATIVE_CONTEXT = [
+        "不可", "NG", "できません", "ございません", "ありません",
+        "お断り", "ご遠慮", "禁止", "使えません", "使用不可",
+        "折り畳", "折りたたみ", "お預かり", "預からせ",
+        "入れません", "持ち込み不可", "対応しておりません",
+        "なし", "無し",
+    ]
+
     tags = []
     for keywords, tag_name in TAG_RULES:
+        found = False
         for kw in keywords:
-            if kw in text:
-                tags.append(tag_name)
-                break
+            pos = text.find(kw)
+            if pos == -1:
+                continue
+            # キーワード周辺40文字を確認
+            context_start = max(0, pos - 40)
+            context_end = min(len(text), pos + len(kw) + 40)
+            context = text[context_start:context_end]
+            # 否定文脈チェック
+            if any(neg in context for neg in NEGATIVE_CONTEXT):
+                continue  # 否定文脈があるのでこのキーワードは無視
+            found = True
+            break
+        if found:
+            tags.append(tag_name)
     return tags
 
 

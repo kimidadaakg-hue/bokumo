@@ -217,8 +217,7 @@
     "area": "富良野",
     "genre": "居酒屋",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -257,53 +256,6 @@
       "掘り炬燵で落ち着く雰囲気。"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 12,
-    "place_id": "ChIJ5-65J6YpC18RK7bA60Bfu5U",
-    "name": "Irish pub BRIAN BREW 本店",
-    "area": "札幌駅周辺",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.072082599999995,
-    "lng": 141.3334224,
-    "tabelog_url": "https://maps.google.com/?cid=10789322064733976107&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ5-65J6YpC18RK7bA60Bfu5U.jpg",
-    "is_chain": false,
-    "evidence": [
-      "看板メニューの黒ハヤシライスが気になって",
-      "なんでも美味しいんですが、ハヤシライスと並び称されるのがカレー。",
-      "ギネスが好きでちょいちょい通ってます。",
-      "カツカレーと黒ハヤシライスをいただきました。",
-      "アイリッシュパブとしては老舗です。",
-      "レスコード カジュアル 禁煙・喫煙 店内全面禁煙 お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 13,
-    "place_id": "ChIJWbR8RnQpC18RD7V0WDDPGF4",
-    "name": "ラーメン札幌一粒庵（いちりゅうあん）",
-    "area": "札幌駅周辺",
-    "genre": "ラーメン",
-    "tags": [
-      "ベビーカーOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.066896799999995,
-    "lng": 141.35433989999999,
-    "tabelog_url": "https://maps.google.com/?cid=6780397045555705103&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJWbR8RnQpC18RD7V0WDDPGF4.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ファミリーにおすすめの店がブログを掲載します"
-    ],
-    "source": "website"
   },
   {
     "id": 14,
@@ -349,27 +301,6 @@
       "子連れOK"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 16,
-    "place_id": "ChIJ___DCsApC18RPJotcFOf7Ws",
-    "name": "Sushi yashiro (鮨やしろ)",
-    "area": "札幌駅周辺",
-    "genre": "寿司",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.0586716,
-    "lng": 141.3224139,
-    "tabelog_url": "https://maps.google.com/?cid=7777047312251853372&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ___DCsApC18RPJotcFOf7Ws.jpg",
-    "is_chain": false,
-    "evidence": [
-      "お子様連れ"
-    ],
-    "source": "website"
   },
   {
     "id": 17,
@@ -595,7 +526,6 @@
     "area": "美唄",
     "genre": "その他",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -645,7 +575,6 @@
     "genre": "寿司",
     "tags": [
       "個室あり",
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -739,7 +668,6 @@
     "genre": "ステーキ",
     "tags": [
       "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -763,7 +691,6 @@
     "area": "伊達",
     "genre": "イタリアン",
     "tags": [
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -873,29 +800,6 @@
     "source": "gemini"
   },
   {
-    "id": 38,
-    "place_id": "ChIJA5diwpnlCl8R93Dqf9tPuT0",
-    "name": "みやび",
-    "area": "余市",
-    "genre": "焼肉",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.1904897,
-    "lng": 140.7906663,
-    "tabelog_url": "https://maps.google.com/?cid=4447673911167578359&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJA5diwpnlCl8R93Dqf9tPuT0.jpg",
-    "is_chain": false,
-    "evidence": [
-      "個室。",
-      "落ち着いた雰囲気。",
-      "お肉やサイドメニューのボリュームは充分でした！"
-    ],
-    "source": "gemini"
-  },
-  {
     "id": 39,
     "place_id": "ChIJabiz9mVNc18RioMDwuXuc1U",
     "name": "てっぱん・お好み焼 まさ屋",
@@ -962,30 +866,6 @@
       "つけ麺は、スープも美味しかったけど、麺が更に美味しかった。",
       "なかなか駐車場が空いていなくて…",
       "小上がり・BOX席有り。お子様用イス有り。"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 42,
-    "place_id": "ChIJ7_nM9tmcc18RJ06K8D61eZI",
-    "name": "中国料理 桃酔",
-    "area": "芽室",
-    "genre": "中華",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.914513799999995,
-    "lng": 143.0471974,
-    "tabelog_url": "https://maps.google.com/?cid=10554666483647663655&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ7_nM9tmcc18RJ06K8D61eZI.jpg",
-    "is_chain": false,
-    "evidence": [
-      "店内は中華料理店の内装で落ち着いた雰囲気です。",
-      "塩ラーメンは澄んだスッキリしていて美味です。",
-      "酢豚定食、カニ玉定食は餡の塩味が強くなくて、とても良かったです。",
-      "コース料理は、幅広い世代が好むメニューを集めた「ファミリーコース」や北海道・芽室町産の落花生を使った「メムピ"
     ],
     "source": "both"
   },
@@ -1236,7 +1116,6 @@
     "area": "恵庭",
     "genre": "居酒屋",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -1307,8 +1186,7 @@
     "area": "釧路",
     "genre": "ラーメン",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -1500,7 +1378,6 @@
     "area": "小樽運河・堺町",
     "genre": "ラーメン",
     "tags": [
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -1571,7 +1448,6 @@
     "genre": "居酒屋",
     "tags": [
       "個室あり",
-      "ベビーカーOK",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -1806,7 +1682,6 @@
     "area": "小樽駅周辺",
     "genre": "寿司",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -1945,7 +1820,6 @@
     "area": "滝川",
     "genre": "和食",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -1984,33 +1858,6 @@
       "ボックス席だったので赤ちゃんと一緒の利用でも大丈夫でした！",
       "店舗の横に7台ほど車停めれます！",
       "色々な使い方ができるソファー席などもございます。 お子様と一緒にご家族でのご利用も大歓迎です！ 店舗案内"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 85,
-    "place_id": "ChIJZe7BMQ0rC18Reu2dFbaykbU",
-    "name": "洋食コノヨシ白石駅前店",
-    "area": "札幌白石区",
-    "genre": "洋食",
-    "tags": [
-      "ベビーカーOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.0453398,
-    "lng": 141.39447049999998,
-    "tabelog_url": "https://maps.google.com/?cid=13083434887604465018&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJZe7BMQ0rC18Reu2dFbaykbU.jpg",
-    "is_chain": false,
-    "evidence": [
-      "白石駅近くにあるこちらのコノヨシ",
-      "白石駅近くでアクセス◎",
-      "ハンバーグも美味しいがサラダが美味しすぎる店",
-      "初めての来店友人と！",
-      "南12条には行ったことがありましたがこちらは初めてです。",
-      "み放題 あり 食べ放題 なし お酒 カクテル充実 お子様連れ お子様連れOK お祝い・サプライズ対応 不可"
     ],
     "source": "both"
   },
@@ -2310,8 +2157,7 @@
     "area": "浦河",
     "genre": "うどん・そば",
     "tags": [
-      "ベビーカーOK",
-      "個室あり"
+      "ベビーカーOK"
     ],
     "description": "",
     "score": 4,
@@ -2432,13 +2278,10 @@
     "area": "大通",
     "genre": "焼肉",
     "tags": [
-      "ベビーカーOK",
-      "座敷あり",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
-    "score": 5,
+    "score": 3,
     "lat": 43.0563365,
     "lng": 141.3456759,
     "tabelog_url": "https://maps.google.com/?cid=7186186294202901899&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -2473,30 +2316,6 @@
       "女性3人でオペレーションしていましたが相変わらず明るく元気で丁寧で素晴らしい"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 105,
-    "place_id": "ChIJo38ac-PKdV8RW0WOodA7Frs",
-    "name": "居酒屋 あま屋 昇三",
-    "area": "新ひだか",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.3391979,
-    "lng": 142.36737810000002,
-    "tabelog_url": "https://maps.google.com/?cid=13481028301829850459&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJo38ac-PKdV8RW0WOodA7Frs.jpg",
-    "is_chain": false,
-    "evidence": [
-      "生トロ牛めしやたこまぶし飯など注文しやすい価格帯のメニューもある",
-      "味も雰囲気も良かったです 満員だったので料理の提供が少し遅かった",
-      "あま屋のそばは、素晴らしいです。注文すると、手打ちのそばが提供されます。",
-      "レスコード カジュアル 禁煙・喫煙 店内全面禁煙 お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "both"
   },
   {
     "id": 106,
@@ -2694,7 +2513,6 @@
     "tags": [
       "ベビーカーOK",
       "キッズチェアあり",
-      "個室あり",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -2796,9 +2614,7 @@
     "area": "函館郊外",
     "genre": "ステーキ",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -2922,8 +2738,7 @@
     "area": "小樽",
     "genre": "イタリアン",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -2983,55 +2798,6 @@
       "子連れ来店の実績や歓迎の記述がある場合"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 126,
-    "place_id": "ChIJhZJxXD4rC18RgPWVNohjgsk",
-    "name": "釜めし めぐとわ",
-    "area": "中島公園・山鼻",
-    "genre": "和食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.0266022,
-    "lng": 141.3389008,
-    "tabelog_url": "https://maps.google.com/?cid=14520277585278399872&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJhZJxXD4rC18RgPWVNohjgsk.jpg",
-    "is_chain": false,
-    "evidence": [
-      "こだわりの素材を使った料理",
-      "季節限定の「根室産活〆鱈と海老芋の味噌田楽釜めし」",
-      "こだわりの素材を使っているため、ランチの価格としては安くはありませんが満足できます。",
-      "お子様連れ可"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 127,
-    "place_id": "ChIJRf7PMgzmDF8Rm_3HyHkvjn0",
-    "name": "旭川成吉思汗 大黒屋 旭川五丁目店（本店）",
-    "area": "旭川駅周辺",
-    "genre": "その他",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.7694439,
-    "lng": 142.35727989999998,
-    "tabelog_url": "https://maps.google.com/?cid=9047220901540003227&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJRf7PMgzmDF8Rm_3HyHkvjn0.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ジンギスカン史上最高の美味しさでした！！",
-      "締めの焼き飯は美味しいのは間違いなく見てる方も楽しい",
-      "ジンギスカンってこんなに美味しかったけ？と思う美味しさでした",
-      "味は文句なし。ご飯(大)がオススメ。",
-      "品。 個室及びカウンターで、宴会やご家族、お子様連れ、デート、お一人様など様々なシーンでご利用いた"
-    ],
-    "source": "both"
   },
   {
     "id": 128,
@@ -3181,8 +2947,7 @@
     "genre": "居酒屋",
     "tags": [
       "子連れOK",
-      "個室あり",
-      "ベビーカーOK"
+      "個室あり"
     ],
     "description": "",
     "score": 4,
@@ -3347,7 +3112,6 @@
     "area": "函館",
     "genre": "焼鳥",
     "tags": [
-      "ベビーカーOK",
       "個室あり",
       "子連れOK"
     ],
@@ -3366,28 +3130,6 @@
       "実、焼酎充実、日本酒充実、ワイン充実 お子様連れ お子様連れ歓迎（周りの目が気にならない、個室が2つあります。事前"
     ],
     "source": "both"
-  },
-  {
-    "id": 142,
-    "place_id": "ChIJd0vEoqrYdF8RdKd85wmITBU",
-    "name": "ラマイ 千歳店",
-    "area": "千歳",
-    "genre": "カレー",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 42.8335976,
-    "lng": 141.6446453,
-    "tabelog_url": "https://maps.google.com/?cid=1534751149146285940&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJd0vEoqrYdF8RdKd85wmITBU.jpg",
-    "is_chain": false,
-    "evidence": [
-      "店内はバリ島風の装飾に仕切りのある半個室。",
-      "チキンカレーをたべましたが、チキンも野菜も沢山入っていて食べ応えがありました。"
-    ],
-    "source": "gemini"
   },
   {
     "id": 143,
@@ -3436,30 +3178,6 @@
     "source": "gemini"
   },
   {
-    "id": 145,
-    "place_id": "ChIJPeD8MlEqC18R0tuSCg5cJaw",
-    "name": "蕎麦と日本料理 驚",
-    "area": "月寒・美園",
-    "genre": "うどん・そば",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.029258399999996,
-    "lng": 141.3951994,
-    "tabelog_url": "https://maps.google.com/?cid=12404421964038593490&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJPeD8MlEqC18R0tuSCg5cJaw.jpg",
-    "is_chain": false,
-    "evidence": [
-      "札幌市内とは思えないロケーションのお店。",
-      "落着いた雰囲気で 何かしらの記念日に",
-      "味は言うまでもなく美味しく、",
-      "カジュアル フォーマル 禁煙・喫煙 店内全面禁煙 お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "both"
-  },
-  {
     "id": 146,
     "place_id": "ChIJ1erBFXkrC18R9cnlK1Tie7I",
     "name": "居酒屋 味扉（あじと）",
@@ -3467,8 +3185,6 @@
     "genre": "居酒屋",
     "tags": [
       "座敷あり",
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -3556,38 +3272,13 @@
     "source": "gemini"
   },
   {
-    "id": 150,
-    "place_id": "ChIJUXr7jQYqC18RCM2vdjoKP3g",
-    "name": "もいわ太陽食堂",
-    "area": "札幌中央区",
-    "genre": "和食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.033322899999995,
-    "lng": 141.33252009999998,
-    "tabelog_url": "https://maps.google.com/?cid=8664655454299737352&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJUXr7jQYqC18RCM2vdjoKP3g.jpg",
-    "is_chain": false,
-    "evidence": [
-      "沖縄料理が堪能できるお店です",
-      "券売機で食券を買う",
-      "食器は自分で戻す棚に置く",
-      "アットホームな雰囲気なので、小さいお子様連れの方も"
-    ],
-    "source": "both"
-  },
-  {
     "id": 151,
     "place_id": "ChIJYyqMyqZNc18RSNhpiM-15Q8",
     "name": "焼肉 忍火 富良野店",
     "area": "富良野",
     "genre": "焼肉",
     "tags": [
-      "個室あり",
-      "ベビーカーOK"
+      "個室あり"
     ],
     "description": "",
     "score": 4,
@@ -3656,8 +3347,7 @@
     "area": "旭川郊外",
     "genre": "カフェ",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -3683,7 +3373,6 @@
     "genre": "中華",
     "tags": [
       "座敷あり",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -3746,30 +3435,6 @@
       "お子様ランチ、パフェなどもあるので子どもたちも笑顔になれる"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 158,
-    "place_id": "ChIJST9hgwwqC18ReoSNFWClAZ0",
-    "name": "炭火焼肉 楓雅",
-    "area": "中島公園・山鼻",
-    "genre": "焼肉",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.0268051,
-    "lng": 141.3451355,
-    "tabelog_url": "https://maps.google.com/?cid=11313505571028436090&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJST9hgwwqC18ReoSNFWClAZ0.jpg",
-    "is_chain": false,
-    "evidence": [
-      "和牛カルビが１人前で550円は安過ぎてコスパは良い",
-      "和牛卸直営店だから価格も手頃でお肉は美味しく",
-      "コスパは最高レベルかと思います",
-      "煙 店内全面禁煙（店外・屋外に喫煙スペースあり） お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "both"
   },
   {
     "id": 159,
@@ -4027,30 +3692,6 @@
     "source": "gemini"
   },
   {
-    "id": 170,
-    "place_id": "ChIJeQ3facPFDF8RDH-tRs8v-J8",
-    "name": "ファミリーレストラン だいまる",
-    "area": "美瑛",
-    "genre": "ファミレス",
-    "tags": [
-      "ベビーカーOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.5933808,
-    "lng": 142.4667081,
-    "tabelog_url": "https://maps.google.com/?cid=11527015813545295628&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJeQ3facPFDF8RDH-tRs8v-J8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "美瑛町の食材を使った美味しい料理",
-      "肉屋さんがやっているのでさすがカツ系は美味しかったです",
-      "コクのある旭川醤油ラーメンと美瑛豚カツ丼のセット",
-      "ファミリーレストラン だいまる :: 一般社団法人 美瑛町観"
-    ],
-    "source": "both"
-  },
-  {
     "id": 171,
     "place_id": "ChIJvcB9UABXbV8RV3UOr0Hx0ko",
     "name": "焼肉きんぐ 北見店",
@@ -4058,7 +3699,6 @@
     "genre": "焼肉",
     "tags": [
       "子連れOK",
-      "ベビーカーOK",
       "子供メニューあり"
     ],
     "description": "",
@@ -4087,8 +3727,7 @@
     "area": "恵庭",
     "genre": "焼肉",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -4230,8 +3869,6 @@
     "area": "札幌東区",
     "genre": "カフェ",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -4510,8 +4147,7 @@
     "area": "小樽駅周辺",
     "genre": "和食",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -4559,7 +4195,6 @@
     "area": "千歳",
     "genre": "その他",
     "tags": [
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -4583,7 +4218,6 @@
     "area": "石狩",
     "genre": "カレー",
     "tags": [
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -4606,7 +4240,6 @@
     "area": "北見",
     "genre": "焼肉",
     "tags": [
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -4696,8 +4329,6 @@
     "area": "旭川駅周辺",
     "genre": "居酒屋",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -4739,28 +4370,6 @@
     "source": "gemini"
   },
   {
-    "id": 200,
-    "place_id": "ChIJd0yVQBAyC18RMhbPAlZVD90",
-    "name": "旬彩鮨 すし笑",
-    "area": "江別",
-    "genre": "寿司",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.1089801,
-    "lng": 141.5345755,
-    "tabelog_url": "https://maps.google.com/?cid=15929044234935408178&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJd0yVQBAyC18RMhbPAlZVD90.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ボックス席もあるので家族連れにもありがたい。",
-      "個室風(出入り口が薄いカーテンで仕切られています)なので、落ち着いて食事ができていいです。"
-    ],
-    "source": "gemini"
-  },
-  {
     "id": 201,
     "place_id": "ChIJ9_LUEDHkDF8RB2MAgBPSTII",
     "name": "炭火焼き肉 金花郎 春光店",
@@ -4782,58 +4391,6 @@
       "家族利用のハードルが低いのは大きな魅力"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 202,
-    "place_id": "ChIJdTcWNTArC18RLFHPdD22n7w",
-    "name": "ケジャンパパ カンジャンケジャンと韓国料理",
-    "area": "平岸",
-    "genre": "韓国",
-    "tags": [
-      "ベビーカーOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.039793100000004,
-    "lng": 141.370171,
-    "tabelog_url": "https://maps.google.com/?cid=13591782575496450348&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJdTcWNTArC18RLFHPdD22n7w.jpg",
-    "is_chain": false,
-    "evidence": [
-      "カンジャンケジャンとカンジャンセウのランチ",
-      "メインのカンジャンケジャンは大きくて濃厚で美味しいです",
-      "モックボセット と豚ニンニクチヂミを注文しました♩ どちらも 最高に美味しくて",
-      "実、日本酒充実 お子様連れ お子様連れOK"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 203,
-    "place_id": "ChIJHxCvungrC18RRE-ffp17Eco",
-    "name": "氣鈴亭 (きりんてい)",
-    "area": "月寒・美園",
-    "genre": "その他",
-    "tags": [
-      "ベビーカーOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.0301048,
-    "lng": 141.4016724,
-    "tabelog_url": "https://maps.google.com/?cid=14560554986629975876&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJHxCvungrC18RRE-ffp17Eco.jpg",
-    "is_chain": false,
-    "evidence": [
-      "そばがとても美味しい！",
-      "シフォンケーキがデザートについてきた",
-      "レディースセットで1250円",
-      "そば湯もちゃんと何も言わなくても出してくれます",
-      "スタッフさんの態度もとても良く",
-      "ー なし その他 飲み放題 なし 食べ放題 なし お子様連れ お子様連れOK ウェディングパーティー・二次"
-    ],
-    "source": "both"
   },
   {
     "id": 204,
@@ -4910,7 +4467,6 @@
     "area": "札幌西区",
     "genre": "焼肉",
     "tags": [
-      "キッズチェアあり",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -4952,29 +4508,6 @@
     "source": "gemini"
   },
   {
-    "id": 209,
-    "place_id": "ChIJ_YH9CgwpC18Rzg5Y7OthxIo",
-    "name": "海鮮と串焼 珀や（ひゃくや） 札幌駅北口店",
-    "area": "札幌北区南部",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.072187,
-    "lng": 141.34944,
-    "tabelog_url": "https://maps.google.com/?cid=9999224738579746510&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ_YH9CgwpC18Rzg5Y7OthxIo.jpg",
-    "is_chain": false,
-    "evidence": [
-      "個室なので、気になりません。",
-      "完全個室のお店だったことから安心して楽しめました。",
-      "席はございませんが、全席個室のためご安心ください お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "both"
-  },
-  {
     "id": 210,
     "place_id": "ChIJP-IbLxH4nl8R2JMfrqNvzDY",
     "name": "ダイニング 酒場 バンビー",
@@ -5004,9 +4537,7 @@
     "area": "函館郊外",
     "genre": "焼肉",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -5071,31 +4602,6 @@
     "source": "gemini"
   },
   {
-    "id": 214,
-    "place_id": "ChIJhz3JKlfgCl8RODrLceNrygM",
-    "name": "小樽ジンギスカン倶楽部 北とうがらし 本店",
-    "area": "小樽駅周辺",
-    "genre": "焼肉",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.1921886,
-    "lng": 141.00050299999998,
-    "tabelog_url": "https://maps.google.com/?cid=273149352020228664&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJhz3JKlfgCl8RODrLceNrygM.jpg",
-    "is_chain": false,
-    "evidence": [
-      "生後6～10ヶ月の子羊のみを使用",
-      "全く臭みがなく、信じられないほど柔らかくて新鮮",
-      "さっぱりとした自家製ダレが、この柔らかな生ラム肉の旨みをさらに引き立てて",
-      "お子様連れ可",
-      "オーナーの森熊親子との出会いが、料理人の人生へ・・・"
-    ],
-    "source": "both"
-  },
-  {
     "id": 215,
     "place_id": "ChIJP44n9W9FbV8Rhllv2IJFo0o",
     "name": "そば処千両庵",
@@ -5125,8 +4631,6 @@
     "area": "紋別",
     "genre": "焼肉",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -5314,8 +4818,7 @@
     "genre": "イタリアン",
     "tags": [
       "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "ベビーカーOK"
     ],
     "description": "",
     "score": 4,
@@ -5357,31 +4860,6 @@
     "source": "gemini"
   },
   {
-    "id": 226,
-    "place_id": "ChIJA1wVpcg9EF8RIaYewKUn4EQ",
-    "name": "BISTRO U Keito",
-    "area": "稚内",
-    "genre": "洋食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 45.4187923,
-    "lng": 141.6741129,
-    "tabelog_url": "https://maps.google.com/?cid=4963010382208607777&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJA1wVpcg9EF8RIaYewKUn4EQ.jpg",
-    "is_chain": false,
-    "evidence": [
-      "都会の喧騒を忘れる隠れ家のような名店。",
-      "地産地消への徹底した情熱です。",
-      "宗谷地方の豊かな海と大地が育んだ旬の食材を",
-      "ーグ キッズスペースも完備。 お子様連れの方も安心してお食事をお楽しみいただけます。",
-      "自家製宗谷黒牛ハンバーグ キッズスペースも完備。 お子様連れの方も安心してお食"
-    ],
-    "source": "both"
-  },
-  {
     "id": 227,
     "place_id": "ChIJq6qBBiL0nl8RTrXuWbqvvz4",
     "name": "麺屋 狼煙",
@@ -5411,8 +4889,6 @@
     "area": "旭川駅周辺",
     "genre": "居酒屋",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -5485,7 +4961,6 @@
     "area": "札幌駅周辺",
     "genre": "うどん・そば",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -5532,7 +5007,6 @@
     "genre": "カフェ",
     "tags": [
       "個室あり",
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -5556,8 +5030,6 @@
     "area": "札幌西区",
     "genre": "焼肉",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -5867,8 +5339,7 @@
     "area": "大通",
     "genre": "居酒屋",
     "tags": [
-      "座敷あり",
-      "個室あり"
+      "座敷あり"
     ],
     "description": "",
     "score": 4,
@@ -6050,7 +5521,6 @@
     "area": "中標津",
     "genre": "ラーメン",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -6066,30 +5536,6 @@
       "たまご麺が美味しい！",
       "麺も確かな固さで、味噌は西京がブレンドされたような味で",
       "ざまなシーンでの食事にぴったりです。 小上がりはお子様連れでも利用しやすく安心して家族で食事が楽しめます"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 256,
-    "place_id": "ChIJf-mLHUQpC18RPmcUwi7Wz9s",
-    "name": "炭火焼肉羅山 琴似店",
-    "area": "札幌西区",
-    "genre": "焼肉",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.076636099999995,
-    "lng": 141.3048565,
-    "tabelog_url": "https://maps.google.com/?cid=15839113910798280510&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJf-mLHUQpC18RPmcUwi7Wz9s.jpg",
-    "is_chain": false,
-    "evidence": [
-      "地下鉄琴似駅すぐの韓国焼肉店です。",
-      "ランチセットの種類が豊富でお手頃価格です。",
-      "お値段もとてもリーズナブル🙆",
-      "お子様連れ可"
     ],
     "source": "both"
   },
@@ -6124,7 +5570,6 @@
     "area": "札幌白石区",
     "genre": "居酒屋",
     "tags": [
-      "ベビーカーOK",
       "個室あり",
       "子連れOK"
     ],
@@ -6426,39 +5871,13 @@
     "source": "gemini"
   },
   {
-    "id": 271,
-    "place_id": "ChIJo420jtY9EF8RsPuvQ_incz8",
-    "name": "北の台所なごみ",
-    "area": "稚内",
-    "genre": "ファミレス",
-    "tags": [
-      "ベビーカーOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 45.4081768,
-    "lng": 141.6766824,
-    "tabelog_url": "https://maps.google.com/?cid=4572182731440520112&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJo420jtY9EF8RsPuvQ_incz8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ふわとろオムライスセットとドリンクバーをいただきました。",
-      "稚内のソウルフード、餡と具材がボリュームがあって",
-      "ホッケ定食（1,500円）を食べながら、ゆっくりと時間が流れて行くのを楽しむ…",
-      "ー 車いすで入店可 ※詳細はお問い合わせください お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "both"
-  },
-  {
     "id": 272,
     "place_id": "ChIJRwaoWOcpC18RJdXrLyHsFBQ",
     "name": "ネイチャーカフェアース",
     "area": "円山",
     "genre": "カフェ",
     "tags": [
-      "ベビーカーOK",
       "座敷あり",
-      "個室あり",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -6485,8 +5904,6 @@
     "genre": "カフェ",
     "tags": [
       "座敷あり",
-      "ベビーカーOK",
-      "個室あり",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -6518,7 +5935,6 @@
     "genre": "和食",
     "tags": [
       "座敷あり",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -6608,39 +6024,13 @@
     "source": "both"
   },
   {
-    "id": 278,
-    "place_id": "ChIJq6pqzMMQdV8RU58JAjP4F6o",
-    "name": "福福屋 苫小牧表町2丁目店",
-    "area": "苫小牧",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 42.634013599999996,
-    "lng": 141.60005379999998,
-    "tabelog_url": "https://maps.google.com/?cid=12256537808873299795&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJq6pqzMMQdV8RU58JAjP4F6o.jpg",
-    "is_chain": false,
-    "evidence": [
-      "価格も味も安心できる感じかな",
-      "メニュー豊富でした",
-      "15時から営業しているので昼飲み可能なところもありがたい",
-      "00 座席 86席 設備 個室 カラオケ 駐車場 キッズルーム キッズスペース TV視聴 無料Wi-Fi"
-    ],
-    "source": "both"
-  },
-  {
     "id": 279,
     "place_id": "ChIJT3bd4A3mDF8RE2faNDwmQaw",
     "name": "炭焼あぶりや 一期一会",
     "area": "旭川駅周辺",
     "genre": "居酒屋",
     "tags": [
-      "座敷あり",
-      "ベビーカーOK",
-      "個室あり"
+      "座敷あり"
     ],
     "description": "",
     "score": 4,
@@ -6679,27 +6069,6 @@
       "お子さんでも食べれます。美味しいです。"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 281,
-    "place_id": "ChIJA6629WEpC18R-mQSgDiuzo4",
-    "name": "釜や 円山本店",
-    "area": "すすきの",
-    "genre": "和食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.0501917,
-    "lng": 141.3185815,
-    "tabelog_url": "https://maps.google.com/?cid=10290353756278252794&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJA6629WEpC18R-mQSgDiuzo4.jpg",
-    "is_chain": false,
-    "evidence": [
-      "。 モノ作りにこだわりを持っています。 小さなお子様から、ご年配の方まで 美味しいうどんを食べてほし"
-    ],
-    "source": "website"
   },
   {
     "id": 282,
@@ -6893,8 +6262,7 @@
     "area": "函館",
     "genre": "ハンバーガー",
     "tags": [
-      "子供メニューあり",
-      "キッズチェアあり"
+      "子供メニューあり"
     ],
     "description": "",
     "score": 4,
@@ -6966,9 +6334,7 @@
     "area": "札幌西区",
     "genre": "居酒屋",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -7008,31 +6374,6 @@
       "左はカウンター席で左はボックス席で広々とした感じです"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 295,
-    "place_id": "ChIJ2SGJn24pC18R0ixLpv42cKs",
-    "name": "サッポロビール園 ポプラ館",
-    "area": "札幌東区",
-    "genre": "その他",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.070601499999995,
-    "lng": 141.36875369999998,
-    "tabelog_url": "https://maps.google.com/?cid=12353434245216808146&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ2SGJn24pC18R0ixLpv42cKs.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族で楽しくいただきました",
-      "タッチパネル注文＆ロボット配膳で快適",
-      "700席の大スケールで、夜は赤れんが×イルミネーションが圧巻",
-      "食べ飲み放題コース",
-      "movie 打ち上げ・ファミリー・団体様に！ 食べ飲み放題宴会にぜひ ≫詳細はこち"
-    ],
-    "source": "both"
   },
   {
     "id": 296,
@@ -7087,9 +6428,7 @@
     "area": "旭川",
     "genre": "その他",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -7128,31 +6467,6 @@
       "小ぢんまりした店内と思いきや、20人位の宴会は出来るようです"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 300,
-    "place_id": "ChIJpSNhXb49cl8Rh7jFHr_RLPg",
-    "name": "魚々路 ととろ 釧路栄町店",
-    "area": "釧路",
-    "genre": "居酒屋",
-    "tags": [
-      "ベビーカーOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.984637,
-    "lng": 144.3879101,
-    "tabelog_url": "https://maps.google.com/?cid=17882898839166630023&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJpSNhXb49cl8Rh7jFHr_RLPg.jpg",
-    "is_chain": false,
-    "evidence": [
-      "どの料理も想像を超えることなく普通に美味しかったです。",
-      "スタッフの接客やお店の雰囲気は悪くないのに、この一点のガッカリ感が大きくて残念なお店でした。",
-      "男性店員さんの客に対して口調もひどく、気分が悪い時間になりました。",
-      "能◎） お酒 カクテル充実、焼酎充実、日本酒充実 お子様連れ お子様連れOK（事前にご連絡ください。ご連絡"
-    ],
-    "source": "both"
   },
   {
     "id": 301,
@@ -7229,9 +6543,7 @@
     "area": "旭川駅周辺",
     "genre": "焼肉",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -7258,7 +6570,6 @@
     "area": "根室",
     "genre": "カフェ",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -7331,9 +6642,7 @@
     "genre": "居酒屋",
     "tags": [
       "座敷あり",
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -7752,8 +7061,6 @@
     "area": "札幌白石区",
     "genre": "ステーキ",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -7780,8 +7087,6 @@
     "area": "札幌白石区",
     "genre": "その他",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -7945,9 +7250,7 @@
     "area": "札幌白石区",
     "genre": "居酒屋",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -7998,7 +7301,6 @@
     "tags": [
       "座敷あり",
       "個室あり",
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -8250,31 +7552,6 @@
     "source": "gemini"
   },
   {
-    "id": 347,
-    "place_id": "ChIJZWeyqq8pC18R6yew4_TaL4k",
-    "name": "NIKU NEEDS&",
-    "area": "札幌北区北部",
-    "genre": "その他",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.08961250000001,
-    "lng": 141.3417298,
-    "tabelog_url": "https://maps.google.com/?cid=9885360452428376043&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJZWeyqq8pC18R6yew4_TaL4k.jpg",
-    "is_chain": false,
-    "evidence": [
-      "落ち着いた雰囲気の綺麗な店内",
-      "美味しい料理を楽しめるお店です",
-      "お肉はしっかりとした歯ごたえ",
-      "卵にもこだわりが感じられ",
-      "お子様連れ"
-    ],
-    "source": "both"
-  },
-  {
     "id": 348,
     "place_id": "ChIJb5i91Jp4bV8RMnJ2TN9o1_w",
     "name": "手打ちそばの両國",
@@ -8418,7 +7695,6 @@
     "area": "大通",
     "genre": "和食",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -8465,7 +7741,6 @@
     "genre": "居酒屋",
     "tags": [
       "個室あり",
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -8600,30 +7875,6 @@
     "source": "gemini"
   },
   {
-    "id": 362,
-    "place_id": "ChIJlVQ5fjwpC18RPDcPiPmmbNo",
-    "name": "ステーキハウス RUMP 北24条店",
-    "area": "札幌北区北部",
-    "genre": "ステーキ",
-    "tags": [
-      "ベビーカーOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.090439700000005,
-    "lng": 141.3459863,
-    "tabelog_url": "https://maps.google.com/?cid=15739138388412806972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJlVQ5fjwpC18RPDcPiPmmbNo.jpg",
-    "is_chain": false,
-    "evidence": [
-      "コスパが良く気軽に入りやすいステーキ店です。",
-      "お肉が柔らかくジューシーで美味しかったです",
-      "カクテル充実 お子様連れ お子様連れOK"
-    ],
-    "source": "both"
-  },
-  {
     "id": 363,
     "place_id": "ChIJWdyS2eGbc18RKPmvZgoWC7M",
     "name": "晩ごはんの店 ドマーニ食堂",
@@ -8653,8 +7904,7 @@
     "area": "恵庭",
     "genre": "イタリアン",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -8704,8 +7954,7 @@
     "area": "北見",
     "genre": "焼肉",
     "tags": [
-      "座敷あり",
-      "個室あり"
+      "座敷あり"
     ],
     "description": "",
     "score": 4,
@@ -8819,7 +8068,6 @@
     "area": "中島公園・山鼻",
     "genre": "カフェ",
     "tags": [
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -8867,7 +8115,6 @@
     "genre": "居酒屋",
     "tags": [
       "子連れOK",
-      "ベビーカーOK",
       "個室あり"
     ],
     "description": "",
@@ -8938,8 +8185,7 @@
     "area": "江別",
     "genre": "焼肉",
     "tags": [
-      "座敷あり",
-      "個室あり"
+      "座敷あり"
     ],
     "description": "",
     "score": 4,
@@ -8984,8 +8230,7 @@
     "genre": "焼肉",
     "tags": [
       "座敷あり",
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -9091,30 +8336,6 @@
     "source": "gemini"
   },
   {
-    "id": 383,
-    "place_id": "ChIJd3fpcBxXbV8R5go6iUYVjs8",
-    "name": "瀋陽飯店",
-    "area": "北見",
-    "genre": "中華",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.8046599,
-    "lng": 143.8920322,
-    "tabelog_url": "https://maps.google.com/?cid=14955914805238172390&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJd3fpcBxXbV8R5go6iUYVjs8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "中華料理店なのに「北見塩焼きそば」が食べられます。",
-      "大ぶりのホタテが2個とイカなど入っていて美味しかったです。",
-      "海鮮の塩味あんかけ焼そばを食べました。具のボリュームがあって、美味しいです。",
-      "お子様連れ可"
-    ],
-    "source": "both"
-  },
-  {
     "id": 384,
     "place_id": "ChIJq6raXVXfdF8RxrMbfgdwt2s",
     "name": "山の猿 千歳店",
@@ -9122,7 +8343,6 @@
     "genre": "居酒屋",
     "tags": [
       "個室あり",
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -9149,7 +8369,6 @@
     "genre": "焼肉",
     "tags": [
       "子連れOK",
-      "ベビーカーOK",
       "子供メニューあり"
     ],
     "description": "",
@@ -9202,8 +8421,6 @@
     "area": "札幌白石区",
     "genre": "ラーメン",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -9370,7 +8587,6 @@
     "area": "中島公園・山鼻",
     "genre": "カフェ",
     "tags": [
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -9393,7 +8609,6 @@
     "area": "函館",
     "genre": "和食",
     "tags": [
-      "キッズチェアあり",
       "子供メニューあり"
     ],
     "description": "",
@@ -9488,8 +8703,6 @@
     "area": "北広島",
     "genre": "居酒屋",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -9532,30 +8745,6 @@
       "味噌ラーメン🍜来た瞬間に美味しいな､と思いました"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 401,
-    "place_id": "ChIJdQenuPbcDF8RzWYrjBPAsiY",
-    "name": "ヴレ (Vraie)",
-    "area": "東川",
-    "genre": "その他",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.6955988,
-    "lng": 142.5096437,
-    "tabelog_url": "https://maps.google.com/?cid=2788502309484324557&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJdQenuPbcDF8RzWYrjBPAsiY.jpg",
-    "is_chain": false,
-    "evidence": [
-      "親の誕生日祝いに利用。",
-      "気軽に楽しめる料理です。",
-      "デリのお惣菜も種類豊富でした。",
-      "理解の程よろしくお願い致します。 □ お子様のご利用について 年齢制限はございませんが大人と同"
-    ],
-    "source": "both"
   },
   {
     "id": 402,
@@ -9702,8 +8891,7 @@
     "area": "麻生・新琴似",
     "genre": "居酒屋",
     "tags": [
-      "個室あり",
-      "ベビーカーOK"
+      "個室あり"
     ],
     "description": "",
     "score": 4,
@@ -9913,9 +9101,7 @@
     "area": "中島公園・山鼻",
     "genre": "居酒屋",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -10257,29 +9443,6 @@
     "source": "gemini"
   },
   {
-    "id": 432,
-    "place_id": "ChIJhStWApOSDF8RlqUvX1pdZK0",
-    "name": "菊寿し",
-    "area": "深川",
-    "genre": "寿司",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.720419899999996,
-    "lng": 142.04130859999998,
-    "tabelog_url": "https://maps.google.com/?cid=12494213908957996438&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJhStWApOSDF8RlqUvX1pdZK0.jpg",
-    "is_chain": false,
-    "evidence": [
-      "個室メインの作り。",
-      "ランチメニューの天丼ランチ1,200円を注文。",
-      "握り特上で2500円、安いし旨い！"
-    ],
-    "source": "gemini"
-  },
-  {
     "id": 433,
     "place_id": "ChIJJ8_ZnAHrbF8ROT__wB6J80k",
     "name": "ひろ瀬",
@@ -10369,30 +9532,6 @@
     "source": "gemini"
   },
   {
-    "id": 437,
-    "place_id": "ChIJFTHLHpNoDF8Rqe_LIr-dBE8",
-    "name": "田吾作",
-    "area": "留萌",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.9403759,
-    "lng": 141.6446059,
-    "tabelog_url": "https://maps.google.com/?cid=5693849273151254441&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJFTHLHpNoDF8Rqe_LIr-dBE8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "個室なのも嬉しかったです。",
-      "基本個室となっていて、個人客用にカウンター席があります。",
-      "店主お一人での調理の為、人数をさばけるキャパシティが無いので来店の際には予約を推奨します。",
-      "女将や娘さんの接客もアットホームで居心地が良いです✨"
-    ],
-    "source": "gemini"
-  },
-  {
     "id": 438,
     "place_id": "ChIJ4b_spljnDF8R7pRqh58bRCE",
     "name": "味の店 みずき",
@@ -10414,30 +9553,6 @@
       "ランチ時でも一品料理も注文できるのもよかったです♪"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 439,
-    "place_id": "ChIJifs-pitrGGARkjT5YBCARcQ",
-    "name": "サワーとお料理 れもん",
-    "area": "北見",
-    "genre": "和食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.804684099999996,
-    "lng": 143.8931848,
-    "tabelog_url": "https://maps.google.com/?cid=14142851012661687442&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJifs-pitrGGARkjT5YBCARcQ.jpg",
-    "is_chain": false,
-    "evidence": [
-      "レモンを余すところなく使われたサワー",
-      "自家製レモンペーストを返礼品としていただきました",
-      "コース料理のみのお店なので 行かれる時は予約した方が良いと思います",
-      "お子様連れ"
-    ],
-    "source": "both"
   },
   {
     "id": 440,
@@ -10493,7 +9608,6 @@
     "area": "札幌西区",
     "genre": "焼肉",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -10615,7 +9729,6 @@
     "area": "美瑛",
     "genre": "カフェ",
     "tags": [
-      "個室あり",
       "子供メニューあり"
     ],
     "description": "",
@@ -10642,7 +9755,6 @@
     "area": "滝川",
     "genre": "居酒屋",
     "tags": [
-      "個室あり",
       "子供メニューあり"
     ],
     "description": "",
@@ -10792,7 +9904,6 @@
     "genre": "居酒屋",
     "tags": [
       "個室あり",
-      "ベビーカーOK",
       "子連れOK"
     ],
     "description": "",
@@ -11006,7 +10117,6 @@
     "genre": "カレー",
     "tags": [
       "ベビーカーOK",
-      "個室あり",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -11297,8 +10407,7 @@
     "genre": "カフェ",
     "tags": [
       "キッズチェアあり",
-      "子連れOK",
-      "ベビーカーOK"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -11361,31 +10470,6 @@
     "source": "gemini"
   },
   {
-    "id": 478,
-    "place_id": "ChIJxbX0ztP1nl8RceL24ZmgIk4",
-    "name": "旭川成吉思汗 大黒屋 函館五稜郭店（ジンギスカンダイコクヤ）",
-    "area": "五稜郭",
-    "genre": "焼肉",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 41.790633299999996,
-    "lng": 140.7519396,
-    "tabelog_url": "https://maps.google.com/?cid=5630239066948035185&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJxbX0ztP1nl8RceL24ZmgIk4.jpg",
-    "is_chain": false,
-    "evidence": [
-      "今まで頂いたラムの中でとても新鮮で",
-      "お肉は肉厚で柔らかく、臭みなどもなく",
-      "お肉も柔らか臭みもなくタレも美味しい",
-      "お肉はまったく臭みがなくて美味しい",
-      "品。 個室及びカウンターで、宴会やご家族、お子様連れ、デート、お一人様など様々なシーンでご利用いた"
-    ],
-    "source": "both"
-  },
-  {
     "id": 479,
     "place_id": "ChIJL8-SBm_1nl8RdF1j0Wmjpts",
     "name": "パン エスポワール&どんぐり",
@@ -11417,7 +10501,6 @@
     "genre": "カフェ",
     "tags": [
       "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -11514,7 +10597,6 @@
     "area": "函館",
     "genre": "ラーメン",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -11532,30 +10614,6 @@
       "半玉と半チャもあるのでもう少し食べたい時に嬉しい。",
       "お子様連れ",
       "子連れでランチができるお店"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 485,
-    "place_id": "ChIJo6EDFFPgCl8RSQ9wbRz7W9M",
-    "name": "小樽蕎麦屋 籔半",
-    "area": "小樽駅周辺",
-    "genre": "うどん・そば",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.196511099999995,
-    "lng": 140.9958366,
-    "tabelog_url": "https://maps.google.com/?cid=15230042664397180745&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJo6EDFFPgCl8RSQ9wbRz7W9M.jpg",
-    "is_chain": false,
-    "evidence": [
-      "小樽の老舗蕎麦屋",
-      "新そばの季節と重なり",
-      "地物粉のにしんそばで頼みましたが",
-      "急いで作り始めました。年々大変だから少なくしようと親子で話しながらも、今年は追加で頼んでしまうやる気満々"
     ],
     "source": "both"
   },
@@ -11582,27 +10640,6 @@
       "小上がり席が2つあり、子供があそべるおもちゃや食器も置いてありました。"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 487,
-    "place_id": "ChIJIckX9jkqC18R_bJpgEMV4fA",
-    "name": "豚らーめん天二郎 平岸総本店",
-    "area": "平岸",
-    "genre": "ラーメン",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.0398947,
-    "lng": 141.3701759,
-    "tabelog_url": "https://maps.google.com/?cid=17357177818524005117&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJIckX9jkqC18R_bJpgEMV4fA.jpg",
-    "is_chain": false,
-    "evidence": [
-      "油 ライト 820円\\r\\n初めてのお客様や女性、お子様にはライトがおすすめとのこと。ちなみにマシやマシマ"
-    ],
-    "source": "both"
   },
   {
     "id": 488,
@@ -11704,8 +10741,7 @@
     "area": "函館ベイエリア",
     "genre": "その他",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -11753,9 +10789,7 @@
     "area": "苫小牧",
     "genre": "居酒屋",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -11817,28 +10851,6 @@
     "source": "gemini"
   },
   {
-    "id": 497,
-    "place_id": "ChIJp1IeKx_mDF8RWlHkD5UthLE",
-    "name": "Bistro Cafe Libro ビストロカフェリブロ",
-    "area": "旭川神楽",
-    "genre": "カフェ",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.7578745,
-    "lng": 142.35424369999998,
-    "tabelog_url": "https://maps.google.com/?cid=12791398959879049562&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJp1IeKx_mDF8RWlHkD5UthLE.jpg",
-    "is_chain": false,
-    "evidence": [
-      "トイレにはベビー用オムツと生理用ナプキンが備え付けられていました。",
-      "家族3人でそれぞれ違うものを注文して、シェアしました。"
-    ],
-    "source": "gemini"
-  },
-  {
     "id": 498,
     "place_id": "ChIJybpEuLVjdV8RwA7rOxo6DqI",
     "name": "すまいるキッチンひなまり",
@@ -11870,7 +10882,6 @@
     "genre": "カレー",
     "tags": [
       "座敷あり",
-      "キッズチェアあり",
       "子供メニューあり",
       "子連れOK"
     ],
@@ -11910,30 +10921,6 @@
       "コーヒーだけでなく、ピラフやカレーも置く。",
       "昭和が好きな方には、たまらないお店。",
       "北海道白老町 【Ayoro宿泊記】子連れに嬉しい三世代で泊まれる宿｜駅・お土産・温泉近"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 501,
-    "place_id": "ChIJEcrYB1PgCl8Rszhr0u31q88",
-    "name": "ニュー三幸 小樽本店",
-    "area": "小樽駅周辺",
-    "genre": "洋食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.1952086,
-    "lng": 140.9990421,
-    "tabelog_url": "https://maps.google.com/?cid=14964324588654901427&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJEcrYB1PgCl8Rszhr0u31q88.jpg",
-    "is_chain": false,
-    "evidence": [
-      "小樽の老舗レストラン",
-      "ふわふわで味わい深いソース",
-      "これぞあんかけ！というくらいの粘度のあるあんかけ",
-      "キッズプレート 880円"
     ],
     "source": "both"
   },
@@ -12050,31 +11037,6 @@
     "source": "gemini"
   },
   {
-    "id": 507,
-    "place_id": "ChIJgWlXjOsQdV8RFKSNEhavuwA",
-    "name": "わがまま丼 苫小牧食堂",
-    "area": "苫小牧",
-    "genre": "和食",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.630596399999995,
-    "lng": 141.61587939999998,
-    "tabelog_url": "https://maps.google.com/?cid=52828329980306452&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJgWlXjOsQdV8RFKSNEhavuwA.jpg",
-    "is_chain": false,
-    "evidence": [
-      "海鮮丼が食べたくてぷらっとみなと市場へ。",
-      "苫小牧名物「ほっき貝」と「わがまま丼」",
-      "ホッキ貝漁獲量日本一の港で食べられる海鮮のお店です。",
-      "祝日に朝に一人で利用。",
-      "お子様連れ可"
-    ],
-    "source": "both"
-  },
-  {
     "id": 508,
     "place_id": "ChIJw2oupDz0nl8RcsxDWX1tIkI",
     "name": "あまの",
@@ -12126,8 +11088,7 @@
     "area": "平岸",
     "genre": "和食",
     "tags": [
-      "個室あり",
-      "ベビーカーOK"
+      "個室あり"
     ],
     "description": "",
     "score": 4,
@@ -12141,29 +11102,6 @@
       "せっかく個室に通されたのに居心地が良くなかった",
       "個室になっているのがいいです！",
       "ー あり その他 飲み放題 なし 食べ放題 なし お子様連れ お子様連れOK お祝い・サプライズ対応 不可"
-    ],
-    "source": "both"
-  },
-  {
-    "id": 511,
-    "place_id": "ChIJt5RVJnr0nl8RVJQf3cnKmLc",
-    "name": "海鮮処 函館 夜市",
-    "area": "五稜郭",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 41.786634,
-    "lng": 140.7507163,
-    "tabelog_url": "https://maps.google.com/?cid=13229546873747903572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJt5RVJnr0nl8RVJQf3cnKmLc.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ほぼ地元の人ばかりだったのですが、雰囲気もとてもよく",
-      "観光客の皆様に知れると予約困難になるでしょうね！",
-      "ようにくつろげる場所 夜市では、お一人様から小さなお子様を連れたご家族様まで、皆様にお愉しみ頂けるよう心が"
     ],
     "source": "both"
   },
@@ -12438,7 +11376,6 @@
     "genre": "中華",
     "tags": [
       "座敷あり",
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -12485,9 +11422,8 @@
     "area": "函館郊外",
     "genre": "居酒屋",
     "tags": [
-      "個室あり",
       "子連れOK",
-      "ベビーカーOK"
+      "個室あり"
     ],
     "description": "",
     "score": 5,
@@ -12703,7 +11639,6 @@
     "area": "稚内",
     "genre": "和食",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -12919,8 +11854,7 @@
     "area": "札幌東区",
     "genre": "焼肉",
     "tags": [
-      "子連れOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 4,
@@ -13015,8 +11949,7 @@
     "genre": "居酒屋",
     "tags": [
       "個室あり",
-      "子供メニューあり",
-      "ベビーカーOK"
+      "子供メニューあり"
     ],
     "description": "",
     "score": 4,
@@ -13109,9 +12042,7 @@
     "area": "旭川郊外",
     "genre": "焼肉",
     "tags": [
-      "子連れOK",
-      "ベビーカーOK",
-      "個室あり"
+      "子連れOK"
     ],
     "description": "",
     "score": 5,
@@ -13183,8 +12114,6 @@
     "area": "札幌西区",
     "genre": "焼鳥",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -13235,7 +12164,6 @@
     "area": "砂川",
     "genre": "和食",
     "tags": [
-      "キッズチェアあり",
       "子供メニューあり"
     ],
     "description": "",
@@ -13259,7 +12187,6 @@
     "genre": "焼肉",
     "tags": [
       "子連れOK",
-      "ベビーカーOK",
       "個室あり"
     ],
     "description": "",
@@ -13344,31 +12271,6 @@
     "source": "gemini"
   },
   {
-    "id": 561,
-    "place_id": "ChIJUfR9DEQqC18Ry4D2694Epss",
-    "name": "麺場 田所商店 札幌平岸店",
-    "area": "平岸",
-    "genre": "ラーメン",
-    "tags": [
-      "ベビーカーOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.0310718,
-    "lng": 141.37692339999998,
-    "tabelog_url": "https://maps.google.com/?cid=14674421791321391307&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJUfR9DEQqC18Ry4D2694Epss.jpg",
-    "is_chain": false,
-    "evidence": [
-      "全国各地のさまざまな味噌を使ったらーめんを頂けます。",
-      "味噌にこだわりのあるラーメン屋さんで全国チェーンです。",
-      "色んなところの味噌ラーメンがあるので、好みのラーメンにも出会えるはず！",
-      "味噌 ・九州麦味噌 お子様・乳幼児情報 ・お子様用メニュー 有 ・お",
-      "用メニュー 有 ・お子様用のイス 有 ・ベビーカー入店 可 ・オムツ台 無"
-    ],
-    "source": "both"
-  },
-  {
     "id": 562,
     "place_id": "ChIJWR9tf-3TdF8R_f2gLDP35I8",
     "name": "大塚茶房",
@@ -13445,8 +12347,6 @@
     "area": "札幌白石区",
     "genre": "焼肉",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -13521,8 +12421,7 @@
     "area": "余市",
     "genre": "和食",
     "tags": [
-      "座敷あり",
-      "個室あり"
+      "座敷あり"
     ],
     "description": "",
     "score": 3,
@@ -13569,7 +12468,6 @@
     "area": "北広島",
     "genre": "カフェ",
     "tags": [
-      "キッズチェアあり",
       "子連れOK"
     ],
     "description": "",
@@ -13631,31 +12529,6 @@
       "お子様連れの来店実績が複数クチコミで確認"
     ],
     "source": "gemini"
-  },
-  {
-    "id": 573,
-    "place_id": "ChIJZ7zkGvYpC18RPyMlpYS2hy0",
-    "name": "イザカヤラボ琴似店",
-    "area": "札幌西区",
-    "genre": "居酒屋",
-    "tags": [
-      "ベビーカーOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.078961,
-    "lng": 141.3065141,
-    "tabelog_url": "https://maps.google.com/?cid=3280791534385308479&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJZ7zkGvYpC18RPyMlpYS2hy0.jpg",
-    "is_chain": false,
-    "evidence": [
-      "飲み放題がお得な リーズナブルな居酒屋！",
-      "料理も美味しくてお値段もリーズナブルで",
-      "店員さんの接客も気が利いて、雰囲気も良く",
-      "実、ワイン充実 お子様連れ お子様連れOK"
-    ],
-    "source": "both"
   },
   {
     "id": 574,
@@ -13849,30 +12722,6 @@
     "source": "both"
   },
   {
-    "id": 582,
-    "place_id": "ChIJ__9kFzsqC18RqEXefbZ1zy8",
-    "name": "E-itou Curry（エイトカリィ）平岸本店",
-    "area": "平岸",
-    "genre": "カレー",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.0411529,
-    "lng": 141.3638297,
-    "tabelog_url": "https://maps.google.com/?cid=3445101666617935272&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ__9kFzsqC18RqEXefbZ1zy8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "様々なカレーがその日の気分で選べるお店",
-      "たまに限定でラーメンもあったりします",
-      "店員の方もフレンドリーで雰囲気も良いです",
-      "予約 不可 Wi-Fi利用 あり お子様連れ入店 可 ペット 不可 駐車場"
-    ],
-    "source": "both"
-  },
-  {
     "id": 583,
     "place_id": "ChIJhY-LwiMBdV8R4DgTrjsNVkM",
     "name": "叶寿司",
@@ -13902,7 +12751,6 @@
     "area": "札幌北区南部",
     "genre": "その他",
     "tags": [
-      "ベビーカーOK",
       "座敷あり",
       "個室あり",
       "子連れOK"
@@ -13997,7 +12845,6 @@
     "area": "旭川郊外",
     "genre": "焼肉",
     "tags": [
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
@@ -14137,8 +12984,6 @@
     "area": "札幌白石区",
     "genre": "ステーキ",
     "tags": [
-      "ベビーカーOK",
-      "個室あり",
       "子連れOK"
     ],
     "description": "",
