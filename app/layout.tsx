@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "BOKUMO | 子供と楽しむ、おいしい時間",
   description:
     "北海道の子連れ歓迎飲食店まとめサイト。ベビーカーOK・個室・キッズメニューで絞り込みできます。",
+  verification: {
+    google: "8QfIyx_ySpadk-crZDjwnFaSb86ZEC7ecI6wMOEW61k",
+  },
 };
 
 export const viewport: Viewport = {
