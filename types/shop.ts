@@ -28,4 +28,10 @@ export interface Shop {
   evidence: string[];
   source: string;
   hotpepper_url: string;
+  address?: string;
+  rating?: number;
+  rating_count?: number;
+  hours?: string[];
+  phone?: string;
+  website?: string;
 }

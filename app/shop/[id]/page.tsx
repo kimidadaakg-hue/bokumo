@@ -89,6 +89,26 @@ export default async function ShopDetailPage({
 
   const evidence = filterPositive(shop.evidence || []);
 
+  // 同じエリア / 同じジャンル の関連店舗 (自分以外、最大6件ずつ)
+  const sameArea = shops
+    .filter((s) => s.id !== shop.id && s.area === shop.area)
+    .slice(0, 6);
+  const sameGenre = shops
+    .filter((s) => s.id !== shop.id && s.genre === shop.genre && s.area !== shop.area)
+    .slice(0, 6);
+
+  // 詳細紹介文を組み立て (SEO用にユニーク性を出す)
+  const introParts: string[] = [];
+  introParts.push(`${shop.name}は、北海道${shop.area}にある${shop.genre}のお店です。`);
+  if (shop.address) introParts.push(`所在地は${shop.address}。`);
+  if (shop.rating && shop.rating_count) {
+    introParts.push(`Googleでの評価は★${shop.rating}（${shop.rating_count}件のレビュー）。`);
+  }
+  if (shop.tags.length > 0) {
+    introParts.push(`${shop.tags.join("・")}を備え、小さなお子様連れのご家族にもおすすめできます。`);
+  }
+  const introText = introParts.join("");
+
   return (
     <main className="min-h-screen bg-bokumo-bg">
       {/* 戻るリンク */}
@@ -146,19 +166,86 @@ export default async function ShopDetailPage({
           </div>
 
           {/* 紹介文 */}
-          {shop.description && (
-            <div className="mt-6">
-              <h2
-                className="text-sm font-bold text-bokumo-ink mb-2"
-                style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
-              >
-                お店について
-              </h2>
-              <p className="text-sm text-bokumo-ink/70 leading-relaxed">
+          <div className="mt-6">
+            <h2
+              className="text-sm font-bold text-bokumo-ink mb-2"
+              style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+            >
+              お店について
+            </h2>
+            <p className="text-sm text-bokumo-ink/70 leading-relaxed">
+              {introText}
+            </p>
+            {shop.description && (
+              <p className="mt-3 text-sm text-bokumo-ink/70 leading-relaxed">
                 {shop.description}
               </p>
-            </div>
-          )}
+            )}
+          </div>
+
+          {/* 店舗情報 */}
+          <div className="mt-6">
+            <h2
+              className="text-sm font-bold text-bokumo-ink mb-3"
+              style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+            >
+              店舗情報
+            </h2>
+            <dl className="text-sm text-bokumo-ink/80 space-y-2">
+              {shop.address && (
+                <div className="flex gap-3">
+                  <dt className="text-bokumo-sub w-20 shrink-0">住所</dt>
+                  <dd>{shop.address}</dd>
+                </div>
+              )}
+              {shop.phone && (
+                <div className="flex gap-3">
+                  <dt className="text-bokumo-sub w-20 shrink-0">電話</dt>
+                  <dd>
+                    <a href={`tel:${shop.phone}`} className="text-bokumo-accent hover:underline">
+                      {shop.phone}
+                    </a>
+                  </dd>
+                </div>
+              )}
+              {shop.rating !== undefined && shop.rating > 0 && (
+                <div className="flex gap-3">
+                  <dt className="text-bokumo-sub w-20 shrink-0">評価</dt>
+                  <dd>
+                    ★ {shop.rating}
+                    {shop.rating_count ? ` (${shop.rating_count}件)` : ""}
+                  </dd>
+                </div>
+              )}
+              {shop.hours && shop.hours.length > 0 && (
+                <div className="flex gap-3">
+                  <dt className="text-bokumo-sub w-20 shrink-0">営業時間</dt>
+                  <dd>
+                    <ul className="space-y-0.5">
+                      {shop.hours.map((h, i) => (
+                        <li key={i}>{h}</li>
+                      ))}
+                    </ul>
+                  </dd>
+                </div>
+              )}
+              {shop.website && (
+                <div className="flex gap-3">
+                  <dt className="text-bokumo-sub w-20 shrink-0">公式サイト</dt>
+                  <dd>
+                    <a
+                      href={shop.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-bokumo-accent hover:underline break-all"
+                    >
+                      {shop.website}
+                    </a>
+                  </dd>
+                </div>
+              )}
+            </dl>
+          </div>
 
           {/* 口コミ */}
           {evidence.length > 0 && (
@@ -225,8 +312,60 @@ export default async function ShopDetailPage({
           </div>
         </div>
 
+        {/* 同じエリアの他のお店 */}
+        {sameArea.length > 0 && (
+          <section className="mt-10">
+            <h2
+              className="text-base font-bold text-bokumo-ink mb-4"
+              style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+            >
+              {shop.area}の他の子連れOKなお店
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {sameArea.map((s) => (
+                <Link
+                  key={s.id}
+                  href={`/shop/${s.id}`}
+                  className="bg-white rounded-xl border border-bokumo-line/50 p-3 hover:border-bokumo-accent transition"
+                >
+                  <p className="text-sm font-bold text-bokumo-ink line-clamp-2">
+                    {s.name}
+                  </p>
+                  <p className="text-xs text-bokumo-sub mt-1">{s.genre}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* 同じジャンルの他のお店 */}
+        {sameGenre.length > 0 && (
+          <section className="mt-10">
+            <h2
+              className="text-base font-bold text-bokumo-ink mb-4"
+              style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+            >
+              北海道の子連れOKな{shop.genre}
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {sameGenre.map((s) => (
+                <Link
+                  key={s.id}
+                  href={`/shop/${s.id}`}
+                  className="bg-white rounded-xl border border-bokumo-line/50 p-3 hover:border-bokumo-accent transition"
+                >
+                  <p className="text-sm font-bold text-bokumo-ink line-clamp-2">
+                    {s.name}
+                  </p>
+                  <p className="text-xs text-bokumo-sub mt-1">{s.area}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* フッターリンク */}
-        <div className="mt-8 text-center">
+        <div className="mt-10 text-center">
           <Link
             href="/"
             className="text-sm text-bokumo-sub hover:text-bokumo-accent transition"

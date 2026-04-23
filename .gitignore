@@ -20,3 +20,8 @@ data/cache/
 tsconfig.tsbuildinfo
 scripts/*.json
 scripts/*.log
+
+# Instagram automation outputs
+outputs/
+logs/cost_*.json
+assets/fonts/*.otf
