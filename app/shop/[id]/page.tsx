@@ -283,11 +283,13 @@ export default async function ShopDetailPage({
                 ホットペッパーで予約する →
               </a>
             )}
-            {/* 食べログ検索リンク - LinkSwitchが自動でアフィリエイトリンクに変換する */}
+            {/* 食べログ検索 (Valuecommerce 直接リダイレクト形式でアフィリエイト化) */}
             <a
-              href={`https://tabelog.com/rstLst/?sk=${encodeURIComponent(`${shop.name} ${shop.area}`)}`}
+              href={`https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3768290&pid=892604882&vc_url=${encodeURIComponent(
+                `https://tabelog.com/rstLst/?sk=${encodeURIComponent(`${shop.name} ${shop.area}`)}`
+              )}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="flex items-center justify-center w-full py-3 text-sm rounded-full bg-[#fbb03b] text-white hover:opacity-90 transition font-bold"
             >
               食べログで詳細・口コミを見る →
