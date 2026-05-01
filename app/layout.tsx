@@ -52,6 +52,15 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        {/* Valuecommerce LinkSwitch (tabelog 等のリンクを自動アフィリエイト化) */}
+        <Script id="vc-linkswitch" strategy="afterInteractive">
+          {`var vc_pid = "892604880";`}
+        </Script>
+        <Script
+          src="//aml.valuecommerce.com/vcdal.js"
+          strategy="afterInteractive"
+          async
+        />
       </head>
       <body className="font-sans">{children}</body>
     </html>

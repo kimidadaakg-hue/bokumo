@@ -283,6 +283,15 @@ export default async function ShopDetailPage({
                 ホットペッパーで予約する →
               </a>
             )}
+            {/* 食べログ検索リンク - LinkSwitchが自動でアフィリエイトリンクに変換する */}
+            <a
+              href={`https://tabelog.com/rstLst/?sk=${encodeURIComponent(`${shop.name} ${shop.area}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full py-3 text-sm rounded-full bg-[#fbb03b] text-white hover:opacity-90 transition font-bold"
+            >
+              食べログで詳細・口コミを見る →
+            </a>
             <a
               href={shop.tabelog_url}
               target="_blank"
