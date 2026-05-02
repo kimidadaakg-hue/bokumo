@@ -112,6 +112,36 @@ VALID_TAGS = {
     "個室あり", "騒いでもOK", "子供メニューあり",
 }
 
+# === 子連れ判定の強根拠キーワード ===
+# 「家族で来た」「子供と来た」だけ＝弱根拠なので不採用。
+# 以下のいずれかが evidence(クチコミ引用) に含まれている場合のみ採用する。
+# 子供は年齢が不明（中学生以上の可能性）なので慎重に。
+STRONG_EVIDENCE_KEYWORDS = [
+    # 乳幼児を示す語（年齢が小さいことが明確）
+    "赤ちゃん", "ベビー", "乳児", "離乳食", "おむつ", "オムツ",
+    "ベビーカー", "抱っこ紐", "ストローラー", "バウンサー",
+    "小さい子", "小さなお子", "未就学", "幼児", "イヤイヤ期",
+    "0歳", "1歳", "2歳", "3歳", "4歳",
+    # 明確な子連れ向け設備・サービス
+    "キッズチェア", "子供用椅子", "ベビーチェア", "ハイチェア",
+    "お子様メニュー", "キッズメニュー", "お子様ランチ", "子供メニュー",
+    "お子様ラーメン", "お子様プレート",
+    "おむつ替え", "オムツ替え", "キッズスペース", "お絵かき", "おもちゃ",
+    # 和室系（小さい子供を寝かせやすい / 走り回らせやすい）
+    "座敷", "お座敷", "小上がり", "小上り",
+    "掘り炬燵", "掘りごたつ", "個室",
+    # ファミリー向け明示
+    "ファミレス", "ファミリーレストラン",
+]
+
+
+def has_strong_evidence(evidence_list: list[str]) -> bool:
+    """clean['evidence'] のクチコミ引用に強根拠キーワードが含まれているか"""
+    if not evidence_list:
+        return False
+    text = " ".join(evidence_list)
+    return any(kw in text for kw in STRONG_EVIDENCE_KEYWORDS)
+
 
 # ---------- ユーティリティ ----------
 def load_keys() -> tuple[str, str]:
@@ -435,6 +465,15 @@ def main() -> None:
             # qualifying tag が1つもない店は採用しない（クチコミから子連れ要素を抽出できなかった）
             if not clean["tags"]:
                 print(f"    → SKIP: 子連れタグ抽出できず")
+                processed.add(pid)
+                save_processed(processed)
+                skipped += 1
+                continue
+
+            # evidence(クチコミ引用) に強根拠キーワードが無ければ採用しない
+            # （「家族で来た」「子供と」だけの弱根拠を排除）
+            if not has_strong_evidence(clean["evidence"]):
+                print(f"    → SKIP: evidence に乳幼児/子連れ設備の明示記述なし")
                 processed.add(pid)
                 save_processed(processed)
                 skipped += 1
