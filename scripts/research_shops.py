@@ -423,6 +423,14 @@ def main() -> None:
 
             clean = sanitize(research)
 
+            # qualifying tag が1つもない店は採用しない（クチコミから子連れ要素を抽出できなかった）
+            if not clean["tags"]:
+                print(f"    → SKIP: 子連れタグ抽出できず")
+                processed.add(pid)
+                save_processed(processed)
+                skipped += 1
+                continue
+
             # --- STEP C: shops.json に追記/更新 ---
             entry = {
                 "place_id": pid,
