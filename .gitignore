@@ -26,3 +26,4 @@ outputs/
 logs/cost_*.json
 assets/fonts/*.otf
 scripts/instagram/__pycache__/
+scripts/__pycache__/
