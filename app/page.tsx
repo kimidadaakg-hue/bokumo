@@ -202,6 +202,9 @@ export default function HomePage() {
             <span>|</span>
             <a href="/privacy" className="hover:text-bokumo-accent transition">プライバシーポリシー</a>
           </div>
+          <p className="text-xs text-bokumo-ink/50 mb-2">
+            当サイトは Google AdSense および Valuecommerce 等のアフィリエイトプログラムを利用しています
+          </p>
           <p className="text-xs text-bokumo-ink/50">
             © BOKUMO ・ 北海道の子連れ歓迎店ガイド
           </p>
