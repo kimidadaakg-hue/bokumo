@@ -1,58 +1,143 @@
 # BOKUMO 開発ルール
 
-## 店舗データ追加時の必須フィルタ（絶対遵守）
+## ⚠️ 絶対遵守（NEVER FORGET）
+
+**このファイルのルールは、ユーザーから明示的な変更指示があるまで、無条件に守ること。**
+**「サクッと追加で」「ちょっと試しに」も含めて例外なし。** 過去に緩めて誤情報を多数追加し、
+ユーザー信頼を損ねる事故を起こしている。新しいセッションでも、shops.json を触る前に
+必ずこのファイルを読み返すこと。
+
+---
+
+## 店舗データ追加時の必須フィルタ（v2 / 2026-05-02）
 
 新規店舗を `data/shops.json` に追加する場合、以下のルールを必ずすべて満たすこと。
-このルールは過去のセッションで誤情報の店舗を多数追加してしまった反省から定めたもの。
 
-### ① 店名ベースの除外（全経路共通）
-- **チェーン店除外**: `scripts/get_shops_hotpepper.py` の `is_chain()` で60+キーワード判定
-- **店名NG除外**: `has_excluded_name()` で バー/ラウンジ/スナック/CLUB/BAR/Bar 系
+### ① 全経路共通：店名ベースの除外（fetch時に必ず適用）
+- **チェーン店除外**: `scripts/get_shops_hotpepper.py` の `is_chain()` で60+キーワード
+- **店名NG除外**: `has_excluded_name()` でゴルフバー / ラウンジ / スナック / CLUB / BAR / Bar / バル系
+- **Google Places type除外**: `bar` / `night_club` / `liquor_store`
 - **ジャンル除外**:
   - Hotpepper: `EXCLUDED_GENRE_KEYWORDS`（居酒屋/フレンチ/イタリアン/ダイニングバー/バル/ビアガーデン）
   - Google Places: `EXCLUDED_GENRE_KEYWORDS_GPLACES`（ダイニングバー/バル/ビアガーデン のみ）
 
-### ② Hotpepper 経路の追加ルール
-- API側 `child=1` 必須
-- 「中」モード必須: 採用するには **ベビーカーOK / キッズチェアあり / 子供メニューあり** のいずれか1個以上が必須
-- **`barrier_free=あり` を ベビーカーOK に自動付与しない**（誤付与の原因）
-- **`座敷あり` `個室あり` のタグは Hotpepper からは付与しない**（飲み会用途が多い）
-- ベビーカーOK は店説明文に「ベビーカー」「ストローラー」と明記された場合のみ
+### ② Hotpepper 経路（厳しめ）
 
-### ③ Google Places + Gemini 経路の追加ルール
+| # | フィルタ | 内容 |
+|---|---|---|
+| 1 | API側 | `child=1`（お子様連れOK店のみ） |
+| 2 | 重複除外 | hotpepper id |
+| 3-5 | 共通フィルタ | チェーン / 店名NG / ジャンル除外 |
+| 6 | **🔒 説明文に子連れキーワード必須** | `キッズチェア` `子供用椅子` `ベビーチェア` `ハイチェア` `キッズメニュー` `お子様メニュー` `子供メニュー` `お子様ランチ` `ベビーカー` `ストローラー` のいずれか1個以上 (has_hotpepper_kid_keyword()) |
+| 7 | **「中」モード必須** | `ベビーカーOK` / `キッズチェアあり` / `子供メニューあり` のうち1個以上必須 |
+
+**Hotpepper のタグ付与ルール（永続）**:
+- ✅ ベビーカーOK = 説明文に「ベビーカー」「ストローラー」明記のみ
+- ✅ キッズチェアあり = 上記キーワードリスト
+- ✅ 子供メニューあり = 上記キーワードリスト
+- ❌ **`barrier_free=あり` を ベビーカーOK に自動付与しない**（誤判定多すぎ）
+- ❌ **`座敷あり` `個室あり` のタグは Hotpepper からは付与しない**（飲み会用途が多い）
+
+### ③ Google Places + Gemini 経路（緩め＋強根拠必須）
 
 **Geminiプロンプトで厳守**:
-- 「家族で来た」「友人と」「親族で」だけでは子連れタグを付けない
-- 「子供」「お子さん」だけも不十分（中学生以上の可能性）
-- **乳幼児を示す語**または**明確な設備**が明示されている場合のみタグを付ける
-- 推測は禁止、根拠は evidence に必ず含める
+- ❌「家族で来た」「友人と」「親族で」だけでは子連れタグを付けない
+- ❌「子供」「お子さん」だけも不十分（中学生以上の可能性）
+- ✅ **乳幼児を示す語**または**明確な設備**が明示されている場合のみタグを付ける
+- 推測禁止、根拠は evidence に必ず含める
 
-**コード側で二重チェック**（`research_shops.py`）:
-- `clean["tags"]` が空なら採用しない（タグなしの店は登録しない）
-- `has_strong_evidence(clean["evidence"])` が False なら採用しない
-- `STRONG_EVIDENCE_KEYWORDS` リストで判定
+**コード側 二重チェック**（`research_shops.py`）:
+```python
+# ゲート1: タグが空なら不採用
+if not clean["tags"]:
+    SKIP
+
+# ゲート2: evidence に強根拠キーワードなしなら不採用
+if not has_strong_evidence(clean["evidence"]):
+    SKIP
+```
 
 ### 強根拠キーワード（research_shops.py の STRONG_EVIDENCE_KEYWORDS）
 
 | カテゴリ | キーワード |
 |---|---|
-| 乳幼児を示す語 | 赤ちゃん, ベビー, 乳児, 離乳食, おむつ, ベビーカー, 抱っこ紐, ストローラー, 小さい子, 未就学, 幼児, 0〜4歳, イヤイヤ期 |
-| 設備・サービス | キッズチェア, 子供用椅子, ベビーチェア, ハイチェア, お子様メニュー, キッズメニュー, お子様ラーメン, おむつ替え, キッズスペース, お絵かき, おもちゃ |
+| 乳幼児を示す語 | 赤ちゃん, ベビー, 乳児, 離乳食, おむつ, ベビーカー, 抱っこ紐, ストローラー, バウンサー, 小さい子, 未就学, 幼児, 0〜4歳, イヤイヤ期 |
+| 設備・サービス | キッズチェア, 子供用椅子, ベビーチェア, ハイチェア, お子様メニュー, キッズメニュー, お子様ランチ, 子供メニュー, お子様ラーメン, おむつ替え, キッズスペース, お絵かき, おもちゃ |
 | 和室系 | 座敷, お座敷, 小上がり, 小上り, 掘り炬燵, 個室 |
 | ファミリー明示 | ファミレス, ファミリーレストラン |
 
-### ④ データ削除の安全装置
+### ④ 採用タグの厳密リスト（v2）
 
-- `id < 560` の元データ（原データ559店）は手動チェック前提のため**触らない**
-- 削除作業中に research_shops.py 等のバックグラウンドプロセスを必ず停止する（race conditionで戻る）
-- shops.json 上書きせず `merge_*.py` 経由で安全マージする
+`ベビーカーOK` / `座敷あり` / `キッズチェアあり` / `個室あり` / `子連れOK` / `子供メニューあり` の6種のみ。
 
-### ⑤ ネガティブクチコミの非表示
-- `app/shop/[id]/page.tsx` の `NEGATIVE_WORDS` リストで店舗詳細ページのクチコミ表示から除外（不衛生/うるさい/まずい/最悪/二度と等）
+> ⚠️ 旧「騒いでもOK」タグは廃止 → 「子連れOK」に統合済み。新規追加禁止。
+
+### ⑤ データ保護ルール
+
+- **`id < 560` の元データ（原データ559店）は手動チェック前提のため触らない**
+- **削除作業中は research_shops.py 等のバックグラウンドプロセスを必ず停止**（race conditionで戻る）
+- **shops.json を直接上書きせず `merge_*.py` 経由で安全マージ**
+- **API予算ガード**: Places $150/月で停止、Gemini 1,000件/日で停止、Photos 5,000件/月で停止
+
+### ⑥ ネガティブクチコミの非表示
+- `app/shop/[id]/page.tsx` の `NEGATIVE_WORDS` リストで店舗詳細ページのクチコミ表示から除外
+- 該当語句: 不衛生 / うるさい / 臭い / 狭い / 汚い / まずい / 接客が悪 / 残念 / 二度と / 高い / ぼったくり 等
+
+---
+
+## 永続化の場所
+
+| ファイル | 役割 |
+|---|---|
+| `CLAUDE.md`（このファイル） | ルール集・セッション開始時に必ず読み込み |
+| `scripts/get_shops_hotpepper.py` | Hotpepperフィルタ + HP_KEYWORDS_* 定数 + has_hotpepper_kid_keyword() |
+| `scripts/fetch_sapporo.py` | Google Places店名フィルタ |
+| `scripts/research_shops.py` | Geminiプロンプト + STRONG_EVIDENCE_KEYWORDS + has_strong_evidence() |
+| `scripts/merge_hotpepper.py` | 安全マージユーティリティ |
+| `app/shop/[id]/page.tsx` | NEGATIVE_WORDS によるクチコミ表示フィルタ |
+
+---
+
+## 違反検知（セルフチェック）
+
+shops.json を変更する前後に必ず以下を実行して整合性確認：
+
+```bash
+python3 -c "
+import json, sys
+sys.path.insert(0, 'scripts')
+from get_shops_hotpepper import is_chain, has_excluded_name, EXCLUDED_GENRE_KEYWORDS_GPLACES
+from research_shops import has_strong_evidence
+
+shops = json.load(open('data/shops.json'))
+violations = []
+for s in shops:
+    if s['id'] < 560: continue  # 原データはスキップ
+    name = s['name']
+    if is_chain(name) or has_excluded_name(name):
+        violations.append(('name', s))
+    if any(kw in name for kw in EXCLUDED_GENRE_KEYWORDS_GPLACES):
+        violations.append(('genre', s))
+    if not s.get('tags') or s['tags'] == ['子連れOK']:
+        violations.append(('weak_tags', s))
+    if s.get('source') in ('gemini','both','website') and not has_strong_evidence(s.get('evidence',[])):
+        violations.append(('weak_evidence', s))
+    if '騒いでもOK' in s.get('tags', []):
+        violations.append(('legacy_tag', s))
+
+print(f'違反: {len(violations)} 件')
+for kind, s in violations[:5]:
+    print(f'  [{kind}] [{s[\"id\"]}] {s[\"name\"]}')
+"
+```
+
+違反があれば必ず修正してからコミット。
+
+---
 
 ## サイト・インフラのルール
 
-別ドキュメント参照（プロジェクト初期に定めた構成ルール）。
+別ドキュメント（プロジェクト初期に定めた構成ルール）に準拠：
 - フレームワーク: Next.js（static export）
 - ホスティング: Cloudflare Workers/Pages
 - DB: Cloudflare D1（現状未使用）
