@@ -23195,28 +23195,6 @@
     "id": 2170
   },
   {
-    "place_id": "ChIJ_ROGYkInC18RDw_YPC2Npbs",
-    "name": "喫茶がま記念館",
-    "area": "円山",
-    "genre": "カフェ",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "カエルがたくさん！お子様が喜ぶこと間違いなしの喫茶店。",
-    "score": 4,
-    "lat": 43.1439428,
-    "lng": 141.24350579999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": false,
-    "evidence": [
-      "とにかく、カエルの数が多くあるので小さなお子さまが来たら喜ぶこと間違いなしでしょう",
-      "店内にはカエルグッズが所狭しと並べられていて",
-      "カエルいっぱいおるよ😃"
-    ],
-    "id": 2176
-  },
-  {
     "place_id": "ChIJJ_NCHAAnC18RFl8ckst-cDo",
     "name": "ベビーフェイスプラネッツ札幌手稲店",
     "area": "円山",
@@ -23559,28 +23537,6 @@
       "カップル、家族、グループでもとことん食べてきっと満足すると思います。"
     ],
     "id": 2234
-  },
-  {
-    "place_id": "ChIJ2SVvVxMnC18RvUFnqke3bao",
-    "name": "すたみな太郎 札幌手稲店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "キッズスペースあり！家族みんなで楽しめるバイキング形式のお店です。",
-    "score": 4,
-    "lat": 43.1311463,
-    "lng": 141.2071326,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "キッズスペースもありました。",
-      "広めです。",
-      "家族全員微妙な印象"
-    ],
-    "id": 2237
   },
   {
     "place_id": "ChIJA0au_lQmC18RH2nPDPBctAU",
