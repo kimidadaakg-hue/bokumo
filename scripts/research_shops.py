@@ -75,6 +75,29 @@ PLACES_FIELD_MASK_REVIEWS = "id,displayName,reviews"
 MAX_REVIEWS = 5
 
 VALID_GENRES = {"カフェ", "和食", "洋食", "イタリアン", "その他"}
+
+# 名前ベースの除外（Hotpepper 経路と統一）
+try:
+    sys.path.insert(0, str(SCRIPT_DIR))
+    from get_shops_hotpepper import (  # type: ignore
+        is_chain as _is_chain,
+        has_excluded_name as _has_excluded_name,
+        EXCLUDED_GENRE_KEYWORDS as _EXCLUDED_GENRE_KEYWORDS,
+    )
+
+    def _is_excluded_name(name: str) -> bool:
+        if not name:
+            return False
+        if _is_chain(name):
+            return True
+        if _has_excluded_name(name):
+            return True
+        if any(kw in name for kw in _EXCLUDED_GENRE_KEYWORDS):
+            return True
+        return False
+except Exception:
+    def _is_excluded_name(name: str) -> bool:  # フォールバック
+        return False
 VALID_TAGS = {
     "ベビーカーOK", "座敷あり", "キッズチェアあり",
     "個室あり", "騒いでもOK", "子供メニューあり",
@@ -348,6 +371,14 @@ def main() -> None:
 
             if pid in processed:
                 print(f"[{i}/{len(raw)}] SKIP(処理済): {name}")
+                skipped += 1
+                continue
+
+            # 名前ベースのフィルタ（チェーン・夜業態・居酒屋等を除外）
+            if _is_excluded_name(name):
+                print(f"[{i}/{len(raw)}] SKIP(NG): {name}")
+                processed.add(pid)
+                save_processed(processed)
                 skipped += 1
                 continue
 

@@ -50,6 +50,22 @@ GENRE_KEYWORDS = [
 SLEEP_SEC = 0.5
 MAX_PAGES_PER_QUERY = 3  # 最大60件 (20×3ページ)
 
+# Hotpepper 経路と統一: チェーン店・夜の業態を除外
+from get_shops_hotpepper import (
+    CHAIN_KEYWORDS, EXCLUDED_GENRE_KEYWORDS, EXCLUDED_NAME_KEYWORDS,
+    is_chain, has_excluded_name,
+)
+
+
+def is_excluded_by_genre_keyword(name: str) -> bool:
+    return any(kw in name for kw in EXCLUDED_GENRE_KEYWORDS)
+
+
+def is_excluded_by_place_type(types: list[str]) -> bool:
+    """Google Places の type が bar / night_club 等なら除外"""
+    bad_types = {"bar", "night_club", "liquor_store"}
+    return any(t in bad_types for t in (types or []))
+
 
 def load_key() -> str:
     for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
@@ -116,6 +132,15 @@ def main() -> None:
                 for p in places:
                     pid = p.get("id")
                     if not pid or pid in existing_pids or pid in all_places:
+                        continue
+                    nm = (p.get("displayName") or {}).get("text") or ""
+                    if is_chain(nm):
+                        continue
+                    if has_excluded_name(nm):
+                        continue
+                    if is_excluded_by_genre_keyword(nm):
+                        continue
+                    if is_excluded_by_place_type(p.get("types") or []):
                         continue
                     all_places[pid] = p
                     added += 1

@@ -1798,46 +1798,6 @@
     "website": ""
   },
   {
-    "id": 53,
-    "place_id": "ChIJ5ZreVA_YdF8RzutmGsokqhY",
-    "name": "居酒屋小ばちゃん 栄恵町本店",
-    "area": "恵庭",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.8792188,
-    "lng": 141.5804168,
-    "tabelog_url": "https://maps.google.com/?cid=1633158265320172494&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ5ZreVA_YdF8RzutmGsokqhY.jpg",
-    "is_chain": false,
-    "evidence": [
-      "お刺身もお酒も美味しいお店です。",
-      "接客もお料理もとても良かったです。",
-      "特にザンギは…自分の知っているザンギじゃない大きさでした。",
-      "お子様連れ",
-      "子連れで行けるお店"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ004025494/?vos=nhppalsa000016",
-    "address": "〒061-1443 北海道恵庭市栄恵町７９",
-    "rating": 4.3,
-    "rating_count": 286,
-    "hours": [
-      "月曜日: 17時00分～22時30分",
-      "火曜日: 17時00分～22時30分",
-      "水曜日: 17時00分～22時30分",
-      "木曜日: 17時00分～22時30分",
-      "金曜日: 17時00分～22時30分",
-      "土曜日: 17時00分～22時30分",
-      "日曜日: 定休日"
-    ],
-    "phone": "0123-34-4666",
-    "website": "https://tabelog.com/hokkaido/A0107/A010703/1005990/"
-  },
-  {
     "id": 54,
     "place_id": "ChIJbwsk3bYRdV8Rpd-VxtlCsRs",
     "name": "麺 こころ",
@@ -1988,44 +1948,6 @@
     ],
     "phone": "080-2874-0632",
     "website": "https://www.instagram.com/milk_mustache_challenge"
-  },
-  {
-    "id": 58,
-    "place_id": "ChIJN_-ntGA9cl8RHq2y9rM8vXw",
-    "name": "居酒屋 あけぼの",
-    "area": "釧路",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり",
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.9827856,
-    "lng": 144.3865279,
-    "tabelog_url": "https://maps.google.com/?cid=8988407174937095454&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJN_-ntGA9cl8RHq2y9rM8vXw.jpg",
-    "is_chain": false,
-    "evidence": [
-      "子連れには個室が非常にありがたく",
-      "予約して行くことをオススメします！"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003324555/?vos=nhppalsa000016",
-    "address": "〒085-0014 北海道釧路市末広町２丁目１２",
-    "rating": 4.1,
-    "rating_count": 582,
-    "hours": [
-      "月曜日: 17時00分～23時00分",
-      "火曜日: 17時00分～23時00分",
-      "水曜日: 17時00分～23時00分",
-      "木曜日: 17時00分～23時00分",
-      "金曜日: 17時00分～23時00分",
-      "土曜日: 17時00分～23時00分",
-      "日曜日: 17時00分～23時00分"
-    ],
-    "phone": "0154-65-5114",
-    "website": ""
   },
   {
     "id": 59,
@@ -2839,43 +2761,6 @@
     "website": "https://life-v.co.jp/shop/mikakuensouhonten/?utm_source=google-business"
   },
   {
-    "id": 80,
-    "place_id": "ChIJR4G0-Reldl8RiGMagobzWKg",
-    "name": "居酒屋 そら",
-    "area": "広尾",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 42.2873162,
-    "lng": 143.3162042,
-    "tabelog_url": "https://maps.google.com/?cid=12130713355356365704&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJR4G0-Reldl8RiGMagobzWKg.jpg",
-    "is_chain": false,
-    "evidence": [
-      "掘り炬燵式の小上がりが２つ。",
-      "４席位の小上がりが３個位"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒089-2615 北海道広尾郡広尾町本通７丁目２",
-    "rating": 4.5,
-    "rating_count": 23,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 17時30分～23時00分",
-      "水曜日: 17時30分～23時00分",
-      "木曜日: 17時30分～23時00分",
-      "金曜日: 17時30分～23時00分",
-      "土曜日: 17時30分～23時00分",
-      "日曜日: 17時30分～22時00分"
-    ],
-    "phone": "01558-4-9010",
-    "website": ""
-  },
-  {
     "id": 81,
     "place_id": "ChIJ___rr9mYDF8RUbXfi2B3yKU",
     "name": "味のなかた",
@@ -3027,44 +2912,6 @@
     ],
     "phone": "011-741-2066",
     "website": "http://chirorin.do-kyu.com/"
-  },
-  {
-    "id": 86,
-    "place_id": "ChIJSxfcau0rC18RX-0pvlYvpx8",
-    "name": "居酒屋ぽんぽこ",
-    "area": "札幌白石区",
-    "genre": "居酒屋",
-    "tags": [
-      "子供メニューあり",
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.050929,
-    "lng": 141.40863819999998,
-    "tabelog_url": "https://maps.google.com/?cid=2280843785890557279&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJSxfcau0rC18RX-0pvlYvpx8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "今度は、息子と行きます！",
-      "子供向けのメニューも沢山あるので家族連れにもオススメです"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003648624/?vos=nhppalsa000016",
-    "address": "〒003-0027 北海道札幌市白石区本通２丁目北７−２５ 第八大岡ビル 1F",
-    "rating": 4.5,
-    "rating_count": 45,
-    "hours": [
-      "月曜日: 17時30分～0時00分",
-      "火曜日: 17時30分～0時00分",
-      "水曜日: 17時30分～0時00分",
-      "木曜日: 17時30分～0時00分",
-      "金曜日: 17時30分～0時00分",
-      "土曜日: 17時30分～0時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "011-799-1160",
-    "website": ""
   },
   {
     "id": 87,
@@ -5168,47 +5015,6 @@
     "website": "https://m.facebook.com/pages/category/Restaurant/%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E5%B0%8F%E6%9E%97JAPAN-1050555778451973/?locale2=ja_JP"
   },
   {
-    "id": 146,
-    "place_id": "ChIJ1erBFXkrC18R9cnlK1Tie7I",
-    "name": "居酒屋 味扉（あじと）",
-    "area": "月寒・美園",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり",
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.0270365,
-    "lng": 141.40001809999998,
-    "tabelog_url": "https://maps.google.com/?cid=12861122012028193269&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ1erBFXkrC18R9cnlK1Tie7I.jpg",
-    "is_chain": false,
-    "evidence": [
-      "店内は綺麗で小上がりもあります",
-      "落ち着いた雰囲気の隠れ家的なお店",
-      "気軽にゆっくり飲めるお店だと思います",
-      "実、日本酒充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：6歳以下ドリンク無料"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003324016/?vos=nhppalsa000016",
-    "address": "〒062-0052 北海道札幌市豊平区月寒東１条１０丁目６−２５",
-    "rating": 4.4,
-    "rating_count": 184,
-    "hours": [
-      "月曜日: 17時00分～3時00分",
-      "火曜日: 17時00分～3時00分",
-      "水曜日: 17時00分～3時00分",
-      "木曜日: 17時00分～3時00分",
-      "金曜日: 17時00分～3時00分",
-      "土曜日: 17時00分～3時00分",
-      "日曜日: 15時00分～23時00分"
-    ],
-    "phone": "011-797-5430",
-    "website": "https://www.hotpepper.jp/strJ003324016/"
-  },
-  {
     "id": 147,
     "place_id": "ChIJk7zqX2xFbV8RX9R9n-huY60",
     "name": "ぶらっさむ",
@@ -5387,85 +5193,6 @@
     "hours": [],
     "phone": "0166-23-3389",
     "website": "https://japoncompany.business/asahikawa/568590-"
-  },
-  {
-    "id": 153,
-    "place_id": "ChIJebScaHLlDF8RqBeI2jHokLM",
-    "name": "快活CLUB 旭川大町店",
-    "area": "旭川駅周辺",
-    "genre": "カフェ",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.7854836,
-    "lng": 142.3609492,
-    "tabelog_url": "https://maps.google.com/?cid=12939097030252828584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJebScaHLlDF8RqBeI2jHokLM.jpg",
-    "is_chain": false,
-    "evidence": [
-      "鍵付き個室は7個しかなく、常に予約でいっぱい",
-      "個室のパソコンは大きくて普段自宅や職場で使用しているパソコンとは違った雰囲気",
-      "パソコンから食事を注文することが出来るのも便利",
-      "ソフトクリームも食べ放題"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒070-0841 北海道旭川市大町１条３丁目14−１３",
-    "rating": 3.7,
-    "rating_count": 213,
-    "hours": [
-      "月曜日: 24 時間営業",
-      "火曜日: 24 時間営業",
-      "水曜日: 24 時間営業",
-      "木曜日: 24 時間営業",
-      "金曜日: 24 時間営業",
-      "土曜日: 24 時間営業",
-      "日曜日: 24 時間営業"
-    ],
-    "phone": "0166-50-1288",
-    "website": ""
-  },
-  {
-    "id": 154,
-    "place_id": "ChIJIxQuQ0fnDF8RZX1kAOwnz2Y",
-    "name": "OMOカフェ＆バル",
-    "area": "旭川郊外",
-    "genre": "カフェ",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.7704646,
-    "lng": 142.36408319999998,
-    "tabelog_url": "https://maps.google.com/?cid=7408183806620106085&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJIxQuQ0fnDF8RZX1kAOwnz2Y.jpg",
-    "is_chain": false,
-    "evidence": [
-      "4歳の息子と雪が降ってきたので急遽利用しました。",
-      "広々とした店内で他の方があまり気になら無かったのも、子連れにはありがたかったです。",
-      "000000505\",\"CNY\",\"嘉助天台\",\"キッズルーム\",\"ゴルフ場\",{},\"17:30\",\"カ",
-      "認ください。 提供スタイル ビュッフェ 子供 可 離乳食のご用意はありません。ご自由にお持込みください。",
-      "\"年齢制限なし\",parentAndChild:\"親子\",jpAdult:\"大人\",email:\"メール"
-    ],
-    "source": "both",
-    "hotpepper_url": "",
-    "address": "〒070-0036 北海道旭川市６条通９丁目右1 OMO7旭川 by 星野リゾート 1階",
-    "rating": 4,
-    "rating_count": 125,
-    "hours": [
-      "月曜日: 11時00分～22時00分",
-      "火曜日: 11時00分～22時00分",
-      "水曜日: 11時00分～22時00分",
-      "木曜日: 11時00分～22時00分",
-      "金曜日: 11時00分～22時00分",
-      "土曜日: 11時00分～22時00分",
-      "日曜日: 11時00分～22時00分"
-    ],
-    "phone": "0166-29-2666",
-    "website": "https://hoshinoresorts.com/ja/hotels/omo7asahikawa/dining/?utm_source=google&utm_medium=local&utm_campaign=gbp_cafe"
   },
   {
     "id": 155,
@@ -6921,44 +6648,6 @@
     "website": "https://western-v.co.jp/"
   },
   {
-    "id": 195,
-    "place_id": "ChIJAWEUIADnDF8Rb96T0T06hJQ",
-    "name": "居酒屋 デリィズキッチン",
-    "area": "旭川郊外",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.766102499999995,
-    "lng": 142.3905963,
-    "tabelog_url": "https://maps.google.com/?cid=10701742651722686063&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJAWEUIADnDF8Rb96T0T06hJQ.jpg",
-    "is_chain": false,
-    "evidence": [
-      "可愛い店長さんがお出迎えしてくれました👶♥️",
-      "私は家族と一緒にここに来ました。",
-      "店員さんも笑顔が素敵で、小さなお子さんを背負って頑張ってました。"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001203896/?vos=nhppalsa000016",
-    "address": "〒078-8238 北海道旭川市豊岡８条１丁目１−１７",
-    "rating": 4,
-    "rating_count": 7,
-    "hours": [
-      "月曜日: 17時00分～0時00分",
-      "火曜日: 17時00分～0時00分",
-      "水曜日: 定休日",
-      "木曜日: 17時00分～0時00分",
-      "金曜日: 17時00分～0時00分",
-      "土曜日: 17時00分～0時00分",
-      "日曜日: 17時00分～0時00分"
-    ],
-    "phone": "0166-74-6584",
-    "website": "https://derrys.owst.jp/"
-  },
-  {
     "id": 196,
     "place_id": "ChIJw0VKjBzTbV8Rs5d91FqTwDs",
     "name": "遊食酒場 壱炉 梅ヶ枝店",
@@ -7569,45 +7258,6 @@
     "website": "https://www.hotpepper.jp/strJ001287700/"
   },
   {
-    "id": 217,
-    "place_id": "ChIJ64e3mhb1nl8RaHMTVeCwMCI",
-    "name": "居酒屋 さくら井",
-    "area": "函館",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK",
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 41.807437199999995,
-    "lng": 140.7254217,
-    "tabelog_url": "https://maps.google.com/?cid=2463663473718162280&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ64e3mhb1nl8RaHMTVeCwMCI.jpg",
-    "is_chain": false,
-    "evidence": [
-      "子供連れでも良いお店ですね。",
-      "座敷が３席ありました。",
-      "地元民に愛されている店ではないのかと。"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003497427/?vos=nhppalsa000016",
-    "address": "〒041-0822 北海道函館市亀田港町２２−１１",
-    "rating": 4.3,
-    "rating_count": 57,
-    "hours": [
-      "月曜日: 17時00分～0時00分",
-      "火曜日: 17時00分～0時00分",
-      "水曜日: 定休日",
-      "木曜日: 17時00分～0時00分",
-      "金曜日: 17時00分～0時00分",
-      "土曜日: 17時00分～0時00分",
-      "日曜日: 17時00分～0時00分"
-    ],
-    "phone": "0138-84-8988",
-    "website": "https://izakaya-sakurai.com/index.html"
-  },
-  {
     "id": 218,
     "place_id": "ChIJxxW6azrkDF8Rb9itHt7s3OE",
     "name": "味の番番 本店",
@@ -7951,46 +7601,6 @@
     "website": "https://www.facebook.com/pages/%E9%BA%BA%E5%B1%8B-%E7%8B%BC%E7%85%99/330798793613984"
   },
   {
-    "id": 228,
-    "place_id": "ChIJBTpFrDvnDF8RNijvvMfe-D4",
-    "name": "居酒屋 まるにせきぐち",
-    "area": "旭川駅周辺",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.7673759,
-    "lng": 142.3589398,
-    "tabelog_url": "https://maps.google.com/?cid=4537621574025422902&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJBTpFrDvnDF8RNijvvMfe-D4.jpg",
-    "is_chain": false,
-    "evidence": [
-      "料理は全て本当に美味しい",
-      "お酒の種類も豊富です",
-      "北海道らしさを感じられる一品ばかりでした",
-      "お子様連れのお客様もご安心ください！生後24ヶ月までご利",
-      "お子様連れ お子様連れ歓迎 ：コースご利用の場合、お子様のご年齢"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001225120/?vos=nhppalsa000016",
-    "address": "〒070-0032 北海道旭川市２条通７丁目７ プラネット２・７ビル ２Ｆ",
-    "rating": 4.6,
-    "rating_count": 121,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 17時00分～22時00分",
-      "水曜日: 17時00分～22時00分",
-      "木曜日: 17時00分～22時00分",
-      "金曜日: 17時00分～22時00分",
-      "土曜日: 17時00分～22時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "0166-27-3366",
-    "website": "https://www.hotpepper.jp/strJ001225120/"
-  },
-  {
     "id": 229,
     "place_id": "ChIJSeLwyjxXbV8RV7FyOvMEihw",
     "name": "ジョリーパスタ 北見店",
@@ -8028,44 +7638,6 @@
     ],
     "phone": "0157-57-3090",
     "website": "https://maps.jolly-pasta.co.jp/jp/detail/5393.html"
-  },
-  {
-    "id": 230,
-    "place_id": "ChIJs2dzsGoRdV8RvHVASvnypgQ",
-    "name": "魚屋直営刺身居酒屋 なか善別邸",
-    "area": "苫小牧",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 42.632463,
-    "lng": 141.598187,
-    "tabelog_url": "https://maps.google.com/?cid=335222374792197564&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJs2dzsGoRdV8RvHVASvnypgQ.jpg",
-    "is_chain": false,
-    "evidence": [
-      "個室もある居酒屋で海鮮はなかなか美味しい。",
-      "半個室もカーテンで仕切られており安心。",
-      "個室スタイルなので、余程のヘビスモが臨席に居ない限り気にならないかと思われます🚬"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒053-0023 北海道苫小牧市錦町１丁目５−１２",
-    "rating": 4,
-    "rating_count": 87,
-    "hours": [
-      "月曜日: 17時30分～0時00分",
-      "火曜日: 17時30分～0時00分",
-      "水曜日: 17時30分～0時00分",
-      "木曜日: 17時30分～0時00分",
-      "金曜日: 17時30分～0時00分",
-      "土曜日: 17時30分～0時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "0144-33-0293",
-    "website": "https://www.novels-group.com/bettei"
   },
   {
     "id": 231,
@@ -8684,42 +8256,6 @@
     ],
     "phone": "0138-76-6028",
     "website": "https://yakitori-kaisenagit.com/"
-  },
-  {
-    "id": 247,
-    "place_id": "ChIJq-FpMIUpC18RuseZYhw_0CI",
-    "name": "居酒屋 瑠玖＆魚平",
-    "area": "大通",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.0568518,
-    "lng": 141.3483492,
-    "tabelog_url": "https://maps.google.com/?cid=2508574383591245754&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJq-FpMIUpC18RuseZYhw_0CI.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ipay PayPay 禁煙・喫煙 店内全面禁煙 お子様連れ お子様連れOK ※詳細はお問い合わせください"
-    ],
-    "source": "website",
-    "hotpepper_url": "",
-    "address": "〒060-0062 北海道札幌市中央区南２条西６丁目７−１",
-    "rating": 4,
-    "rating_count": 2323,
-    "hours": [
-      "月曜日: 11時30分～14時30分, 16時00分～22時30分",
-      "火曜日: 11時30分～14時30分, 16時00分～22時30分",
-      "水曜日: 11時30分～14時30分, 16時00分～22時30分",
-      "木曜日: 11時30分～14時30分, 16時00分～22時30分",
-      "金曜日: 11時30分～14時30分, 16時00分～22時30分",
-      "土曜日: 11時30分～22時30分",
-      "日曜日: 11時30分～22時30分"
-    ],
-    "phone": "050-5487-4335",
-    "website": "https://rukkuanduohei.gorp.jp/"
   },
   {
     "id": 248,
@@ -9734,45 +9270,6 @@
     "website": "https://www.instagram.com/tokotoko_kushiro?igsh=MW9vOHk4bzJsNjQ1Zw=="
   },
   {
-    "id": 276,
-    "place_id": "ChIJwW9KmBIoC18R_5fGJxBchLI",
-    "name": "チョコレートラウンジ・オックスフォード",
-    "area": "札幌西区",
-    "genre": "カフェ",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.088861699999995,
-    "lng": 141.2714416,
-    "tabelog_url": "https://maps.google.com/?cid=12863507660133537791&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJwW9KmBIoC18R_5fGJxBchLI.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ゴールデンウィーク・子どもの日で親子連れでごった返す中に単身潜入。",
-      "白い恋人パークを楽しんでいると、ちょっとお腹も空いてきたのでチョコレートラウンジ・オックスフォードに寄ってみました。",
-      "雪まつりの期間に訪問しました。",
-      "新観光スポット白い恋人公園の有料施設内にあるこちらでランチしました。"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒063-0052 北海道札幌市西区宮の沢２条２丁目１１−３６",
-    "rating": 4.2,
-    "rating_count": 93,
-    "hours": [
-      "月曜日: 10時00分～18時00分",
-      "火曜日: 10時00分～18時00分",
-      "水曜日: 10時00分～18時00分",
-      "木曜日: 10時00分～18時00分",
-      "金曜日: 10時00分～18時00分",
-      "土曜日: 10時00分～18時00分",
-      "日曜日: 10時00分～18時00分"
-    ],
-    "phone": "011-666-1481",
-    "website": "https://www.shiroikoibitopark.jp/restaurant/lounge/"
-  },
-  {
     "id": 277,
     "place_id": "ChIJbwg7D1PgCl8R_4iijlybylc",
     "name": "中華食堂 桂苑",
@@ -10311,47 +9808,6 @@
     "website": "https://www.obihiro-romantei.com/"
   },
   {
-    "id": 293,
-    "place_id": "ChIJC69D40soC18RTm7nCv3qu8s",
-    "name": "炭火居酒屋 炎 琴似店",
-    "area": "札幌西区",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.0757378,
-    "lng": 141.3036344,
-    "tabelog_url": "https://maps.google.com/?cid=14680585782874828366&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJC69D40soC18RTm7nCv3qu8s.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族連れもいらっしゃいました。",
-      "琴似駅探検で入った店です。",
-      "焼鳥他、食事は本当に美味しいです!!",
-      "つくねをいただきました😋美味しかったです!!",
-      "実、ワイン充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：ご家族でのご利用大歓迎！ぜひご家族"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ000035605/?vos=nhppalsa000016",
-    "address": "〒063-0811 北海道札幌市西区琴似１条５丁目４−２４ コトプラビル 1F",
-    "rating": 3.6,
-    "rating_count": 363,
-    "hours": [
-      "月曜日: 15時00分～1時00分",
-      "火曜日: 15時00分～1時00分",
-      "水曜日: 15時00分～1時00分",
-      "木曜日: 15時00分～1時00分",
-      "金曜日: 15時00分～1時00分",
-      "土曜日: 15時00分～1時00分",
-      "日曜日: 15時00分～1時00分"
-    ],
-    "phone": "011-632-7400",
-    "website": "https://www.hotpepper.jp/strJ000035605/"
-  },
-  {
     "id": 294,
     "place_id": "ChIJbxwXl6MgdV8R6sdU-H-Bs7I",
     "name": "泰我",
@@ -10813,47 +10269,6 @@
     "website": "https://www.hgo-echigo.jp/"
   },
   {
-    "id": 308,
-    "place_id": "ChIJZbP8Xj8oC18RD25qJZzrUL8",
-    "name": "炭火居酒屋 炎 西町本店",
-    "area": "札幌西区",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり",
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.080658199999995,
-    "lng": 141.28665759999998,
-    "tabelog_url": "https://maps.google.com/?cid=13785777515256245775&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJZbP8Xj8oC18RD25qJZzrUL8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "小上がりにて飲食しました。",
-      "家族連れが多いのは仕方ないしターゲットがそこなのだろう。",
-      "テイクアウトのお得なセットなどもよく利用しましたが、友達が来たときなど重宝しました。",
-      "実、ワイン充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：ご家族でのご利用大歓迎！ぜひご家族"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ000027467/?vos=nhppalsa000016",
-    "address": "〒063-0061 北海道札幌市西区西町北９丁目１−３ 国道５号線沿い",
-    "rating": 3.8,
-    "rating_count": 360,
-    "hours": [
-      "月曜日: 16時00分～0時00分",
-      "火曜日: 16時00分～0時00分",
-      "水曜日: 16時00分～0時00分",
-      "木曜日: 16時00分～0時00分",
-      "金曜日: 16時00分～0時00分",
-      "土曜日: 16時00分～0時00分",
-      "日曜日: 16時00分～0時00分"
-    ],
-    "phone": "011-664-0829",
-    "website": "https://www.hotpepper.jp/strJ000027467/"
-  },
-  {
     "id": 309,
     "place_id": "ChIJveXdzMQpC18RgEYu4-ZhBwY",
     "name": "奥芝商店おくしばぁちゃん",
@@ -11006,43 +10421,6 @@
     "website": "http://www.yamaokaya.com/shops/1133/"
   },
   {
-    "id": 313,
-    "place_id": "ChIJmyGWvWVNc18R8mWTXP1Bj2w",
-    "name": "すずかけ｜ふらの和食レストラン居酒屋",
-    "area": "富良野",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.3426465,
-    "lng": 142.387191,
-    "tabelog_url": "https://maps.google.com/?cid=7822543634201535986&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJmyGWvWVNc18R8mWTXP1Bj2w.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族で利用しました。",
-      "子連れ来店の実績や歓迎の記述がある場合"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003474591/?vos=nhppalsa000016",
-    "address": "〒076-0024 北海道富良野市幸町８−２２",
-    "rating": 4.2,
-    "rating_count": 220,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 11時30分～14時30分, 17時30分～20時00分",
-      "水曜日: 11時30分～14時30分, 17時30分～20時00分",
-      "木曜日: 11時30分～14時30分, 17時30分～20時00分",
-      "金曜日: 11時30分～14時30分, 17時30分～20時00分",
-      "土曜日: 11時30分～14時30分, 17時30分～20時00分",
-      "日曜日: 11時30分～14時30分, 17時30分～20時00分"
-    ],
-    "phone": "0167-22-4338",
-    "website": "https://suzukake-furano.com/"
-  },
-  {
     "id": 314,
     "place_id": "ChIJQ1GaKWABdV8R4xGFGM7jkkk",
     "name": "輝",
@@ -11116,45 +10494,6 @@
     ],
     "phone": "0138-52-5811",
     "website": "https://gotoken1879.jp/goryokaku/"
-  },
-  {
-    "id": 316,
-    "place_id": "ChIJ7dVN_xHmDF8RMgIh7m58jsI",
-    "name": "個室居酒屋アブリーノ 北の炭火焼き ジャンボ焼き鳥",
-    "area": "旭川駅周辺",
-    "genre": "焼鳥",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.76855,
-    "lng": 142.3610687,
-    "tabelog_url": "https://maps.google.com/?cid=14019279505934320178&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ7dVN_xHmDF8RMgIh7m58jsI.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族で利用",
-      "個室メインの様で",
-      "家族も喜んでいたので",
-      "個室も圧迫感がなく綺麗でした"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001179680/?vos=nhppalsa000016",
-    "address": "〒070-0034 北海道旭川市４条通８丁目１７０５−５ SISI.bldg 1F",
-    "rating": 3.7,
-    "rating_count": 256,
-    "hours": [
-      "月曜日: 17時00分～1時00分",
-      "火曜日: 17時00分～1時00分",
-      "水曜日: 17時00分～1時00分",
-      "木曜日: 17時00分～1時00分",
-      "金曜日: 17時00分～1時00分",
-      "土曜日: 17時00分～1時00分",
-      "日曜日: 17時00分～1時00分"
-    ],
-    "phone": "080-9320-1324",
-    "website": "https://aburino.owst.jp/"
   },
   {
     "id": 317,
@@ -11542,47 +10881,6 @@
     ],
     "phone": "011-598-8429",
     "website": "https://www.hotpepper.jp/strJ001232707/"
-  },
-  {
-    "id": 327,
-    "place_id": "ChIJ28s0-rsrC18RGUySMVds4_A",
-    "name": "スペインバル BONITA",
-    "area": "札幌白石区",
-    "genre": "その他",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.0452978,
-    "lng": 141.41086669999999,
-    "tabelog_url": "https://maps.google.com/?cid=17357836510565649433&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJ28s0-rsrC18RGUySMVds4_A.jpg",
-    "is_chain": false,
-    "evidence": [
-      "店内はおしゃれな感じでとても居心地は良いです。",
-      "人気のスペイン料理店 パエリアやアヒージョで美味しいワインを！",
-      "お子様連れ大歓迎！乳幼児用ハイローチェア1台、子供用イス",
-      "して土曜日夜に行ってまいりました。 こちらは、 子連れにも寛容なお店です！ なぜかというとオーナーご夫婦",
-      "お子様連れ大歓迎！乳幼児用ハイローチェア1台、子供用イス１台ご用意しております。",
-      "お子様連れ お子様連れ歓迎 ：ハイローチェア1台、幼児用イス1台"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001153713/?vos=nhppalsa000016",
-    "address": "〒003-0025 北海道札幌市白石区本郷通６北２−１３ アーバンスクエア 1号室",
-    "rating": 4.4,
-    "rating_count": 181,
-    "hours": [
-      "月曜日: 12時00分～14時30分, 17時00分～22時00分",
-      "火曜日: 12時00分～14時30分, 17時00分～22時00分",
-      "水曜日: 12時00分～14時30分, 17時00分～22時00分",
-      "木曜日: 12時00分～14時30分, 17時00分～22時00分",
-      "金曜日: 12時00分～14時30分, 17時00分～22時00分",
-      "土曜日: 17時00分～22時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "011-598-1430",
-    "website": "https://www.hotpepper.jp/strJ001153713/"
   },
   {
     "id": 328,
@@ -12165,43 +11463,6 @@
     "website": ""
   },
   {
-    "id": 343,
-    "place_id": "ChIJRwqYFLWen18RtJGAxdFo_qs",
-    "name": "Cafe & Lounge SENTŌ",
-    "area": "八雲",
-    "genre": "カフェ",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 42.2563823,
-    "lng": 140.2671128,
-    "tabelog_url": "https://maps.google.com/?cid=12393458474741174708&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJRwqYFLWen18RtJGAxdFo_qs.jpg",
-    "is_chain": false,
-    "evidence": [
-      "小さな子どもを連れていくと退屈しないかもしれないです",
-      "コスパもよし"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ004004944/?vos=nhppalsa000016",
-    "address": "〒049-3112 北海道二海郡八雲町末広町30",
-    "rating": 4.8,
-    "rating_count": 5,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 定休日",
-      "水曜日: 11時00分～17時00分",
-      "木曜日: 11時00分～17時00分",
-      "金曜日: 11時00分～17時00分",
-      "土曜日: 11時00分～17時00分",
-      "日曜日: 11時00分～17時00分"
-    ],
-    "phone": "0137-66-5526",
-    "website": ""
-  },
-  {
     "id": 344,
     "place_id": "ChIJK43hXLk8EF8R5yjVWeD_O1Q",
     "name": "米風亭",
@@ -12350,44 +11611,6 @@
     ],
     "phone": "015-482-3064",
     "website": "https://www.facebook.com/pages/%E6%89%8B%E6%89%93%E3%81%A1%E3%81%9D%E3%81%B0%E3%81%AE%E4%B8%A1%E5%9B%BD/693904840640992/"
-  },
-  {
-    "id": 349,
-    "place_id": "ChIJZQameADlDF8ReqSJ-UJwVHE",
-    "name": "居酒屋せん賀",
-    "area": "旭川駅周辺",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.7837891,
-    "lng": 142.3469135,
-    "tabelog_url": "https://maps.google.com/?cid=8166275457286251642&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJZQameADlDF8ReqSJ-UJwVHE.jpg",
-    "is_chain": false,
-    "evidence": [
-      "座敷席が3卓、テーブル席が1卓。",
-      "ご夫妻でやってて感じがとても良い",
-      "焼き鳥めちゃくちゃ美味しいです。"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ000916449/?vos=nhppalsa000016",
-    "address": "〒070-0814 北海道旭川市川端町４条８丁目３−１４",
-    "rating": 4.6,
-    "rating_count": 9,
-    "hours": [
-      "月曜日: 17時30分～23時00分",
-      "火曜日: 17時30分～23時00分",
-      "水曜日: 17時30分～23時00分",
-      "木曜日: 17時30分～23時00分",
-      "金曜日: 17時30分～23時00分",
-      "土曜日: 17時30分～23時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "0166-76-4840",
-    "website": ""
   },
   {
     "id": 350,
@@ -12988,43 +12211,6 @@
     "website": "https://life-v.co.jp/shop/mikakuenkitamiginza/?utm_source=google-business"
   },
   {
-    "id": 367,
-    "place_id": "ChIJrdM2sAGlDV8RlihgYQSQGhI",
-    "name": "居酒屋縁",
-    "area": "士別",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 44.175064,
-    "lng": 142.39392899999999,
-    "tabelog_url": "https://maps.google.com/?cid=1304513390565140630&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJrdM2sAGlDV8RlihgYQSQGhI.jpg",
-    "is_chain": false,
-    "evidence": [
-      "小上がりありタラの目天ぷら美味しかったです。",
-      "掘りごたつのが小上がりが4〜5卓"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒095-0019 北海道士別市大通東７丁目",
-    "rating": 4.5,
-    "rating_count": 19,
-    "hours": [
-      "月曜日: 17時30分～21時30分",
-      "火曜日: 17時30分～21時30分",
-      "水曜日: 17時30分～21時30分",
-      "木曜日: 17時30分～21時30分",
-      "金曜日: 17時30分～21時30分",
-      "土曜日: 17時30分～21時30分",
-      "日曜日: 17時30分～21時30分"
-    ],
-    "phone": "0165-26-7455",
-    "website": "https://japoncompany.business/shibetsu/571542-"
-  },
-  {
     "id": 368,
     "place_id": "ChIJG6RwZyYqC18RxuLM7lsomiw",
     "name": "狼スープ",
@@ -13212,47 +12398,6 @@
     ],
     "phone": "011-813-0129",
     "website": "https://western-v.co.jp/"
-  },
-  {
-    "id": 373,
-    "place_id": "ChIJn-F2kfoqC18RVyucB_PkEVA",
-    "name": "炭火居酒屋 炎 福住店",
-    "area": "月寒・美園",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.0195971,
-    "lng": 141.405972,
-    "tabelog_url": "https://maps.google.com/?cid=5769644330094177111&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJn-F2kfoqC18RVyucB_PkEVA.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族連れの方にも良いと思います。",
-      "個室でゆっくり食事ができます。",
-      "居酒屋なのに駐車場が店の前にあるのは意外でしたが助かりました。",
-      "実、ワイン充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：ご家族でのご利用大歓迎！ぜひご家族"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001179806/?vos=nhppalsa000016",
-    "address": "〒062-0051 北海道札幌市豊平区月寒東１条１５丁目１−２０ メープル福住ビル １Ｆ",
-    "rating": 3.9,
-    "rating_count": 322,
-    "hours": [
-      "月曜日: 16時00分～0時00分",
-      "火曜日: 16時00分～0時00分",
-      "水曜日: 16時00分～0時00分",
-      "木曜日: 16時00分～0時00分",
-      "金曜日: 16時00分～0時00分",
-      "土曜日: 16時00分～0時00分",
-      "日曜日: 16時00分～0時00分"
-    ],
-    "phone": "011-852-4129",
-    "website": "https://www.hotpepper.jp/strJ001179806/"
   },
   {
     "id": 374,
@@ -14178,48 +13323,6 @@
     "website": "http://okinawaichiba.blog.fc2.com/"
   },
   {
-    "id": 399,
-    "place_id": "ChIJw5IuqgnUdF8RPs0AnR4qR_A",
-    "name": "炭火居酒屋 炎 北広島店",
-    "area": "北広島",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 42.9785162,
-    "lng": 141.5616517,
-    "tabelog_url": "https://maps.google.com/?cid=17313853603420622142&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJw5IuqgnUdF8RPs0AnR4qR_A.jpg",
-    "is_chain": false,
-    "evidence": [
-      "安いです！のにうまい！がありがたい炎です",
-      "特につくねが美味しく、提供スピードも早くて",
-      "鶏料理に特化していてリーズナブルで旨い",
-      "飲み放題のメニューがコストパフォーマンスの良さ",
-      "【お子様連れお客様大歓迎】子連れママ会に嬉しい完全個室やベ",
-      "子連れママにも優しいお店",
-      "お子様連れ お子様連れ歓迎 ：ご家族でのご利用大歓迎！ぜひご家族"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ000751690/?vos=nhppalsa000016",
-    "address": "〒061-1133 北海道北広島市栄町１丁目１−２ パルシティビル",
-    "rating": 3.8,
-    "rating_count": 329,
-    "hours": [
-      "月曜日: 16時00分～0時00分",
-      "火曜日: 16時00分～0時00分",
-      "水曜日: 16時00分～0時00分",
-      "木曜日: 16時00分～0時00分",
-      "金曜日: 16時00分～0時00分",
-      "土曜日: 16時00分～0時00分",
-      "日曜日: 16時00分～0時00分"
-    ],
-    "phone": "011-373-8891",
-    "website": "https://www.hotpepper.jp/strJ000751690/"
-  },
-  {
     "id": 400,
     "place_id": "ChIJS-LkGsCSDF8R0dCsXaT3h6Q",
     "name": "味の時計台 深川店",
@@ -14484,44 +13587,6 @@
     ],
     "phone": "015-482-5811",
     "website": ""
-  },
-  {
-    "id": 408,
-    "place_id": "ChIJQXeVjGspC18RvJyJvA8kJss",
-    "name": "【個室居酒屋】市場直送海鮮×創作肉料理 イザカヤラボ-IZAKAYA Lab- 麻生店",
-    "area": "麻生・新琴似",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.110002,
-    "lng": 141.3380577,
-    "tabelog_url": "https://maps.google.com/?cid=14638427288820620476&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJQXeVjGspC18RvJyJvA8kJss.jpg",
-    "is_chain": false,
-    "evidence": [
-      "半個室の雰囲気と、料理がおいしかった。",
-      "どれを注文してもすぐ持って来てくれて、どれも美味しかったです！",
-      "実、ワイン充実 お子様連れ お子様連れOK"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001225877/?vos=nhppalsa000016",
-    "address": "〒001-0045 北海道札幌市北区麻生町５丁目４−３",
-    "rating": 4.7,
-    "rating_count": 623,
-    "hours": [
-      "月曜日: 17時00分～0時00分",
-      "火曜日: 17時00分～0時00分",
-      "水曜日: 17時00分～0時00分",
-      "木曜日: 17時00分～0時00分",
-      "金曜日: 17時00分～0時00分",
-      "土曜日: 16時00分～0時00分",
-      "日曜日: 16時00分～0時00分"
-    ],
-    "phone": "011-790-6834",
-    "website": "https://www.hotpepper.jp/strJ001225877/"
   },
   {
     "id": 409,
@@ -15320,43 +14385,6 @@
     "website": "https://instagram.com/gokaizin?igshid=YmMyMTA2M2Y="
   },
   {
-    "id": 430,
-    "place_id": "ChIJBz8L1SeZDF8RAWZvql_Z1Y0",
-    "name": "牛タン居酒屋 たん二郎",
-    "area": "滝川",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.5621788,
-    "lng": 141.9022296,
-    "tabelog_url": "https://maps.google.com/?cid=10220313934291756545&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJBz8L1SeZDF8RAWZvql_Z1Y0.jpg",
-    "is_chain": false,
-    "evidence": [
-      "店内はカウンターと小上がりがあり、家族で来られるのも大丈夫かと思います。",
-      "気さくで感じの良い店主さんがお出迎えしてくれますので居心地いいと思います。"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒073-0044 北海道滝川市西町２丁目３−７８",
-    "rating": 4.7,
-    "rating_count": 52,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 11時00分～23時00分",
-      "水曜日: 11時00分～23時00分",
-      "木曜日: 11時00分～23時00分",
-      "金曜日: 11時00分～23時00分",
-      "土曜日: 11時00分～23時00分",
-      "日曜日: 11時00分～14時00分"
-    ],
-    "phone": "080-1889-2526",
-    "website": ""
-  },
-  {
     "id": 431,
     "place_id": "ChIJR-yc6x_0nl8Rn01pdaxVPo0",
     "name": "陣屋昭和店",
@@ -16132,47 +15160,6 @@
     ],
     "phone": "0123-38-3209",
     "website": "https://takafuji-chitose.com/"
-  },
-  {
-    "id": 454,
-    "place_id": "ChIJHZOxMOEoC18RaykuzJPxsMM",
-    "name": "炭火居酒屋 炎 北２４条店",
-    "area": "札幌北区北部",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり",
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.0911753,
-    "lng": 141.3425419,
-    "tabelog_url": "https://maps.google.com/?cid=14101036050385086827&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJHZOxMOEoC18RaykuzJPxsMM.jpg",
-    "is_chain": false,
-    "evidence": [
-      "半個室を当日予約して入店しました",
-      "いろいろな種類のつくねがあって",
-      "飲み放題がとにかく安くてありがたいです！",
-      "実、ワイン充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：ご家族でのご利用大歓迎！ぜひご家族"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001051353/?vos=nhppalsa000016",
-    "address": "〒001-0024 北海道札幌市北区北２４条西５丁目１−１１ １Ｆ",
-    "rating": 3.8,
-    "rating_count": 421,
-    "hours": [
-      "月曜日: 15時00分～1時00分",
-      "火曜日: 15時00分～1時00分",
-      "水曜日: 15時00分～1時00分",
-      "木曜日: 15時00分～1時00分",
-      "金曜日: 15時00分～1時00分",
-      "土曜日: 15時00分～1時00分",
-      "日曜日: 15時00分～1時00分"
-    ],
-    "phone": "011-758-4129",
-    "website": "https://www.hotpepper.jp/strJ001051353/"
   },
   {
     "id": 455,
@@ -17021,43 +16008,6 @@
     "website": "http://www.eniwa-cci.or.jp/lunch/mise/oton.html"
   },
   {
-    "id": 477,
-    "place_id": "ChIJoa1A7ekrC18RhaXK-PBh4qg",
-    "name": "すし居酒屋Nakamuraya",
-    "area": "札幌白石区",
-    "genre": "寿司",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 3,
-    "lat": 43.0576802,
-    "lng": 141.41580610000003,
-    "tabelog_url": "https://maps.google.com/?cid=12169396830702577029&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJoa1A7ekrC18RhaXK-PBh4qg.jpg",
-    "is_chain": false,
-    "evidence": [
-      "奥に小上がり席がある",
-      "大きなカウンターと小上がりがありました"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003784276/?vos=nhppalsa000016",
-    "address": "〒003-0832 北海道札幌市白石区北郷２条４丁目６−９ ドリーム２４ 1F左",
-    "rating": 4.8,
-    "rating_count": 52,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 17時30分～23時00分",
-      "水曜日: 17時30分～23時00分",
-      "木曜日: 17時30分～23時00分",
-      "金曜日: 17時30分～23時00分",
-      "土曜日: 17時00分～23時00分",
-      "日曜日: 17時00分～23時00分"
-    ],
-    "phone": "011-876-0970",
-    "website": "https://www.instagram.com/nakamuraya.sushi_izakaya/"
-  },
-  {
     "id": 479,
     "place_id": "ChIJL8-SBm_1nl8RdF1j0Wmjpts",
     "name": "パン エスポワール&どんぐり",
@@ -17174,45 +16124,6 @@
     ],
     "phone": "0157-26-6868",
     "website": "https://suiri-kitami.jp/"
-  },
-  {
-    "id": 482,
-    "place_id": "ChIJydTD4XD0nl8RGvK9hWXiVoA",
-    "name": "函館海鮮居酒屋 魚まさ 五稜郭総本店",
-    "area": "五稜郭",
-    "genre": "居酒屋",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 41.7883347,
-    "lng": 140.7506129,
-    "tabelog_url": "https://maps.google.com/?cid=9247827810515284506&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJydTD4XD0nl8RGvK9hWXiVoA.jpg",
-    "is_chain": false,
-    "evidence": [
-      "個室になっている所が良いです！",
-      "個室いっぱいのお店なので安心ですね。",
-      "全ての揚げ物が本当に美味しかったです😭",
-      "お子様連れ"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001154841/?vos=nhppalsa000016",
-    "address": "〒040-0011 北海道函館市本町４−７",
-    "rating": 3.9,
-    "rating_count": 681,
-    "hours": [
-      "月曜日: 17時00分～22時00分",
-      "火曜日: 17時00分～22時00分",
-      "水曜日: 17時00分～22時00分",
-      "木曜日: 17時00分～22時00分",
-      "金曜日: 17時00分～22時00分",
-      "土曜日: 17時00分～22時00分",
-      "日曜日: 17時00分～22時00分"
-    ],
-    "phone": "0138-53-1146",
-    "website": "https://tabelog.com/hokkaido/A0105/A010501/1003428/"
   },
   {
     "id": 483,
@@ -18594,46 +17505,6 @@
     "website": "https://japoncompany.business/kitahiroshima/544097-"
   },
   {
-    "id": 525,
-    "place_id": "ChIJJ0DYcBb1nl8Rpd9n5Blq-28",
-    "name": "【全席個室】炭火居酒屋 炎 函館美原店",
-    "area": "函館郊外",
-    "genre": "居酒屋",
-    "tags": [
-      "子連れOK",
-      "個室あり"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 41.8138845,
-    "lng": 140.7531994,
-    "tabelog_url": "https://maps.google.com/?cid=8069159816803114917&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJJ0DYcBb1nl8Rpd9n5Blq-28.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ボックス席で子供とも来れる。",
-      "全席個室",
-      "実、ワイン充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：ご家族でのご利用大歓迎！ぜひご家族"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ001216015/?vos=nhppalsa000016",
-    "address": "〒041-0806 北海道函館市美原１丁目２０ カワシロ・テナント・ビル カワシロビル",
-    "rating": 4.2,
-    "rating_count": 362,
-    "hours": [
-      "月曜日: 16時00分～23時00分",
-      "火曜日: 16時00分～23時00分",
-      "水曜日: 16時00分～23時00分",
-      "木曜日: 16時00分～23時00分",
-      "金曜日: 16時00分～0時00分",
-      "土曜日: 16時00分～0時00分",
-      "日曜日: 16時00分～23時00分"
-    ],
-    "phone": "0138-40-1129",
-    "website": "https://www.hotpepper.jp/strJ001216015/"
-  },
-  {
     "id": 526,
     "place_id": "ChIJk9Ll7qIzbV8RaA4bh1eJQ4s",
     "name": "ラーメンだるまや 網走店",
@@ -19718,48 +18589,6 @@
     ],
     "phone": "011-862-4129",
     "website": "http://www.heiwaen.co.jp/03/8.html"
-  },
-  {
-    "id": 554,
-    "place_id": "ChIJueTXQ04oC18R4zzJ5JVv5rk",
-    "name": "焼き鳥・海鮮 居酒屋 鳥太郎 琴似本店",
-    "area": "札幌西区",
-    "genre": "焼鳥",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 5,
-    "lat": 43.078896799999995,
-    "lng": 141.3068988,
-    "tabelog_url": "https://maps.google.com/?cid=13395516831239322851&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJueTXQ04oC18R4zzJ5JVv5rk.jpg",
-    "is_chain": false,
-    "evidence": [
-      "琴似で人気の居酒屋です。",
-      "焼鳥はもちろんお刺身も美味しですが",
-      "料理自体も非常に美味しく頂きました",
-      "実、日本酒充実 お子様連れ お子様連れ歓迎",
-      "お子様連れ お子様連れ歓迎 ：ご家族でお食事をお楽しみいただけま",
-      "き鳥 炭火焼き 海鮮 刺身 寿司 飲み放題 宴会 ファミリー 送別会 鍋 焼",
-      "｜ にんにく料理 ｜ 茶碗蒸し ｜ 親子丼 ｜ 焼きそば ｜ レバー ｜"
-    ],
-    "source": "both",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ000251762/?vos=nhppalsa000016",
-    "address": "〒063-0811 北海道札幌市西区琴似１条２丁目５−６ 琴似一番館ビル",
-    "rating": 3.8,
-    "rating_count": 441,
-    "hours": [
-      "月曜日: 15時00分～23時00分",
-      "火曜日: 15時00分～23時00分",
-      "水曜日: 15時00分～23時00分",
-      "木曜日: 15時00分～23時00分",
-      "金曜日: 15時00分～23時00分",
-      "土曜日: 15時00分～23時00分",
-      "日曜日: 15時00分～23時00分"
-    ],
-    "phone": "011-642-9779",
-    "website": "https://www.hotpepper.jp/strJ000251762/"
   },
   {
     "id": 555,
@@ -21069,44 +19898,6 @@
     "website": "https://www.tokuju.com/shop/moiwa/"
   },
   {
-    "id": 592,
-    "place_id": "ChIJMdhdCrXhCl8RNKKQQIpwkk8",
-    "name": "パスタクラブ",
-    "area": "小樽",
-    "genre": "イタリアン",
-    "tags": [
-      "子連れOK"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.189629200000006,
-    "lng": 140.9811843,
-    "tabelog_url": "https://maps.google.com/?cid=5733769014687081012&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJMdhdCrXhCl8RNKKQQIpwkk8.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族で利用しました",
-      "小樽観光のランチで利用しました",
-      "お子様連れの実績あり"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ000100074/?vos=nhppalsa000016",
-    "address": "〒047-0034 北海道小樽市緑３丁目９−５",
-    "rating": 4.1,
-    "rating_count": 45,
-    "hours": [
-      "月曜日: 11時30分～15時00分, 18時00分～22時00分",
-      "火曜日: 定休日",
-      "水曜日: 11時30分～15時00分, 18時00分～22時00分",
-      "木曜日: 11時30分～15時00分, 18時00分～22時00分",
-      "金曜日: 11時30分～15時00分, 18時00分～22時00分",
-      "土曜日: 11時30分～15時00分, 18時00分～22時00分",
-      "日曜日: 11時30分～15時00分, 18時00分～22時00分"
-    ],
-    "phone": "0134-22-4162",
-    "website": "https://otaruguest.web.fc2.com/"
-  },
-  {
     "id": 593,
     "place_id": "ChIJTVhFkMAoC18RqyXqg3AitMs",
     "name": "35stock",
@@ -21303,44 +20094,6 @@
     ],
     "phone": "0138-42-2644",
     "website": "https://www.facebook.com/ureshiyahakodate/"
-  },
-  {
-    "id": 598,
-    "place_id": "ChIJG-3tw4ulbV8RNNEfEL637RQ",
-    "name": "海鮮居酒屋 漁師めし",
-    "area": "中標津",
-    "genre": "居酒屋",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "",
-    "score": 4,
-    "lat": 43.5523509,
-    "lng": 144.98185909999998,
-    "tabelog_url": "https://maps.google.com/?cid=1508063477181174068&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-    "image_url": "/photos/ChIJG-3tw4ulbV8RNNEfEL637RQ.jpg",
-    "is_chain": false,
-    "evidence": [
-      "家族連れにも嬉しい！",
-      "小上がり、カウンター席ありで",
-      "新鮮なものが炭火焼きで食べれるんだから間違えなし"
-    ],
-    "source": "gemini",
-    "hotpepper_url": "",
-    "address": "〒086-1009 北海道標津郡中標津町東９条南１丁目１−１",
-    "rating": 4.4,
-    "rating_count": 57,
-    "hours": [
-      "月曜日: 18時00分～23時30分",
-      "火曜日: 18時00分～23時30分",
-      "水曜日: 18時00分～23時30分",
-      "木曜日: 18時00分～23時30分",
-      "金曜日: 18時00分～23時30分",
-      "土曜日: 18時00分～23時30分",
-      "日曜日: 定休日"
-    ],
-    "phone": "0153-77-9171",
-    "website": "https://tabezzo.com/shop/kaishinokaya-fishing-master/"
   },
   {
     "id": 599,
@@ -22104,27 +20857,6 @@
     "hotpepper_url": "https://www.hotpepper.jp/strJ004591452/?vos=nhppalsa000016"
   },
   {
-    "id": 632,
-    "name": "中華バル　唐韻　モユクサッポロ店",
-    "area": "札幌中央区",
-    "genre": "その他",
-    "tags": [
-      "子連れOK",
-      "ベビーカーOK"
-    ],
-    "description": "ランチにはお得なセットも お一人様でのご来店も歓迎",
-    "score": 4,
-    "lat": 43.0576451027,
-    "lng": 141.3534701488,
-    "tabelog_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E3%83%90%E3%83%AB%E3%80%80%E5%94%90%E9%9F%BB%E3%80%80%E3%83%A2%E3%83%A6%E3%82%AF%E3%82%B5%E3%83%83%E3%83%9D%E3%83%AD%E5%BA%97&query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%97%EF%BC%92%E6%9D%A1%E8%A5%BF%EF%BC%93%EF%BC%8D20%20%E3%83%A2%E3%83%A6%E3%82%AF%E3%82%B5%E3%83%83%E3%83%9D%E3%83%AD%E3%80%80B2F",
-    "image_url": "https://imgfp.hotp.jp/IMGH/95/11/P042749511/P042749511_238.jpg",
-    "is_chain": false,
-    "hotpepper_id": "J003625130",
-    "address": "北海道札幌市中央区南２条西３－20 モユクサッポロ　B2F",
-    "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00）",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ003625130/?vos=nhppalsa000016"
-  },
-  {
     "id": 633,
     "name": "ロジウラカフェ ROJIURA CAFE",
     "area": "札幌中央区",
@@ -22375,27 +21107,6 @@
     "address": "北海道札幌市東区北３２条東７‐3－19　No.3 NSKビル　102",
     "open": "火～木: 11:00～14:00 （料理L.O. 13:45 ドリンクL.O. 13:45）17:00～21:00 （料理L.O. 20:45 ドリンクL.O. 20:45）金、土: 11:00～14:00 （料理L.O. 13:45 ドリンクL.O. 13:45）17:00～23:00 （料理L.O. 22:45 ドリンクL.O. 22:45）日: 11:00～14:00 （料理L.O. 13:45 ドリンクL.O. 13:45）",
     "hotpepper_url": "https://www.hotpepper.jp/strJ004089892/?vos=nhppalsa000016"
-  },
-  {
-    "id": 645,
-    "name": "ガーデンのビアガーデン",
-    "area": "旭川",
-    "genre": "和食",
-    "tags": [
-      "子連れOK",
-      "ベビーカーOK"
-    ],
-    "description": "coming　soon coming　soon",
-    "score": 4,
-    "lat": 43.7467303295,
-    "lng": 142.3898898902,
-    "tabelog_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%81%AE%E3%83%93%E3%82%A2%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3&query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%AD%E5%B7%9D%E5%B8%82%E6%9D%B1%E5%85%89%EF%BC%91%EF%BC%90%E6%9D%A1%EF%BC%91-3-12",
-    "image_url": "https://imgfp.hotp.jp/IMGH/50/65/P049795065/P049795065_238.jpg",
-    "is_chain": false,
-    "hotpepper_id": "J004577049",
-    "address": "北海道旭川市東光１０条１-3-12",
-    "open": "火～日、祝日、祝前日: 16:00～22:00",
-    "hotpepper_url": "https://www.hotpepper.jp/strJ004577049/?vos=nhppalsa000016"
   },
   {
     "id": 646,
@@ -30733,150 +29444,6 @@
     "id": 1043
   },
   {
-    "place_id": "ChIJc5LbztEpC18RdqO_rzfcZGQ",
-    "name": "ココス 札幌宮の森店",
-    "area": "宮の森",
-    "genre": "その他",
-    "tags": [],
-    "description": "ココス札幌宮の森店は、広々とした店内で、家族での利用にも適しています。",
-    "score": 3,
-    "lat": 43.05917780000001,
-    "lng": 141.2998345,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "Coco’s 一貫的美式休閒風格搭配日式貼心服務",
-      "在宮之森這間分店特別寬敞明亮，適合親子、三五好友一起享用早餐"
-    ],
-    "id": 1044
-  },
-  {
-    "place_id": "ChIJq6pOUYQpC18RLbIOrGo_010",
-    "name": "サイゼリヤ 札幌すすきの交差点店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [],
-    "description": "サイゼリヤは手軽に安く食事ができるお店です。",
-    "score": 3,
-    "lat": 43.0558778,
-    "lng": 141.3525927,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "学生さんにも、手頃に利用できるお店のようです。",
-      "手軽に安くて、お財布に優しいお店でした。",
-      "こんだけ食べてこの値段‼️"
-    ],
-    "id": 1045
-  },
-  {
-    "place_id": "ChIJV-pOQKQpC18R642Kl7WTEjA",
-    "name": "ガスト 札幌狸小路店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "子供メニューあり"
-    ],
-    "description": "キッズメニューが豊富で、ロボットが配膳してくれるファミリーレストラン。",
-    "score": 3,
-    "lat": 43.0569712,
-    "lng": 141.3525778,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "その中でキッズメニューが豊富なガストに入店。",
-      "ファミリーレストランのチェーン店でロボットがご飯を運んできてくれます。"
-    ],
-    "id": 1046
-  },
-  {
-    "place_id": "ChIJMxqnTrkpC18ROZBwdomywWI",
-    "name": "ヴィクトリアステーション 札幌北5条店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "タッチパネルやロボット配膳が特徴。席はやや狭め。",
-    "score": 2,
-    "lat": 43.0632257,
-    "lng": 141.3231566,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "席が狭く圧迫感がすごく落ち着きませんでした",
-      "席に荷物を置くスペースもないので荷物を置くかごをお借りしました",
-      "通路は配膳ロボットが通るのですが配膳ロボット1台がギリギリの広さ"
-    ],
-    "id": 1047
-  },
-  {
-    "place_id": "ChIJEe09hospC18RsWDHR67lnSw",
-    "name": "ガスト 札幌石山通店（から好し取扱店）",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり",
-      "子供メニューあり"
-    ],
-    "description": "ガストはリーズナブルで子供連れに便利です。",
-    "score": 4,
-    "lat": 43.04964700000001,
-    "lng": 141.342797,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供連れの方はめちゃくちゃ便利でありがたいと思う",
-      "今日は子供連れでご飯を。",
-      "ガストはリーズナブルでまあまあ美味しい料理が出るので好きです。"
-    ],
-    "id": 1048
-  },
-  {
-    "place_id": "ChIJP_78b4wpC18RowFBfdi78KY",
-    "name": "びっくりドンキー札幌南7条店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり",
-      "子供メニューあり"
-    ],
-    "description": "ファミリー層に人気。ハンバーグ以外も選べて便利。",
-    "score": 4,
-    "lat": 43.0502434,
-    "lng": 141.342042,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ファミリーで行く時は重宝しています。",
-      "ハンバーグではないメニューもあるし",
-      "家族がそれぞれ好きなものを食べれるのはありがたい。"
-    ],
-    "id": 1049
-  },
-  {
-    "place_id": "ChIJOU_i2ZwpC18RiN9DsT4GEuI",
-    "name": "びっくりドンキー札幌大通地下店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "カウンター席中心のため、小さなお子様連れは注意が必要かもしれません。",
-    "score": 2,
-    "lat": 43.05995780000001,
-    "lng": 141.35353229999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "全てカウンター席になっていたので、本当に小さいお子様連れの方は他のテーブル席のあるびっくりドンキーさんに行かれたほうが無難かなと思いました"
-    ],
-    "id": 1050
-  },
-  {
     "place_id": "ChIJARCM2tErC18RpH9NCfQdSfs",
     "name": "ファミリーレストラン ライラック",
     "area": "円山",
@@ -30896,225 +29463,6 @@
       "高くもないのでファミリー向けです。"
     ],
     "id": 1051
-  },
-  {
-    "place_id": "ChIJXYg4KDMqC18RcYmbzPq6Llg",
-    "name": "ガスト 札幌豊平店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "ガスト豊平店は子連れ対応情報に関するクチコミはありません。",
-    "score": 1,
-    "lat": 43.046401,
-    "lng": 141.379873,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子連れ対応情報に関するクチコミはありません。"
-    ],
-    "id": 1052
-  },
-  {
-    "place_id": "ChIJv4sD5Q4qC18RHcTqC8lt4cU",
-    "name": "ヴィクトリアステーション 札幌山鼻店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "ロボットが配膳するファミレス。サラダバーやカレーバーがお得で子連れでも利用しやすい。",
-    "score": 3,
-    "lat": 43.0307211,
-    "lng": 141.3416574,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "食事提供はロボットのヴィクトリアちゃんがやってくれます。",
-      "のんびりファミリーでランチするなら良い感じでした。",
-      "注文はタッチパネル式、今どきの配膳ロボットも導入しています。"
-    ],
-    "id": 1053
-  },
-  {
-    "place_id": "ChIJLQEo_7UpC18Rm-cTHVkuO4A",
-    "name": "北海道生まれ和食処とんでん 宮の森店",
-    "area": "宮の森",
-    "genre": "和食",
-    "tags": [],
-    "description": "和食中心のメニューで、ジャンボ茶碗蒸しが名物。",
-    "score": 2,
-    "lat": 43.0677087,
-    "lng": 141.3083438,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ジャンボ茶碗蒸しが本当に絶品！",
-      "みんなの好きなメニューが豊富。",
-      "調理に30分かかるのが残念"
-    ],
-    "id": 1054
-  },
-  {
-    "place_id": "ChIJlcd6vxsqC18R7nV6jy8066w",
-    "name": "北海道生まれ 和食処 とんでん 南16条店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "ファミリーレストランとして親しまれ、幅広いメニューが魅力。",
-    "score": 3,
-    "lat": 43.0381273,
-    "lng": 141.3432703,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "札幌市民にはお馴染みの和食ファミリーレストラン",
-      "北海道の老舗ファミレスとんでんに数十年ぶりにお邪魔して来た",
-      "とんでんはどこのお店もスタッフさんが丁寧で優しくて"
-    ],
-    "id": 1055
-  },
-  {
-    "place_id": "ChIJWZ1bLaQpC18RByjqQHmqJnQ",
-    "name": "ガスト 札幌桑園店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "全国チェーンのファミレス。モーニングメニューは豊富。",
-    "score": 1,
-    "lat": 43.069468199999996,
-    "lng": 141.33292699999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "モーニングメニューは洋食から和食まで種類が多く",
-      "イオンの中にあるファミレス",
-      "全国チェーン店"
-    ],
-    "id": 1056
-  },
-  {
-    "place_id": "ChIJ10TwpoYpC18RxmOZPwUq_Jc",
-    "name": "びっくりドンキーすすきの南５条店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "24時間営業で朝食も楽しめるハンバーグレストラン。",
-    "score": 3,
-    "lat": 43.05482,
-    "lng": 141.3560138,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "24時間営業のびっくりドンキーです。",
-      "朝食メニューあり。",
-      "タッチパネルが置かれていてオーダーできる。"
-    ],
-    "id": 1057
-  },
-  {
-    "place_id": "ChIJK30cvewpC18RptyxC7E9KsY",
-    "name": "ヴィクトリアステーション 札幌南円山店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "広めのテーブル席でゆったり食事可能。サラダバーも充実しており、家族で楽しめる。",
-    "score": 4,
-    "lat": 43.0537443,
-    "lng": 141.3282269,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内は明るく清潔感があり、テーブル席が広めなのでゆったり食事を楽しめます。",
-      "サラダバーも新鮮で、スープやカレーが用意されている点も嬉しいポイントです。",
-      "サラダバーには、冷製パスタやデザートなどもあり、満足度高めです！"
-    ],
-    "id": 1058
-  },
-  {
-    "place_id": "ChIJ1XnragspC18R35V1GHdnhp0",
-    "name": "サイゼリヤ 札幌駅北口店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [],
-    "description": "子連れに関する具体的な言及は見られませんでした。",
-    "score": 1,
-    "lat": 43.0697002,
-    "lng": 141.3518196,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子連れに関する具体的な言及は見られませんでした。"
-    ],
-    "id": 1059
-  },
-  {
-    "place_id": "ChIJ_wyS6rcpC18R1gnMQ-XeZ4Q",
-    "name": "ロイヤルホスト宮の森店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "落ち着いた雰囲気で、ゆったり過ごせるファミレス。",
-    "score": 3,
-    "lat": 43.0654633,
-    "lng": 141.3136326,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ファミレスチェーンの中で一番好きです。",
-      "店内は明るく広いです。",
-      "店内はゆったりしたレイアウトで、居心地はとても良いです。"
-    ],
-    "id": 1060
-  },
-  {
-    "place_id": "ChIJL53EB54pC18R91nXmqXuQ5M",
-    "name": "びっくりドンキー 札幌駅前通り店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "びっくりドンキーはファミレスで人気。期待を裏切らない味。",
-    "score": 3,
-    "lat": 43.0639703,
-    "lng": 141.3515962,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ファミレスで一番好きなのが、びっくりドンキーです。",
-      "店内は、ちょっと狭い感じでした。"
-    ],
-    "id": 1061
-  },
-  {
-    "place_id": "ChIJ8yvdfoMpC18RbxI5ozMRoSE",
-    "name": "びっくりドンキー狸小路店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "カウンター席のみで少人数向け。席間隔はゆとりあり。",
-    "score": 1,
-    "lat": 43.0572243,
-    "lng": 141.3542228,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内は対面のカウンター席のみ",
-      "カウンターのみの 少人数向けの店舗",
-      "お隣との席の間隔もゆとりがあり 広々してます"
-    ],
-    "id": 1062
   },
   {
     "place_id": "ChIJOxZON-EoC18RYBwOFaawYRI",
@@ -31702,28 +30050,6 @@
     "id": 1093
   },
   {
-    "place_id": "ChIJo4R12HQpC18RMlI-QkjBrEc",
-    "name": "回転寿司根室花まる JRタワーステラプレイス店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "騒いでもOK"
-    ],
-    "description": "活気があり賑やかな店内。子連れでも気兼ねなく楽しめる回転寿司。",
-    "score": 3,
-    "lat": 43.067928099999996,
-    "lng": 141.3501447,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内は活気があって賑やかです…",
-      "我が家的に好きな「根室花まる」さんを選択。",
-      "店内の活気を感じたくてステラプレイス店に来ました。"
-    ],
-    "id": 1094
-  },
-  {
     "place_id": "ChIJF6Vm84MpC18Rub-5QgsAQ88",
     "name": "回転寿司 ぱさーる",
     "area": "円山",
@@ -31741,26 +30067,6 @@
       "店内の座席数はあまり多くなくせまめで、カウンターのみなので大人数で来るより、1人か少人数で行くことをおすすめします。"
     ],
     "id": 1095
-  },
-  {
-    "place_id": "ChIJvxpbaHMpC18RRAn5eez7eRM",
-    "name": "回転寿しトリトン 北8条光星店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "ネタが大きく新鮮で美味しい回転寿司。待ち時間は長い。",
-    "score": 2,
-    "lat": 43.072736299999995,
-    "lng": 141.3614178,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ネタの鮮度は悪くありません。",
-      "ネタが大きくて、シャリも美味しい！",
-      "お寿司はネタが大きくて一皿でかなりの満足感があります。"
-    ],
-    "id": 1096
   },
   {
     "place_id": "ChIJ6V2YaXUpC18RMvfmxm4SNYE",
@@ -31782,115 +30088,6 @@
     "id": 1097
   },
   {
-    "place_id": "ChIJHydGiMwpC18RTycKO6jR04M",
-    "name": "回転寿司根室花まる 大同生命札幌ビルmiredo店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり",
-      "子供メニューあり"
-    ],
-    "description": "小学生も紙注文楽しむ、子連れ満足の回転寿司",
-    "score": 4,
-    "lat": 43.0647259,
-    "lng": 141.3517013,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供小学生2人は、紙に書いての注文が楽しく",
-      "あと、６名座れるボック席もありました。",
-      "回転寿司だけどクオリティは専門店クラス。",
-      "店員さんの接客態度も非常に良好です。"
-    ],
-    "id": 1098
-  },
-  {
-    "place_id": "ChIJ3XF_17gpC18R_A0j8aysL2I",
-    "name": "回転寿しトリトン 円山店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり",
-      "キッズチェアあり",
-      "騒いでもOK"
-    ],
-    "description": "回転寿司で家族連れが多く賑やかな雰囲気。待ち時間対策も可能。",
-    "score": 4,
-    "lat": 43.0624065,
-    "lng": 141.3204304,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "お店の中は家族連れが多いこともあり賑やかなので",
-      "LINE登録すれば、スマホで待ち状況が確認できます",
-      "平日15:30頃入店、さすがにこの時間は待ちはありませんでした"
-    ],
-    "id": 1099
-  },
-  {
-    "place_id": "ChIJM1CnWwoqC18Rna4E9-B0OkA",
-    "name": "回転寿司 根室花まる 南25条店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "家族みんなで楽しめる回転寿司。リーズナブルで子供も大人も満足！",
-    "score": 4,
-    "lat": 43.025782799999995,
-    "lng": 141.33989019999999,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "5歳から中3までの子どもたちも、大人も楽しめる飲食店は〜？と思い、ここにしました。",
-      "食べ盛り4男児が思いっきり食べてもリーズナブル♪",
-      "いもだんごに次男は感動していて、三男はチョコプリンの上の生クリームに感動していて、四男はサーモン、長男はいくらとねぎとろに感動してました。"
-    ],
-    "id": 1100
-  },
-  {
-    "place_id": "ChIJEwdsoywqC18RB3OJ8AvhZQI",
-    "name": "回転寿しトリトン 豊平店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "回転寿司でネタが大きく食べ応え抜群！味噌汁も美味しい。",
-    "score": 3,
-    "lat": 43.0506336,
-    "lng": 141.3721361,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "めちゃくちゃ美味しい まじで回転寿司レベルやばい",
-      "どれもネタが大きめで、食べ応えも抜群",
-      "あと、かにの味噌汁絶対頼んでほしい！"
-    ],
-    "id": 1101
-  },
-  {
-    "place_id": "ChIJ07ATKrApC18RdmEywxmhPDM",
-    "name": "はま寿司 札幌中央市場前店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "回転寿司なので、子供が好きなネタを選びやすいです。",
-    "score": 2,
-    "lat": 43.07026820000001,
-    "lng": 141.3226071,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供の誕生日に特別な夕食として来店したが、あまりのクオリティの低さにガッカリした。",
-      "合理化が進んでおり、小皿が無くなり、離れたところへ、箸やワサビを取りに行かなければならないなど、手間がかかる事になっています。"
-    ],
-    "id": 1102
-  },
-  {
     "place_id": "ChIJu31hE4QpC18Rf6bqjP3vQ4Q",
     "name": "あじこう 札幌中央すすきの店",
     "area": "円山",
@@ -31910,51 +30107,6 @@
     "id": 1103
   },
   {
-    "place_id": "ChIJmVHr6fMpC18RZylKqECG0ow",
-    "name": "スシロー 札幌パルコ店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "都市型店舗のため混雑注意。予約推奨。",
-    "score": 1,
-    "lat": 43.0588481,
-    "lng": 141.35286729999999,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "土日祝などの休日は外国人観光客を含めて行列",
-      "平日の夜でも混んでいる",
-      "夜の8時半頃に行ったが1時間以上待つ",
-      "この時間でも凄い混んでました"
-    ],
-    "id": 1104
-  },
-  {
-    "place_id": "ChIJWwgmO_YpC18RM0sWaNAfRjk",
-    "name": "回転寿司 根室花まる ココノススキノ店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり",
-      "騒いでもOK"
-    ],
-    "description": "ボックス席はゆったり。活気あるスタッフと季節の寿司を楽しめる。",
-    "score": 4,
-    "lat": 43.0551326,
-    "lng": 141.352701,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ボックス席は店内奥にあり、ゆっくりと過ごせます。",
-      "お店は元気がある",
-      "店員は明るく元気で笑顔もよく",
-      "店員さんもみんな親切でお店は元気がある"
-    ],
-    "id": 1105
-  },
-  {
     "place_id": "ChIJbbO-GwArC18RJgVe3KaThwI",
     "name": "北々亭 山鼻店",
     "area": "円山",
@@ -31969,28 +30121,6 @@
     "is_chain": false,
     "evidence": [],
     "id": 1106
-  },
-  {
-    "place_id": "ChIJC6i_OW8qC18R77nzT0Sa32s",
-    "name": "回転寿しトリトン 平岸店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "キッズチェアあり",
-      "騒いでもOK"
-    ],
-    "description": "家族連れが多く、子供連れにも優しい雰囲気の回転寿司店。",
-    "score": 4,
-    "lat": 43.0243804,
-    "lng": 141.3665081,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子ども連れにも優しい雰囲気でした。",
-      "家族連れのお客さんが多かったです。"
-    ],
-    "id": 1107
   },
   {
     "place_id": "ChIJ1U137oMpC18Rfxc5eCDZSaI",
@@ -32026,26 +30156,6 @@
       "高くても待たずにゆっくり食べたい人には向いている。"
     ],
     "id": 1109
-  },
-  {
-    "place_id": "ChIJRxA7exkrC18RwiTWLC3rxC4",
-    "name": "はま寿司 札幌中の島店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "回転寿司で手軽に食事を楽しめるお店です。",
-    "score": 1,
-    "lat": 43.0304788,
-    "lng": 141.3589898,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "両隣のお客さんがずっと不満を言ってる位のレベル",
-      "特に納豆巻きに関しては調理の関係か他のネタに比べて時間がかかっていました",
-      "セルフ化されているのでそういうのに慣れてなかったり詳しくない方はお勧めしない"
-    ],
-    "id": 1110
   },
   {
     "place_id": "ChIJj28WN1spC18RIas7qPny8jM",
@@ -33010,22 +31120,6 @@
       "子連れに関する具体的な言及はありませんでした。"
     ],
     "id": 1160
-  },
-  {
-    "place_id": "ChIJP90NgJopC18RBpcVK9sCoJY",
-    "name": "中華バルゆんろん",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "子連れに関する具体的な言及はありませんでした。",
-    "score": 1,
-    "lat": 43.0522038,
-    "lng": 141.3532319,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": false,
-    "evidence": [],
-    "id": 1161
   },
   {
     "place_id": "ChIJHflyihjWCl8RZdbc7NuiAug",
@@ -34085,266 +32179,6 @@
     "id": 1216
   },
   {
-    "place_id": "ChIJkwgoEscoC18REwJtxFkLsjA",
-    "name": "ロイヤルホスト麻生店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "静かで落ち着いた雰囲気で食事ができます。",
-    "score": 3,
-    "lat": 43.1043945,
-    "lng": 141.3397029,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "静かで落ち着いて食べられる雰囲気",
-      "静かな雰囲気のなかで落ち着いて美味しい朝食を頂けます",
-      "静かに食事を楽しめる貴重なお店です"
-    ],
-    "id": 1217
-  },
-  {
-    "place_id": "ChIJSw5eiSAmC18RgIO6arpxPo0",
-    "name": "ガスト 札幌新琴似店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "タブレット注文やロボット配膳。子連れ向け情報はなし。",
-    "score": 1,
-    "lat": 43.1141861,
-    "lng": 141.3055415,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "オーダー、精算もタブレットでできちゃうんですね。",
-      "タッチパネルでメニューを選んだらロボットが運んで来るシステム。",
-      "ロボットのスピードが遅く邪魔な場面もありましたが"
-    ],
-    "id": 1218
-  },
-  {
-    "place_id": "ChIJGaQ4apIlC18RETfgqRX8PG0",
-    "name": "北海道生まれ 和食処とんでん 篠路店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "広々とした店内と豊富なメニューで家族みんなで楽しめる和食店。",
-    "score": 4,
-    "lat": 43.1425719,
-    "lng": 141.3496615,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内はファミリーレストランという感じで広い",
-      "テーブル席、小上がりあります",
-      "親族９人で食事に行きました。店内は広くて、大人数でも楽勝で収容できます"
-    ],
-    "id": 1219
-  },
-  {
-    "place_id": "ChIJL2-tlDolC18R8jbw6vHNrHU",
-    "name": "サイゼリヤ シーナシーナ屯田店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [
-      "騒いでもOK"
-    ],
-    "description": "家族連れや学生で賑わうカジュアルなイタリアン。騒いでも気にならない雰囲気。",
-    "score": 3,
-    "lat": 43.140260999999995,
-    "lng": 141.34017079999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "家族連れや学生さんで大変賑わっていました",
-      "店内は非常に騒がしく会話が聞き取れないことがしばしばありました"
-    ],
-    "id": 1220
-  },
-  {
-    "place_id": "ChIJycs_HLooC18RqkV7k7l5DhA",
-    "name": "北海道生まれ和食処とんでん 麻生店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり",
-      "キッズチェアあり"
-    ],
-    "description": "昔からあるファミリーレストラン。座敷やキッズチェアがあり、家族で利用しやすい。",
-    "score": 4,
-    "lat": 43.109843999999995,
-    "lng": 141.3354718,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "小さい頃に良く曾祖母と行ってましたが大人になってとても久しぶりに夫と利用しました。",
-      "座敷あり",
-      "キッズチェアあり"
-    ],
-    "id": 1221
-  },
-  {
-    "place_id": "ChIJ89TcdvMlC18REAW82WSoW9k",
-    "name": "びっくりドンキー ファーム太平店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "びっくりドンキーは店員さんが親切で、家族連れでも利用しやすいです。",
-    "score": 4,
-    "lat": 43.136415199999995,
-    "lng": 141.34823609999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店員さんが皆親切で驚きました",
-      "店員さんの愛想が良いです",
-      "店員さんの接客が素晴らしいと思います"
-    ],
-    "id": 1222
-  },
-  {
-    "place_id": "ChIJ84KNGNgoC18R09GL-WCC95A",
-    "name": "ロイヤルホスト美香保店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり",
-      "子供メニューあり"
-    ],
-    "description": "子供連れでも気軽に行ける雰囲気。店員さんも親切で安心。",
-    "score": 4,
-    "lat": 43.0947246,
-    "lng": 141.3605569,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子どもを気軽につれていける雰囲気はすごく助かります！",
-      "店員さんも親切でモフモフブランケットを貸してくれたりなど。",
-      "ロイヤルオムライス",
-      "キッズチェアあり"
-    ],
-    "id": 1223
-  },
-  {
-    "place_id": "ChIJlcmlcbooC18REYtcJ5G1IsQ",
-    "name": "びっくりドンキー 麻生店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "子連れに優しく対応してくれるハンバーグ店。モーニングもおすすめ。",
-    "score": 4,
-    "lat": 43.110921,
-    "lng": 141.3345566,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "家族連れに優しく対応してくれます。",
-      "モーニングメニューのコスパが良いです。",
-      "タッチパネルで注文と、一部ロボットが運ぶシステム。"
-    ],
-    "id": 1224
-  },
-  {
-    "place_id": "ChIJIaowTRQpC18RDbvP6d5t-Ts",
-    "name": "北海道生まれ 和食処 とんでん 北12条店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり",
-      "ベビーカーOK"
-    ],
-    "description": "座敷席や赤ちゃん用布団、バンボあり。0歳児連れでも安心。",
-    "score": 4,
-    "lat": 43.0776219,
-    "lng": 141.36459109999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内広くて、小上がりたくさんあり",
-      "赤ちゃんの寝かせるお布団のようなものやバンボなど種類がたくさんある",
-      "0歳児でも安心して連れて行けます"
-    ],
-    "id": 1225
-  },
-  {
-    "place_id": "ChIJxddJ6SYpC18ReIM2aF7Rhx4",
-    "name": "びっくりドンキー 美香保店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "ファミリーレストランらしい安心できる味で、子連れにも望ましい。",
-    "score": 4,
-    "lat": 43.090340399999995,
-    "lng": 141.3615937,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "ファミリーレストランらしい安心できる味",
-      "子供連れのお客にも、健康に対するタバコの害悪を考えると望ましい",
-      "キッズチェアあり"
-    ],
-    "id": 1226
-  },
-  {
-    "place_id": "ChIJk_5oargoC18Ryv2RZJ64c0Q",
-    "name": "サイゼリヤ イオン札幌麻生店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [
-      "座敷あり",
-      "騒いでもOK"
-    ],
-    "description": "家族連れで賑わうコスパ◎のイタリアン。子供も大人も楽しめる。",
-    "score": 4,
-    "lat": 43.107022099999995,
-    "lng": 141.3390322,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内は学生や家族連れでとても賑やかでした",
-      "この値段でお腹いっぱいになれて家族みんなで利用できるのは素晴らしいと思います",
-      "ハンバーグは柔らかく、食べやすかったです。ソースはこれといった特徴はありませんが、角がなく、子どもからお年寄りまで、みんなに好かれる味だと思います。"
-    ],
-    "id": 1227
-  },
-  {
-    "place_id": "ChIJ-6AQr24pC18R1KhfaWuvYd0",
-    "name": "サイゼリヤ アリオ札幌店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [],
-    "description": "サイゼリヤは安さが魅力。子供連れでも気軽に利用できます。",
-    "score": 2,
-    "lat": 43.0708373,
-    "lng": 141.3703985,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供が来たいっていったから来ただけ。",
-      "安くて美味しかった。まさにコスパ最強！",
-      "安さだけでなりたってるようなものなのに"
-    ],
-    "id": 1228
-  },
-  {
     "place_id": "ChIJe5IaH18vC18Ryk6aRRFYJ8Q",
     "name": "麺や けせらせら",
     "area": "円山",
@@ -35040,28 +32874,6 @@
     "id": 1264
   },
   {
-    "place_id": "ChIJ--bxgDEvC18RTN9SIg9l4PQ",
-    "name": "回転寿しトリトン 栄町店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "回転寿司店。子連れに関する具体的な言及なし。",
-    "score": 1,
-    "lat": 43.1090862,
-    "lng": 141.367638,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子連れに関する具体的な言及なし",
-      "子連れに関する具体的な言及なし",
-      "子連れに関する具体的な言及なし",
-      "子連れに関する具体的な言及なし",
-      "子連れに関する具体的な言及なし"
-    ],
-    "id": 1265
-  },
-  {
     "place_id": "ChIJlyJ8i10lC18REF_Y7ijHHxU",
     "name": "回転寿し一心 あいの里店",
     "area": "円山",
@@ -35125,49 +32937,6 @@
       "お腹いっぱい食べて大満足でした"
     ],
     "id": 1268
-  },
-  {
-    "place_id": "ChIJq6ru2k8vC18RKmSsj19icUM",
-    "name": "はま寿司 札幌栄町店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "お子様連れでも行きやすい回転寿司店。手軽にお寿司を楽しめます。",
-    "score": 3,
-    "lat": 43.121535099999996,
-    "lng": 141.35380949999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子ども受けが良いから行ってます。",
-      "年齢を問わず行きやすいお店かな。"
-    ],
-    "id": 1269
-  },
-  {
-    "place_id": "ChIJNbgpRmMpC18RWtLlecAG9_0",
-    "name": "くら寿司 札幌新琴似店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "騒いでもOK"
-    ],
-    "description": "回転寿司で子供が楽しめるガチャがある。騒いでも大丈夫。",
-    "score": 3,
-    "lat": 43.1158305,
-    "lng": 141.3254294,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "小さなお子様連れに支持されるかも知れません",
-      "でも小さな子供はとても楽しそうでした",
-      "食後の皿でガチャが特徴"
-    ],
-    "id": 1270
   },
   {
     "place_id": "ChIJszz8YGwoC18RlgeCjiaA4Sw",
@@ -35954,27 +33723,6 @@
     "is_chain": false,
     "evidence": [],
     "id": 1312
-  },
-  {
-    "place_id": "ChIJ5dBpzuAoC18RD_OEplUaMbg",
-    "name": "中華バル SABUROKU360",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "おしゃれな店内で半個室もあり、落ち着いて食事ができます。",
-    "score": 3,
-    "lat": 43.0915897,
-    "lng": 141.3437568,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": false,
-    "evidence": [
-      "奥に半個室もあるようです",
-      "店内はお洒落な雰囲気で中華屋さんとは思えない感じです"
-    ],
-    "id": 1313
   },
   {
     "place_id": "ChIJ60sWFrgoC18RzqoQ-zdP8s8",
@@ -36979,172 +34727,6 @@
     "id": 1364
   },
   {
-    "place_id": "ChIJVWBYfispC18RIbTcyT2d9QM",
-    "name": "ガスト 札幌元町店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "ファミリーレストランとして気軽に利用でき、メニューも豊富です。",
-    "score": 3,
-    "lat": 43.0947104,
-    "lng": 141.3764168,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "気軽にに行けるファミリーレストランです。",
-      "ガストなのでメニューは豊富です。",
-      "タブレットによるオーダー！"
-    ],
-    "id": 1365
-  },
-  {
-    "place_id": "ChIJg6UX9TYvC18RCaOnqwwmiHQ",
-    "name": "ヴィクトリアステーション 栄町店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [],
-    "description": "バイキング形式で子供も楽しめる！ステーキやハンバーグが人気。",
-    "score": 2,
-    "lat": 43.1128486,
-    "lng": 141.3650044,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "食事はランチ＋各種バイキング方式で",
-      "カレー、サラダバー、スープバー、ドリンクバー",
-      "名物の多俵ハンバーグやステーキがメイン"
-    ],
-    "id": 1366
-  },
-  {
-    "place_id": "ChIJLe7Wm4QpC18R3O7JFnlG4zs",
-    "name": "サイゼリヤ イオン札幌元町店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [],
-    "description": "サイゼリヤは安価で気軽に利用できるイタリアンファミリーレストランです。",
-    "score": 2,
-    "lat": 43.101397999999996,
-    "lng": 141.368381,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "イオン内の店舗なのに、とっても狭い？",
-      "隣との距離が近すぎて、んー？ってなった。",
-      "人手が足りていないねか、気配りが足りていないのか時々不便はありますが"
-    ],
-    "id": 1367
-  },
-  {
-    "place_id": "ChIJ-VOBS8wuC18Rleldf1lHBgU",
-    "name": "ヴィクトリアステーション 札幌伏古店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "サラダバーやデザートが充実。ファミレスなのでゆったり過ごせます。",
-    "score": 3,
-    "lat": 43.092434399999995,
-    "lng": 141.391108,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "サラダバーを注文するとデザートも付いてくるのがめちゃくちゃいい！",
-      "ファミレスなのにぃ〜ゆったり食事出来ますよぉ〜♪",
-      "サラダバーのぉ種類がぁ豊富！"
-    ],
-    "id": 1368
-  },
-  {
-    "place_id": "ChIJvyrlEj8vC18RUCfPHXlq8QU",
-    "name": "バーミヤン 札幌新道店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "家族連れで賑わう中華レストラン。シェアしやすいメニューが豊富で気軽に利用できます。",
-    "score": 4,
-    "lat": 43.1027256,
-    "lng": 141.37967369999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供連れが多く来ていました。",
-      "中華は家族で来るとシェア出来るので楽しいね！",
-      "ここは暖龍などに比べると安価で気軽に来れるのでいいね!"
-    ],
-    "id": 1369
-  },
-  {
-    "place_id": "ChIJ5WTDUU0pC18R9Tf0-xKksPI",
-    "name": "サイゼリヤ イオンモール札幌苗穂店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [
-      "キッズチェアあり",
-      "騒いでもOK"
-    ],
-    "description": "サイゼリヤはお子様連れでも安心！定番メニューがお手頃価格で楽しめます。",
-    "score": 4,
-    "lat": 43.079211,
-    "lng": 141.4044668,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "こどもがサイゼリヤに行きたいと言ったので",
-      "いつも楽しみに子供と食事しています",
-      "数年ぶりに娘とお邪魔しました！"
-    ],
-    "id": 1370
-  },
-  {
-    "place_id": "ChIJodNCxk8vC18R_PTzCjOoDxw",
-    "name": "ガスト 札幌栄町店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "広々とした店内でお子様連れでも安心してお食事ができます。",
-    "score": 3,
-    "lat": 43.1212312,
-    "lng": 141.35432839999999,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内は広々としていて自分でお好きな席に座れるのは嬉しいですね"
-    ],
-    "id": 1371
-  },
-  {
-    "place_id": "ChIJhyaKXc8uC18RgCdSt6kFlBM",
-    "name": "びっくりドンキー 伏古店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "子供メニューあり"
-    ],
-    "description": "待ち合いスペースに絵本があり、子供も飽きずに待てます。",
-    "score": 4,
-    "lat": 43.094504199999996,
-    "lng": 141.3991715,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "待ち合いスペースには絵本が並んでいてお子さまも飽きませんね。",
-      "カレーはちょい辛め、子供には不向きかも。"
-    ],
-    "id": 1372
-  },
-  {
     "place_id": "ChIJQQTGVSgpC18RuRBpAj8SmtY",
     "name": "ジョリーパスタ 札幌本町店",
     "area": "円山",
@@ -37159,26 +34741,6 @@
     "is_chain": true,
     "evidence": [],
     "id": 1373
-  },
-  {
-    "place_id": "ChIJo7B_4dArC18RkgUNZz4FK1o",
-    "name": "サイゼリヤ ラソラ札幌店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [],
-    "description": "サイゼリヤは子連れに嬉しいファミレスです。",
-    "score": 3,
-    "lat": 43.0550249,
-    "lng": 141.3848373,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "コスパ抜群のファミレスで、特にランチメニューは税込600円という安さが魅力",
-      "価格も手頃なので、気軽に利用できるのがありがたいですね",
-      "安い・早い・ おいしいで人気ですよね！"
-    ],
-    "id": 1374
   },
   {
     "place_id": "ChIJx8kDsE4vC18RstdCRpXQkF8",
@@ -37823,90 +35385,6 @@
     "id": 1407
   },
   {
-    "place_id": "ChIJaeFdzUApC18RqZSl2C9nRnI",
-    "name": "はま寿司 札幌苗穂店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "キッズチェアあり",
-      "子供メニューあり"
-    ],
-    "description": "手頃な価格で寿司を楽しめる。家族連れにもおすすめ。",
-    "score": 3,
-    "lat": 43.0780484,
-    "lng": 141.3785802,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "店内も清潔で居心地が良く、家族や友人との食事にもぴったりです。",
-      "家族連れで安く済ませるなら、はま寿司で良いかな。",
-      "注文してすぐ、届きます。"
-    ],
-    "id": 1408
-  },
-  {
-    "place_id": "ChIJv7jQFMwuC18Ro7NH47YB7c4",
-    "name": "回転寿しトリトン 伏古店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "子供メニューあり"
-    ],
-    "description": "お子様向けメニューもあり、家族で楽しめる回転寿司店です。",
-    "score": 3,
-    "lat": 43.0917301,
-    "lng": 141.39184369999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "お子様向けメニューもちゃんとありました。"
-    ],
-    "id": 1409
-  },
-  {
-    "place_id": "ChIJPZu9I3spC18RDd15Se1YTX0",
-    "name": "スシロー 札幌苗穂店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "ベビーカーOK"
-    ],
-    "description": "広々とした駐車場とスロープがあり、子連れでも利用しやすい回転寿司店。",
-    "score": 3,
-    "lat": 43.079364999999996,
-    "lng": 141.391985,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "玄関まではスロープもあります！",
-      "駐車場は他のお店と兼用の為か、とても広く、入れやすかったです！"
-    ],
-    "id": 1410
-  },
-  {
-    "place_id": "ChIJvyYKTy4vC18RguIhGLGiTqU",
-    "name": "スシロー 札幌北44条東店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "タッチパネル導入済み、席数多め、駐車場広め。",
-    "score": 3,
-    "lat": 43.11441500000001,
-    "lng": 141.3554834,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "まだ大きいタッチパネルは導入されていませんが",
-      "駐車場は広めで店内も大きいのです。",
-      "テーブル席がメインで席数も多いですが"
-    ],
-    "id": 1411
-  },
-  {
     "place_id": "ChIJ__8vMrwrC18RX9OtPNIZJek",
     "name": "なごやか亭 白石本通店",
     "area": "円山",
@@ -38148,30 +35626,6 @@
       "食べ放題は６５歳以上は500円引きとの事。"
     ],
     "id": 1422
-  },
-  {
-    "place_id": "ChIJKyinldIuC18RSDnNihGQAzw",
-    "name": "牛角 札幌元町店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "座敷あり",
-      "キッズチェアあり",
-      "子供メニューあり"
-    ],
-    "description": "座敷や子供椅子、子供メニューあり。店員さんの気遣いも◎",
-    "score": 4,
-    "lat": 43.0938898,
-    "lng": 141.3848383,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供がいる為座敷確認や子供椅子の用意しますか？",
-      "キッズプレート内のソーセージやハッシュドポテトの一部が温まっておらず",
-      "最優先でキッズメニューを注文しましたが、提供までに30分以上かかりました"
-    ],
-    "id": 1423
   },
   {
     "place_id": "ChIJb4VMPdguC18R0aMwjdYOGUM",
@@ -39339,92 +36793,6 @@
     "id": 1484
   },
   {
-    "place_id": "ChIJF0PYK8grC18Rf53Da_KHKVg",
-    "name": "サイゼリヤ 白石ガーデンプレイス店",
-    "area": "円山",
-    "genre": "イタリアン",
-    "tags": [],
-    "description": "サイゼリヤは安くて美味しいので子連れでも気軽に利用できます。",
-    "score": 3,
-    "lat": 43.045502299999995,
-    "lng": 141.39692119999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "安くて美味しいので、何度も来たくなる店です。",
-      "早い安い、値段の割には旨い。",
-      "安くても美味しくて明るい雰囲気のサイゼが大好き"
-    ],
-    "id": 1485
-  },
-  {
-    "place_id": "ChIJgXWkCrgrC18Rp2xlXBiZaQk",
-    "name": "バーミヤン 札幌白石本通店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [
-      "キッズチェアあり",
-      "騒いでもOK"
-    ],
-    "description": "ファミレスで気軽に中華！お子様連れでも安心です。",
-    "score": 4,
-    "lat": 43.0405332,
-    "lng": 141.4246488,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子どももママも気に入ったみたいで、また来たいって。",
-      "中華料理ファミレスでこのお値段なら味ボリューム十分満足です！",
-      "タッチパネル・配膳ロボット・セルフ会計でほとんどを自分たちのペースで進むのでストレスもありませんでした"
-    ],
-    "id": 1486
-  },
-  {
-    "place_id": "ChIJp8C6x8MrC18RZbBVLDvv_MY",
-    "name": "びっくりドンキー 白石中央店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "座敷あり"
-    ],
-    "description": "小上がり席があり、お子様連れでも安心。タブレット注文でスムーズ。",
-    "score": 4,
-    "lat": 43.0536817,
-    "lng": 141.4016829,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "小さな子どもさん連れのご家族には《小上がり》でカーテンで仕切れるお席があり、良い造りだなぁ…と思いました。",
-      "椅子席、小上がり席、両方ありました！",
-      "お子様連れでも小上がりがあります。"
-    ],
-    "id": 1487
-  },
-  {
-    "place_id": "ChIJTS1GoaUrC18R5goq9jkw84U",
-    "name": "びっくりドンキー 南郷通店",
-    "area": "円山",
-    "genre": "洋食",
-    "tags": [
-      "キッズチェアあり"
-    ],
-    "description": "タッチパネルやロボット配膳で子連れでも楽しめる！",
-    "score": 3,
-    "lat": 43.0391383,
-    "lng": 141.4146843,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "オーダーもタッチパネル配膳もロボットで",
-      "店員さんがお客さんを案内する前に隣のテーブルの方"
-    ],
-    "id": 1488
-  },
-  {
     "place_id": "ChIJc0RosX8pC18RVRxuYpRWdOk",
     "name": "餃子と麺 いせのじょう 菊水本店",
     "area": "円山",
@@ -39991,29 +37359,6 @@
     "id": 1518
   },
   {
-    "place_id": "ChIJS3Yc4RErC18RByVlPQOvkyg",
-    "name": "回転寿司 根室花まる 南郷店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "座敷あり",
-      "キッズチェアあり"
-    ],
-    "description": "広々とした店内でボックス席もあり、子連れでも利用しやすい回転寿司店です。",
-    "score": 4,
-    "lat": 43.029205499999996,
-    "lng": 141.43523059999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "カウンターで1人から、ボックス席で団体も大丈夫。",
-      "ボックス席で団体も大丈夫。",
-      "子供メニューあり"
-    ],
-    "id": 1519
-  },
-  {
     "place_id": "ChIJu1c3qJwrC18Rgu7QM1oYbEE",
     "name": "回転寿司 まつりや 菊水元町店",
     "area": "円山",
@@ -40032,28 +37377,6 @@
       "タッチパネルで気軽に頼めるのに、一つ一つのネタが丁寧で"
     ],
     "id": 1520
-  },
-  {
-    "place_id": "ChIJrcOJRKIrC18R-3oAR9WjuwQ",
-    "name": "スシロー 札幌白石店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "キッズチェアあり",
-      "騒いでもOK"
-    ],
-    "description": "子供連れでも賑やかに楽しめる回転寿司店。子供用皿も用意。",
-    "score": 3,
-    "lat": 43.041987,
-    "lng": 141.423223,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "少し子供が多めで賑やかな雰囲気ですね！",
-      "子供用皿、爪楊枝は自分で取りに行きます。"
-    ],
-    "id": 1521
   },
   {
     "place_id": "ChIJGadPKn0sC18R0JGaKs2TSBY",
@@ -40098,27 +37421,6 @@
     "id": 1523
   },
   {
-    "place_id": "ChIJk4zU7J8pC18RByUhhADfk3I",
-    "name": "くら寿司 札幌菊水元町店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "騒いでもOK"
-    ],
-    "description": "回転寿司なので、子供がいても気兼ねなく楽しめるお店です。",
-    "score": 3,
-    "lat": 43.0721069,
-    "lng": 141.4078099,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子供達の奇声が店内に響き",
-      "終始お皿がガチャガチャガチャッと大きな音が鳴り響き"
-    ],
-    "id": 1524
-  },
-  {
     "place_id": "ChIJ-YKL9OorC18RlnvwzSOV93M",
     "name": "福鮨",
     "area": "円山",
@@ -40133,68 +37435,6 @@
     "is_chain": false,
     "evidence": [],
     "id": 1525
-  },
-  {
-    "place_id": "ChIJAVJSVxsrC18Rt18Yq8Ya3no",
-    "name": "くら寿司ラソラ札幌店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [],
-    "description": "くら寿司ラソラ札幌店は、回転寿司で気軽に利用できます。",
-    "score": 2,
-    "lat": 43.0548752,
-    "lng": 141.38446349999998,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "下半身が弱い我々にとっては近めが有り難い。",
-      "荷物も置けてメッチャいい席です！",
-      "鮮度が悪いのか生臭く今一つの味でした。"
-    ],
-    "id": 1526
-  },
-  {
-    "place_id": "ChIJiZcXFo4sC18R_uQDXk552U8",
-    "name": "回転寿しトリトン 厚別店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "子供メニューあり"
-    ],
-    "description": "子供用ネタや薬味有無選択など、子連れに嬉しい配慮が豊富です。",
-    "score": 4,
-    "lat": 43.0483129,
-    "lng": 141.4810293,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "子ども用のネタも豊富で半分の大きさに切られているものも多数",
-      "すべてのネタひとつずつわさびや薬味のある無しが選べるのが子ども連れにはありがたい仕様でした"
-    ],
-    "id": 1527
-  },
-  {
-    "place_id": "ChIJ24frE_0qC18RThCs3056gFA",
-    "name": "はま寿司 札幌月寒店",
-    "area": "円山",
-    "genre": "和食",
-    "tags": [
-      "子供メニューあり"
-    ],
-    "description": "お子様向けメニューも充実。家族での食事に便利です。",
-    "score": 4,
-    "lat": 43.0231591,
-    "lng": 141.4151022,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [
-      "小さなお子様向けのメニューも一定数揃っている",
-      "お子様向けのメニューも一定数揃っているため、家族での食事先として非常に重宝します。"
-    ],
-    "id": 1528
   },
   {
     "place_id": "ChIJ-e4IisIrC18RzBMQWsc0sOw",
@@ -40466,22 +37706,6 @@
       "店内はそんなに広くはないがカウンター席と小上がりという具合に不都合はない"
     ],
     "id": 1542
-  },
-  {
-    "place_id": "ChIJQXT8lAkrC18R5lZeUX-aozo",
-    "name": "牛角 南郷15丁目店",
-    "area": "円山",
-    "genre": "その他",
-    "tags": [],
-    "description": "子連れに関する具体的な記載は見つかりませんでした。",
-    "score": 1,
-    "lat": 43.0348295,
-    "lng": 141.4262491,
-    "tabelog_url": "",
-    "image_url": "",
-    "is_chain": true,
-    "evidence": [],
-    "id": 1543
   },
   {
     "place_id": "ChIJc9rA1tUrC18RoJ9rtsI6XPM",
@@ -41735,5 +38959,1769 @@
       "ショッピングで疲れた時に生き返ります！"
     ],
     "id": 1608
+  },
+  {
+    "place_id": "ChIJ87eGDp4sC18Rzrie-cJ8Zy8",
+    "name": "可否茶館 デュオ店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "席数が少なく、一人向けのお店のため子連れには不向き",
+    "score": 1,
+    "lat": 43.038672999999996,
+    "lng": 141.47201200000003,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "全体的に狭く席数は多くないので",
+      "グループよりは、1人向けのお店だと思います"
+    ],
+    "id": 1609
+  },
+  {
+    "place_id": "ChIJsQsMtYosC18RxrHkCaKmHZw",
+    "name": "マルシェ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "静かで落ち着いた雰囲気のカフェ。ゆったり過ごせます。",
+    "score": 3,
+    "lat": 43.0565109,
+    "lng": 141.4801889,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は騒がしくなくゆったり時間が流れるような雰囲気",
+      "静かで穏やかな空間です",
+      "とても柔らかい雰囲気で、一息寛げる場所です"
+    ],
+    "id": 1610
+  },
+  {
+    "place_id": "ChIJj3yDsYcsC18R2XuYJjuj5dg",
+    "name": "ガラクタ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "昭和レトロな雰囲気の喫茶店。懐かしい空間でゆっくり過ごせます。",
+    "score": 1,
+    "lat": 43.050445599999996,
+    "lng": 141.46756969999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "中は独特の雰囲気で私の年代的には子供の頃の懐かしさに溢れていました。",
+      "昭和レトロそのものの喫茶店。",
+      "昔のポップス音楽が流れる店内は鉄道関係の懐かしの品々と柱時計が沢山。"
+    ],
+    "id": 1611
+  },
+  {
+    "place_id": "ChIJv3vOIZ4sC18Rp7u4cFLNM1w",
+    "name": "UCCカフェメルカード サンピアザ店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.037662,
+    "lng": 141.472422,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1612
+  },
+  {
+    "place_id": "ChIJW0OHWrotC18RhxeRXjAWKiU",
+    "name": "Museum Cafe",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "博物館内の落ち着いたカフェ。休憩にぴったり。",
+    "score": 2,
+    "lat": 43.0529651,
+    "lng": 141.4967963,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ゆっくりと落ち着けるカフェです。",
+      "博物館の玄関ホールにあります小さなカフェです。",
+      "散歩途中のコーヒータイム&休息に嬉しいスペースです。"
+    ],
+    "id": 1613
+  },
+  {
+    "place_id": "ChIJv3vOIZ4sC18RS1bEzPB5kyU",
+    "name": "サロン卵と私 新さっぽろ店",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [
+      "子供メニューあり",
+      "キッズチェアあり"
+    ],
+    "description": "お子様オムライスはアイスとジュース付きで300円！コスパ◎",
+    "score": 4,
+    "lat": 43.0376462,
+    "lng": 141.472395,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "お子様オムライスがアイスとジュース付きで300円",
+      "子供も喜んで食べてました",
+      "少食の子向けですね"
+    ],
+    "id": 1614
+  },
+  {
+    "place_id": "ChIJ9RMfIJ4sC18RkxEVzZyDEuU",
+    "name": "宮越屋珈琲 サンピアザ店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気の喫茶店。子連れに関する情報はありません。",
+    "score": 1,
+    "lat": 43.0376428,
+    "lng": 141.47202529999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "ファストフード店的な雰囲気というよりは喫茶店に近い感じで、ゆっくりとした感じはありました。",
+      "店内は狭く、適度に暗いため逆に落ち着く。",
+      "あまり混んでおらず、静かな雰囲気なので、おすすめの休憩スポット。"
+    ],
+    "id": 1615
+  },
+  {
+    "place_id": "ChIJU4hwNVwrC18RDfaXEuzhHbA",
+    "name": "クッチーナ 厚別南店",
+    "area": "円山",
+    "genre": "イタリアン",
+    "tags": [],
+    "description": "広々とした店内で落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.0306116,
+    "lng": 141.47131729999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内は広いため、席にかなりの余裕がありました。",
+      "席数が広く落ち着いて食事を楽しめるので気に入りました。"
+    ],
+    "id": 1621
+  },
+  {
+    "place_id": "ChIJ87eGDp4sC18R3xDzHqx9mmg",
+    "name": "クッチーナ 新札幌duo店",
+    "area": "円山",
+    "genre": "イタリアン",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんが、店員さんの対応は丁寧です。",
+    "score": 3,
+    "lat": 43.0432486,
+    "lng": 141.4749675,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店員さんは親切・丁寧で",
+      "スタッフの皆さんもとても親切で",
+      "店員さんが皆さん感じ良い",
+      "店長さんをはじめスタッフの皆さんが温かい笑顔で"
+    ],
+    "id": 1622
+  },
+  {
+    "place_id": "ChIJDS7UPAAtC18RROnm6avWbUI",
+    "name": "シンサツBLOCK",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "新しいグルメスポット。綺麗で食事が楽しめる。",
+    "score": 1,
+    "lat": 43.03950940000001,
+    "lng": 141.4697282,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "新しいところなので綺麗で良い感じで食事が楽しめます。",
+      "まだ全ての店舗がオープンしていません。"
+    ],
+    "id": 1623
+  },
+  {
+    "place_id": "ChIJAXCLY5ssC18ROumE4I9wzGI",
+    "name": "ステーキレストランがんねん",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "広々とした清潔な店内で、ステーキやハンバーグを楽しめます。",
+    "score": 3,
+    "lat": 43.0430245,
+    "lng": 141.4736898,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お店の雰囲気は広くて明るく清潔感がありました。",
+      "ステーキは柔らかくてジューシー",
+      "ハンバーグも肉汁たっぷり"
+    ],
+    "id": 1624
+  },
+  {
+    "place_id": "ChIJ1T-pVmIsC18RZo23lSjx49M",
+    "name": "しゃぶ葉 札幌厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり",
+      "騒いでもOK"
+    ],
+    "description": "食べ放題で子供も大人も楽しめる！賑やかでも安心。",
+    "score": 4,
+    "lat": 43.0553124,
+    "lng": 141.4685269,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "バイキング形式で野菜はもちろん、カレーライスやわかめごはん、クレープやワッフル、ソフトクリームなど",
+      "賑やかですが仕切りがあるのでそんなに気にならず、楽しく美味しく過ごせます。"
+    ],
+    "id": 1625
+  },
+  {
+    "place_id": "ChIJieFHJJ4sC18Rzy4nCmCX10c",
+    "name": "萬字醤油屋本店 サンピアザ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "昔ながらのラーメン店。昭和レトロな雰囲気で、退屈させない工夫も。",
+    "score": 2,
+    "lat": 43.037872199999995,
+    "lng": 141.47332,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "昔の学校をコンセプトにしているお昼です。",
+      "メニューは出席簿のような(昔の先生が持ってたやつ)感じでした。",
+      "待ち時間など退屈させない工夫が沢山。"
+    ],
+    "id": 1627
+  },
+  {
+    "place_id": "ChIJB7hSaQArC18RcQc8a5ueoMc",
+    "name": "らーめん久う",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "口コミがないため、子連れ対応情報は不明です。",
+    "score": 1,
+    "lat": 43.0348033,
+    "lng": 141.4607911,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1628
+  },
+  {
+    "place_id": "ChIJsSUF1mgrC18RswBPGmi-9kE",
+    "name": "厚別大和軒",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0322788,
+    "lng": 141.4565355,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1629
+  },
+  {
+    "place_id": "ChIJb_goI2orC18REfCjMTtbgKg",
+    "name": "眞麺 穂高",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "店内はこじんまりとしており、騒がしくなくゆっくり味わえます。",
+    "score": 2,
+    "lat": 43.028802999999996,
+    "lng": 141.4560196,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内はこじんまりとし、騒がしくもなくゆっくり味わえました。",
+      "座席は4人用テーブル2つ、カウンターが5席くらいと少な目。"
+    ],
+    "id": 1630
+  },
+  {
+    "place_id": "ChIJ_____4QpC18Rj8tE87C3Q9w",
+    "name": "元祖えびそば 縁や",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ミニラーメンがあり、量を調整できるので子連れでも利用しやすいです。",
+    "score": 3,
+    "lat": 43.0393335,
+    "lng": 141.47082269999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ミニラーメンが用意されているのもありがたいポイント",
+      "量を調整できるので遅い時間でも罪悪感が少ない"
+    ],
+    "id": 1631
+  },
+  {
+    "place_id": "ChIJg8g8f44sC18RifLWO2CIMLc",
+    "name": "麺家 風",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.048595399999996,
+    "lng": 141.4803422,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1632
+  },
+  {
+    "place_id": "ChIJ3SiK1srUdF8RCMhpFMKBlPY",
+    "name": "麺や 琥張玖 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.0117681,
+    "lng": 141.470304,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な記載はありませんでした。"
+    ],
+    "id": 1633
+  },
+  {
+    "place_id": "ChIJpyDjPAAtC18RTa1j5mt0TpM",
+    "name": "必死のパッチ製麺所",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "ライスおかわり自由で子連れも嬉しい！自家製麺が美味しいお店。",
+    "score": 3,
+    "lat": 43.04462040000001,
+    "lng": 141.4754225,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "息子は、石焼魚介豚骨つけ麺とライスと唐揚げのセットを注文。",
+      "ご飯はおかわり自由は、食べ盛りには嬉しい😋",
+      "自家製のからし高菜漬が用意されており、またこの高菜が美味い。",
+      "辛いのが苦手な方や、小さい子供は注意が必要。"
+    ],
+    "id": 1634
+  },
+  {
+    "place_id": "ChIJs31KAWMsC18RKLAGJ03-Kxo",
+    "name": "ラーメン拳",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり",
+      "子供メニューあり"
+    ],
+    "description": "小上がり席には子供用椅子あり。お子様ラーメンも提供。",
+    "score": 4,
+    "lat": 43.055474,
+    "lng": 141.4672478,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "カウンターと、小上がりが2つ",
+      "小上がりには小さい子用の椅子も ありました☆",
+      "9歳のムスメはお子様ラーメンを いただいたのですが"
+    ],
+    "id": 1635
+  },
+  {
+    "place_id": "ChIJYdGZc2srC18Rh_RkNrZnSUU",
+    "name": "はる屋",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.029401,
+    "lng": 141.4508694,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1636
+  },
+  {
+    "place_id": "ChIJQaNoKRArC18RFUG58e-2V-k",
+    "name": "鶏白湯ラーメン 白鶏舎 厚別南店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "子連れ6名でも配慮あり。テーブル席中心。",
+    "score": 4,
+    "lat": 43.0304758,
+    "lng": 141.47137220000002,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "幼児と小学生含む6人で行ったのですが色々配慮してくださりありがたかったです。",
+      "4人がけテーブルがいくつかとカウンターという感じですが"
+    ],
+    "id": 1637
+  },
+  {
+    "place_id": "ChIJbayuKGItC18RDswQ0qV9ZNE",
+    "name": "一文字premium",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0394602,
+    "lng": 141.4747708,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1638
+  },
+  {
+    "place_id": "ChIJC6xaiHEtC18RDhdg_aWk3Vs",
+    "name": "麺や虎鉄 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0506519,
+    "lng": 141.4830062,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1639
+  },
+  {
+    "place_id": "ChIJi-Vh86QsC18RctZ5TFf6qDc",
+    "name": "中華そば 札幌煮干センター",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "煮干しラーメン専門店。子連れに関する情報は見当たりませんでした。",
+    "score": 1,
+    "lat": 43.0348009,
+    "lng": 141.4916036,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "若い人が多いですが大人にこそ味わって欲しいラーメンですね。",
+      "店内は長いカウンターが２本、15人前後が向かい合わせて食べるスタイルです。"
+    ],
+    "id": 1640
+  },
+  {
+    "place_id": "ChIJc4RIEh8tC18RLusgq-7xGZA",
+    "name": "つけめんしんちゃん",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.052119000000005,
+    "lng": 141.45261539999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1641
+  },
+  {
+    "place_id": "ChIJA2ZHdZ4sC18RVs2Sj3tEeIc",
+    "name": "麺屋 開高 新札幌店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.03900850000001,
+    "lng": 141.47279419999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1642
+  },
+  {
+    "place_id": "ChIJnZY7-EsrC18Rfa-pD0TiNaw",
+    "name": "まかない厨房 双葉 (まかないちゅうぼうふたば)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "住宅街にある中華食堂。座敷席があり、子連れでも利用しやすい。",
+    "score": 3,
+    "lat": 43.0182097,
+    "lng": 141.4739916,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "奥に小上がりがあったと思います。",
+      "座敷あり"
+    ],
+    "id": 1643
+  },
+  {
+    "place_id": "ChIJUcXYKWQrC18ROVVoNTCEBsA",
+    "name": "ひろ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "温かい雰囲気のご夫婦が営むラーメン店。子連れに関する言及なし。",
+    "score": 1,
+    "lat": 43.035070999999995,
+    "lng": 141.462496,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店主ご夫妻は本当に気さくで、近所の気のいい小父さん小母さんといった感じです。",
+      "女将は すごく 気は遣ってくれるけど まったく 敬語は使わない",
+      "店内あったかくてご夫婦がとっても親切。",
+      "年配のご夫婦で営む夜から営業のお店なんですね^_^"
+    ],
+    "id": 1644
+  },
+  {
+    "place_id": "ChIJbU8HJZ4sC18REdsbzMLml9A",
+    "name": "旭川ラーメン 梅光軒 新さっぽろサンピアザ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "フードコート内にあるラーメン店。お子様ラーメンあり。",
+    "score": 3,
+    "lat": 43.0375626,
+    "lng": 141.4723687,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "お子様ラーメンを頂きました。",
+      "お子様ラーメンにはぬるいスープは丁度いいのかもしれませんけどね😅"
+    ],
+    "id": 1645
+  },
+  {
+    "place_id": "ChIJ1xbYfQAtC18RsCBAzuIQ4ko",
+    "name": "そば処霧の下 BiVi店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0391325,
+    "lng": 141.4747606,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1646
+  },
+  {
+    "place_id": "ChIJ87eGDp4sC18R3zPU4ijZH4c",
+    "name": "そばうどん両国",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "カウンター席のみで、子連れ対応の情報は見当たりませんでした。",
+    "score": 1,
+    "lat": 43.0385013,
+    "lng": 141.4728501,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内はカウンター席だけで",
+      "水はセルフサービスです",
+      "お水はセルフサービスです"
+    ],
+    "id": 1647
+  },
+  {
+    "place_id": "ChIJ8f9wfU4tC18R3O-v5V0A1tg",
+    "name": "小麦と蕎麦 関",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "フードコート方式で、子連れでも気軽に利用しやすいお店です。",
+    "score": 2,
+    "lat": 43.0394602,
+    "lng": 141.4747708,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お店の方もにこやかでとても感じが良かった",
+      "注文方法はフードコート方式で、レジ前で注文、支払い",
+      "お店の中には座るところなくて店の外にテーブル"
+    ],
+    "id": 1648
+  },
+  {
+    "place_id": "ChIJi7oWCDotC18RKoSCySrUmaw",
+    "name": "挽きぐるみ蕎麦屋 慎 (ひきぐるみそばやしん)",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "清潔感のある店内で、幅広いメニューが楽しめます。",
+    "score": 3,
+    "lat": 43.0539233,
+    "lng": 141.46432489999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内も清潔感があり、蕎麦茶などのサービスもある。",
+      "店内は広く清掃が行き届いており清潔感が漂います。",
+      "メニューは街のお蕎麦屋さんなので御飯物も含め幅広いメニューが揃っていました。"
+    ],
+    "id": 1649
+  },
+  {
+    "place_id": "ChIJ3aaB0zgrC18Ryk909AoE8qU",
+    "name": "手打そば かのん",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "手打ち蕎麦が美味しいお店。子連れに関する情報はありません。",
+    "score": 1,
+    "lat": 43.0215328,
+    "lng": 141.4550418,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する記述は見当たりませんでした。"
+    ],
+    "id": 1650
+  },
+  {
+    "place_id": "ChIJxaBzGX0rC18RC9gnHQKqbOM",
+    "name": "豊ろ香 CAPO大谷地店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんが、落ち着いた雰囲気です。",
+    "score": 1,
+    "lat": 43.026798799999995,
+    "lng": 141.4538469,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内は可愛らしいスタッフさんと落ち着いた木目の装飾で",
+      "他のお客さんも、ゆったり食事を楽しまれていました。",
+      "馴染まれればかえって利点でしょうか。落ち着くから。"
+    ],
+    "id": 1651
+  },
+  {
+    "place_id": "ChIJNzKCnxQrC18R2NRRWVTGzOw",
+    "name": "ごまそば遊鶴 大谷地店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "ごまそば遊鶴大谷地店は、駐車場も広く車で利用しやすいお店です。",
+    "score": 1,
+    "lat": 43.0281673,
+    "lng": 141.44610559999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "車で行きやすいのがまず良かったです。",
+      "駐車場が広めで止めやすく、時間を気にせず入れるのはありがたいですね。",
+      "札幌市内にいくつか店舗がある遊鶴さんでランチをいただきました。"
+    ],
+    "id": 1652
+  },
+  {
+    "place_id": "ChIJ___TUUUrC18R3Ty4lw3bCkQ",
+    "name": "風遊斎",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。落ち着いた雰囲気のお店です。",
+    "score": 1,
+    "lat": 43.024325399999995,
+    "lng": 141.4731697,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "落ち着いてゆっくり食事をしたい人向けのお店です。",
+      "老夫婦が2人で営まれているお店なので、提供スピードなどはゆっくり目です。",
+      "奥様が調理以外（配膳、会計、オーダー）を全てしているので、会計はお金を準備しておく、再注文はしない、など配慮してあげるといいかもしれません☺︎"
+    ],
+    "id": 1653
+  },
+  {
+    "place_id": "ChIJj11DtZ0tC18RywGEzxr9l_o",
+    "name": "月桃",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "住宅街にある隠れ家カフェ風沖縄料理店。優しい味の沖縄そばが楽しめます。",
+    "score": 3,
+    "lat": 43.0294191,
+    "lng": 141.4889,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "住宅街に佇む隠れ家的なカフェ風の沖縄料理店。",
+      "地元在住の店主が、母の味をベースに、塩分控えめで優しい沖縄そばを提供しています。",
+      "女性店主さんは優しい方で話しやすかったです。"
+    ],
+    "id": 1654
+  },
+  {
+    "place_id": "ChIJKSqA0DQrC18RloYkphfGUyw",
+    "name": "手打ちそばさくら 平岡公園本店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "手打ちそばのお店。店員さんの対応が良いとの声も。",
+    "score": 3,
+    "lat": 43.0121411,
+    "lng": 141.4684586,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店員さんも良い対応でした。",
+      "店員さんは皆さん感じの良い方でした"
+    ],
+    "id": 1655
+  },
+  {
+    "place_id": "ChIJv3vOIZ4sC18R836ZhBEWLgc",
+    "name": "ごまそば八雲 新さっぽろサンピアザ店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0374852,
+    "lng": 141.4722233,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子連れに関する具体的な言及はありませんでした。"
+    ],
+    "id": 1656
+  },
+  {
+    "place_id": "ChIJWcWaezkrC18RkEg3EriAJOI",
+    "name": "そば柳",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、お子様連れでも利用しやすいお蕎麦屋さんです。",
+    "score": 3,
+    "lat": 43.0190266,
+    "lng": 141.4541241,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "座席：テーブル席、小上がり席。",
+      "座席：テーブル席、小上がり席。"
+    ],
+    "id": 1657
+  },
+  {
+    "place_id": "ChIJh2vKckYtC18R4oThubWAkIg",
+    "name": "うどんカフェぼたん",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0707375,
+    "lng": 141.49493060000003,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1658
+  },
+  {
+    "place_id": "ChIJEZegzTotC18RCFYMDEvn974",
+    "name": "吉里吉里 (きりきり)",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "魚屋直営でコスパ抜群！ボリューム満点ランチも人気。",
+    "score": 2,
+    "lat": 43.0574328,
+    "lng": 141.4802182,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "アジがふわふわで美味しかったです😋",
+      "凄いボリュームで御飯残してしまいました😂",
+      "この値段でコレだけ食べられるのは有り難い！"
+    ],
+    "id": 1659
+  },
+  {
+    "place_id": "ChIJ93AMoWMrC18RW9RrAAI0f10",
+    "name": "日高庵 厚別店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "騒いでもOK"
+    ],
+    "description": "昔ながらの出前屋。サービスで子供が喜ぶ品がつくことも。",
+    "score": 3,
+    "lat": 43.038157,
+    "lng": 141.4642146,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "頼んでないポテトにサービスアイスありがとうございます。",
+      "頼んでいない、揚げたてポテトをつけて下さいました！",
+      "昔ながらの出前屋って感じがしてよかったです。"
+    ],
+    "id": 1660
+  },
+  {
+    "place_id": "ChIJ2ZAtNcjUdF8R8LUsJkSCgu4",
+    "name": "蕎麦花",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "店内は狭めですが、店員さんは優しいです。",
+    "score": 2,
+    "lat": 43.0077882,
+    "lng": 141.4789846,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は狭くおそらく4グループでいっぱいになってしまう程度。",
+      "店員さんもとても優しい方でまた来たいと思います。",
+      "小さなお店です。"
+    ],
+    "id": 1661
+  },
+  {
+    "place_id": "ChIJPf5HH0ArC18R3BsV3etYjcM",
+    "name": "麵屋一心",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.026441999999996,
+    "lng": 141.453484,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1662
+  },
+  {
+    "place_id": "ChIJ94xBIJ4sC18Riz4rwX2ENmQ",
+    "name": "平禄寿司 札幌厚別サンピアザ店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "カウンター席のみの回転寿司店。持ち帰りも可能。",
+    "score": 1,
+    "lat": 43.037645999999995,
+    "lng": 141.472395,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "席はカウンターのみ。",
+      "持ち帰りもできるので、良いですね。"
+    ],
+    "id": 1663
+  },
+  {
+    "place_id": "ChIJRwq7w10rC18R5vDKc4VBIHM",
+    "name": "札幌海鮮丸 厚別南店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する具体的な情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0315735,
+    "lng": 141.4705105,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子連れに関する具体的な情報は見つかりませんでした。"
+    ],
+    "id": 1664
+  },
+  {
+    "place_id": "ChIJwU5NPmQrC18R0kcF413xxCI",
+    "name": "がんこ鮨",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "お子様連れでも優しく接客してくれるので安心してお食事できます。",
+    "score": 4,
+    "lat": 43.036113,
+    "lng": 141.46224899999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "マスターも女将さんも雰囲気が良く子供を連れて行っても優しく接客していただけて安心です。"
+    ],
+    "id": 1665
+  },
+  {
+    "place_id": "ChIJA2ZHdZ4sC18RKx5TfoE8FoM",
+    "name": "鮨処 春冬夏",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.03890260000001,
+    "lng": 141.4728858,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1666
+  },
+  {
+    "place_id": "ChIJC15Doi8rC18RDTqt4DELxBc",
+    "name": "なごやか亭 北野店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり"
+    ],
+    "description": "家族で利用しやすい回転寿司店。新鮮で大きなネタが人気。",
+    "score": 4,
+    "lat": 43.0129495,
+    "lng": 141.4496671,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "家族でよく行ってます🍣",
+      "広い店内には、多くのカウンター席とBOX席",
+      "注文はタブレット方式"
+    ],
+    "id": 1667
+  },
+  {
+    "place_id": "ChIJh08vqr0sC18RsoOVgW_y9UU",
+    "name": "力士料理 綱寿し",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "元力士の大将がいるお店。ちゃんこ鍋や寿司が美味しい。",
+    "score": 3,
+    "lat": 43.0397149,
+    "lng": 141.4930809,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店の雰囲気も良い。",
+      "気さくなご主人のおかげでステキな時間を過ごせました。"
+    ],
+    "id": 1669
+  },
+  {
+    "place_id": "ChIJhwyqahcrC18RWRxlDOju_vI",
+    "name": "なごやか亭 栄通20丁目店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "キッズチェアあり",
+      "騒いでもOK"
+    ],
+    "description": "親切な店員さんがおり、回転寿司なので子連れでも利用しやすい。",
+    "score": 4,
+    "lat": 43.024116899999996,
+    "lng": 141.4382511,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "お姉さん達も親切だし良いお店だと思う。",
+      "だって珍しいネタとか季節のネタがたくさんあって食べてみたいじゃんか😆美味しかったよ。",
+      "何より店員さんが親切でした！"
+    ],
+    "id": 1670
+  },
+  {
+    "place_id": "ChIJQTKMnpEsC18RfyqhfxBfjpc",
+    "name": "はせ川鮨本店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0466561,
+    "lng": 141.4846627,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1671
+  },
+  {
+    "place_id": "ChIJP6_bZxstC18RVGJD-QCju_g",
+    "name": "炭火焼肉いち 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "落ち着いた雰囲気で焼肉を楽しめるお店。座敷席あり。",
+    "score": 3,
+    "lat": 43.050931,
+    "lng": 141.47024679999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "掘り炬燵の小上がり4卓",
+      "他の焼肉屋さんよりくらべてガヤガヤ騒がしくなく、すごく落ち着いて食べれました。"
+    ],
+    "id": 1672
+  },
+  {
+    "place_id": "ChIJL8t9jZ0sC18RHIsYFDyfNqk",
+    "name": "焼肉処 肉八クロベ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりが多く、ファミリーも利用しやすい空間です。",
+    "score": 4,
+    "lat": 43.0395222,
+    "lng": 141.47032,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "小上がりが多く、ファミリーも利用しやすい空間",
+      "真ん中に長い焼き台があり、バーベキューの雰囲気も楽しそうでした"
+    ],
+    "id": 1673
+  },
+  {
+    "place_id": "ChIJl3XDBPUsC18RwlOop60s5tk",
+    "name": "焼肉菜包 ぼくぜん 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "個室あり",
+      "座敷あり"
+    ],
+    "description": "個室や広いスペースがあり、周りを気にせずゆっくりできる。",
+    "score": 4,
+    "lat": 43.0569462,
+    "lng": 141.4836196,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "個室が別料金で利用出来るようでした。",
+      "他のスペースも広くゆっくり出来ます。",
+      "高齢者や小さなお子様がいる場合は、周りを気にしなくて良いので、個室に入られている方が多いようでした。"
+    ],
+    "id": 1674
+  },
+  {
+    "place_id": "ChIJcbxSB2IrC18RYCEih55-eLo",
+    "name": "やなぎ家 新さっぽろ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "小上がりや個室があり、落ち着いた雰囲気で食事ができます。",
+    "score": 4,
+    "lat": 43.038844999999995,
+    "lng": 141.47056569999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "カウンターの他、小上がり、個室が多く、快適空間です。",
+      "店内の作りは高級感があって落ち着いた雰囲気になってます。"
+    ],
+    "id": 1675
+  },
+  {
+    "place_id": "ChIJ5dVlHUQrC18RVh7xqWrYvRA",
+    "name": "やなぎ家 大谷地本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "掘りごたつ式の小上がりがあり、ファミリーにもおすすめのお店です。",
+    "score": 4,
+    "lat": 43.0245136,
+    "lng": 141.4642285,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "小上がりは掘り炬燵で、ファミリーにもおススメです😊"
+    ],
+    "id": 1676
+  },
+  {
+    "place_id": "ChIJAatpLmQrC18R2EGPaoJKCao",
+    "name": "大安ホルモン 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "席が狭いと感じる場合もあるが、コスパと味で満足できる焼肉店。",
+    "score": 2,
+    "lat": 43.0353822,
+    "lng": 141.4619397,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "小さい子供と行くには少し席が狭いかな",
+      "息子が休みの時に連れてってもらっています"
+    ],
+    "id": 1677
+  },
+  {
+    "place_id": "ChIJV_DEDHQtC18RbyE36nwymBg",
+    "name": "焼肉のわびすけ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "個室やお座敷があり、ねこ型ロボットが配膳。家族連れに◎",
+    "score": 4,
+    "lat": 43.0550378,
+    "lng": 141.46866749999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は清潔感があって広々。個室やお座敷もあるのかな？",
+      "ねこ型ロボットが配膳してくることも。",
+      "大人数とか家族連れで行くのがいいのかなって感じ！",
+      "たまたま空いていた個室の小上がりに通され凄くラッキーでした✨"
+    ],
+    "id": 1678
+  },
+  {
+    "place_id": "ChIJe8utST8rC18RfK_CHyQR8To",
+    "name": "焼肉 春香園",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ワンオペのため料理提供に時間がかかる場合あり",
+    "score": 2,
+    "lat": 43.0224082,
+    "lng": 141.4556044,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ワンオペなのでご飯物とかは、時間少しかかります",
+      "ご主人１人で忙しそうでしたが"
+    ],
+    "id": 1679
+  },
+  {
+    "place_id": "ChIJd4AS7PQsC18Rg2sCxvc4icg",
+    "name": "すたみな太郎 新札幌店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり",
+      "騒いでもOK"
+    ],
+    "description": "食べ放題で子供も大人も楽しめる！種類豊富で満足度高め。",
+    "score": 4,
+    "lat": 43.0558493,
+    "lng": 141.48476499999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "大人2086円！※ドリンクバーはアプリやホトペクーポン提示で無料",
+      "昨年子供1639円→今年1483円！",
+      "焼肉、寿司、ラーメン、カレー、ザンギなどなど食べきれないほどの食材"
+    ],
+    "id": 1681
+  },
+  {
+    "place_id": "ChIJA4s8WycrC18RDbnwrt3dT9Y",
+    "name": "GAjA ガヤ 北野店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "焼肉食べ放題がお得。家族や男性での利用に満足度が高い。",
+    "score": 3,
+    "lat": 43.0129259,
+    "lng": 141.4353846,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "家族や男性での食べ放題プランは満足できると思います！",
+      "以前は家族でよく行っていました。",
+      "食べ放題セットには ソフトドリンクバー付き。"
+    ],
+    "id": 1683
+  },
+  {
+    "place_id": "ChIJyWPujZEtC18RQQJNH87f3a0",
+    "name": "焼肉 松柳苑（しょうりゅうえん）",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、お子様も喜ぶ焼肉店です。",
+    "score": 3,
+    "lat": 43.089262,
+    "lng": 141.52183359999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "座敷なので、足が疲れません。",
+      "子供も喜びます！"
+    ],
+    "id": 1684
+  },
+  {
+    "place_id": "ChIJ_UvXI-QtC18RJ50gsVD3Sj8",
+    "name": "新札幌ジンギスカン",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れでもジンギスカン体験！店員さんも親切で安心。",
+    "score": 3,
+    "lat": 43.0396323,
+    "lng": 141.4698023,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "息子達の初体験に、九州から雪景色とジンギスカンをと初来店。",
+      "店員さんも元気よく、居心地よく食事をすることが出来ました。",
+      "店員さんも感じも皆さん良かったので★5。"
+    ],
+    "id": 1685
+  },
+  {
+    "place_id": "ChIJF8ugM8vUdF8Rt9N7Sxfbfy4",
+    "name": "焼肉かざん",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する記載はありませんでした。",
+    "score": 1,
+    "lat": 43.0105733,
+    "lng": 141.46812979999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1686
+  },
+  {
+    "place_id": "ChIJS5NNh0UrC18RUXUtJ4N7Q28",
+    "name": "仙台辺見 札幌厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0228527,
+    "lng": 141.47093660000002,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1687
+  },
+  {
+    "place_id": "ChIJv3vOIZ4sC18RRNky0K-x6R0",
+    "name": "とんかつ玉藤 サンピアザ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんが、店員さんの丁寧な対応が伺えます。",
+    "score": 2,
+    "lat": 43.037636299999996,
+    "lng": 141.4723942,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店員さんも絶妙なタイミングでおかわり等の声かけをしてくださって嬉しかったです。",
+      "スタッフのかた(新人さん？)も丁寧な対応で気持ちよく利用させていただきました。",
+      "愛想やサービスも良く、2人でお店に入った時に4人がけの席に通してくれたのが嬉しかったです。"
+    ],
+    "id": 1688
+  },
+  {
+    "place_id": "ChIJu4kNHJUtC18REimf7A5y_F4",
+    "name": "お肉屋さんの定食と丼 岩井畜産",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "騒いでもOK"
+    ],
+    "description": "フードコート内なので、お子様連れでも気兼ねなく利用できます。",
+    "score": 3,
+    "lat": 43.037527499999996,
+    "lng": 141.4729958,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "サンピアザの地下2階フードコートにある",
+      "フードコート特有の煩わしさはあるが",
+      "フードコートでかなりの席数がありますので"
+    ],
+    "id": 1689
+  },
+  {
+    "place_id": "ChIJTShPf2PVdF8RBZAQxzRwiDo",
+    "name": "とんかつ玉藤 里塚店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 42.9785198,
+    "lng": 141.4688435,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1690
+  },
+  {
+    "place_id": "ChIJA2ZHdZ4sC18R6Z3oiDxEOhE",
+    "name": "かつてん デュオ新札幌店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.039186900000004,
+    "lng": 141.47188359999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子連れに関する具体的な言及はありませんでした。"
+    ],
+    "id": 1691
+  },
+  {
+    "place_id": "ChIJ446wIJ4sC18RZ5vG_Iz_8oo",
+    "name": "とんかつ新宿さぼてん 新さっぽろサンピアザ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "テイクアウト中心。店員さんの対応にばらつきあり。",
+    "score": 1,
+    "lat": 43.0376462,
+    "lng": 141.472395,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店員さんが1人でお客さんが年配の方が多くちょっと待つ感じ。",
+      "目があって、こちらが合図を送っているのに絶対厨房から出てこない"
+    ],
+    "id": 1692
+  },
+  {
+    "place_id": "ChIJaQy9c0QrC18ReubXZNoGWSQ",
+    "name": "北海楼 (ほっかいろう)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "ボリューム満点でお子様セットもあり、コスパ最高！",
+    "score": 4,
+    "lat": 43.0254197,
+    "lng": 141.4654519,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "こどもセット。",
+      "ボリュームもあり、コスパ最高です♬",
+      "腹一杯食べるなら、台湾ラーメンとご飯物のセットメニューが良さそう"
+    ],
+    "id": 1693
+  },
+  {
+    "place_id": "ChIJBVOVgpEsC18RULgrsvhRUBE",
+    "name": "ただしの厨",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "清潔感のある店内で、ゆったりとしたテーブル席があります。",
+    "score": 3,
+    "lat": 43.0468056,
+    "lng": 141.4853021,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "とても清潔で席数は少なめで、テーブルは大きくて沢山お皿を並べられる。",
+      "店内はかなり広く 大きなテーブル席が５席ほど かなりゆったりとした感じです",
+      "店内は清潔感があり、比較的シンプルな印象でした。"
+    ],
+    "id": 1694
+  },
+  {
+    "place_id": "ChIJwVRDMpwsC18R__fj68GnB6w",
+    "name": "中国料理 仙雲",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "30階からの夜景が楽しめる個室あり。特別な日にも。",
+    "score": 3,
+    "lat": 43.0404231,
+    "lng": 141.4734068,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "静かな雰囲気の中、新札幌の夜景を見下ろしながらいただく絶品中国料理。",
+      "30階からの風景や店員さんのサービス、どれも満足できるものでした。",
+      "ただ個室の窓が汚れて居てせっかくの夜景も少しくすんで見えたのが残念"
+    ],
+    "id": 1695
+  },
+  {
+    "place_id": "ChIJHY9M950sC18RZsqczy-BfEE",
+    "name": "中華料理 華龍",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.038950899999996,
+    "lng": 141.4707795,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1696
+  },
+  {
+    "place_id": "ChIJB4FuIJ4sC18RUtzy7nCwGko",
+    "name": "中華楼 サンピアザ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "サンピアザ内の中華料理店。コスパの良いランチセットあり。",
+    "score": 1,
+    "lat": 43.037645999999995,
+    "lng": 141.472395,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子どもが食事中にご飯をこぼしてしまった際、妻の後ろで店員の方が「散らかして」というような発言をされているのが聞こえました。",
+      "お客様に聞こえる場所でのこのような発言は、お店の接客として適切なものなのでしょうか。"
+    ],
+    "id": 1697
+  },
+  {
+    "place_id": "ChIJOYLCb98tC18RSR4_9HeFuvU",
+    "name": "幸福中華サワダ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及は見られませんでした。",
+    "score": 1,
+    "lat": 43.0393365,
+    "lng": 141.4749483,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1698
+  },
+  {
+    "place_id": "ChIJeUDB7H4sC18RillT1D7MXfk",
+    "name": "ぎょうざの宝永厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "餃子専門店。テイクアウト中心で、自宅で調理。",
+    "score": 1,
+    "lat": 43.0517804,
+    "lng": 141.4565475,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "こちらは冷凍餃子の販売店ですが",
+      "時々冷凍ぎょうざを購入して自宅で調理して食べている",
+      "宝永ぎょうざを使った料理レシピ"
+    ],
+    "id": 1699
+  },
+  {
+    "place_id": "ChIJ5fi3RwArC18R0xR3iaQHBKI",
+    "name": "北海楼 北野店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ボリューム満点の町中華。子連れに関する情報はありません。",
+    "score": 1,
+    "lat": 43.0148602,
+    "lng": 141.4350361,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "女性にはキツいかもしれません",
+      "女性にはキツいかもしれません",
+      "女性にはキツいかもしれません"
+    ],
+    "id": 1700
+  },
+  {
+    "place_id": "ChIJ0WxrHZ4sC18RqEIXG7eSLDw",
+    "name": "中華惣菜 芙蓉",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "中華惣菜店のため、子連れ向け設備の情報なし",
+    "score": 1,
+    "lat": 43.0379656,
+    "lng": 141.47168109999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "クチコミに子連れ対応に関する記述なし"
+    ],
+    "id": 1701
+  },
+  {
+    "place_id": "ChIJxdgWbGIpC18RqRcHlm0JGwo",
+    "name": "手打ちそば こころ",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "落ち着いた雰囲気で、お蕎麦とお酒を楽しめるお店です。",
+    "score": 1,
+    "lat": 43.1110028,
+    "lng": 141.335895,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "作業着で行ったら、隣のカップルからすごいじろじろ見られました。",
+      "きれいな格好でいきましょう。",
+      "そんなに広いわけではないけど、綺麗でとても雰囲気の良いお店です"
+    ],
+    "id": 1702
+  },
+  {
+    "place_id": "ChIJ12lXvpsoC18R2Hzhvyzpa_c",
+    "name": "そば処 芝源",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、家族連れでも利用しやすいお店です。",
+    "score": 4,
+    "lat": 43.1077462,
+    "lng": 141.3086207,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "4人小上がり3",
+      "4人テーブル席4",
+      "今度は家族で来たいと思います！"
+    ],
+    "id": 1703
+  },
+  {
+    "place_id": "ChIJ5Vnqt-QlC18RD9O9b_2w2Ns",
+    "name": "松盛庵",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、お子様連れでも利用しやすいお蕎麦屋さんです。",
+    "score": 3,
+    "lat": 43.134051,
+    "lng": 141.3298562,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は大テーブル、テーブル、小上がり席があります。"
+    ],
+    "id": 1704
+  },
+  {
+    "place_id": "ChIJoZkii_AlC18R7Be73fCiEe0",
+    "name": "なごやか亭 屯田店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "回転寿司で豊富なメニューと美味しいお寿司が楽しめます。",
+    "score": 3,
+    "lat": 43.1343489,
+    "lng": 141.3389822,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "どのネタも美味しく、種類が豊富！",
+      "普段行く回転寿司屋さんではお寿司以外は食べないけど今回は鱧の竜田揚げなども食べられて満足でした！！",
+      "一品料理やサイドメニューも豊富で最高です🤩"
+    ],
+    "id": 1705
+  },
+  {
+    "place_id": "ChIJi6ICqp4sC18RsnLvZv-0llc",
+    "name": "ラーメン大王",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0405613,
+    "lng": 141.47642159999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1706
+  },
+  {
+    "place_id": "ChIJUR7u210rC18RVyFyJIMBaxo",
+    "name": "喜久家",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "昭和レトロな雰囲気。店主一人で営業しており、時間に余裕がある方向け。",
+    "score": 1,
+    "lat": 43.0316695,
+    "lng": 141.4712505,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "高齢な店主1名でのオペレーション",
+      "ご主人がお一人でなさってます",
+      "時間がかかることを事前に知らせてくれました"
+    ],
+    "id": 1707
+  },
+  {
+    "place_id": "ChIJ7TmU-I8sC18RNPn4M1CpWhg",
+    "name": "暖龍 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0464796,
+    "lng": 141.4773481,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子連れに関する具体的な言及はありませんでした。"
+    ],
+    "id": 1708
   }
 ]
