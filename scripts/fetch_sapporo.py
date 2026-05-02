@@ -50,15 +50,15 @@ GENRE_KEYWORDS = [
 SLEEP_SEC = 0.5
 MAX_PAGES_PER_QUERY = 3  # 最大60件 (20×3ページ)
 
-# Hotpepper 経路と統一: チェーン店・夜の業態を除外
+# Hotpepper よりは緩めのフィルタ（居酒屋/フレンチ/イタリアンは許容、夜業態のみ除外）
 from get_shops_hotpepper import (
-    CHAIN_KEYWORDS, EXCLUDED_GENRE_KEYWORDS, EXCLUDED_NAME_KEYWORDS,
+    CHAIN_KEYWORDS, EXCLUDED_GENRE_KEYWORDS_GPLACES, EXCLUDED_NAME_KEYWORDS,
     is_chain, has_excluded_name,
 )
 
 
 def is_excluded_by_genre_keyword(name: str) -> bool:
-    return any(kw in name for kw in EXCLUDED_GENRE_KEYWORDS)
+    return any(kw in name for kw in EXCLUDED_GENRE_KEYWORDS_GPLACES)
 
 
 def is_excluded_by_place_type(types: list[str]) -> bool:

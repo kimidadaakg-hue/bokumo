@@ -82,7 +82,7 @@ try:
     from get_shops_hotpepper import (  # type: ignore
         is_chain as _is_chain,
         has_excluded_name as _has_excluded_name,
-        EXCLUDED_GENRE_KEYWORDS as _EXCLUDED_GENRE_KEYWORDS,
+        EXCLUDED_GENRE_KEYWORDS_GPLACES as _EXCLUDED_GENRE_KEYWORDS_GPLACES,
     )
 
     def _is_excluded_name(name: str) -> bool:
@@ -92,7 +92,7 @@ try:
             return True
         if _has_excluded_name(name):
             return True
-        if any(kw in name for kw in _EXCLUDED_GENRE_KEYWORDS):
+        if any(kw in name for kw in _EXCLUDED_GENRE_KEYWORDS_GPLACES):
             return True
         return False
 except Exception:

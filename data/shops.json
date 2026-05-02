@@ -40723,5 +40723,3280 @@
       "子連れに関する具体的な言及はありませんでした。"
     ],
     "id": 1708
+  },
+  {
+    "place_id": "ChIJOU97_4QpC18RQ-icsrNdsOs",
+    "name": "炭焼ハンバーグ&ステーキ コバラヘッタ 新さっぽろ店",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "子供たちも喜んで食べていました。ファミリーでも利用しやすいお店です。",
+    "score": 4,
+    "lat": 43.0380324,
+    "lng": 141.472962,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子どもたちも喜んで食べてた。",
+      "カップルもファミリーも1人でもいけそうな感じは◎。"
+    ],
+    "id": 1709
+  },
+  {
+    "place_id": "ChIJoXejkT8tC18RTRTxLsVuc5c",
+    "name": "SAPPORO STEAK LAND FOR SEASON",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "子連れでの利用に関する具体的な言及は見られませんでした。",
+    "score": 1,
+    "lat": 43.0394602,
+    "lng": 141.4747708,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子供には硬すぎる赤身ステーキ。",
+      "家族4人で食べに行きました。",
+      "子供には硬すぎる赤身ステーキ。"
+    ],
+    "id": 1710
+  },
+  {
+    "place_id": "ChIJCzKos3ctC18RJKcaYJocm9M",
+    "name": "nora",
+    "area": "円山",
+    "genre": "イタリアン",
+    "tags": [],
+    "description": "おしゃれな空間で創作料理を楽しめるお店。",
+    "score": 1,
+    "lat": 43.057403199999996,
+    "lng": 141.48038549999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "内装もオシャレで食事もとてもおいしかったです。",
+      "創作料理なのでしょうか？イタリアンだけでもなく、とにかく美味しい料理が楽しめます。",
+      "店内もシンプルで清潔感があり、大人で都会な雰囲気です。"
+    ],
+    "id": 1711
+  },
+  {
+    "place_id": "ChIJa7YwQmYrC18RZlGzULB_nuc",
+    "name": "キッチンもみじ",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんが、気軽に利用できそうです。",
+    "score": 1,
+    "lat": 43.027093,
+    "lng": 141.43080999999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内がそんなに広くないのですが、テーブルがたくさんなので",
+      "皆さんは楽しそうに働いていて、客も和やかで食事も雰囲気も良いです"
+    ],
+    "id": 1712
+  },
+  {
+    "place_id": "ChIJK8OnKrwsC18RP3wu8GOfUgk",
+    "name": "宅味",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ボリューム満点の定食屋さん。子連れに関する情報はありません。",
+    "score": 1,
+    "lat": 43.040504,
+    "lng": 141.49621589999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "接客に難ありのレビューが散見されますが",
+      "接客係のお母さんは、愛想抜群です。"
+    ],
+    "id": 1713
+  },
+  {
+    "place_id": "ChIJEQ38fEwsC18R21nNbYHjQy0",
+    "name": "ビッグフォーレスト",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "ログハウス調の店内は木の温もりがあり、落ち着いた雰囲気です。",
+    "score": 3,
+    "lat": 43.0747217,
+    "lng": 141.484994,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "建物及び店内はログハウス調(薪ストーブもある。)",
+      "木の温もりが感じられるカントリーな雰囲気です。",
+      "ゆっくりとお話し出来る店内と落ち着いた木造のお洒落な内装で食事が出来たので良かったです。"
+    ],
+    "id": 1714
+  },
+  {
+    "place_id": "ChIJTYqLw40sC18Rc0meouZSA3w",
+    "name": "ランチハウスぐっち",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "昔ながらの大衆食堂。子連れに関する情報は見当たりませんでした。",
+    "score": 1,
+    "lat": 43.0499856,
+    "lng": 141.4829169,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "外観も店内もいかにも古き良き時代の大衆食堂",
+      "親子丼とかも美味しそうだったのでリベンジしたいです。"
+    ],
+    "id": 1715
+  },
+  {
+    "place_id": "ChIJHfKIenctC18R2P1hRhDkktc",
+    "name": "YORIMICHI新さっぽろ",
+    "area": "円山",
+    "genre": "イタリアン",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありません。",
+    "score": 1,
+    "lat": 43.039336899999995,
+    "lng": 141.4748512,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な言及はありません。"
+    ],
+    "id": 1716
+  },
+  {
+    "place_id": "ChIJTSINO-MtC18Rk4YqUJlkWLs",
+    "name": "ONIRICO ITALIAN RESTAURANT",
+    "area": "円山",
+    "genre": "イタリアン",
+    "tags": [],
+    "description": "おしゃれな空間で、子連れに関する言及は少ない。",
+    "score": 1,
+    "lat": 43.0394696,
+    "lng": 141.4750863,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子供もいなかった。入りづらいだろうなー。",
+      "子供やいっぱい食べたい方はあまり楽しめないと思います。"
+    ],
+    "id": 1717
+  },
+  {
+    "place_id": "ChIJOWyYCJosC18RTCAEl6nVpuA",
+    "name": "BAKERY Coneru (ベーカリーコネル) 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.043361,
+    "lng": 141.4818079,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子連れに関する具体的な記載はありませんでした。"
+    ],
+    "id": 1718
+  },
+  {
+    "place_id": "ChIJn9N2450sC18RU_n3uKuK-sA",
+    "name": "スイートベリー (SWEET BERRY)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.039173,
+    "lng": 141.4704913,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1719
+  },
+  {
+    "place_id": "ChIJlafCgF4sC18R0UPNm8SX78c",
+    "name": "どんぐり 森林工房",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "テイクアウト中心のパン屋さん。店内飲食スペースあり。",
+    "score": 2,
+    "lat": 43.0615272,
+    "lng": 141.4774442,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内に4人くらい座れるテーブル席もある",
+      "店内は狭いですね",
+      "販売スペースは確かにコンパクトだが",
+      "屋内の使用割合が半分ほどになり"
+    ],
+    "id": 1720
+  },
+  {
+    "place_id": "ChIJs6u1PJ4sC18RHiBPos6g2Rc",
+    "name": "どんぐり 新さっぽろ店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "広めのカフェスペースがあり、パンの種類も豊富です。",
+    "score": 3,
+    "lat": 43.037769,
+    "lng": 141.47230299999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "カフェのスペースが広めなのが特徴",
+      "イートインコーナーもあり便利",
+      "種類がかなり豊富です！"
+    ],
+    "id": 1721
+  },
+  {
+    "place_id": "ChIJ-THsXEorC18RTpVLiTS9mNo",
+    "name": "ラ・パン / LA・PAN サンピアザ新札幌店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "テイクアウト専門のパン屋さんです。お土産にも。",
+    "score": 1,
+    "lat": 43.037527499999996,
+    "lng": 141.4729958,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "サンピアザＢ1に移転しました",
+      "お使い物にも手軽な金額で気に入ってまーす",
+      "いつもお土産に使わせてもらってます"
+    ],
+    "id": 1722
+  },
+  {
+    "place_id": "ChIJLYlfNIUsC18RklFfFdrVkcc",
+    "name": "ボストンベイク 厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ホームセンター併設で利用しやすいパン屋さん。イートインスペースあり。",
+    "score": 2,
+    "lat": 43.0454827,
+    "lng": 141.47548160000002,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "イートインスペースも有ります。",
+      "ホームセンターに店舗が併設して居るので買いやすいです。",
+      "隣のコインランドリー使用時の休憩にも良いでしょう。"
+    ],
+    "id": 1723
+  },
+  {
+    "place_id": "ChIJyRY8tU8sC18RVs85DiYW568",
+    "name": "Sora",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.070383899999996,
+    "lng": 141.48236459999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1724
+  },
+  {
+    "place_id": "ChIJCeZDCForC18RncY7zyzJl2U",
+    "name": "ふわもち邸",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "テイクアウト専門店のため、子連れでの利用は難しい可能性があります。",
+    "score": 1,
+    "lat": 43.0348548,
+    "lng": 141.4608934,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内はせまいので、あまり入れません",
+      "2人ほど入店すると動きずらい感じの店内"
+    ],
+    "id": 1725
+  },
+  {
+    "place_id": "ChIJXZE6B3ErC18RtNNLNOMXPQA",
+    "name": "てとて (Te To Te)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "2階に落ち着いて食事ができる喫茶スペースあり。テイクアウトも可能。",
+    "score": 3,
+    "lat": 43.0245119,
+    "lng": 141.4588219,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "２階に上がると喫茶スペースで落ち着いて食事が取れます",
+      "二階には、イートインスペースもある様です",
+      "店の２階はイートインコーナーで、買って食べれるのも良いかも"
+    ],
+    "id": 1726
+  },
+  {
+    "place_id": "ChIJGZRgYJgsC18RKMJI11FKlKY",
+    "name": "ボストンベイク 厚別東店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "マックスバリュ内のベーカリー。パンの品質は良い。",
+    "score": 1,
+    "lat": 43.0393967,
+    "lng": 141.48384049999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "マックスバリュ内に入っているベーカリーです。",
+      "ボストンベイククオリティなので品質は良い。"
+    ],
+    "id": 1727
+  },
+  {
+    "place_id": "ChIJPf5HH0ArC18RuLmU1sPxS8Q",
+    "name": "ファリーヌ・ド・パリ 大谷地",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "庶民的なパン屋さん。子連れに関する情報はありません。",
+    "score": 1,
+    "lat": 43.026208,
+    "lng": 141.454014,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "庶民的な感じのパン屋さんです",
+      "「山崎製パン株式会社」のヤマザキグループ",
+      "全体的に値段が高い。",
+      "元々種類はそこまで多くありません。",
+      "菓子パンは、この店だから！と言う特徴はないが普通に美味しい。"
+    ],
+    "id": 1728
+  },
+  {
+    "place_id": "ChIJcVHWYYAsC18RIC9uDIxOPf8",
+    "name": "pâtisserie beurre",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "シュークリーム専門店。子連れに関する情報は見当たりませんでした。",
+    "score": 1,
+    "lat": 43.0484333,
+    "lng": 141.45967539999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する情報は見当たりませんでした。"
+    ],
+    "id": 1729
+  },
+  {
+    "place_id": "ChIJXThLpU8rC18RtSwbf3DtY0I",
+    "name": "ボストンベイク 厚別南店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "クチコミからは子連れ対応の情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0218534,
+    "lng": 141.47430420000003,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1730
+  },
+  {
+    "place_id": "ChIJx9RkNYgsC18RxuDOjj4FL6c",
+    "name": "ロイズ 厚別西店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "カフェ併設でパンやソフトクリームも楽しめる。お土産探しにも便利。",
+    "score": 3,
+    "lat": 43.0529319,
+    "lng": 141.4718648,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "カフェ併設で定番のチョコレート類から焼き立てブレッドがあります。",
+      "ソフトクリームも売っていて、買って、お店の中で食べていく事もできます！",
+      "イートインスペース、パン屋も併設され、種類豊富な店舗でした。"
+    ],
+    "id": 1731
+  },
+  {
+    "place_id": "ChIJaZX4B2YrC18R6_vfIZO1FvI",
+    "name": "もりもと 厚別ひばりが丘店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "イートインスペースがあり、パンやお菓子が豊富。子連れでも利用しやすい。",
+    "score": 3,
+    "lat": 43.0339015,
+    "lng": 141.4597916,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "イートインスペースもありゆっくり飲食もできます。",
+      "併設されたイートイン スペースがあり食事ができる場所",
+      "お子様の小腹を満たすのにぴったりなパンシリーズです。",
+      "イートインスペースが広くて、一部天窓を設置しているので、とても明るいです。",
+      "イートインコーナーが充実していて、美味しいコーヒーを飲みながら、パンを温めて食べることもできます。"
+    ],
+    "id": 1732
+  },
+  {
+    "place_id": "ChIJSZFlw3MtC18RqxOppcTVhAA",
+    "name": "Gentle Bagel(ジェントル ベーグル)",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "ベーグル専門店。イートイン席あり。子連れ情報なし。",
+    "score": 1,
+    "lat": 43.0394602,
+    "lng": 141.4747708,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れ対応に関する記述は見当たりませんでした。",
+      "子連れ対応に関する記述は見当たりませんでした。",
+      "子連れ対応に関する記述は見当たりませんでした。",
+      "子連れ対応に関する記述は見当たりませんでした。",
+      "子連れ対応に関する記述は見当たりませんでした。"
+    ],
+    "id": 1733
+  },
+  {
+    "place_id": "ChIJe3APnWIsC18RHNjmgapPCtE",
+    "name": "麻布十番モンタボー イオン厚別店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "イートインコーナーあり。試食も豊富で子供も楽しめます。",
+    "score": 3,
+    "lat": 43.0536612,
+    "lng": 141.4691722,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "狭いがイートインコーナーもある。",
+      "かりんとうドーナッツの試食が学生達が何時も群がるようによって食べられている。"
+    ],
+    "id": 1734
+  },
+  {
+    "place_id": "ChIJIcqRyjorC18RkKnZGxA7tYc",
+    "name": "ペンギンベーカリー北野店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "惣菜系パンやサンドイッチが豊富。イートインコーナーあり。",
+    "score": 2,
+    "lat": 43.0164774,
+    "lng": 141.4521888,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "レジを出たところにイートインコーナーもありました。",
+      "惣菜系の種類が豊富なパン屋さん。",
+      "ハンバーガー系やサンドイッチも充実。"
+    ],
+    "id": 1735
+  },
+  {
+    "place_id": "ChIJZZNElwYrC18RMsBQWB1VNzY",
+    "name": "旅cafeTriche",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "可愛いクマさんモチーフのパフェが人気。ゆったりくつろげるカフェ。",
+    "score": 3,
+    "lat": 43.0532082,
+    "lng": 141.3690353,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "迷わず座りました。",
+      "運ばれた瞬間に思わず「可愛い〜！」",
+      "パフェも可愛いいですね。",
+      "森のくまさんパフェ🐻",
+      "サイズ感小さめ・お手頃価格で気軽に入ることができるお店です！"
+    ],
+    "id": 1736
+  },
+  {
+    "place_id": "ChIJGz7DTpYqC18RA0mcfBmgsLE",
+    "name": "カフェ･ノエル",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気で、大人も子供も楽しめるカフェです。",
+    "score": 3,
+    "lat": 43.0048022,
+    "lng": 141.3951912,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内落ち着いた雰囲気！読書などでゆっくりできると思う📖",
+      "ご家族で経営されており、いつも優しい雰囲気でつい長居してしまうお店です。",
+      "ある程度大人数でも2階の大部屋(豪華な雰囲気)で楽しめそうでした。"
+    ],
+    "id": 1737
+  },
+  {
+    "place_id": "ChIJsUkgUUYqC18RppMpGKGoR-w",
+    "name": "ドロップインカフェ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気で、ゆったりとした時間を過ごせます。",
+    "score": 2,
+    "lat": 43.0343555,
+    "lng": 141.37673619999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内落ち着いた雰囲気",
+      "お店の雰囲気もとても落ち着いていて",
+      "心地よい空間"
+    ],
+    "id": 1738
+  },
+  {
+    "place_id": "ChIJ9bKepnMpC18RTXJ83cviGZM",
+    "name": "美青",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気のカフェ。一人での利用がおすすめ。",
+    "score": 1,
+    "lat": 43.055982799999995,
+    "lng": 141.3667328,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お店は広くないので、お一人様がオススメかもしれません。"
+    ],
+    "id": 1739
+  },
+  {
+    "place_id": "ChIJB2V_mcsrC18R1IpOvKLu_TU",
+    "name": "ugo",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "おしゃれな空間で、ランチやシーシャが楽しめる複合施設。",
+    "score": 3,
+    "lat": 43.052206,
+    "lng": 141.371487,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内はハイカウンター席とテーブル席があり",
+      "急遽予約時の人数を超えて伺いましたが、快く対応して頂き",
+      "店員さん2人とも優しく対応して下さり感謝してます！"
+    ],
+    "id": 1740
+  },
+  {
+    "place_id": "ChIJ8eRxGrIrC18R6dHyO89liaw",
+    "name": "octafuzz",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気の隠れ家カフェ。一人でもゆっくり過ごせます。",
+    "score": 1,
+    "lat": 43.027117800000006,
+    "lng": 141.37068449999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は広く、席同士も近すぎずいい距離感",
+      "店内は暗めで大人な雰囲気でした",
+      "お一人様のランチには最高のシチュエーション"
+    ],
+    "id": 1741
+  },
+  {
+    "place_id": "ChIJ3YAmxrUrC18RxL5Zbn-kCng",
+    "name": "ヌヌースカフェ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "ラテアートが可愛いカフェ。ココアや抹茶ラテでもアートが楽しめる。",
+    "score": 3,
+    "lat": 43.0269891,
+    "lng": 141.37053150000003,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ココアや抹茶ラテなど、カフェラテ以外でも可愛いラテアートを楽しみながら食事ができます。",
+      "ココアも可愛らしくて美味しくて、幸せな気分になりました！"
+    ],
+    "id": 1742
+  },
+  {
+    "place_id": "ChIJa02J12YrC18R1LrKPhLS8HY",
+    "name": "kissa kondo bake&drink",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気のカフェ。焼き菓子が中心。",
+    "score": 2,
+    "lat": 43.0322502,
+    "lng": 141.3981682,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は小さいけど、落ち着いた雰囲気です。",
+      "店内は静かで落ち着ける雰囲気で、6席のイートインスペースがあります。",
+      "米粉やグルテンフリーの焼き菓子をベースに、季節ごとのフルーツや野菜で作られたケーキが並んでいます"
+    ],
+    "id": 1743
+  },
+  {
+    "place_id": "ChIJ-er2UGIrC18RkX0tampD0k4",
+    "name": "DADSON COFFEE",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "赤ちゃん連れの方も利用しており、落ち着ける空間です。",
+    "score": 4,
+    "lat": 43.0289145,
+    "lng": 141.3677713,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "赤ちゃん連れできている人もいて雰囲気もいいです。"
+    ],
+    "id": 1744
+  },
+  {
+    "place_id": "ChIJz-beT04rC18RlS_KB7agQIk",
+    "name": "エールカフェ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "眺めの良いおしゃれなカフェ。スイーツがおすすめ。",
+    "score": 3,
+    "lat": 43.0187828,
+    "lng": 141.35756949999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お店おしゃれ 店員さん優しくて丁寧",
+      "窓際にはカウンターもあったので、1人でも来やすそう。",
+      "お店の雰囲気はいいので景色を眺めながらデートや女子会などにはオススメです！",
+      "どの席も見晴らしが良さそうでした。"
+    ],
+    "id": 1745
+  },
+  {
+    "place_id": "ChIJVVVVJTIqC18RegUj8AgEPd0",
+    "name": "カフェ ヌー",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんが、落ち着いた雰囲気のカフェです。",
+    "score": 1,
+    "lat": 43.0498749,
+    "lng": 141.3660938,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内はお客さんで満員でしたが、おかずに合わせてなのか、女性や中高年の方が大半でした。",
+      "居心地の良い喫茶店。落ち着いた室内インテリアが良い感じです。"
+    ],
+    "id": 1746
+  },
+  {
+    "place_id": "ChIJNY8sdQArC18RluSjfTZG85g",
+    "name": "詠月珈琲",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気のカフェ。子連れに関する言及なし。",
+    "score": 1,
+    "lat": 43.036186099999995,
+    "lng": 141.3597891,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は手前にテーブルが1つ、その奥にカウンター席、さらに奥には大テーブルがありました。",
+      "常連さんがお一人いました。",
+      "読書が好きなのですが、ついつい長居したくなります。"
+    ],
+    "id": 1747
+  },
+  {
+    "place_id": "ChIJ-UpLimsrC18RIcfKqsqOdCQ",
+    "name": "韓国カフェ しぷさむ。",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0497711,
+    "lng": 141.3735806,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1748
+  },
+  {
+    "place_id": "ChIJyexJvhgrC18RFt5ghpMVsNM",
+    "name": "読書室ポワロ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [
+      "個室あり",
+      "座敷あり"
+    ],
+    "description": "静かな読書空間。半個室や和室があり、落ち着いて過ごせます。",
+    "score": 3,
+    "lat": 43.041466299999996,
+    "lng": 141.3752637,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "半個室になっていて、落ち着く。",
+      "中は畳と椅子の席があっていくらで何時間までといったスタイル。",
+      "かすかな気配だけが感じられる温かい部屋。"
+    ],
+    "id": 1749
+  },
+  {
+    "place_id": "ChIJbWBDJb0rC18R5H675eb_UfU",
+    "name": "CAFE DE MOCHAI",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "席数が少なめなので注意が必要な隠れ家カフェ。",
+    "score": 1,
+    "lat": 43.0373471,
+    "lng": 141.3841994,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "席数が少なめなので気をつけてください。"
+    ],
+    "id": 1750
+  },
+  {
+    "place_id": "ChIJj4EgXucqC18RneeboXEjokA",
+    "name": "クシュクシュ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "文具やポストカードも並ぶ可愛い店内。ランチやスイーツが人気。",
+    "score": 1,
+    "lat": 43.012195999999996,
+    "lng": 141.4203336,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "どちらかと言えば少人数のグループ又はお一人様向き"
+    ],
+    "id": 1751
+  },
+  {
+    "place_id": "ChIJzd20fIgrC18Rdms4mcSOzZg",
+    "name": "ぬんころカフェ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "ペット同伴可能で、温かい雰囲気のカフェです。",
+    "score": 4,
+    "lat": 43.044911299999995,
+    "lng": 141.38088570000002,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ペットと一緒に楽しめる喫茶店",
+      "ワンちゃんと一緒に過ごせる",
+      "犬と一緒にいけて、のんびりできました",
+      "ワンちゃんと一緒に入れるカフェ"
+    ],
+    "id": 1752
+  },
+  {
+    "place_id": "ChIJuzUUxY0qC18RdHYlrxggU5w",
+    "name": "レストラン カナル",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "落ち着いた雰囲気で、ファミリー層も利用しやすい洋食店。",
+    "score": 3,
+    "lat": 43.012558,
+    "lng": 141.38814499999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は高級感がありつつも落ち着いた雰囲気で、とても居心地が良かったです。",
+      "ファミリーレストランとしては少し価格帯が高めに感じるかもしれませんが、決して敷居が高すぎることはなく、程よい値段設定だと思います。",
+      "駐車場も広く入りやすく、アクセス面でも便利でした。"
+    ],
+    "id": 1753
+  },
+  {
+    "place_id": "ChIJ8QvxwkgqC18RzLwtQHUynbc",
+    "name": "麺屋 彩未",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.035265800000005,
+    "lng": 141.3819435,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1754
+  },
+  {
+    "place_id": "ChIJB9ThNWgqC18RmTPImsPNiOQ",
+    "name": "らーめんつけ麺NOFUJI (Ramen Tsukemen NOFUJI)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "待ち時間が長く、子連れにはあまり向かない可能性あり",
+    "score": 1,
+    "lat": 43.0269488,
+    "lng": 141.3709644,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "待ち時間が非常に長く、そんなに並んでないかなと思っても1時間程度待つことは当たり前にあります。",
+      "忙しい方にはススメられないな。",
+      "女性客も多く、味・雰囲気ともに高評価。"
+    ],
+    "id": 1755
+  },
+  {
+    "place_id": "ChIJucxAR2oqC18Re_jRy-QfVhM",
+    "name": "MEN-EIJI HIRAGISHI BASE",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "荷物カゴがあり、清潔感のある店内。子連れに関する記載なし。",
+    "score": 1,
+    "lat": 43.0293973,
+    "lng": 141.366308,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "椅子の下に荷物置き用のカゴが完備",
+      "テーブル席は隅々まで清掃が行き届いて清潔感があり",
+      "スタッフの方々の接客態度も明るく丁寧で"
+    ],
+    "id": 1756
+  },
+  {
+    "place_id": "ChIJsyl3LgArC18ROhg0YpRGIWw",
+    "name": "麺鍾馗 豊平",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "商業施設内の広々とした駐車場があり、子連れでも利用しやすい。",
+    "score": 3,
+    "lat": 43.046142599999996,
+    "lng": 141.3716671,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "施設の駐車場も広いので、すごく行きやすいです。",
+      "商業施設内で、店前の広い併設駐車場を利用する事が出来ます。"
+    ],
+    "id": 1757
+  },
+  {
+    "place_id": "ChIJ30yccd0qC18RlHsevuRWxKU",
+    "name": "麺屋 髙橋",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0121397,
+    "lng": 141.4202544,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する情報は見つかりませんでした。"
+    ],
+    "id": 1758
+  },
+  {
+    "place_id": "ChIJZ6lmrkgqC18RyR1UEHZK1TI",
+    "name": "春一家 三代目 麺宿",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.034475799999996,
+    "lng": 141.3815507,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1759
+  },
+  {
+    "place_id": "ChIJ3UpEknEqC18RWuc8ocnzDp0",
+    "name": "我流麺舞 飛燕",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0234398,
+    "lng": 141.3568865,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1760
+  },
+  {
+    "place_id": "ChIJadFoPxUqC18RH5b59XPwUMA",
+    "name": "すみれ 中の島本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ラーメン店。子連れに関する情報は見当たりませんでした。",
+    "score": 1,
+    "lat": 43.0326729,
+    "lng": 141.3616204,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "年に一度の家族旅行で札幌を訪れる際、必ず立ち寄る",
+      "高校時代の仲間と札幌旅行（遠足）へ行き、まずは味噌ラーメンの有名店に念願の来店"
+    ],
+    "id": 1761
+  },
+  {
+    "place_id": "ChIJn6h_SakrC18R5znesFehUYQ",
+    "name": "らーめん心繋",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ラーメン店。子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.035046699999995,
+    "lng": 141.41087109999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "カウンターとテーブル席があり、こじんまりとした店内。",
+      "店員さんが少し無愛想なのが気になりました"
+    ],
+    "id": 1762
+  },
+  {
+    "place_id": "ChIJF065sWoqC18RUgEx08d4fZ0",
+    "name": "山嵐本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "カウンター席中心で、子連れ情報なし。一人でも入りやすい。",
+    "score": 1,
+    "lat": 43.0319028,
+    "lng": 141.3639182,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "カウンター席という構成",
+      "一人でも気兼ねなく入りやすい雰囲気",
+      "店内はカウンター席が中心"
+    ],
+    "id": 1763
+  },
+  {
+    "place_id": "ChIJscY41EsqC18RIc4Bjo_ofVI",
+    "name": "麺屋 やしち",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0378987,
+    "lng": 141.3851965,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1764
+  },
+  {
+    "place_id": "ChIJXRVCA5gqC18R9ERVFjW12u8",
+    "name": "常(JOE)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0027185,
+    "lng": 141.392898,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1765
+  },
+  {
+    "place_id": "ChIJASxqBqcrC18ROElwR8mt1pA",
+    "name": "中華ソバ 風来堂",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "テーブル席は1卓のみ。階段があるので注意が必要です。",
+    "score": 2,
+    "lat": 43.043385199999996,
+    "lng": 141.3705334,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "奥に4人座れるテーブルが1卓",
+      "階段が少し急勾配なので昇り降り"
+    ],
+    "id": 1766
+  },
+  {
+    "place_id": "ChIJMUj0NlEqC18R96wuYOjIm6A",
+    "name": "らーめん佳",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "席はカウンターのみで少人数での訪問がおすすめ。",
+    "score": 1,
+    "lat": 43.0296604,
+    "lng": 141.395488,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "席はカウンター7席のみなので少人数での訪問がおすすめ。"
+    ],
+    "id": 1767
+  },
+  {
+    "place_id": "ChIJuzO35yoqC18RIeagqaIprkI",
+    "name": "麺処 武壱",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "家族連れも利用。座席やメニューに関する具体的な記載はなし。",
+    "score": 2,
+    "lat": 43.0527379,
+    "lng": 141.3681992,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "家族3人で来ました。",
+      "男性店主と女性スタッフさんは共に40歳前後位の方でご夫婦でしょうか、柔らかい雰囲気で好印象でした。"
+    ],
+    "id": 1768
+  },
+  {
+    "place_id": "ChIJG1_l7hUqC18R2ptDyXXv_tE",
+    "name": "麺処まるはBEYOND",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "子連れでもテーブル席に子供用椅子を用意してもらえ安心",
+    "score": 4,
+    "lat": 43.0271652,
+    "lng": 141.3711812,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れで家族3人で利用しました。",
+      "テーブル席に子供用の椅子を持ってきてもらえたので、子連れでも問題なく利用できました。"
+    ],
+    "id": 1769
+  },
+  {
+    "place_id": "ChIJayVgdxArC18RRqaDIUIm954",
+    "name": "らーめん いそじ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "騒いでもOK"
+    ],
+    "description": "アットホームな雰囲気で家族連れも多く、気兼ねなく食事が楽しめます。",
+    "score": 4,
+    "lat": 43.0264313,
+    "lng": 141.43251659999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "日曜日などは、家族連れの客が多く、お店の人との交流ぶりもほっこりします…",
+      "サービスもとてもアットホームです。"
+    ],
+    "id": 1770
+  },
+  {
+    "place_id": "ChIJ3eqVNTIqC18RJH4_PxIEmAg",
+    "name": "手打ちそば処 叶庵",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "手打ちそばのお店。温かいそばもおすすめ。",
+    "score": 3,
+    "lat": 43.0449717,
+    "lng": 141.3756804,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "おひとりなのに2人がけテーブルに通してくれてラッキー✌️",
+      "隣の席の方に天麩羅盛合せ？が運ばれてきて、仰天する量でした。",
+      "常連さんが多い印象で、お店の方もとても感じが良かったです。"
+    ],
+    "id": 1771
+  },
+  {
+    "place_id": "ChIJ5b4mE28qC18RSxhu2XNqwhI",
+    "name": "そば酒処 昌の屋",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "落ち着いた空間で、個室風の席もあり、ゆっくり蕎麦を楽しめます。",
+    "score": 3,
+    "lat": 43.0238187,
+    "lng": 141.36542559999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "個室風の席もあるので、ひとりでも複数人でも使いやすそうです★"
+    ],
+    "id": 1772
+  },
+  {
+    "place_id": "ChIJNTESKF7VCl8R0f2BQ4E1ob8",
+    "name": "香村 (こうむら)",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気でゆったり過ごせます。",
+    "score": 3,
+    "lat": 42.9960578,
+    "lng": 141.3778305,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "カウンター、座敷、椅子席あります。",
+      "店内は外観と同じく落ち着いた感じの良い雰囲気でゆったり"
+    ],
+    "id": 1773
+  },
+  {
+    "place_id": "ChIJ5w6LjeIrC18REy0xI2HyX9U",
+    "name": "そば処 丞",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.034311699999996,
+    "lng": 141.3767598,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1774
+  },
+  {
+    "place_id": "ChIJJ0bXMLUrC18RCSbLAN6aVmg",
+    "name": "ごまそば遊鶴 美園店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "子供用イスやおむつ替えシートあり。家族連れでも安心。",
+    "score": 4,
+    "lat": 43.041057599999995,
+    "lng": 141.3902435,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子供用のテーブル席イス（ベルト無し）もあり",
+      "トイレにはおむつ替えシートもありで子連れでも安心です",
+      "テーブル席も小上がりもあるので、家族連れでも"
+    ],
+    "id": 1775
+  },
+  {
+    "place_id": "ChIJOetnZXUrC18RAkN86c9-EtA",
+    "name": "八天庵 平岸店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "リーズナブルでボリューム満点。家族で楽しめるお蕎麦屋さん。",
+    "score": 3,
+    "lat": 43.03125,
+    "lng": 141.37805889999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "値段以上満足感があります",
+      "お値段がリーズナブルで、量も多目です",
+      "丼とそばのセットがボリューミー"
+    ],
+    "id": 1776
+  },
+  {
+    "place_id": "ChIJ_0tICwArC18R4vE6YVGzHjY",
+    "name": "うどん処 麺将",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "キッズチェアあり",
+      "騒いでもOK"
+    ],
+    "description": "スタッフ優しく子連れも安心。テーブル席あり。",
+    "score": 4,
+    "lat": 43.0267546,
+    "lng": 141.3691931,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お店のスタッフさんも、皆さん優しいです。",
+      "小さい子連れでも大丈夫です。",
+      "家族にもテーブル席があるから、小さいお子さんがいる人もオケ✌︎('ω')✌︎"
+    ],
+    "id": 1777
+  },
+  {
+    "place_id": "ChIJkyl84kbVdF8R2ssItsg9MRU",
+    "name": "たちばな",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、店員さんの対応も良い蕎麦屋さんです。",
+    "score": 3,
+    "lat": 42.9847219,
+    "lng": 141.43609569999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は座敷とテーブル席。",
+      "店員さんにお勧めを聞くと",
+      "店員さんが皆さん感じ良かった"
+    ],
+    "id": 1778
+  },
+  {
+    "place_id": "ChIJHxCvungrC18RRE-ffp17Eco",
+    "name": "氣鈴亭 (きりんてい)",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "静かで落ち着いた雰囲気。子連れに関する言及なし。",
+    "score": 1,
+    "lat": 43.0301048,
+    "lng": 141.4016724,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "とっても静かで居心地の良い店内。",
+      "店員さんの態度もとても良く、親しみやすいです。"
+    ],
+    "id": 1779
+  },
+  {
+    "place_id": "ChIJwRQji1gqC18R4lMbwWShYoM",
+    "name": "そばの葵",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "広い店内と小上がり席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.023933,
+    "lng": 141.3923988,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "小上がりもある大きめの店内は、そこそこ人がいて繁盛していました。",
+      "店の中は広く席は沢山有りました。"
+    ],
+    "id": 1780
+  },
+  {
+    "place_id": "ChIJezn8wWEqC18RtRfygXU4YRk",
+    "name": "磯切そば更科 平岸店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "席数は少ないですが、リーズナブルで美味しいお蕎麦屋さんです。",
+    "score": 2,
+    "lat": 43.0186273,
+    "lng": 141.37947029999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は狭くテーブル4人席２つと2人席１つ",
+      "僅か10席だけの小さなお店",
+      "4人席が２つと2人席が１つお店は狭いですが",
+      "テーブル席が３つとこじんまりした店内です"
+    ],
+    "id": 1781
+  },
+  {
+    "place_id": "ChIJCzO0B1UrC18RZSr4nGeaVyc",
+    "name": "そば処千家 別邸",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "騒いでもOK"
+    ],
+    "description": "セルフサービスで自由に選べるので、お子様連れでも気兼ねなく楽しめます。",
+    "score": 3,
+    "lat": 43.046191799999995,
+    "lng": 141.3737386,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "水をこぼす粗相をしてしまいましたが、嫌な顔せずすぐに対応していただけました。",
+      "セルフですが、自由に選べるし、楽しい。"
+    ],
+    "id": 1782
+  },
+  {
+    "place_id": "ChIJ-2ufIJ8qC18Rancdso_lX7U",
+    "name": "むぎの里 札幌西岡店",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、うどんや定食メニューが豊富で家族連れにもおすすめです。",
+    "score": 4,
+    "lat": 43.001155999999995,
+    "lng": 141.383747,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内は、テーブル席、ボックス席及び座敷があります。",
+      "普通のうどんメニューのほか、ちゃんぽんや定食もあるので、ご家族連れにも良い店と思います。"
+    ],
+    "id": 1783
+  },
+  {
+    "place_id": "ChIJyQlbx0sqC18RS0V8rkibzpU",
+    "name": "そば処 札幌美園信州庵",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、テーブル調味料も自由で子連れでも利用しやすい蕎麦店。",
+    "score": 3,
+    "lat": 43.0379669,
+    "lng": 141.38705099999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内広くて、カウンター席、小上がり、テーブル席があります。",
+      "卓上のネギも無料でトッピングできるのが嬉しいですね。"
+    ],
+    "id": 1784
+  },
+  {
+    "place_id": "ChIJqzUGbwUrC18RadZn1Kga5Qc",
+    "name": "かよさん",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "一人で作られているため、混雑時は時間に余裕を持って訪問しましょう。",
+    "score": 3,
+    "lat": 43.0282493,
+    "lng": 141.4277745,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お一人で作られているので混んでいる時はのんびり気長に待つといいと思います。",
+      "おばちゃんが一人で営業するうどん屋さん",
+      "店主さんが1人でやられている豊平区の人気店"
+    ],
+    "id": 1785
+  },
+  {
+    "place_id": "ChIJR1s-2JkqC18RfdnPlEJMJl0",
+    "name": "福鮨",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "情報なし",
+    "score": 1,
+    "lat": 43.0043611,
+    "lng": 141.3900516,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1786
+  },
+  {
+    "place_id": "ChIJCczS80gqC18R71xadkOOBdk",
+    "name": "すし乃なか西",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0360272,
+    "lng": 141.3810961,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1787
+  },
+  {
+    "place_id": "ChIJRbA9ImYqC18R3p0iX8fagTA",
+    "name": "和可奈鮨",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "ご高齢のご夫婦が営む温かい雰囲気のお寿司屋さん。",
+    "score": 3,
+    "lat": 43.024204,
+    "lng": 141.3706952,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ご高齢な夫婦で営まれていて、雰囲気も温かく居心地が良かったです",
+      "ご高齢のご夫妻が営むお寿司屋さんです",
+      "老夫婦で営まれているお店は店内の空間も含めて非常に昭和感漂ってます"
+    ],
+    "id": 1788
+  },
+  {
+    "place_id": "ChIJ01m9riUrC18R5m8yueccE6A",
+    "name": "焼肉 そうちゃん",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "情報なし",
+    "score": 1,
+    "lat": 43.034498899999996,
+    "lng": 141.3678156,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1789
+  },
+  {
+    "place_id": "ChIJmxGfQwArC18Rf9wE4AdSTxU",
+    "name": "炭火焼肉 わなり",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "牛タンカレーは子供も食べやすい辛さ。店員さんも優しい。",
+    "score": 3,
+    "lat": 43.0390228,
+    "lng": 141.3728432,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "新しく牛タンカレーが出てましたが、ちょうど良いサイズで、辛すぎもしないため子供にもいいです。",
+      "店員さんも優しそうな方がおおく"
+    ],
+    "id": 1790
+  },
+  {
+    "place_id": "ChIJ762KfAUrC18RVOmiSsb3HgI",
+    "name": "焼肉さんじ 南平岸店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんが、ボックス席があります。",
+    "score": 1,
+    "lat": 43.026776299999995,
+    "lng": 141.3701759,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "すんなり入れてボックス席でいただくことができました"
+    ],
+    "id": 1791
+  },
+  {
+    "place_id": "ChIJES0F4BsrC18RAsacEMZ3R1A",
+    "name": "焼肉 隠れ家",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.047382999999996,
+    "lng": 141.3751825,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1792
+  },
+  {
+    "place_id": "ChIJ2ybJwBUqC18RI-L02c_FQPM",
+    "name": "焼肉 炭王",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "七輪炭火焼肉店。家族連れも利用しているが、席数は少なめ。",
+    "score": 3,
+    "lat": 43.034215599999996,
+    "lng": 141.35875009999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "日曜日、娘がバイト終わってから21時過ぎに家族４人で行きました",
+      "お店が小さめで炭火なので、上着を袋に入れて封を閉じても匂いは結構付きます",
+      "店内はテーブル２卓にＬ字カウンターでこじんまりとしており"
+    ],
+    "id": 1793
+  },
+  {
+    "place_id": "ChIJu7xzq30rC18R9AsAjl6qIfk",
+    "name": "牛SUKE",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室あり。店員さんの接客も良く、子連れでも利用しやすい焼肉店。",
+    "score": 4,
+    "lat": 43.0319406,
+    "lng": 141.39560609999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "個室4つとテーブル席が4つ程あり",
+      "店員さんの接客がとても良く"
+    ],
+    "id": 1794
+  },
+  {
+    "place_id": "ChIJ42FwGCMrC18RLVJ1JfUTCGY",
+    "name": "焼肉そうちゃん南平岸店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり",
+      "子供メニューあり"
+    ],
+    "description": "子供用食器やイス完備！子連れ歓迎の焼肉店",
+    "score": 4,
+    "lat": 43.0256334,
+    "lng": 141.37069599999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子供の食器、エプロン、イスなど完備",
+      "子供も食べれるメニューもあり安心"
+    ],
+    "id": 1795
+  },
+  {
+    "place_id": "ChIJE1YH7NYrC18RXAcSXVj5pTs",
+    "name": "焼肉 李季(リキ)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり",
+      "子供メニューあり"
+    ],
+    "description": "小上がり席や子供用椅子、カトラリーあり。オムツ交換台はないが、キャンディーのサービスも。",
+    "score": 4,
+    "lat": 43.033182599999996,
+    "lng": 141.3690853,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "小上がりある。",
+      "子供用カトラリーある。",
+      "子供用椅子ある（テーブルに引っ掛けるタイプ）",
+      "オムツ交換台なし。",
+      "帰りにキャンディーくれた☺️"
+    ],
+    "id": 1796
+  },
+  {
+    "place_id": "ChIJ__-LzjgqC18RWKshtImHooU",
+    "name": "炭焼ホルモンごくらく",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0360728,
+    "lng": 141.3690823,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な言及はありませんでした。"
+    ],
+    "id": 1797
+  },
+  {
+    "place_id": "ChIJg1heU4sqC18RtwE5RF9WXfY",
+    "name": "焼肉工房桜",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "個室あり",
+      "キッズチェアあり"
+    ],
+    "description": "個室やキッズスペースがあり、子連れでも利用しやすい焼肉店。",
+    "score": 4,
+    "lat": 43.0167387,
+    "lng": 141.3895969,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "個室もありますし、キッズスペースもあるので子連れのご家族でも利用しやすいかも！",
+      "お子様も楽しめる焼肉屋だと思いました"
+    ],
+    "id": 1798
+  },
+  {
+    "place_id": "ChIJiwG7PUsqC18R_Gl3oBVowbI",
+    "name": "焼肉の店 七輪",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.039236599999995,
+    "lng": 141.3900941,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1799
+  },
+  {
+    "place_id": "ChIJd6MDlFYqC18R8Xr9RwARRSw",
+    "name": "焼肉ショップくう蔵",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0285777,
+    "lng": 141.39780969999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1800
+  },
+  {
+    "place_id": "ChIJq_ra_2gqC18RreHCVDYAH-A",
+    "name": "焼肉 寺桜",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.026419499999996,
+    "lng": 141.3691462,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1801
+  },
+  {
+    "place_id": "ChIJ35FBZksqC18Ri8NGrQ6srwc",
+    "name": "焼肉新月苑",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありません。",
+    "score": 1,
+    "lat": 43.038337399999996,
+    "lng": 141.39088189999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1802
+  },
+  {
+    "place_id": "ChIJMyJyWugrC18RyAt-pgP7Uac",
+    "name": "札幌十楽総本家",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり",
+      "騒いでもOK"
+    ],
+    "description": "スタッフが子供に優しく、賑やかな雰囲気で子連れでも安心。",
+    "score": 4,
+    "lat": 43.026354,
+    "lng": 141.37223849999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子供に雨とグミをあげてるのを見てほっこりしました。",
+      "周りのお客様でもこれがきてない、あれがきてない等声が聞こえていました。"
+    ],
+    "id": 1803
+  },
+  {
+    "place_id": "ChIJNyGBUqkrC18RV0ChcBC-mc0",
+    "name": "村やん家(むらやんち)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "8歳のお子さんも絶賛！家族で楽しめる焼肉店。",
+    "score": 3,
+    "lat": 43.038542,
+    "lng": 141.3860255,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "8歳の娘が上ロースをベタ褒めしていました。",
+      "店員さんも可愛く、オーナーもちょっと無口だけど良い人っぽい。",
+      "カウンターとボックス席のお店で"
+    ],
+    "id": 1804
+  },
+  {
+    "place_id": "ChIJocxyUT8qC18RkOcmsZ2SRvk",
+    "name": "焼肉ダイニング すみか 平岸店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんが、店員は親切です。",
+    "score": 2,
+    "lat": 43.0349705,
+    "lng": 141.3695343,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "スタッフの方々も皆さん親切で気持ちよく過ごせます。",
+      "接客が素晴らしい✨とっても優しく気の利く丁寧な対応"
+    ],
+    "id": 1805
+  },
+  {
+    "place_id": "ChIJ_YGRaAArC18RE-t7bpaIy8A",
+    "name": "とんかつ檍のカレー屋いっぺこっぺ西岡店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.003926299999996,
+    "lng": 141.38555929999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1806
+  },
+  {
+    "place_id": "ChIJTd7RYvIqC18Rm1RLYihnKAU",
+    "name": "かつや 札幌福住店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありません。",
+    "score": 1,
+    "lat": 43.015035,
+    "lng": 141.39738599999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "子連れに関する具体的な言及はありません。"
+    ],
+    "id": 1807
+  },
+  {
+    "place_id": "ChIJ9xcpboApC18RuSENYA-OAB4",
+    "name": "中国料理 美麗華",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室利用でゆったり食事可能。年齢層問わず楽しめる。",
+    "score": 3,
+    "lat": 43.0542284,
+    "lng": 141.3650456,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "人数が多かったので個室でコースでのランチ。",
+      "どの年齢層でも満足できる食事だと思います。",
+      "全体的に上品でくどくはなく、お年寄りにも楽しめる感じ。"
+    ],
+    "id": 1808
+  },
+  {
+    "place_id": "ChIJ1auz9twqC18RX8khV_RGHs4",
+    "name": "中華料理パンダ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0106223,
+    "lng": 141.42303909999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1809
+  },
+  {
+    "place_id": "ChIJpQh8uUsqC18RaAiXDRbnNyA",
+    "name": "四川菜麺 紅麹屋",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0381947,
+    "lng": 141.3873133,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な言及はありませんでした。"
+    ],
+    "id": 1810
+  },
+  {
+    "place_id": "ChIJv7c6ZZkqC18RQA6kJrNzhgE",
+    "name": "煌炎 (こうえん) (Cōen)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "活気があり、店員さんの接客も良い中華料理店です。",
+    "score": 3,
+    "lat": 43.0037222,
+    "lng": 141.3851043,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店員さんも テキパキとオーダーなど 接客も素晴らしい👍",
+      "店員さんも3人？いましたがとても対応良く、嫌な思いしませんでした。",
+      "活気ある 良いお店でした😄"
+    ],
+    "id": 1811
+  },
+  {
+    "place_id": "ChIJwWhtkTYqC18R6hOnVwXH8r4",
+    "name": "中華 神龍 (シェンロン)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "昔ながらの雰囲気で、家族でラーメンを楽しめるお店。",
+    "score": 3,
+    "lat": 43.041283299999996,
+    "lng": 141.3778327,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "家族でラーメンを頂きましたが、ここは化学調味料が入ってないと感じました。",
+      "昔ながらのお店の雰囲気と料理ですが、頼んだ炒麺と餃子はどちらも美味しかったです。",
+      "昔懐かしい美味しい味と優しくアットホームな雰囲気に癒されました"
+    ],
+    "id": 1812
+  },
+  {
+    "place_id": "ChIJX0FZ0eYrC18RafzcZAJ62FA",
+    "name": "香港地 HONG KONG PLACE",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.054362399999995,
+    "lng": 141.3701103,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1813
+  },
+  {
+    "place_id": "ChIJq_ra_2gqC18RZ7ibjKnRPrU",
+    "name": "旬菜酒家なかなか",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れでの利用を検討している口コミあり。",
+    "score": 2,
+    "lat": 43.0263443,
+    "lng": 141.36924829999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "今度は家族と行きたいです。"
+    ],
+    "id": 1814
+  },
+  {
+    "place_id": "ChIJmTG49UoqC18RLTBiR5CWrA4",
+    "name": "中華・華奈峰",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.039769199999995,
+    "lng": 141.3868113,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1815
+  },
+  {
+    "place_id": "ChIJYfo3xkYqC18RFxdWjmEUmqg",
+    "name": "珠華飯店 平岸店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "住宅街にある本格中華。テイクアウトも可能。",
+    "score": 2,
+    "lat": 43.0329084,
+    "lng": 141.37483,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "本州からの家族を連れて行く穴場中華料理屋を発見できたのは嬉しい。",
+      "高齢者の胃袋を考え、イートイン分・お土産用と最初から分けて次回は注文するつもりだ。"
+    ],
+    "id": 1816
+  },
+  {
+    "place_id": "ChIJcdIgDwMrC18RO7O5rnxstSI",
+    "name": "餃子の花家",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "餃子とチャーハンが自慢の店。幅広い年齢層が楽しめる。",
+    "score": 3,
+    "lat": 43.0257211,
+    "lng": 141.42029240000002,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "小さなお子さんから高齢の方まで美味しくいただけるお店だと思います"
+    ],
+    "id": 1817
+  },
+  {
+    "place_id": "ChIJa6Sc4V8qC18ROEtszn6TK7o",
+    "name": "炭焼きハンバーグ牛吉",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "炭焼きハンバーグが美味しいお店。席数は少なめ。",
+    "score": 2,
+    "lat": 43.020511,
+    "lng": 141.3839849,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "席数はあまり多くないので多人数で行くと待つかもしれないです",
+      "店内は煙が凄くて換気が不十分"
+    ],
+    "id": 1818
+  },
+  {
+    "place_id": "ChIJ969N628qC18R4OSIX1ltpEY",
+    "name": "黒牛セブン７",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "ファミレス風の小綺麗な店内。ハンバーグが美味しいお店。",
+    "score": 3,
+    "lat": 43.0226428,
+    "lng": 141.3633243,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ファミレスっぽい店内で小綺麗",
+      "あぶら少なめの国産牛のハンバーグもあるのも嬉しい",
+      "ハンバーグは2種類あって相方と別々のを頼んでシェアしましたがどちらも最高に美味しかったです"
+    ],
+    "id": 1819
+  },
+  {
+    "place_id": "ChIJ3_-1Ly0qC18RMmsZik-kHGI",
+    "name": "メナージェ",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.049244699999996,
+    "lng": 141.3752714,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1820
+  },
+  {
+    "place_id": "ChIJlUUlSisqC18RkGSo26iYplY",
+    "name": "ステーキハウス Liberty Bell",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0520257,
+    "lng": 141.3712983,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1821
+  },
+  {
+    "place_id": "ChIJ7eKXwO0qC18RATNTWD31RmE",
+    "name": "ダッチオーブン",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及は見られませんでした。",
+    "score": 1,
+    "lat": 43.014263,
+    "lng": 141.4009567,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な言及は見られませんでした。"
+    ],
+    "id": 1822
+  },
+  {
+    "place_id": "ChIJOacHbCwqC18R6geNIYR4SMc",
+    "name": "サンアンドムーン (月と太陽)",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "喫茶店のような雰囲気で、子連れに関する言及はありません。",
+    "score": 1,
+    "lat": 43.049211,
+    "lng": 141.369643,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "レストランというより喫茶店（カフェほどオシャレではない）",
+      "子連れに関する言及なし"
+    ],
+    "id": 1823
+  },
+  {
+    "place_id": "ChIJt611QCYrC18RRMkrXlPWVI0",
+    "name": "&PAN MARKET and BAKERY",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "月寒公園近くのおしゃれなカフェ。パンも美味しい。",
+    "score": 3,
+    "lat": 43.0296076,
+    "lng": 141.3857863,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "月寒公園をひと回りして、そのままご褒美の買い物へ。",
+      "月寒公園に隣接した閑静な場所にあります。",
+      "店内はめちゃくちゃおしゃれで綺麗です。"
+    ],
+    "id": 1824
+  },
+  {
+    "place_id": "ChIJC4zxGTgrC18RMKIKejlNFno",
+    "name": "チェットベーカリーおもや",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "店員さんが親切で、子連れでも安心してパンを選べます。",
+    "score": 4,
+    "lat": 43.0132154,
+    "lng": 141.4232218,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "小さい子といた為、食パンをどう取ろうか悩んでいたら変わりに取ってくださり、とても助かりました！"
+    ],
+    "id": 1825
+  },
+  {
+    "place_id": "ChIJF4PQHAArC18R1I_ADA6uZvY",
+    "name": "BAKERY Coneru（ベーカリーコネル）豊平店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "パンの種類が豊富で、テイクアウトにも便利なお店です。",
+    "score": 3,
+    "lat": 43.048887699999995,
+    "lng": 141.375878,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "箱の無料サービスもしているので高見えしてお土産にもぴったりです！",
+      "迷うくらい種類ありました。",
+      "パンは かなりたくさんの種類が並んでます"
+    ],
+    "id": 1826
+  },
+  {
+    "place_id": "ChIJT1m6XGgqC18R83G2OEt-Iow",
+    "name": "パネテリーヤ吉田 本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.026219499999996,
+    "lng": 141.3708363,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1827
+  },
+  {
+    "place_id": "ChIJpSANNFYrC18RIL6At9-E2dI",
+    "name": "フナサン米カリー",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "米粉パンが美味しいお店。テイクアウト中心で子連れ情報なし。",
+    "score": 1,
+    "lat": 43.027408099999995,
+    "lng": 141.3974014,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は広くなくメニューもさほど多くはありません。",
+      "店内は小さいので1度に5名様までです。"
+    ],
+    "id": 1828
+  },
+  {
+    "place_id": "ChIJdaDLelIqC18RxzMtq36xMH0",
+    "name": "イソップベーカリー 月寒店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "店内は狭いので譲り合いながら購入するパン屋さんです。",
+    "score": 1,
+    "lat": 43.033723699999996,
+    "lng": 141.3953323,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内は狭いので譲り合いながら、皆さん買われてて、お客様のマナーがよい店です。"
+    ],
+    "id": 1829
+  },
+  {
+    "place_id": "ChIJ69M_myErC18RkCU_Fu5g_f8",
+    "name": "ひだまり",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0232959,
+    "lng": 141.3803413,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1830
+  },
+  {
+    "place_id": "ChIJTxNShi0qC18RJra5C-edh9I",
+    "name": "ブレッドミュージアム京田屋 豊平店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0470173,
+    "lng": 141.3741617,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1831
+  },
+  {
+    "place_id": "ChIJtbaKpUAqC18R-Mdlni3TvMc",
+    "name": "ぽころんベーカリー 本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れでも利用しやすいパン屋さん。リーズナブルな価格で美味しいパンが楽しめます。",
+    "score": 3,
+    "lat": 43.034328099999996,
+    "lng": 141.36969249999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "アスパラの入ったパンはマヨネーズが美味しくて子供も好きなお味だと思います。",
+      "小さなパンが詰まった袋のやつは、意外とけっこう甘め！",
+      "まちのパン屋さんという感じで、お値段もリーズナブルでした。"
+    ],
+    "id": 1832
+  },
+  {
+    "place_id": "ChIJ30yccd0qC18RfaiYggumSLo",
+    "name": "ささぱん",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "お子様向けパンもあり、優しい雰囲気のお店です。",
+    "score": 3,
+    "lat": 43.0122328,
+    "lng": 141.4203586,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "後、お子様向けのパンなどが、あります。",
+      "優しい雰囲気の小さなお店に優しい店主さん"
+    ],
+    "id": 1833
+  },
+  {
+    "place_id": "ChIJlUT_ujgqC18RqaP0GIxJD5I",
+    "name": "パン工房 りんごの木",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0356928,
+    "lng": 141.3704707,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1834
+  },
+  {
+    "place_id": "ChIJvUMzacErC18RqwTVU9Cwytw",
+    "name": "Hanke -Sandwich&Inn-(ハンケ サンドイッチ アンドイン)",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "モーニングやランチにぴったりなサンドイッチカフェ。お子様連れでも利用しやすい雰囲気です。",
+    "score": 3,
+    "lat": 43.054497999999995,
+    "lng": 141.367427,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "娘と札幌に宿泊した際、モーニングで伺いました。",
+      "中１の娘と行ってきました🥪",
+      "テイクアウトのお客さんも多かったです。"
+    ],
+    "id": 1835
+  },
+  {
+    "place_id": "ChIJq6pBx-YqC18RpY2KJcKfpOE",
+    "name": "日糧製パン㈱ 月寒工場直売店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "規格外パンや大福がお得に買える工場直売店。",
+    "score": 1,
+    "lat": 43.016014,
+    "lng": 141.418081,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "駐車場は無いのでご注意を。",
+      "店員さんの態度が良くないです。",
+      "個数制限ありません"
+    ],
+    "id": 1836
+  },
+  {
+    "place_id": "ChIJbyqG5bgrC18Rgiw5IRxBdq0",
+    "name": "ぱん菓子 縁 豊平店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "提供されたクチコミからは子連れ対応に関する情報は確認できませんでした。",
+    "score": 1,
+    "lat": 43.026977599999995,
+    "lng": 141.3678401,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1837
+  },
+  {
+    "place_id": "ChIJS_mbHPMqC18ROmAQI_yBNEE",
+    "name": "釜焼き工房ひまわり屋",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "クチコミからは子連れ対応情報は確認できませんでした。",
+    "score": 1,
+    "lat": 43.016064799999995,
+    "lng": 141.3943352,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1838
+  },
+  {
+    "place_id": "ChIJ1wLrU8XUdF8R7QlVHWfl1bI",
+    "name": "カフェ ジッカ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "広めの店内と駐車場でゆったり過ごせるカフェ。",
+    "score": 3,
+    "lat": 43.0019031,
+    "lng": 141.47204349999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は広めです。",
+      "ゆったり広めのスペースが確保されており",
+      "駐車場台数がカフェにしては珍しく多く"
+    ],
+    "id": 1839
+  },
+  {
+    "place_id": "ChIJcXwtHm4qdV8RfeFrMnPq0PY",
+    "name": "コッコテラス",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "たまごソフトやプリンが人気。隣接ラーメン店利用で割引も。",
+    "score": 3,
+    "lat": 42.945516,
+    "lng": 141.445822,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "たまごソフトはどちらかというと少し硬めで",
+      "お隣のラーメン屋さんのとりたまファームの方が",
+      "駐車場は奥に広く多くの方が入れますが、",
+      "店内のレジより向かって右側に行ったらトイレのドアが…",
+      "同じ敷地内にあるラーメンを食べた時にたまごソフトクリームの"
+    ],
+    "id": 1840
+  },
+  {
+    "place_id": "ChIJv03HSIQrC18RteQ2LPVsMho",
+    "name": "むさしの森珈琲 札幌北野店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [
+      "キッズチェアあり",
+      "騒いでもOK"
+    ],
+    "description": "ソファ席もあり、お子様連れも多く見られます。ゆったり過ごせます。",
+    "score": 4,
+    "lat": 43.0131096,
+    "lng": 141.4353054,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "小さいお子さんのいるご家族もいました",
+      "ゆったりとくつろげる雰囲気で",
+      "明るく広い店内です"
+    ],
+    "id": 1841
+  },
+  {
+    "place_id": "ChIJ7ePNHpcrC18RWuQraisOJ9g",
+    "name": "T Room Cafe ティールームカフェ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.002234099999995,
+    "lng": 141.4350513,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1842
+  },
+  {
+    "place_id": "ChIJpYG18jvVdF8RNoQGspmWJRc",
+    "name": "㈱宮田屋珈琲 美しが丘店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 42.98807,
+    "lng": 141.447545,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "今回は、畳が敷いてある席で更にテンションが上がりました。",
+      "席は奥にもありリラックスして長居ができる感じでした。",
+      "テーブル席やカウンター席、小上がりなど座席の種類が豊富。"
+    ],
+    "id": 1843
+  },
+  {
+    "place_id": "ChIJVVJvRkfVdF8RuleogK2-YRA",
+    "name": "LA BLANC MOON",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [
+      "騒いでもOK",
+      "子供メニューあり"
+    ],
+    "description": "ドッグカフェですが、犬連れでなくても利用可能。ドッグラン併設。",
+    "score": 3,
+    "lat": 42.984808799999996,
+    "lng": 141.4388289,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "ワンちゃん連れじゃないと場違い感",
+      "犬連れでないとかなり敷居の高いお店",
+      "ワンちゃんメニューも内容が素晴らしい",
+      "ドッグランは外と室内にもある"
+    ],
+    "id": 1844
+  },
+  {
+    "place_id": "ChIJWx_Eq9oqC18RpfCT31EPBGg",
+    "name": "G-cafe",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [
+      "騒いでもOK"
+    ],
+    "description": "大型犬がお出迎え！おしゃれ空間でゆったりスープカレー",
+    "score": 4,
+    "lat": 43.005643,
+    "lng": 141.42722,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "飲食店のワンちゃんに苦手意識がある私でも、抵抗なく飲食出来ました。",
+      "基本的に人に吠えにくいらしいです。",
+      "ここの５匹♪ 私は吠えられなかった笑"
+    ],
+    "id": 1845
+  },
+  {
+    "place_id": "ChIJ0T-3I9UqC18RGm4j7JBp3NI",
+    "name": "プティ・パ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.003434999999996,
+    "lng": 141.44554399999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1846
+  },
+  {
+    "place_id": "ChIJ36rSvL0rC18RcmS1O_W0wes",
+    "name": "CAFE minorite",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0120773,
+    "lng": 141.4583087,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1847
+  },
+  {
+    "place_id": "ChIJCcaWXdMqC18RXEeRr3gzfF4",
+    "name": "宮田屋珈琲 清田本店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気のカフェ。分煙されており、ゆっくり過ごせます。",
+    "score": 3,
+    "lat": 43.0018939,
+    "lng": 141.4415196,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "とても、落ち着いた雰囲気！",
+      "1階は禁煙、2階は喫煙としっかり分煙。",
+      "落ち着いた店内でゆっくり出来ました"
+    ],
+    "id": 1848
+  },
+  {
+    "place_id": "ChIJrecIwt0qC18RAn8kyF06Gos",
+    "name": "日本茶カフェ 茶楽逢（さらい）",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "落ち着いた雰囲気で、和菓子も美味しい日本茶カフェ。",
+    "score": 3,
+    "lat": 42.99444,
+    "lng": 141.472666,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "テーブルが広くてよかったです。",
+      "店内も茶葉を焚いており良い香りです。",
+      "スタッフの皆様もいつもニコニコ優しく対応してくれるので実家のように落ち着けます。"
+    ],
+    "id": 1849
+  },
+  {
+    "place_id": "ChIJxwlJJJDVdF8R9cvw7n7cA2E",
+    "name": "Rain 美しが丘店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "広々としたおしゃれな店内でゆっくり過ごせます。",
+    "score": 3,
+    "lat": 42.9824591,
+    "lng": 141.45132959999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内はとても広くてお洒落♪",
+      "広い店内で開放感のある空間……居心地良かったです。",
+      "広々としておしゃれな店内は開放感があり快適。"
+    ],
+    "id": 1850
+  },
+  {
+    "place_id": "ChIJFZfid3EqdV8RDuK7gp06QaE",
+    "name": "自然満喫倶楽部",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "農家直営のスイーツ店。採れたていちごを使ったパフェが人気。",
+    "score": 3,
+    "lat": 42.9469503,
+    "lng": 141.4483141,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "スイーツ美味しすぎる！",
+      "採れたてを存分に使ったパフェやソフトクリームが楽しめるお店",
+      "この立地なのにお客様が絶えません。"
+    ],
+    "id": 1851
+  },
+  {
+    "place_id": "ChIJYagxhWkrC18RQZliyfFuSEw",
+    "name": "K.L.I.M清田本店",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "イートインスペースは狭め。テイクアウト推奨。",
+    "score": 2,
+    "lat": 43.0034765,
+    "lng": 141.4288233,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "イートインスペースは2人がけベンチが5つくらい",
+      "お客さんが複数組いる場合はテイクアウトして車の中等で食べた方がいいですね。"
+    ],
+    "id": 1852
+  },
+  {
+    "place_id": "ChIJobJo4Q3VdF8R4PdXoC0oG_4",
+    "name": "カフェ ラ・ベルコリーヌ",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "テラス席もあり、ゆったり過ごせるカフェ。デザートも豊富。",
+    "score": 3,
+    "lat": 42.9767193,
+    "lng": 141.4622951,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "テラスもあり、雑誌、喫煙ブースもありました。",
+      "テラスもあり明るくて清潔でゆっくり過ごせるお店。",
+      "デザートは、多かったです。",
+      "スタッフさんも、丁寧で親切でした。"
+    ],
+    "id": 1853
+  },
+  {
+    "place_id": "ChIJqcBmHdXVdF8R7wYTf_2opQg",
+    "name": "WA-WA-’S (ワーワーズ)",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "騒いでもOK"
+    ],
+    "description": "屋内遊び場併設で子供が夢中になれる！親もゆっくりできる。",
+    "score": 4,
+    "lat": 42.9781827,
+    "lng": 141.4593703,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "屋内子どもたちが同じ空間で遊べる場所",
+      "親がコーヒー飲みながら子供を見守ることができる",
+      "ご飯屋さんとキッズ遊び場のお店で、あまり他に無い"
+    ],
+    "id": 1854
+  },
+  {
+    "place_id": "ChIJN5CBrC_VdF8RzwKgdle9Ecs",
+    "name": "ごんぞう茶食席",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "喫茶店ですが、食事メニュー豊富でコーヒーサービスも嬉しい。",
+    "score": 3,
+    "lat": 42.995208,
+    "lng": 141.447641,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "メニューは単品表示ですが、コーヒー、サラダ等のセットで出てくるようです。",
+      "食前食後にミニカップコーヒーがついてきます。",
+      "喫茶店なのに和洋中食事メニューが豊富でボリューム満点です😊"
+    ],
+    "id": 1855
+  },
+  {
+    "place_id": "ChIJCR4zxGTVdF8R7OjJi1F6a3M",
+    "name": "きのとや ファーム店・KINOTOYA cafe",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "広々とした店内でゆったり過ごせるカフェ。ケーキセットがお得。",
+    "score": 3,
+    "lat": 43.0009373,
+    "lng": 141.4428501,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "駐車場も広く店内もゆったりできカフェでケーキセットをいただきました。",
+      "広くて清潔感あふれる店内にはケーキやクッキーが綺麗にディスプレイされています。",
+      "ケーキセットもお得感があって好きです。"
+    ],
+    "id": 1856
+  },
+  {
+    "place_id": "ChIJL7v8hkPVdF8RklfA6g3c2Rk",
+    "name": "cafestand musbu HIRAOKA",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "キッズスペースあり！お子様連れでも安心してお食事が楽しめます。",
+    "score": 4,
+    "lat": 42.994322,
+    "lng": 141.4568577,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "お子さんが遊べるスペースもありました。",
+      "キッズスペースもあるので小さなお子さんを連れていても大丈夫でしょう。"
+    ],
+    "id": 1857
+  },
+  {
+    "place_id": "ChIJaZctNcjUdF8RzNg5z1G_lHg",
+    "name": "taiwantea Yuuka",
+    "area": "円山",
+    "genre": "カフェ",
+    "tags": [],
+    "description": "台湾茶とスイーツが楽しめるカフェ。ゆったり過ごせます。",
+    "score": 3,
+    "lat": 43.0078757,
+    "lng": 141.47894019999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "本格茶が多くて、同じ葉っぱで自分で何杯でも入れて良い",
+      "いろいろなお茶がポットで頂ける専門店",
+      "オーナーのお母さんが作るぜんざいがオススメ",
+      "試飲しながらお茶を選べて購入できます"
+    ],
+    "id": 1858
+  },
+  {
+    "place_id": "ChIJnQFcqy8rC18RPiFjh9n8jK8",
+    "name": "ベビーフェイスプラネッツ 札幌平岡店",
+    "area": "円山",
+    "genre": "洋食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "仕切りで区切られた空間でゆっくり食事ができるカフェ",
+    "score": 4,
+    "lat": 43.012201999999995,
+    "lng": 141.45054199999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "仕切られた空間で、ゆっくりと食事ができました。",
+      "お手洗いから近い席を用意してくれました。",
+      "ボリュームあるオムライス"
+    ],
+    "id": 1859
+  },
+  {
+    "place_id": "ChIJs1Y5CxorC18RtLGTCKaN4JY",
+    "name": "らーめん たけ蔵",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.025071499999996,
+    "lng": 141.43398109999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1860
+  },
+  {
+    "place_id": "ChIJsYLtH9gqC18RDJPjyjzgNvY",
+    "name": "らーめん虎",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0095664,
+    "lng": 141.4374374,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1861
+  },
+  {
+    "place_id": "ChIJV36ACjzVdF8RG4StTf_idgM",
+    "name": "札幌鮭ラーメン麺匠赤松",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.9876801,
+    "lng": 141.4478897,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1862
+  },
+  {
+    "place_id": "ChIJAblaDhLVdF8RVNt_ib5Nahc",
+    "name": "花丸",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "小学生以下のお子様連れはご遠慮くださいとの注意書きあり。",
+    "score": 1,
+    "lat": 42.9775543,
+    "lng": 141.4604034,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "入り口に小学生以下のお子様連れはご遠慮くださいのコメントが貼っていた"
+    ],
+    "id": 1863
+  },
+  {
+    "place_id": "ChIJZQc2xZErC18R6rEFPZRuya0",
+    "name": "麺屋 幸咲",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な記載はありませんでした。",
+    "score": 1,
+    "lat": 43.0110481,
+    "lng": 141.4355166,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な記載はありませんでした。"
+    ],
+    "id": 1864
+  },
+  {
+    "place_id": "ChIJCYqlMN8qC18Rm1_yeW8zg7c",
+    "name": "らーめん喜多楼",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ラーメン店。子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0129922,
+    "lng": 141.4314128,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1865
+  },
+  {
+    "place_id": "ChIJJ0jreS_VdF8RPwunu6FyJeA",
+    "name": "RAMEN RS 改",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.9943317,
+    "lng": 141.4502429,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1866
+  },
+  {
+    "place_id": "ChIJadQrBzzVdF8RpTHzp63piQE",
+    "name": "麺屋ふくじゅ",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.987173299999995,
+    "lng": 141.4472038,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1867
+  },
+  {
+    "place_id": "ChIJybApfTfVdF8R5vcvq4mVxNY",
+    "name": "麺処 蓮海 清田本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "広々としたボックス席あり。店員さんも元気で安心。",
+    "score": 3,
+    "lat": 42.9895935,
+    "lng": 141.4392121,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "なおカウンター席ふくめてボックス席も、とっても広々！",
+      "店員さん元気いっぱい！"
+    ],
+    "id": 1868
+  },
+  {
+    "place_id": "ChIJE1OvNTnVdF8RXvNVjFZr6p8",
+    "name": "麺部屋 綱取物語 真栄店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.986652,
+    "lng": 141.444876,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1869
+  },
+  {
+    "place_id": "ChIJ8RIbKSorC18R01tTvXLYO5w",
+    "name": "大心 札幌本店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、ファミリーもゆっくり座れるラーメン店。",
+    "score": 3,
+    "lat": 43.0078053,
+    "lng": 141.4466428,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [
+      "店内は小上がりとカウンター席とファミリーもゆっくりと座れる感じです"
+    ],
+    "id": 1870
+  },
+  {
+    "place_id": "ChIJ2_ISSykrC18R6o7M2jOfsEo",
+    "name": "らーめんてつや 平岡店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.0098129,
+    "lng": 141.4485273,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1871
+  },
+  {
+    "place_id": "ChIJBTRtVpPVdF8RstXMBaVhvL0",
+    "name": "山嵐 清田店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "ラーメン店。子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.9790755,
+    "lng": 141.4672376,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1872
+  },
+  {
+    "place_id": "ChIJJUdmfAgrdV8RNFRKwIlzzaI",
+    "name": "ラーメンとりたまファーム",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "卵が無料！ラーメンとTKGで子供も大人も大満足",
+    "score": 4,
+    "lat": 42.9451998,
+    "lng": 141.4457739,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "1人1個無料の生卵がテーブルに置いてある",
+      "ラーメン＋TKG」まで含めて満足度が高い",
+      "生卵が嫌いなので卵かけご飯にしたことはないですがここのは美味しく食べれました"
+    ],
+    "id": 1873
+  },
+  {
+    "place_id": "ChIJMQD4YiXVdF8Rpk8Yv81kNvI",
+    "name": "麺屋 雪風 清田店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.986066799999996,
+    "lng": 141.45499039999999,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1874
+  },
+  {
+    "place_id": "ChIJB502nhArC18RP7e4p9MNyos",
+    "name": "麓郷舎",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 43.025265,
+    "lng": 141.4340339,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [],
+    "id": 1875
+  },
+  {
+    "place_id": "ChIJKUpAGDMrC18RKMw3fSkYhWI",
+    "name": "ラーメン296",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する具体的な言及はありませんでした。",
+    "score": 1,
+    "lat": 43.0016835,
+    "lng": 141.42800029999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "子連れに関する具体的な言及はありませんでした。"
+    ],
+    "id": 1876
+  },
+  {
+    "place_id": "ChIJ__9zfRDVdF8RcdOukS9vSS4",
+    "name": "すみれ 里塚店",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "子連れに関する情報は見つかりませんでした。",
+    "score": 1,
+    "lat": 42.9812878,
+    "lng": 141.46472989999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": true,
+    "evidence": [],
+    "id": 1877
+  },
+  {
+    "place_id": "ChIJT1qLTwDVdF8RHvz_MYlwI7M",
+    "name": "ラーメン 嘉一",
+    "area": "円山",
+    "genre": "その他",
+    "tags": [],
+    "description": "セルフサービス中心のユニークなラーメン店。子連れ情報なし。",
+    "score": 1,
+    "lat": 42.988712799999995,
+    "lng": 141.4756531,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "入口でスリッパに履き替えて二階に上がるとオフィスの脇に暖簾が掛かっていて、店内は長いテーブルの八席のみ。",
+      "注文はテーブル常備の注文票に書いて調理場の所定位置へ提出。",
+      "会計も、セルフ会計でした！"
+    ],
+    "id": 1878
+  },
+  {
+    "place_id": "ChIJJfdzY0fVdF8Rqpj1toZhVkA",
+    "name": "松栄庵",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [],
+    "description": "落ち着いた雰囲気のお蕎麦屋さん。静かに食事を楽しみたい方向け。",
+    "score": 1,
+    "lat": 42.9858123,
+    "lng": 141.4386985,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "店内は、静かで、他のお客様も静かに召し上がってます。",
+      "清潔感があり、落ち着いた雰囲気の店内。"
+    ],
+    "id": 1879
+  },
+  {
+    "place_id": "ChIJneWdQhvVdF8RQVPG5lokwTw",
+    "name": "まる貴そば",
+    "area": "円山",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気で蕎麦を楽しめます。",
+    "score": 3,
+    "lat": 42.9827458,
+    "lng": 141.47158439999998,
+    "tabelog_url": "",
+    "image_url": "",
+    "is_chain": false,
+    "evidence": [
+      "座敷2席(8人)",
+      "靴を脱いでスリッパに履き替えます。"
+    ],
+    "id": 1880
   }
 ]
