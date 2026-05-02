@@ -153,6 +153,16 @@ def fetch_page(api_key: str, start: int, count: int, area_code: str = "") -> dic
         return {}
 
 
+# Hotpepper 店説明文に出現したらタグを付ける明示キーワード
+# このどれか1つでも description に見つからない店は採用しない（取得時にフィルタ）
+HP_KEYWORDS_KIDS_CHAIR = ["キッズチェア", "子供用椅子", "ベビーチェア", "ハイチェア"]
+HP_KEYWORDS_KIDS_MENU = ["キッズメニュー", "お子様メニュー", "子供メニュー", "お子様ランチ"]
+HP_KEYWORDS_STROLLER = ["ベビーカー", "ストローラー"]
+
+# Hotpepper では座敷/個室タグは付与しない（飲み会用途が多いため）
+# barrier_free→ベビーカーOK の自動付与もしない（誤判定多すぎ）
+
+
 def extract_tags(shop: dict) -> list[str]:
     """APIレスポンスからタグを抽出."""
     tags: list[str] = []
@@ -160,31 +170,28 @@ def extract_tags(shop: dict) -> list[str]:
     # 子連れOK (child パラメータで絞ってるので基本全店)
     tags.append("子連れOK")
 
-    # NOTE: 座敷/個室は飲み会用途が多くファミリー判定の根拠にしないため、
-    # 中モードでは Hotpepper からは付与しない。
-
-    # NOTE: barrier_free=「あり」は段差なし or 車椅子トイレなど広い意味で、
-    # ベビーカーで快適に過ごせるかは別問題。誤判定が多かったため自動付与しない。
-    # 店説明文に「ベビーカー」「ストローラー」と明記された場合のみ下で付与する。
-
-    # その他の子連れ設備はフリーテキストから推定
+    # 店説明文（other_memo + shop_detail_memo）からのみ判定
     other_memo = shop.get("other_memo", "") or ""
     shop_detail_memo = shop.get("shop_detail_memo", "") or ""
     combined = other_memo + shop_detail_memo
 
-    if any(kw in combined for kw in ["キッズチェア", "子供用椅子", "ベビーチェア", "ハイチェア"]):
-        if "キッズチェアあり" not in tags:
-            tags.append("キッズチェアあり")
-
-    if any(kw in combined for kw in ["キッズメニュー", "お子様メニュー", "子供メニュー", "お子様ランチ"]):
-        if "子供メニューあり" not in tags:
-            tags.append("子供メニューあり")
-
-    if any(kw in combined for kw in ["ベビーカー", "ストローラー"]):
-        if "ベビーカーOK" not in tags:
-            tags.append("ベビーカーOK")
+    if any(kw in combined for kw in HP_KEYWORDS_KIDS_CHAIR):
+        tags.append("キッズチェアあり")
+    if any(kw in combined for kw in HP_KEYWORDS_KIDS_MENU):
+        tags.append("子供メニューあり")
+    if any(kw in combined for kw in HP_KEYWORDS_STROLLER):
+        tags.append("ベビーカーOK")
 
     return tags[:6]
+
+
+def has_hotpepper_kid_keyword(shop: dict) -> bool:
+    """説明文に子連れ向けキーワードが1つでも含まれているか（取得時フィルタ用）"""
+    combined = (shop.get("other_memo", "") or "") + (shop.get("shop_detail_memo", "") or "")
+    if not combined:
+        return False
+    keywords = HP_KEYWORDS_KIDS_CHAIR + HP_KEYWORDS_KIDS_MENU + HP_KEYWORDS_STROLLER
+    return any(kw in combined for kw in keywords)
 
 
 def detect_genre(genre_obj: dict) -> str:
@@ -373,6 +380,18 @@ def main() -> None:
     print(f"店名NG除外: {excluded_name_count} 件")
     print(f"残り: {len(after_name)} 件")
     after_genre = after_name
+
+    # 説明文に子連れ向けキーワード必須（取得時フィルタ）
+    no_kw_count = 0
+    after_kw: list[dict] = []
+    for s in after_genre:
+        if has_hotpepper_kid_keyword(s):
+            after_kw.append(s)
+        else:
+            no_kw_count += 1
+    print(f"説明文に子連れキーワードなし除外: {no_kw_count} 件")
+    print(f"残り: {len(after_kw)} 件")
+    after_genre = after_kw
 
     # 変換
     shops = []
