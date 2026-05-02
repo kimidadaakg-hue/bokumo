@@ -27,7 +27,7 @@ from typing import Any
 from urllib import error, parse, request
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT_PATH = ROOT / "data" / "shops.json"
+OUT_PATH = Path(__file__).resolve().parent / "hotpepper_fetched.json"
 
 API_URL = "https://webservice.recruit.co.jp/hotpepper/gourmet/v1/"
 
@@ -50,6 +50,27 @@ USE_ALL_HOKKAIDO = True
 SLEEP_SEC = 0.3  # API負荷軽減
 MAX_PER_PAGE = 100  # API上限
 MAX_PAGES = 50  # 安全上限（5000店まで）
+
+# 「中」モード: ベビーカー/キッズチェア/子供メニューが1個以上ある店だけ採用。
+# 座敷・個室はファミリー判定に使わない（飲み会用のことが多いため）。
+STRICT_MODE = True
+QUALIFYING_TAGS = {"ベビーカーOK", "キッズチェアあり", "子供メニューあり"}
+
+# 子連れ向きでない（または既存方針上ふさわしくない）ジャンルを除外。
+# Hotpepper 側の genre.name に対する部分一致でチェック。
+EXCLUDED_GENRE_KEYWORDS = ["居酒屋", "フレンチ", "イタリアン", "ダイニングバー", "バル", "ビアガーデン"]
+
+# 店名にこれらの単語が含まれる店も除外（夜の業態が中心と推定）
+EXCLUDED_NAME_KEYWORDS = [
+    "ゴルフバー", "ラウンジ", "Lounge", "LOUNGE",
+    "スナック", "クラブ", "CLUB",
+    "BAR ", " BAR", "Bar ", " Bar", "&BAR", "&Bar",
+    "バル ", " バル",
+]
+
+
+def has_excluded_name(name: str) -> bool:
+    return any(kw in name for kw in EXCLUDED_NAME_KEYWORDS)
 
 CHAIN_KEYWORDS = [
     "マクドナルド", "スターバックス", "スタバ", "モスバーガー",
@@ -135,17 +156,8 @@ def extract_tags(shop: dict) -> list[str]:
     # 子連れOK (child パラメータで絞ってるので基本全店)
     tags.append("子連れOK")
 
-    # 座敷
-    tatami = shop.get("tatami", "")
-    if tatami and "あり" in tatami:
-        tags.append("座敷あり")
-
-    # 個室
-    private = shop.get("private_room", "")
-    if private and "あり" in private:
-        tags.append("個室あり")
-
-    # カード (参考情報としてはあるが子連れタグではないのでスキップ)
+    # NOTE: 座敷/個室は飲み会用途が多くファミリー判定の根拠にしないため、
+    # 中モードでは Hotpepper からは付与しない。
 
     # バリアフリー → ベビーカーOKの推定
     barrier_free = shop.get("barrier_free", "")
@@ -272,7 +284,7 @@ def normalize(shop: dict, idx: int) -> dict:
         "hotpepper_id": shop.get("id", ""),
         "address": address,
         "open": shop.get("open", ""),
-        "urls": (shop.get("urls", {}) or {}).get("pc", ""),
+        "hotpepper_url": (shop.get("urls", {}) or {}).get("pc", ""),
     }
 
 
@@ -335,10 +347,43 @@ def main() -> None:
     print(f"チェーン除外: {chain_count} 件")
     print(f"非チェーン: {len(non_chain)} 件")
 
+    # ジャンル除外（居酒屋/フレンチ/イタリアン等）
+    excluded_genre_count = 0
+    after_genre: list[dict] = []
+    for s in non_chain:
+        gname = (s.get("genre", {}) or {}).get("name", "")
+        if any(kw in gname for kw in EXCLUDED_GENRE_KEYWORDS):
+            excluded_genre_count += 1
+        else:
+            after_genre.append(s)
+    print(f"ジャンル除外({','.join(EXCLUDED_GENRE_KEYWORDS)}): {excluded_genre_count} 件")
+    print(f"残り: {len(after_genre)} 件")
+
+    # 店名NG（バー/ラウンジ/スナック等）
+    excluded_name_count = 0
+    after_name: list[dict] = []
+    for s in after_genre:
+        if has_excluded_name(s.get("name", "")):
+            excluded_name_count += 1
+        else:
+            after_name.append(s)
+    print(f"店名NG除外: {excluded_name_count} 件")
+    print(f"残り: {len(after_name)} 件")
+    after_genre = after_name
+
     # 変換
     shops = []
-    for i, s in enumerate(non_chain, 1):
+    for i, s in enumerate(after_genre, 1):
         shops.append(normalize(s, i))
+
+    # 「中」モード: 子連れ要素タグが1個以上ある店だけ採用
+    if STRICT_MODE:
+        before = len(shops)
+        shops = [
+            s for s in shops
+            if any(t in QUALIFYING_TAGS for t in s["tags"])
+        ]
+        print(f"中モード絞り込み(qualifying tag必須): {before} → {len(shops)} 件")
 
     # 保存
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
