@@ -159,10 +159,9 @@ def extract_tags(shop: dict) -> list[str]:
     # NOTE: 座敷/個室は飲み会用途が多くファミリー判定の根拠にしないため、
     # 中モードでは Hotpepper からは付与しない。
 
-    # バリアフリー → ベビーカーOKの推定
-    barrier_free = shop.get("barrier_free", "")
-    if barrier_free and "あり" in barrier_free:
-        tags.append("ベビーカーOK")
+    # NOTE: barrier_free=「あり」は段差なし or 車椅子トイレなど広い意味で、
+    # ベビーカーで快適に過ごせるかは別問題。誤判定が多かったため自動付与しない。
+    # 店説明文に「ベビーカー」「ストローラー」と明記された場合のみ下で付与する。
 
     # その他の子連れ設備はフリーテキストから推定
     other_memo = shop.get("other_memo", "") or ""

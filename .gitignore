@@ -25,3 +25,4 @@ scripts/*.log
 outputs/
 logs/cost_*.json
 assets/fonts/*.otf
+scripts/instagram/__pycache__/
