@@ -275,9 +275,9 @@ export default async function ShopDetailPage({
           <div className="mt-8 space-y-3">
             {shop.hotpepper_url && (
               <a
-                href={shop.hotpepper_url}
+                href={`https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3768290&pid=892605474&vc_url=${encodeURIComponent(shop.hotpepper_url)}`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="flex items-center justify-center w-full py-3 text-sm rounded-full bg-[#e60012] text-white hover:opacity-90 transition font-bold"
               >
                 ホットペッパーで予約する →
