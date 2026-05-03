@@ -80,7 +80,11 @@ PROMPT_TMPL = """以下の飲食店について、Googleマップの実際のク
 }}
 """
 
-PLACES_FIELD_MASK_REVIEWS = "id,displayName,reviews"
+PLACES_FIELD_MASK_REVIEWS = (
+    "id,displayName,reviews,"
+    "formattedAddress,rating,userRatingCount,"
+    "regularOpeningHours,nationalPhoneNumber,websiteUri"
+)
 MAX_REVIEWS = 5
 
 VALID_GENRES = {"カフェ", "和食", "洋食", "イタリアン", "その他"}
@@ -264,8 +268,8 @@ def extract_json(text: str) -> dict | None:
         return None
 
 
-def fetch_reviews(api_key: str, place_id: str) -> list[dict]:
-    """Place Details から reviews を取得."""
+def fetch_reviews(api_key: str, place_id: str) -> tuple[list[dict], dict]:
+    """Place Details から reviews と店舗詳細(住所/評価/営業時間/電話/サイト)を取得."""
     url = f"https://places.googleapis.com/v1/places/{place_id}?languageCode=ja&regionCode=JP"
     req = request.Request(
         url, method="GET",
@@ -277,10 +281,19 @@ def fetch_reviews(api_key: str, place_id: str) -> list[dict]:
     try:
         with request.urlopen(req, timeout=20) as res:
             payload = json.loads(res.read().decode("utf-8"))
-            return payload.get("reviews", []) or []
+            reviews = payload.get("reviews", []) or []
+            details = {
+                "address": payload.get("formattedAddress", ""),
+                "rating": payload.get("rating", 0),
+                "rating_count": payload.get("userRatingCount", 0),
+                "hours": (payload.get("regularOpeningHours", {}) or {}).get("weekdayDescriptions", []),
+                "phone": payload.get("nationalPhoneNumber", ""),
+                "website": payload.get("websiteUri", ""),
+            }
+            return reviews, details
     except Exception as e:
         print(f"    [Reviews err] {e}", file=sys.stderr)
-        return []
+        return [], {}
 
 
 def format_reviews(reviews: list[dict]) -> str:
@@ -446,8 +459,8 @@ def main() -> None:
                     print(f"    📷 image: {image_url}")
                 time.sleep(PHOTO_SLEEP)
 
-            # --- STEP B: Reviews 取得 → Gemini リサーチ ---
-            reviews = fetch_reviews(places_key, pid)
+            # --- STEP B: Reviews + 店舗詳細 取得 → Gemini リサーチ ---
+            reviews, place_details = fetch_reviews(places_key, pid)
             reviews_text = format_reviews(reviews)
             time.sleep(0.3)
 
@@ -490,10 +503,19 @@ def main() -> None:
                 "score": clean["score"],
                 "lat": lat,
                 "lng": lng,
-                "tabelog_url": clean["tabelog_url"],
+                "tabelog_url": clean["tabelog_url"] or (
+                    f"https://www.google.com/maps/place/?q=place_id:{pid}" if pid else ""
+                ),
                 "image_url": image_url or "",
                 "is_chain": clean["is_chain"],
                 "evidence": clean["evidence"],
+                # Place Details 由来 (今後の自動化で必須)
+                "address": place_details.get("address", ""),
+                "rating": place_details.get("rating", 0),
+                "rating_count": place_details.get("rating_count", 0),
+                "hours": place_details.get("hours", []),
+                "phone": place_details.get("phone", ""),
+                "website": place_details.get("website", ""),
             }
 
             if pid in existing_ids:

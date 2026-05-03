@@ -79,7 +79,19 @@ if not has_strong_evidence(clean["evidence"]):
 - **shops.json を直接上書きせず `merge_*.py` 経由で安全マージ**
 - **API予算ガード**: Places $150/月で停止、Gemini 1,000件/日で停止、Photos 5,000件/月で停止
 
-### ⑥ ネガティブクチコミの非表示
+### ⑥ 必須メタデータ（住所・評価・営業時間）
+
+新規追加店は **Place Details API で必ず以下を取得** して shops.json に保存：
+- `address`（住所）
+- `rating` / `rating_count`（Google評価・件数）
+- `hours`（営業時間 weekdayDescriptions）
+- `phone`（電話番号）
+- `website`（公式サイト）
+- `tabelog_url`（無ければ `https://www.google.com/maps/place/?q=place_id:{pid}` を自動生成）
+
+`research_shops.py` の `fetch_reviews()` がレビューと一緒にこれらをまとめて取得し、`shops.append(entry)` 時に保存される。途中追加で抜けがあった場合は `scripts/enrich_shops_details.py` を再実行で埋まる（取得済みはスキップ）。
+
+### ⑦ ネガティブクチコミの非表示
 - `app/shop/[id]/page.tsx` の `NEGATIVE_WORDS` リストで店舗詳細ページのクチコミ表示から除外
 - 該当語句: 不衛生 / うるさい / 臭い / 狭い / 汚い / まずい / 接客が悪 / 残念 / 二度と / 高い / ぼったくり 等
 
