@@ -34,4 +34,5 @@ export interface Shop {
   hours?: string[];
   phone?: string;
   website?: string;
+  gallery?: string[];
 }

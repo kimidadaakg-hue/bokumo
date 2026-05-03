@@ -135,6 +135,26 @@ export default async function ShopDetailPage({
           </div>
         )}
 
+        {/* ギャラリー（追加写真がある店舗のみ） */}
+        {shop.gallery && shop.gallery.length > 0 && (
+          <div className="mb-6 grid grid-cols-2 md:grid-cols-3 gap-2">
+            {shop.gallery.map((src) => (
+              <div
+                key={src}
+                className="aspect-square bg-bokumo-pink-light rounded-xl overflow-hidden shadow-card"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={src}
+                  alt={shop.name}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        )}
+
         {/* 店舗情報 */}
         <div className="bg-white rounded-2xl shadow-card border border-bokumo-line/50 p-6 md:p-8">
           {/* エリア・ジャンル・スコア */}
