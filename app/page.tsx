@@ -76,6 +76,42 @@ export default function HomePage() {
         <p className="mt-3 text-sm md:text-base text-bokumo-ink/60">
           北海道の、子連れでゆっくり過ごせる飲食店まとめ。
         </p>
+
+        {/* 店名検索 (Hero内に大きく配置) */}
+        <div className="mt-7 max-w-xl mx-auto">
+          <div className="relative">
+            <input
+              type="search"
+              inputMode="search"
+              placeholder="店名で検索"
+              value={query}
+              onChange={(e) => handleQuery(e.target.value)}
+              className="w-full pl-12 pr-12 py-3.5 text-sm md:text-base rounded-full bg-white border-2 border-bokumo-line focus:border-bokumo-accent focus:outline-none transition shadow-card"
+              aria-label="店名で検索"
+            />
+            <svg
+              className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-bokumo-sub"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <circle cx="11" cy="11" r="7" />
+              <path d="M21 21l-4.3-4.3" />
+            </svg>
+            {query && (
+              <button
+                type="button"
+                onClick={() => handleQuery("")}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-bokumo-sub hover:text-bokumo-accent transition text-lg"
+                aria-label="クリア"
+              >
+                ×
+              </button>
+            )}
+          </div>
+        </div>
       </header>
 
       {/* 募集中バナー */}
@@ -121,42 +157,6 @@ export default function HomePage() {
         setSubRegion={handleSubRegion}
         setMicroRegion={handleMicroRegion}
       />
-
-      {/* 店名検索 */}
-      <div className="max-w-3xl mx-auto px-6 mt-4">
-        <div className="relative">
-          <input
-            type="search"
-            inputMode="search"
-            placeholder="店名で検索（例：味の大王、エスパーイトウ）"
-            value={query}
-            onChange={(e) => handleQuery(e.target.value)}
-            className="w-full pl-10 pr-10 py-2.5 text-sm rounded-full bg-white border border-bokumo-line focus:border-bokumo-accent focus:outline-none transition shadow-sm"
-            aria-label="店名で検索"
-          />
-          <svg
-            className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-bokumo-sub"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <circle cx="11" cy="11" r="7" />
-            <path d="M21 21l-4.3-4.3" />
-          </svg>
-          {query && (
-            <button
-              type="button"
-              onClick={() => handleQuery("")}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-bokumo-sub hover:text-bokumo-accent transition"
-              aria-label="クリア"
-            >
-              ×
-            </button>
-          )}
-        </div>
-      </div>
 
       {/* ジャンル・タグフィルター */}
       <FilterBar
