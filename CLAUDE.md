@@ -81,7 +81,7 @@ if not has_strong_evidence(clean["evidence"]):
 
 ### ⑥ 必須メタデータ（住所・評価・営業時間）
 
-新規追加店は **Place Details API で必ず以下を取得** して shops.json に保存：
+新規追加店は最終的に以下のメタデータを持つこと：
 - `address`（住所）
 - `rating` / `rating_count`（Google評価・件数）
 - `hours`（営業時間 weekdayDescriptions）
@@ -89,7 +89,11 @@ if not has_strong_evidence(clean["evidence"]):
 - `website`（公式サイト）
 - `tabelog_url`（無ければ `https://www.google.com/maps/place/?q=place_id:{pid}` を自動生成）
 
-`research_shops.py` の `fetch_reviews()` がレビューと一緒にこれらをまとめて取得し、`shops.append(entry)` 時に保存される。途中追加で抜けがあった場合は `scripts/enrich_shops_details.py` を再実行で埋まる（取得済みはスキップ）。
+**取得タイミングは2段階**：
+1. **リサーチ時（research_shops.py）**：reviews だけ取得して Gemini 判定。住所等は取らない（却下される店のAPIコストを節約）
+2. **手動クオリティチェック後**：`scripts/enrich_shops_details.py` を実行 → 採用された店だけ Place Details API で住所/評価/営業時間/電話/サイトを取得（取得済みはスキップ）
+
+`tabelog_url` は research 時点で place_id から Google マップURLを自動生成（API不要）。
 
 ### ⑦ ネガティブクチコミの非表示
 - `app/shop/[id]/page.tsx` の `NEGATIVE_WORDS` リストで店舗詳細ページのクチコミ表示から除外
