@@ -10,8 +10,12 @@ HERE = Path(__file__).resolve().parent
 STEPS = [
     "01_select_shops.py",
     "02_fetch_photos.py",
+    "02b_classify_photos.py",
     "03_generate_caption.py",
     "04_render_overlays.py",
+    "04c_render_tiktok.py",
+    "05_sync_gallery.py",
+    "copy_to_preview.py",
 ]
 
 
@@ -22,9 +26,9 @@ def main() -> None:
         if r.returncode != 0:
             print(f"!! {step} 失敗 (exit {r.returncode})")
             sys.exit(r.returncode)
-    print("\n✅ 完了。outputs/instagram/YYYYMMDD/shop_*/processed/ に画像5枚 × 3店舗。")
-    print("   caption.txt をコピペしてスマホからInstagramに投稿してください。")
-    print("   投稿が終わったら: python3 scripts/instagram/mark_posted.py")
+    print("\n✅ 完了。/Volumes/外付けSSD/インスタ画像/YYYY-MM-DD/ に整理済み。")
+    print("   1) Finderで画像確認、Meta Business Suiteで3店舗分を予約投稿")
+    print("   2) 投稿予約が終わったら: python3 scripts/instagram/mark_posted.py")
 
 
 if __name__ == "__main__":
