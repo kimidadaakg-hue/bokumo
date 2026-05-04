@@ -153,9 +153,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 特集記事 (コンパクト版) */}
+      {/* 特集記事 (PC: 上部、スマホ: 下部) */}
       {posts.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 pb-6">
+        <section className="hidden md:block max-w-6xl mx-auto px-6 pb-6">
           <div className="flex items-center justify-between mb-2">
             <h2
               className="text-sm font-bold text-bokumo-ink"
@@ -246,6 +246,38 @@ export default function HomePage() {
           </div>
         )}
       </section>
+
+      {/* 特集記事 (スマホのみ・店舗一覧の下) */}
+      {posts.length > 0 && (
+        <section className="md:hidden max-w-6xl mx-auto px-6 pb-8">
+          <div className="flex items-center justify-between mb-2">
+            <h2
+              className="text-sm font-bold text-bokumo-ink"
+              style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+            >
+              <span className="text-bokumo-accent">★</span> 特集記事
+            </h2>
+            <Link
+              href="/blog"
+              className="text-xs text-bokumo-accent hover:underline font-bold"
+            >
+              一覧を見る →
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {posts.slice(0, 4).map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="inline-flex items-center gap-2 px-3 py-1.5 text-xs rounded-full bg-white border border-bokumo-line hover:border-bokumo-accent hover:text-bokumo-accent transition"
+              >
+                <span className="text-[10px] text-bokumo-accent font-bold">{p.category}</span>
+                <span className="text-bokumo-ink">{p.title}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <footer className="bg-bokumo-pink mt-10">
         <div className="max-w-6xl mx-auto px-6 py-10 text-center">

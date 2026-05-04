@@ -222,11 +222,11 @@ export default function RegionSelector({
 
   return (
     <section className="bg-white border-b border-bokumo-line">
-      <div className="max-w-6xl mx-auto px-6 py-5 space-y-3">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-3 md:py-5 space-y-2 md:space-y-3">
         {/* 大エリア */}
         <div className="flex items-center gap-2">
-          <span className="text-xs tracking-widest text-bokumo-sub mr-1 shrink-0 w-10">AREA</span>
-          <div className="flex flex-wrap gap-2">
+          <span className="text-[10px] md:text-xs tracking-widest text-bokumo-sub mr-1 shrink-0 w-8 md:w-10">AREA</span>
+          <div className="flex flex-wrap gap-1.5 md:gap-2">
             {REGION_ORDER.map((r) => {
               const active = region === r;
               const count = regionCounts[r] || 0;
@@ -235,14 +235,14 @@ export default function RegionSelector({
                 <button
                   key={r}
                   onClick={() => { setRegion(r); setSubRegion(""); setMicroRegion(""); }}
-                  className={`px-4 py-2 text-sm rounded-lg border transition ${
+                  className={`px-2.5 md:px-4 py-1 md:py-2 text-xs md:text-sm rounded-lg border transition ${
                     active
                       ? "bg-bokumo-accent text-white border-bokumo-accent shadow-sm"
                       : "border-bokumo-line text-bokumo-ink hover:border-bokumo-accent hover:text-bokumo-accent"
                   }`}
                 >
                   {r}
-                  <span className={`ml-1.5 text-[11px] ${active ? "text-white/70" : "text-bokumo-sub"}`}>
+                  <span className={`ml-1 md:ml-1.5 text-[10px] md:text-[11px] ${active ? "text-white/70" : "text-bokumo-sub"}`}>
                     {count}
                   </span>
                 </button>
