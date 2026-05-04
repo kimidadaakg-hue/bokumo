@@ -26472,5 +26472,1840 @@
     ],
     "phone": "011-683-9567",
     "website": "https://japoncompany.business/sapporo/543915-yanase"
+  },
+  {
+    "place_id": "ChIJeZGE5J0pC18RRd6iVsNyXHQ",
+    "name": "寿し心 なかむら",
+    "area": "札幌中央区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.0635299,
+    "lng": 141.3520507,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJeZGE5J0pC18RRd6iVsNyXHQ",
+    "image_url": "/photos/ChIJeZGE5J0pC18RRd6iVsNyXHQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "たまたま奥の座敷に通されたので居心地も良かった",
+      "1人でしたがテーブル席がいっぱいでカウンターは弁当が大量で使用できず座敷に案内されました！"
+    ],
+    "address": "〒060-0002 北海道札幌市中央区北２条西３丁目３ 敷島ビル B1",
+    "rating": 4,
+    "rating_count": 360,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 17時30分～22時00分",
+      "火曜日: 11時30分～14時00分, 17時30分～22時00分",
+      "水曜日: 11時30分～14時00分, 17時30分～22時00分",
+      "木曜日: 11時30分～14時00分, 17時30分～22時00分",
+      "金曜日: 11時30分～14時00分, 17時30分～22時00分",
+      "土曜日: 11時30分～14時00分, 17時30分～22時00分",
+      "日曜日: 17時30分～22時00分"
+    ],
+    "phone": "011-219-1221",
+    "website": "https://h078800.gorp.jp/",
+    "id": 2260
+  },
+  {
+    "place_id": "ChIJS0DmZ4IpC18Rlo2ZBhkGV_c",
+    "name": "和食と鮨の に条",
+    "area": "札幌中央区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "奥に小上がりの個室があり、子連れでも利用しやすい和食店。",
+    "score": 3,
+    "lat": 43.0583974,
+    "lng": 141.3590152,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJS0DmZ4IpC18Rlo2ZBhkGV_c",
+    "image_url": "/photos/ChIJS0DmZ4IpC18Rlo2ZBhkGV_c.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥には小上がりの個室もあり、家族連れやお子様連れにも利用しやすそう"
+    ],
+    "address": "〒060-0053 北海道札幌市中央区南３条東２丁目",
+    "rating": 4.3,
+    "rating_count": 267,
+    "hours": [
+      "月曜日: 11時00分～22時00分",
+      "火曜日: 11時00分～22時00分",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～22時00分",
+      "金曜日: 11時00分～22時00分",
+      "土曜日: 11時00分～22時00分",
+      "日曜日: 11時00分～22時00分"
+    ],
+    "phone": "011-219-1346",
+    "website": "https://tabelog.com/hokkaido/A0101/A010102/1001730/",
+    "id": 2261
+  },
+  {
+    "place_id": "ChIJJ07bC5EpC18Ry5neswTI2Rg",
+    "name": "寿し処 翔",
+    "area": "札幌中央区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりの座敷席があり、靴を脱いでくつろげます。子連れでも安心。",
+    "score": 3,
+    "lat": 43.0563217,
+    "lng": 141.33878009999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ07bC5EpC18Ry5neswTI2Rg",
+    "image_url": "/photos/ChIJJ07bC5EpC18Ry5neswTI2Rg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はカウンターと小上がりの席になっていて、今回は靴を脱いでくつろげる小上がりの座敷席で楽しみました。"
+    ],
+    "address": "〒060-0062 北海道札幌市中央区南２条西１２丁目３２３−１２",
+    "rating": 4.3,
+    "rating_count": 118,
+    "hours": [
+      "月曜日: 11時40分～13時15分, 17時00分～22時00分",
+      "火曜日: 11時40分～13時15分, 17時00分～22時00分",
+      "水曜日: 11時40分～13時15分, 17時00分～22時00分",
+      "木曜日: 11時40分～13時15分, 17時00分～22時00分",
+      "金曜日: 11時40分～13時15分, 17時00分～22時00分",
+      "土曜日: 17時00分～20時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-233-5633",
+    "website": "",
+    "id": 2262
+  },
+  {
+    "place_id": "ChIJ3z9buiIpC18R3SvGYwZls1E",
+    "name": "いいね",
+    "area": "札幌中央区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ゆったり過ごせる居酒屋です。",
+    "score": 3,
+    "lat": 43.0711513,
+    "lng": 141.32132579999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3z9buiIpC18R3SvGYwZls1E",
+    "image_url": "/photos/ChIJ3z9buiIpC18R3SvGYwZls1E.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お店に入ると、なんとほとんどが座敷！"
+    ],
+    "address": "〒060-0011 北海道札幌市中央区北１１条西２１丁目２−２０ 2階 魚匠くら",
+    "rating": 4.8,
+    "rating_count": 36,
+    "hours": [
+      "月曜日: 11時00分～17時00分",
+      "火曜日: 11時00分～16時00分",
+      "水曜日: 11時00分～17時00分",
+      "木曜日: 11時00分～17時00分",
+      "金曜日: 11時00分～17時00分",
+      "土曜日: 11時00分～17時00分",
+      "日曜日: 11時00分～17時00分"
+    ],
+    "phone": "011-215-7644",
+    "website": "https://sapporo-iine.com/",
+    "id": 2263
+  },
+  {
+    "place_id": "ChIJm9wYKw0pC18Rjlf2VTdNIiM",
+    "name": "個室完備 550円おでん食べ放題 日本酒と海鮮居酒屋 魚でん札幌すすきの店",
+    "area": "札幌中央区",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室完備で、ゆっくり食事を楽しめる居酒屋です。",
+    "score": 2,
+    "lat": 43.0554178,
+    "lng": 141.3544574,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJm9wYKw0pC18Rjlf2VTdNIiM",
+    "image_url": "/photos/ChIJm9wYKw0pC18Rjlf2VTdNIiM.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室も完備されているので、団体での利用やゆっくり過ごしたい時にもおすすめです。",
+      "個室有るので接待等や気の合う仲間で日本酒好きに行って欲しいお店です。"
+    ],
+    "address": "〒064-0804 北海道札幌市中央区南４条西３丁目1−１ No.3グリーンビル 3F",
+    "rating": 4.5,
+    "rating_count": 472,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～3時00分",
+      "土曜日: 12時00分～3時00分",
+      "日曜日: 12時00分～0時00分"
+    ],
+    "phone": "050-1725-6915",
+    "website": "https://www.hotpepper.jp/strJ004068306/",
+    "id": 2264
+  },
+  {
+    "place_id": "ChIJB7hEIwApC18R901JnmgnKH4",
+    "name": "なみちゃん食堂",
+    "area": "札幌中央区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、お子様連れでも利用しやすい和食店です。",
+    "score": 3,
+    "lat": 43.0482638,
+    "lng": 141.346366,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJB7hEIwApC18R901JnmgnKH4",
+    "image_url": "/photos/ChIJB7hEIwApC18R901JnmgnKH4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり席も2席ありました。"
+    ],
+    "address": "〒064-0809 北海道札幌市中央区南９条西８丁目１−２６ オリンピア南９条 1F",
+    "rating": 4.9,
+    "rating_count": 8,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 11時00分～15時00分",
+      "水曜日: 11時00分～15時00分",
+      "木曜日: 定休日",
+      "金曜日: 定休日",
+      "土曜日: 定休日",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "",
+    "website": "http://instagram.com/namichanshokudou$",
+    "id": 2265
+  },
+  {
+    "place_id": "ChIJc6CmApslC18RqWrBrsSYLt0",
+    "name": "翔ちゃん家",
+    "area": "札幌北区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、家族で利用しやすいラーメン店です。",
+    "score": 3,
+    "lat": 43.1473139,
+    "lng": 141.3594767,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJc6CmApslC18RqWrBrsSYLt0",
+    "image_url": "/photos/ChIJc6CmApslC18RqWrBrsSYLt0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "カウンターと座敷タイプのテーブル席があり"
+    ],
+    "address": "〒002-8024 北海道札幌市北区篠路４条５丁目２−１",
+    "rating": 4.2,
+    "rating_count": 432,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～14時00分",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 10時00分～14時30分, 17時00分～19時30分",
+      "日曜日: 10時00分～14時30分, 17時00分～19時30分"
+    ],
+    "phone": "011-775-0834",
+    "website": "https://www.instagram.com/ramen___shochanchi/",
+    "id": 2267
+  },
+  {
+    "place_id": "ChIJUeUxJ-EoC18Rc1jolt5kBIQ",
+    "name": "寿し処 まつ元",
+    "area": "札幌北区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、家族での利用も可能です。",
+    "score": 3,
+    "lat": 43.0908404,
+    "lng": 141.34328019999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJUeUxJ-EoC18Rc1jolt5kBIQ",
+    "image_url": "/photos/ChIJUeUxJ-EoC18Rc1jolt5kBIQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "大人4人、子供1人で座敷"
+    ],
+    "address": "〒001-0024 北海道札幌市北区北２４条西４丁目２−１４ 館ビル",
+    "rating": 4.2,
+    "rating_count": 96,
+    "hours": [
+      "月曜日: 18時00分～23時00分",
+      "火曜日: 18時00分～23時00分",
+      "水曜日: 18時00分～23時00分",
+      "木曜日: 18時00分～23時00分",
+      "金曜日: 18時00分～23時00分",
+      "土曜日: 18時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-729-8910",
+    "website": "",
+    "id": 2268
+  },
+  {
+    "place_id": "ChIJQXeVjGspC18RvJyJvA8kJss",
+    "name": "【個室居酒屋】市場直送海鮮×創作肉料理 イザカヤラボ-IZAKAYA Lab- 麻生店",
+    "area": "札幌北区",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "半個室あり。落ち着いた雰囲気で食事を楽しめます。",
+    "score": 3,
+    "lat": 43.110002,
+    "lng": 141.3380577,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJQXeVjGspC18RvJyJvA8kJss",
+    "image_url": "/photos/ChIJQXeVjGspC18RvJyJvA8kJss.jpg",
+    "is_chain": false,
+    "evidence": [
+      "半個室の雰囲気と、料理がおいしかった。"
+    ],
+    "address": "〒001-0045 北海道札幌市北区麻生町５丁目４−３",
+    "rating": 4.7,
+    "rating_count": 633,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 16時00分～0時00分",
+      "日曜日: 16時00分～0時00分"
+    ],
+    "phone": "011-790-6834",
+    "website": "https://www.hotpepper.jp/strJ001225877/",
+    "id": 2269
+  },
+  {
+    "place_id": "ChIJ3eo8PG0pC18Ro_0TAMZMrVo",
+    "name": "くわふじ",
+    "area": "札幌東区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "リーズナブルで昭和レトロな雰囲気。小上がり席あり。",
+    "score": 3,
+    "lat": 43.072093599999995,
+    "lng": 141.3620303,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3eo8PG0pC18Ro_0TAMZMrVo",
+    "image_url": "/photos/ChIJ3eo8PG0pC18Ro_0TAMZMrVo.jpg",
+    "is_chain": false,
+    "evidence": [
+      "確か小上がりもあったと思う。"
+    ],
+    "address": "〒060-0908 北海道札幌市東区北８条東５丁目",
+    "rating": 3.8,
+    "rating_count": 89,
+    "hours": [
+      "月曜日: 11時30分～15時00分, 17時00分～20時00分",
+      "火曜日: 11時30分～15時00分, 17時00分～20時00分",
+      "水曜日: 11時30分～15時00分, 17時00分～20時00分",
+      "木曜日: 11時30分～15時00分, 17時00分～20時00分",
+      "金曜日: 11時30分～15時00分, 17時00分～20時00分",
+      "土曜日: 11時30分～14時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-742-7181",
+    "website": "",
+    "id": 2270
+  },
+  {
+    "place_id": "ChIJW919zsouC18RgU0qkz3v_Kk",
+    "name": "しあわせ食堂",
+    "area": "札幌東区",
+    "genre": "和食",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "お子様ランチ350円が嬉しい！リーズナブルで美味しい定食屋さん。",
+    "score": 3,
+    "lat": 43.0874077,
+    "lng": 141.39316119999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJW919zsouC18RgU0qkz3v_Kk",
+    "image_url": "/photos/ChIJW919zsouC18RgU0qkz3v_Kk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お子様ランチ350円にはびっくり"
+    ],
+    "address": "〒007-0865 北海道札幌市東区伏古５条３丁目４−２２",
+    "rating": 4,
+    "rating_count": 312,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 11時00分～15時00分",
+      "水曜日: 11時00分～15時00分",
+      "木曜日: 11時00分～15時00分",
+      "金曜日: 11時00分～15時00分",
+      "土曜日: 11時00分～15時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-788-7772",
+    "website": "https://www.instagram.com/shiawase48/",
+    "id": 2271
+  },
+  {
+    "place_id": "ChIJfWANjscuC18RXXvbSvCcBh8",
+    "name": "ダイナーズ",
+    "area": "札幌東区",
+    "genre": "洋食",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ベビーカー入店可能な広さで、子連れでも利用しやすいダイナーズ。",
+    "score": 3,
+    "lat": 43.091947499999996,
+    "lng": 141.4076834,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJfWANjscuC18RXXvbSvCcBh8",
+    "image_url": "/photos/ChIJfWANjscuC18RXXvbSvCcBh8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりは無いので、スペースは広いですベビーカー入店できる広さです。"
+    ],
+    "address": "〒007-0806 北海道札幌市東区東苗穂６条２丁目１４−１",
+    "rating": 4.1,
+    "rating_count": 276,
+    "hours": [
+      "月曜日: 11時00分～16時00分",
+      "火曜日: 11時00分～16時00分",
+      "水曜日: 11時00分～16時00分",
+      "木曜日: 11時00分～16時00分",
+      "金曜日: 11時00分～16時00分",
+      "土曜日: 11時00分～16時00分",
+      "日曜日: 11時11分～16時00分"
+    ],
+    "phone": "",
+    "website": "https://www.instagram.com/diners2016",
+    "id": 2272
+  },
+  {
+    "place_id": "ChIJnVnexeMpC18RjrVfh6eImcg",
+    "name": "咖喱屋アマデウス 北32条店",
+    "area": "札幌東区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "子供メニューあり"
+    ],
+    "description": "小上がり席があり、お子様カレーメニューも提供。スパイス調整で辛さも変えられます。",
+    "score": 4,
+    "lat": 43.099561699999995,
+    "lng": 141.3474052,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJnVnexeMpC18RjrVfh6eImcg",
+    "image_url": "/photos/ChIJnVnexeMpC18RjrVfh6eImcg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は、小上がりが奥に2席と、テーブル席4つ",
+      "お子様カレーメニューもありました！",
+      "スパイスを入れなければ、お子様でも食べれる辛くないカレーでした！"
+    ],
+    "address": "〒065-0032 北海道札幌市東区北３２条東１丁目５−１",
+    "rating": 4.4,
+    "rating_count": 59,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "土曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "日曜日: 11時00分～15時00分, 17時00分～20時00分"
+    ],
+    "phone": "011-788-7460",
+    "website": "https://curryya-amadeus.com/",
+    "id": 2273
+  },
+  {
+    "place_id": "ChIJpxgGOQAvC18RSvMo_ECkpM0",
+    "name": "ルーカレーとシチューの店 キイロトシロ",
+    "area": "札幌東区",
+    "genre": "その他",
+    "tags": [
+      "子連れOK",
+      "子供メニューあり"
+    ],
+    "description": "小学生以下割引あり！子連れでも安心してお食事が楽しめます。",
+    "score": 4,
+    "lat": 43.1055845,
+    "lng": 141.3900639,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJpxgGOQAvC18RSvMo_ECkpM0",
+    "image_url": "/photos/ChIJpxgGOQAvC18RSvMo_ECkpM0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小学生以下にはなんと150円カレーを出したりと面白いことをやってます",
+      "60歳以上の方に500円カレー"
+    ],
+    "address": "〒007-0880 北海道札幌市東区丘珠町８９−５",
+    "rating": 4,
+    "rating_count": 206,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "火曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "土曜日: 11時00分～20時00分",
+      "日曜日: 11時00分～20時00分"
+    ],
+    "phone": "011-600-0746",
+    "website": "https://www.instagram.com/kiirotoshiro_curry_shichu/",
+    "id": 2274
+  },
+  {
+    "place_id": "ChIJf1JkGb0rC18RZRa89pFlO54",
+    "name": "よね寿し",
+    "area": "札幌白石区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、小さなお子様連れでも安心してくつろげます。",
+    "score": 3,
+    "lat": 43.0449029,
+    "lng": 141.4178603,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJf1JkGb0rC18RZRa89pFlO54",
+    "image_url": "/photos/ChIJf1JkGb0rC18RZRa89pFlO54.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりで安心してくつろげました。"
+    ],
+    "address": "〒003-0027 北海道札幌市白石区本通８丁目１−北１−２５",
+    "rating": 4.1,
+    "rating_count": 53,
+    "hours": [
+      "月曜日: 12時00分～22時00分",
+      "火曜日: 12時00分～22時00分",
+      "水曜日: 定休日",
+      "木曜日: 12時00分～22時00分",
+      "金曜日: 12時00分～22時00分",
+      "土曜日: 12時00分～22時00分",
+      "日曜日: 12時00分～22時00分"
+    ],
+    "phone": "011-861-5055",
+    "website": "",
+    "id": 2275
+  },
+  {
+    "place_id": "ChIJoa1A7ekrC18RhaXK-PBh4qg",
+    "name": "すし居酒屋Nakamuraya",
+    "area": "札幌白石区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.0576802,
+    "lng": 141.41580610000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJoa1A7ekrC18RhaXK-PBh4qg",
+    "image_url": "/photos/ChIJoa1A7ekrC18RhaXK-PBh4qg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥に小上がり席がある"
+    ],
+    "address": "〒003-0832 北海道札幌市白石区北郷２条４丁目６−９ ドリーム２４ 1F左",
+    "rating": 4.7,
+    "rating_count": 53,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時30分～23時00分",
+      "水曜日: 17時30分～23時00分",
+      "木曜日: 17時30分～23時00分",
+      "金曜日: 17時30分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 17時00分～23時00分"
+    ],
+    "phone": "011-876-0970",
+    "website": "https://www.instagram.com/nakamuraya.sushi_izakaya/",
+    "id": 2276
+  },
+  {
+    "place_id": "ChIJ5aS_p9YrC18RFGewNj7pB_o",
+    "name": "やらぬ善よりやる偽善",
+    "area": "札幌白石区",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室利用で誕生日会も可能。店員さんの気遣いも良い。",
+    "score": 3,
+    "lat": 43.0462321,
+    "lng": 141.393375,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5aS_p9YrC18RFGewNj7pB_o",
+    "image_url": "/photos/ChIJ5aS_p9YrC18RFGewNj7pB_o.jpg",
+    "is_chain": false,
+    "evidence": [
+      "誕生日会で家族で初めて行きました！個室空いてなかったけど",
+      "誕生日に個室利用させて頂きました。"
+    ],
+    "address": "〒003-0002 北海道札幌市白石区東札幌２条５丁目９−１５",
+    "rating": 4.8,
+    "rating_count": 92,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 17時00分～0時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-822-7388",
+    "website": "https://www.instagram.com/yaranu_zen_yori_yaru_gizen/",
+    "id": 2277
+  },
+  {
+    "place_id": "ChIJc1WAq6ErC18RaQOUcqHsS60",
+    "name": "らっきょ大サーカス",
+    "area": "札幌白石区",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり",
+      "子供メニューあり"
+    ],
+    "description": "絵本やお子様椅子、お子様メニューあり。家族で楽しめるスープカレー店。",
+    "score": 4,
+    "lat": 43.039189799999996,
+    "lng": 141.4268994,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJc1WAq6ErC18RaQOUcqHsS60",
+    "image_url": "/photos/ChIJc1WAq6ErC18RaQOUcqHsS60.jpg",
+    "is_chain": false,
+    "evidence": [
+      "絵本があり、バンボや高さ調整の台があり",
+      "キッズメニューは、親の力を借りずに自分だけで全部食べきれたら"
+    ],
+    "address": "〒003-0026 北海道札幌市白石区本通１４丁目南３−３",
+    "rating": 4,
+    "rating_count": 666,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "011-866-5155",
+    "website": "http://www.spicegogo.com/",
+    "id": 2278
+  },
+  {
+    "place_id": "ChIJubxMqmArC18RszziOQr9ZF8",
+    "name": "花ぶさ",
+    "area": "札幌厚別区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "子連れOK"
+    ],
+    "description": "掘りごたつのお座敷があり、お子様連れでも利用しやすい居酒屋です。",
+    "score": 3,
+    "lat": 43.033061,
+    "lng": 141.470145,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJubxMqmArC18RszziOQr9ZF8",
+    "image_url": "/photos/ChIJubxMqmArC18RszziOQr9ZF8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "掘り炬燵のお座敷があり子供連れ可能です。",
+      "半個室の掘りごたつになっており、居心地も良い。"
+    ],
+    "address": "〒004-0022 北海道札幌市厚別区厚別南２丁目１１−２",
+    "rating": 4.3,
+    "rating_count": 123,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～21時45分",
+      "水曜日: 17時00分～21時45分",
+      "木曜日: 17時00分～21時45分",
+      "金曜日: 17時00分～22時45分",
+      "土曜日: 17時00分～22時45分",
+      "日曜日: 17時00分～21時45分"
+    ],
+    "phone": "011-892-4507",
+    "website": "https://m.facebook.com/pages/category/Japanese-Restaurant/%E8%8A%B1%E3%81%B6%E3%81%95-431883140188117/?locale2=ja_JP",
+    "id": 2279
+  },
+  {
+    "place_id": "ChIJ-dM4wFArC18RvBLLL00KC1M",
+    "name": "和satoh",
+    "area": "札幌厚別区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり",
+      "子連れOK"
+    ],
+    "description": "小上がり席や個室があり、子連れでも安心して食事が楽しめるお店です。",
+    "score": 4,
+    "lat": 43.025083099999996,
+    "lng": 141.4801917,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-dM4wFArC18RvBLLL00KC1M",
+    "image_url": "/photos/ChIJ-dM4wFArC18RvBLLL00KC1M.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小さい子供がいることを事前に相談すると、受け入れOK",
+      "私たちは小上がりに案内して下さいましたが",
+      "個室空間になっているテーブル席を発見"
+    ],
+    "address": "〒004-0021 北海道札幌市厚別区青葉町９丁目６−１ 和Ｓａｔｏｈ",
+    "rating": 4.5,
+    "rating_count": 93,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 定休日",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 17時00分～23時00分"
+    ],
+    "phone": "011-890-1275",
+    "website": "http://coco.cococica.com/wa-satoh/index.asp",
+    "id": 2280
+  },
+  {
+    "place_id": "ChIJ-U9zSZ0sC18RQyYu2ziCJHE",
+    "name": "活菜旬魚さんかい 新さっぽろ店",
+    "area": "札幌厚別区",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 43.0386741,
+    "lng": 141.4704784,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-U9zSZ0sC18RQyYu2ziCJHE",
+    "image_url": "/photos/ChIJ-U9zSZ0sC18RQyYu2ziCJHE.jpg",
+    "is_chain": true,
+    "evidence": [
+      "お店は綺麗だし個室なので気兼ねなく話もできて良い飲み会になりました。"
+    ],
+    "address": "〒004-0052 北海道札幌市厚別区厚別中央２条５丁目２−３０ 2F",
+    "rating": 3.9,
+    "rating_count": 330,
+    "hours": [
+      "月曜日: 17時00分～23時30分",
+      "火曜日: 17時00分～23時30分",
+      "水曜日: 17時00分～23時30分",
+      "木曜日: 17時00分～23時30分",
+      "金曜日: 17時00分～23時30分",
+      "土曜日: 16時00分～23時30分",
+      "日曜日: 16時00分～22時30分"
+    ],
+    "phone": "011-398-5980",
+    "website": "http://www.i-sankai.jp/",
+    "id": 2281
+  },
+  {
+    "place_id": "ChIJcW4jZ54sC18Rx-CpyYl4IHw",
+    "name": "宴や 紀らく",
+    "area": "札幌厚別区",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "完全個室で周りを気にせず食事が楽しめます。",
+    "score": 3,
+    "lat": 43.0386652,
+    "lng": 141.4745448,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJcW4jZ54sC18Rx-CpyYl4IHw",
+    "image_url": "/photos/ChIJcW4jZ54sC18Rx-CpyYl4IHw.jpg",
+    "is_chain": false,
+    "evidence": [
+      "完全個室で周りを気にせずに飲める",
+      "個室なので知人とゆっくり歓談できました",
+      "新札幌地域では珍しい「完全個室」の居酒屋です"
+    ],
+    "address": "〒004-0051 北海道札幌市厚別区厚別中央１条６丁目３−１ B1F",
+    "rating": 4,
+    "rating_count": 185,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-894-2244",
+    "website": "https://hitosara.com/0005004356/?cid=gm_hp",
+    "id": 2282
+  },
+  {
+    "place_id": "ChIJvyghFgAtC18RzKVsgzXLd1I",
+    "name": "riposati",
+    "area": "札幌厚別区",
+    "genre": "イタリアン",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ソファ席があり、子連れや荷物があっても利用しやすいです。",
+    "score": 3,
+    "lat": 43.03937880000001,
+    "lng": 141.47443680000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJvyghFgAtC18RzKVsgzXLd1I",
+    "image_url": "/photos/ChIJvyghFgAtC18RzKVsgzXLd1I.jpg",
+    "is_chain": false,
+    "evidence": [
+      "割と広めにスペースがとってあるのでベビーカー､車椅子でも席によっては大丈夫かな。",
+      "落ち着いた雰囲気ですが、奥の方にソファ席もあって子連れや荷物があっても利用しやすいです。"
+    ],
+    "address": "〒004-0051 北海道札幌市厚別区厚別中央１条６丁目３−３ BiVi新さっぽろ 1F",
+    "rating": 4.4,
+    "rating_count": 12,
+    "hours": [
+      "月曜日: 10時00分～19時00分",
+      "火曜日: 10時00分～19時00分",
+      "水曜日: 10時00分～19時00分",
+      "木曜日: 10時00分～19時00分",
+      "金曜日: 10時00分～19時00分",
+      "土曜日: 10時00分～19時00分",
+      "日曜日: 10時00分～19時00分"
+    ],
+    "phone": "",
+    "website": "",
+    "id": 2283
+  },
+  {
+    "place_id": "ChIJewOp2WIsC18R5snAK_HnnjQ",
+    "name": "サンライズ (SUNRISE)",
+    "area": "札幌厚別区",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "お子様セットあり。テイクアウトも可能で便利。",
+    "score": 3,
+    "lat": 43.05449960000001,
+    "lng": 141.4660433,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJewOp2WIsC18R5snAK_HnnjQ",
+    "image_url": "/photos/ChIJewOp2WIsC18R5snAK_HnnjQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子供はお子様セットでしたが、4歳の子供には……ちょっと早過ぎたみたいです。"
+    ],
+    "address": "〒004-0064 北海道札幌市厚別区厚別西４条５丁目５−１０",
+    "rating": 4.3,
+    "rating_count": 280,
+    "hours": [
+      "月曜日: 11時00分～21時30分",
+      "火曜日: 11時00分～21時30分",
+      "水曜日: 11時00分～21時30分",
+      "木曜日: 11時00分～21時30分",
+      "金曜日: 11時00分～21時30分",
+      "土曜日: 11時00分～21時30分",
+      "日曜日: 11時00分～21時30分"
+    ],
+    "phone": "011-895-7550",
+    "website": "https://japoncompany.business/sapporo/542183-sunrise",
+    "id": 2284
+  },
+  {
+    "place_id": "ChIJ1erBFXkrC18R9cnlK1Tie7I",
+    "name": "居酒屋 味扉（あじと）",
+    "area": "札幌豊平区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、落ち着いた雰囲気で過ごしやすい居酒屋です。",
+    "score": 3,
+    "lat": 43.0270365,
+    "lng": 141.40001809999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1erBFXkrC18R9cnlK1Tie7I",
+    "image_url": "/photos/ChIJ1erBFXkrC18R9cnlK1Tie7I.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は綺麗で小上がりもあります。"
+    ],
+    "address": "〒062-0052 北海道札幌市豊平区月寒東１条１０丁目６−２５",
+    "rating": 4.4,
+    "rating_count": 189,
+    "hours": [
+      "月曜日: 17時00分～3時00分",
+      "火曜日: 17時00分～3時00分",
+      "水曜日: 17時00分～3時00分",
+      "木曜日: 17時00分～3時00分",
+      "金曜日: 17時00分～3時00分",
+      "土曜日: 17時00分～3時00分",
+      "日曜日: 15時00分～23時00分"
+    ],
+    "phone": "011-797-5430",
+    "website": "https://www.hotpepper.jp/strJ003324016/",
+    "id": 2285
+  },
+  {
+    "place_id": "ChIJuzO35yoqC18RgTm_qVosEK8",
+    "name": "天ぷら・お食事処 つくし",
+    "area": "札幌豊平区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.052710999999995,
+    "lng": 141.3680786,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJuzO35yoqC18RgTm_qVosEK8",
+    "image_url": "/photos/ChIJuzO35yoqC18RgTm_qVosEK8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "カウンター席＋奥に座敷席も2つあり、座敷席がとても落ち着きます。"
+    ],
+    "address": "〒062-0904 北海道札幌市豊平区豊平４条３丁目１−１ シャルム豊平",
+    "rating": 4.4,
+    "rating_count": 80,
+    "hours": [
+      "月曜日: 11時30分～14時30分, 17時00分～21時00分",
+      "火曜日: 11時30分～14時30分",
+      "水曜日: 11時30分～14時30分",
+      "木曜日: 11時30分～14時30分",
+      "金曜日: 11時30分～14時30分",
+      "土曜日: 定休日",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-831-9515",
+    "website": "",
+    "id": 2286
+  },
+  {
+    "place_id": "ChIJRfeeKCQrC18RAoNlXkPvBGU",
+    "name": "お酒とごはん はるのひ",
+    "area": "札幌豊平区",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室あり。予約制で、子連れでも落ち着いて食事ができる。",
+    "score": 3,
+    "lat": 43.032296699999996,
+    "lng": 141.36398119999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJRfeeKCQrC18RAoNlXkPvBGU",
+    "image_url": "/photos/ChIJRfeeKCQrC18RAoNlXkPvBGU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "2階にはお子さん連れに優しい個室あり(要予約）"
+    ],
+    "address": "〒062-0931 北海道札幌市豊平区平岸１条９丁目３−１９",
+    "rating": 4.4,
+    "rating_count": 33,
+    "hours": [
+      "月曜日: 11時00分～14時00分, 16時00分～22時00分",
+      "火曜日: 11時00分～14時00分, 16時00分～22時00分",
+      "水曜日: 11時00分～14時00分, 16時00分～22時00分",
+      "木曜日: 11時00分～14時00分, 16時00分～22時00分",
+      "金曜日: 11時00分～14時00分, 16時00分～22時00分",
+      "土曜日: 16時00分～22時00分",
+      "日曜日: 12時00分～22時00分"
+    ],
+    "phone": "011-301-4227",
+    "website": "https://instagram.com/harunohi1122?igshid=YmMyMTA2M2Y=",
+    "id": 2287
+  },
+  {
+    "place_id": "ChIJKQ2c_L8rC18Rt_RiFXsKQ6s",
+    "name": "おばんざい 座ぶとん",
+    "area": "札幌豊平区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 43.048825099999995,
+    "lng": 141.3776571,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJKQ2c_L8rC18Rt_RiFXsKQ6s",
+    "image_url": "/photos/ChIJKQ2c_L8rC18Rt_RiFXsKQ6s.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お座敷カウンターが妙に落ち着く"
+    ],
+    "address": "〒062-0903 北海道札幌市豊平区豊平３条９丁目２−１",
+    "rating": 4.3,
+    "rating_count": 63,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 18時00分～22時00分",
+      "水曜日: 18時00分～22時00分",
+      "木曜日: 18時00分～22時00分",
+      "金曜日: 18時00分～22時00分",
+      "土曜日: 18時00分～22時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-876-0839",
+    "website": "",
+    "id": 2288
+  },
+  {
+    "place_id": "ChIJKY5uSgArC18RfqKGADJQZ_A",
+    "name": "音(NON)",
+    "area": "札幌清田区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 43.0117738,
+    "lng": 141.4621982,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJKY5uSgArC18RfqKGADJQZ_A",
+    "image_url": "/photos/ChIJKY5uSgArC18RfqKGADJQZ_A.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は座敷が二席とテーブル席が二席、4名程度のカウンター席です。"
+    ],
+    "address": "〒004-0878 北海道札幌市清田区平岡８条３丁目２−７",
+    "rating": 4.3,
+    "rating_count": 4,
+    "hours": [],
+    "phone": "",
+    "website": "",
+    "id": 2290
+  },
+  {
+    "place_id": "ChIJ16_hERorC18RyoRECpdorFw",
+    "name": "居酒屋 蔵人",
+    "area": "札幌清田区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "子連れOK"
+    ],
+    "description": "座敷席があり、子連れでも利用しやすい居酒屋です。",
+    "score": 3,
+    "lat": 43.0245773,
+    "lng": 141.43384,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ16_hERorC18RyoRECpdorFw",
+    "image_url": "/photos/ChIJ16_hERorC18RyoRECpdorFw.jpg",
+    "is_chain": false,
+    "evidence": [
+      "カウンターとお座敷に4卓だったかな？ お子様連れもいらっしゃいました。",
+      "小上がりが多く子連れでも行きやすいお店です。"
+    ],
+    "address": "〒004-0867 北海道札幌市清田区北野７条１丁目５−３",
+    "rating": 4.3,
+    "rating_count": 51,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 17時00分～0時00分",
+      "日曜日: 17時00分～23時00分"
+    ],
+    "phone": "011-876-9103",
+    "website": "https://izakayakuroudo.wordpress.com/",
+    "id": 2291
+  },
+  {
+    "place_id": "ChIJ8x8m_SfVdF8Rp2le7OGecuA",
+    "name": "銀しゃり五穀 札幌平岡店",
+    "area": "札幌清田区",
+    "genre": "和食",
+    "tags": [
+      "子供メニューあり",
+      "キッズチェアあり"
+    ],
+    "description": "お子様メニューやキッズチェアの有無に関するクチコミがあります。",
+    "score": 2,
+    "lat": 42.9975598,
+    "lng": 141.4586674,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8x8m_SfVdF8Rp2le7OGecuA",
+    "image_url": "/photos/ChIJ8x8m_SfVdF8Rp2le7OGecuA.jpg",
+    "is_chain": true,
+    "evidence": [
+      "お子さまメニューのキティランチ",
+      "子供用のランチが酷すぎる",
+      "子供用椅子の取り付けも出来ない"
+    ],
+    "address": "〒004-0873 北海道札幌市清田区平岡３条５丁目３−１ イオンモール札幌平岡 2F",
+    "rating": 3.7,
+    "rating_count": 253,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "011-398-7706",
+    "website": "http://gokoku-pierthirty.net/",
+    "id": 2292
+  },
+  {
+    "place_id": "ChIJG9Dc2s4rC18RpaDmT5FRHjg",
+    "name": "DINER JOINT CLAP",
+    "area": "札幌清田区",
+    "genre": "洋食",
+    "tags": [
+      "子連れOK",
+      "子供メニューあり"
+    ],
+    "description": "アメリカンピザが楽しめるお店。お子様連れも多く、利用しやすい雰囲気です。",
+    "score": 4,
+    "lat": 43.0147269,
+    "lng": 141.45122569999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJG9Dc2s4rC18RpaDmT5FRHjg",
+    "image_url": "/photos/ChIJG9Dc2s4rC18RpaDmT5FRHjg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりにはお子様もいらっしゃって、ファミリー利用も多かったです",
+      "子どもはパックの牛乳ついてきました",
+      "アメリカンなサイズのピザで子供達にはかなりウケていました"
+    ],
+    "address": "〒004-0865 北海道札幌市清田区北野５条５丁目１２−２２ 水上ビル",
+    "rating": 4.5,
+    "rating_count": 20,
+    "hours": [
+      "月曜日: 11時00分～19時30分",
+      "火曜日: 11時00分～19時30分",
+      "水曜日: 11時00分～19時30分",
+      "木曜日: 11時00分～19時30分",
+      "金曜日: 11時00分～19時30分",
+      "土曜日: 定休日",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-600-6094",
+    "website": "https://www.instagram.com/diner_joint_clap_/",
+    "id": 2293
+  },
+  {
+    "place_id": "ChIJuf3sUoYqC18RNUJ9IXBCs9Y",
+    "name": "そば みやび屋",
+    "area": "札幌南区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.012443399999995,
+    "lng": 141.3750483,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJuf3sUoYqC18RNUJ9IXBCs9Y",
+    "image_url": "/photos/ChIJuf3sUoYqC18RNUJ9IXBCs9Y.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり席有り"
+    ],
+    "address": "〒005-0006 北海道札幌市南区澄川６条４丁目２−１ 澄川ビル 1F",
+    "rating": 4.1,
+    "rating_count": 208,
+    "hours": [
+      "月曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "木曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "金曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "土曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "日曜日: 11時00分～14時30分, 17時00分～19時00分"
+    ],
+    "phone": "011-842-0295",
+    "website": "https://japoncompany.business/sapporo/544150-miyabiya",
+    "id": 2295
+  },
+  {
+    "place_id": "ChIJvbO6cyDVCl8R6FRZUBPlPbY",
+    "name": "仙寿司",
+    "area": "札幌南区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりのテーブル席があり、落ち着いた雰囲気でお寿司を楽しめます。",
+    "score": 3,
+    "lat": 42.978161899999996,
+    "lng": 141.3364865,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJvbO6cyDVCl8R6FRZUBPlPbY",
+    "image_url": "/photos/ChIJvbO6cyDVCl8R6FRZUBPlPbY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりのテーブル席で絶品のお寿司の数々をいただきました。"
+    ],
+    "address": "〒005-0814 北海道札幌市南区川沿１４条２丁目１−８",
+    "rating": 4.1,
+    "rating_count": 37,
+    "hours": [],
+    "phone": "011-571-2846",
+    "website": "",
+    "id": 2296
+  },
+  {
+    "place_id": "ChIJF7ETnIcqC18Rl04XXPIxDmA",
+    "name": "江戸っ子",
+    "area": "札幌南区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "子連れOK"
+    ],
+    "description": "赤ちゃん連れでも安心！座敷席ありの人気居酒屋。",
+    "score": 4,
+    "lat": 43.0134155,
+    "lng": 141.37141649999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJF7ETnIcqC18Rl04XXPIxDmA",
+    "image_url": "/photos/ChIJF7ETnIcqC18Rl04XXPIxDmA.jpg",
+    "is_chain": false,
+    "evidence": [
+      "赤ちゃん連れで利用しました。",
+      "カウンター席と畳席があります。",
+      "早い時間だったので家族連れの方が他にもいました。"
+    ],
+    "address": "〒005-0005 北海道札幌市南区澄川５条３丁目９−１０",
+    "rating": 4.5,
+    "rating_count": 135,
+    "hours": [
+      "月曜日: 16時00分～22時00分",
+      "火曜日: 16時00分～22時00分",
+      "水曜日: 定休日",
+      "木曜日: 16時00分～22時00分",
+      "金曜日: 16時00分～22時00分",
+      "土曜日: 16時00分～22時00分",
+      "日曜日: 16時00分～22時00分"
+    ],
+    "phone": "011-831-4828",
+    "website": "https://www.instagram.com/edokko.dai/",
+    "id": 2297
+  },
+  {
+    "place_id": "ChIJvfy7gaArC18R07Jxedp_sLs",
+    "name": "幸之友",
+    "area": "札幌南区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりの座敷席があり、周りを気にせず食事ができます。",
+    "score": 3,
+    "lat": 43.0167942,
+    "lng": 141.36669569999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJvfy7gaArC18R07Jxedp_sLs",
+    "image_url": "/photos/ChIJvfy7gaArC18R07Jxedp_sLs.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり先は4人掛けが2席、仕切ることができるので、人の目を気にせずに楽しむことができました。"
+    ],
+    "address": "〒005-0004 北海道札幌市南区澄川４条２丁目２−3 第三 真耕産業 B１F",
+    "rating": 4.8,
+    "rating_count": 29,
+    "hours": [
+      "月曜日: 15時00分～23時00分",
+      "火曜日: 15時00分～23時00分",
+      "水曜日: 15時00分～23時00分",
+      "木曜日: 15時00分～23時00分",
+      "金曜日: 15時00分～23時00分",
+      "土曜日: 15時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-799-0458",
+    "website": "https://s.tabelog.com/hokkaido/A0101/A010305/1076343/dtlmenu/?menu_type=1",
+    "id": 2298
+  },
+  {
+    "place_id": "ChIJLx1KGwArC18R8J47B37FL9w",
+    "name": "Mi-o ちいさなごはんやさん",
+    "area": "札幌南区",
+    "genre": "和食",
+    "tags": [
+      "子連れOK",
+      "子供メニューあり"
+    ],
+    "description": "体に優しいごはんが食べられる、子連れも安心のお店。",
+    "score": 4,
+    "lat": 43.0166879,
+    "lng": 141.3685577,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJLx1KGwArC18R8J47B37FL9w",
+    "image_url": "/photos/ChIJLx1KGwArC18R8J47B37FL9w.jpg",
+    "is_chain": false,
+    "evidence": [
+      "キッズメニューがあり子連れもOK",
+      "子どもたちだけで食べに行ったりテイクアウトを取りに行ったりしても安心"
+    ],
+    "address": "〒005-0004 北海道札幌市南区澄川４条２丁目８−１５",
+    "rating": 4.9,
+    "rating_count": 30,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～18時00分",
+      "水曜日: 11時00分～18時00分",
+      "木曜日: 11時00分～18時00分",
+      "金曜日: 11時00分～18時00分",
+      "土曜日: 11時00分～15時00分, 17時30分～22時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "050-8886-2415",
+    "website": "https://japoncompany.business/sapporo/567058-mi-o-",
+    "id": 2299
+  },
+  {
+    "place_id": "ChIJjwLgcwDVCl8R7_xRPM9QVg4",
+    "name": "カレーハウス ヒマラヤダイニング 澄川店",
+    "area": "札幌南区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "子供メニューあり"
+    ],
+    "description": "座敷席があり、キッズセットの提供もあるようです。",
+    "score": 3,
+    "lat": 42.9998979,
+    "lng": 141.3684624,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJjwLgcwDVCl8R7_xRPM9QVg4",
+    "image_url": "/photos/ChIJjwLgcwDVCl8R7_xRPM9QVg4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり４人掛け３席",
+      "キッズセットのヨーグルトが付いてない…"
+    ],
+    "address": "〒005-0005 北海道札幌市南区澄川５条１１丁目２−５",
+    "rating": 4.4,
+    "rating_count": 45,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～20時30分",
+      "火曜日: 11時00分～15時00分, 17時00分～20時30分",
+      "水曜日: 11時00分～15時00分, 17時00分～20時30分",
+      "木曜日: 24 時間営業",
+      "金曜日: 11時00分～15時00分, 17時00分～20時30分",
+      "土曜日: 11時00分～15時00分, 17時00分～20時30分",
+      "日曜日: 11時00分～15時00分, 17時00分～20時30分"
+    ],
+    "phone": "011-303-2526",
+    "website": "",
+    "id": 2300
+  },
+  {
+    "place_id": "ChIJDc083oMoC18RwkzvT0g_OOQ",
+    "name": "あけぼの寿司",
+    "area": "札幌西区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "座敷・個室あり。お寿司は小さめで食べやすい。",
+    "score": 3,
+    "lat": 43.105593,
+    "lng": 141.29604419999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJDc083oMoC18RwkzvT0g_OOQ",
+    "image_url": "/photos/ChIJDc083oMoC18RwkzvT0g_OOQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "席は、個室座敷とテーブル席とカウンター席があり",
+      "席は、個室座敷とテーブル席とカウンター席があり"
+    ],
+    "address": "〒063-0836 北海道札幌市西区発寒１６条２丁目２−１０",
+    "rating": 3.9,
+    "rating_count": 37,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 16時00分～21時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～14時00分, 16時00分～21時00分",
+      "木曜日: 11時30分～14時00分, 16時00分～21時00分",
+      "金曜日: 11時30分～14時00分, 16時00分～21時00分",
+      "土曜日: 11時30分～14時00分, 16時00分～21時00分",
+      "日曜日: 11時30分～14時00分, 16時00分～21時00分"
+    ],
+    "phone": "011-664-4113",
+    "website": "",
+    "id": 2301
+  },
+  {
+    "place_id": "ChIJHYLRHvgpC18RltZomzw9-LQ",
+    "name": "北海道海鮮居酒屋いろりあん 琴似店",
+    "area": "札幌西区",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 43.078376,
+    "lng": 141.3053636,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJHYLRHvgpC18RltZomzw9-LQ",
+    "image_url": "/photos/ChIJHYLRHvgpC18RltZomzw9-LQ.jpg",
+    "is_chain": true,
+    "evidence": [
+      "席が個室なので落ち着けるのもポイント高い。",
+      "個室、掘りごたつも良かったです😊"
+    ],
+    "address": "〒063-0812 北海道札幌市西区琴似２条２丁目２−２２",
+    "rating": 3.8,
+    "rating_count": 90,
+    "hours": [
+      "月曜日: 16時00分～23時30分",
+      "火曜日: 16時00分～23時30分",
+      "水曜日: 16時00分～23時30分",
+      "木曜日: 16時00分～23時30分",
+      "金曜日: 16時00分～23時30分",
+      "土曜日: 15時00分～1時00分",
+      "日曜日: 15時00分～1時00分"
+    ],
+    "phone": "050-5448-6632",
+    "website": "https://irorian-kotoni.com/?utm_source=google&utm_medium=meo",
+    "id": 2302
+  },
+  {
+    "place_id": "ChIJd_vJSlAoC18RpxK64B-jCbM",
+    "name": "個室居酒屋 海鮮料理 さかなや道場 JR琴似駅前店",
+    "area": "札幌西区",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので周りを気にせず食事ができます。",
+    "score": 3,
+    "lat": 43.080677099999996,
+    "lng": 141.3088889,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJd_vJSlAoC18RpxK64B-jCbM",
+    "image_url": "/photos/ChIJd_vJSlAoC18RpxK64B-jCbM.jpg",
+    "is_chain": true,
+    "evidence": [
+      "個室居酒屋 海鮮料理 さかなや道場 JR琴似駅前店"
+    ],
+    "address": "〒063-0811 北海道札幌市西区琴似１条１丁目１−２０ JR琴似鉄道高架下",
+    "rating": 3.6,
+    "rating_count": 274,
+    "hours": [
+      "月曜日: 16時00分～23時00分",
+      "火曜日: 16時00分～23時00分",
+      "水曜日: 16時00分～23時00分",
+      "木曜日: 16時00分～23時00分",
+      "金曜日: 16時00分～0時00分",
+      "土曜日: 16時00分～0時00分",
+      "日曜日: 16時00分～23時00分"
+    ],
+    "phone": "011-640-2071",
+    "website": "https://sakanayadojo.com/kotoniekimae/?utm_source=google_map&utm_medium=map",
+    "id": 2303
+  },
+  {
+    "place_id": "ChIJnauSYCYpC18RPETY-x6YHfY",
+    "name": "旬菜 てる",
+    "area": "札幌西区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができる和食店です。",
+    "score": 3,
+    "lat": 43.079802099999995,
+    "lng": 141.3070013,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJnauSYCYpC18RPETY-x6YHfY",
+    "image_url": "/photos/ChIJnauSYCYpC18RPETY-x6YHfY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はカウンター、座敷、テーブルとあります。"
+    ],
+    "address": "〒063-0812 北海道札幌市西区琴似２条１丁目３−５ 玉田ビル 2F",
+    "rating": 4.2,
+    "rating_count": 41,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "050-5484-7778",
+    "website": "https://shunsai-teru-kotoni.gorp.jp/",
+    "id": 2304
+  },
+  {
+    "place_id": "ChIJt0ep-TQoC18RCRNxHP3f29w",
+    "name": "北遙館",
+    "area": "札幌西区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、優しい味付けで老若男女に人気。コスパも良い定食屋さん。",
+    "score": 3,
+    "lat": 43.070653,
+    "lng": 141.2974061,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJt0ep-TQoC18RCRNxHP3f29w",
+    "image_url": "/photos/ChIJt0ep-TQoC18RCRNxHP3f29w.jpg",
+    "is_chain": false,
+    "evidence": [
+      "時間を外せば小上がりも座れると思います"
+    ],
+    "address": "〒063-0003 北海道札幌市西区山の手３条３丁目３−１２ ヒルズ山の手",
+    "rating": 4.3,
+    "rating_count": 156,
+    "hours": [
+      "月曜日: 11時30分～13時30分, 17時00分～20時00分",
+      "火曜日: 11時30分～13時30分, 17時00分～20時00分",
+      "水曜日: 11時30分～13時30分, 17時00分～20時00分",
+      "木曜日: 11時30分～13時30分, 17時00分～20時00分",
+      "金曜日: 11時30分～13時30分, 17時00分～20時00分",
+      "土曜日: 11時30分～13時30分, 17時00分～20時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-612-3393",
+    "website": "",
+    "id": 2305
+  },
+  {
+    "place_id": "ChIJxSjBq7IpC18RLHOiXsAtnHY",
+    "name": "ぽち",
+    "area": "札幌西区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷があり、田舎のおばあちゃん家のような安心感のあるお店です。",
+    "score": 3,
+    "lat": 43.0751182,
+    "lng": 141.3149148,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJxSjBq7IpC18RLHOiXsAtnHY",
+    "image_url": "/photos/ChIJxSjBq7IpC18RLHOiXsAtnHY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "席はカウンター、テーブル、小上がりがあり",
+      "座敷もあります。"
+    ],
+    "address": "〒063-0802 北海道札幌市西区二十四軒２条１丁目２−２７",
+    "rating": 4,
+    "rating_count": 97,
+    "hours": [
+      "月曜日: 11時00分～13時45分",
+      "火曜日: 11時00分～13時45分",
+      "水曜日: 11時00分～13時45分",
+      "木曜日: 11時00分～13時45分",
+      "金曜日: 11時00分～13時45分",
+      "土曜日: 11時00分～13時45分",
+      "日曜日: 定休日"
+    ],
+    "phone": "011-643-6988",
+    "website": "",
+    "id": 2306
+  },
+  {
+    "place_id": "ChIJ_w-uBT4oC18ROKkBRyjkbL0",
+    "name": "小良里いがらし",
+    "area": "札幌西区",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりの座敷があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.0809588,
+    "lng": 141.27809489999999,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_w-uBT4oC18ROKkBRyjkbL0",
+    "image_url": "/photos/ChIJ_w-uBT4oC18ROKkBRyjkbL0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりとカウンターがあります。",
+      "小上がりは仕切りがついており、雰囲気も落ち着いていて過ごしやすかったです。"
+    ],
+    "address": "〒063-0031 北海道札幌市西区西野１条６丁目６−２０ マルカハイツ",
+    "rating": 4.4,
+    "rating_count": 45,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 17時00分～23時00分"
+    ],
+    "phone": "011-671-4130",
+    "website": "",
+    "id": 2307
+  },
+  {
+    "place_id": "ChIJ6XOZusrXCl8RHGw3wU1hgUE",
+    "name": "PASTA NONNO E NONNA (ノンノエノンナ)",
+    "area": "札幌西区",
+    "genre": "イタリアン",
+    "tags": [
+      "キッズチェアあり",
+      "子連れOK"
+    ],
+    "description": "子連れに優しいイタリアン。キッズチェアあり、取り皿も用意。",
+    "score": 4,
+    "lat": 43.0530519,
+    "lng": 141.26870159999999,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6XOZusrXCl8RHGw3wU1hgUE",
+    "image_url": "/photos/ChIJ6XOZusrXCl8RHGw3wU1hgUE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子ども用の椅子が1脚あります(3歳児でジャストでした)",
+      "子ども用に取り皿もたくさん出してくれました"
+    ],
+    "address": "〒063-0012 北海道札幌市西区福井５丁目１８−２０",
+    "rating": 4.5,
+    "rating_count": 79,
+    "hours": [
+      "月曜日: 11時30分～16時00分",
+      "火曜日: 11時30分～16時00分",
+      "水曜日: 11時30分～16時00分",
+      "木曜日: 定休日",
+      "金曜日: 11時30分～16時00分",
+      "土曜日: 11時30分～16時00分",
+      "日曜日: 11時30分～16時00分"
+    ],
+    "phone": "011-676-8486",
+    "website": "https://www.instagram.com/nonnoenonna_sapporo/",
+    "id": 2308
+  },
+  {
+    "place_id": "ChIJtdyVJ7gpC18R0v4UC8PQjFM",
+    "name": "Mazeri Hassamu store",
+    "area": "札幌西区",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "子供用メニューあり。座敷席もあり、家族連れでも利用しやすいお店です。",
+    "score": 3,
+    "lat": 43.093790999999996,
+    "lng": 141.2938954,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJtdyVJ7gpC18R0v4UC8PQjFM",
+    "image_url": "/photos/ChIJtdyVJ7gpC18R0v4UC8PQjFM.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子供用メニューもあり",
+      "小上がり席もあり、子どもメニューもあるので家族でも一人でも来れます"
+    ],
+    "address": "〒063-0832 北海道札幌市西区発寒１２条３丁目４−１３ あずみビル",
+    "rating": 4.6,
+    "rating_count": 162,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～22時00分",
+      "火曜日: 11時00分～15時00分, 17時00分～22時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～22時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～22時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～22時00分",
+      "土曜日: 11時00分～22時00分",
+      "日曜日: 11時00分～22時00分"
+    ],
+    "phone": "011-699-5885",
+    "website": "https://s.tabelog.com/hokkaido/A0101/A010204/1072721/",
+    "id": 2310
+  },
+  {
+    "place_id": "ChIJeazsm7QnC18RUB8DvRfmiRI",
+    "name": "イザカヤラボ 手稲店",
+    "area": "札幌手稲区",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があり、家族での利用にも適しています。",
+    "score": 3,
+    "lat": 43.1190261,
+    "lng": 141.2437333,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJeazsm7QnC18RUB8DvRfmiRI",
+    "image_url": "/photos/ChIJeazsm7QnC18RUB8DvRfmiRI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥の個室を使わせて頂きました"
+    ],
+    "address": "〒006-0029 北海道札幌市手稲区手稲本町１条３丁目２−１５ 1F",
+    "rating": 4.1,
+    "rating_count": 97,
+    "hours": [
+      "月曜日: 17時00分～1時00分",
+      "火曜日: 17時00分～1時00分",
+      "水曜日: 17時00分～1時00分",
+      "木曜日: 17時00分～1時00分",
+      "金曜日: 17時00分～1時00分",
+      "土曜日: 16時00分～1時00分",
+      "日曜日: 16時00分～1時00分"
+    ],
+    "phone": "011-688-9784",
+    "website": "https://www.hotpepper.jp/strJ001232727/",
+    "id": 2311
+  },
+  {
+    "place_id": "ChIJ4fGxlM8nC18R2LHd1CiloyI",
+    "name": "ゆき姉の台所",
+    "area": "札幌手稲区",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ゆったり過ごせるお店です。",
+    "score": 3,
+    "lat": 43.1408067,
+    "lng": 141.2456894,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4fGxlM8nC18R2LHd1CiloyI",
+    "image_url": "/photos/ChIJ4fGxlM8nC18R2LHd1CiloyI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥に座敷があります"
+    ],
+    "address": "〒006-0818 北海道札幌市手稲区前田８条１８丁目１１−２６",
+    "rating": 4.6,
+    "rating_count": 17,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 17時00分～21時00分",
+      "日曜日: 17時00分～21時00分"
+    ],
+    "phone": "011-695-8708",
+    "website": "",
+    "id": 2312
+  },
+  {
+    "place_id": "ChIJw5jQIpUnC18RqmbnOSRjqKo",
+    "name": "ジャルダン ポタジェ テラニシ",
+    "area": "札幌手稲区",
+    "genre": "洋食",
+    "tags": [
+      "子連れOK",
+      "子供メニューあり",
+      "キッズチェアあり"
+    ],
+    "description": "お子様ランチもあり、子連れでも安心してフレンチを楽しめます。",
+    "score": 4,
+    "lat": 43.108553,
+    "lng": 141.23863599999999,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJw5jQIpUnC18RqmbnOSRjqKo",
+    "image_url": "/photos/ChIJw5jQIpUnC18RqmbnOSRjqKo.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小さい子供もいる中で",
+      "子供たちにもとてもよくしていただいて、お子様ランチもぺろりと完食していました！",
+      "フレンチだったので子供達の口に合うか心配でしたが"
+    ],
+    "address": "〒006-0016 北海道札幌市手稲区富丘６条７丁目４−１３",
+    "rating": 4.4,
+    "rating_count": 45,
+    "hours": [
+      "月曜日: 12時00分～14時30分, 18時00分～22時00分",
+      "火曜日: 12時00分～14時30分, 18時00分～22時00分",
+      "水曜日: 12時00分～14時30分, 18時00分～22時00分",
+      "木曜日: 12時00分～14時30分, 18時00分～22時00分",
+      "金曜日: 12時00分～14時30分, 18時00分～22時00分",
+      "土曜日: 12時00分～14時30分, 18時00分～22時00分",
+      "日曜日: 12時00分～14時30分, 18時00分～22時00分"
+    ],
+    "phone": "011-691-8313",
+    "website": "http://j-potager.com/",
+    "id": 2313
+  },
+  {
+    "place_id": "ChIJz8fubBMnC18ROUzuhnCOfVo",
+    "name": "イタリアンレストランポポロ",
+    "area": "札幌手稲区",
+    "genre": "イタリアン",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、子連れでも利用しやすいイタリアン。",
+    "score": 3,
+    "lat": 43.131018999999995,
+    "lng": 141.209364,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJz8fubBMnC18ROUzuhnCOfVo",
+    "image_url": "/photos/ChIJz8fubBMnC18ROUzuhnCOfVo.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり席が二つあり子供連れにはいい"
+    ],
+    "address": "〒006-0032 北海道札幌市手稲区稲穂２条８丁目５−５",
+    "rating": 4.1,
+    "rating_count": 106,
+    "hours": [
+      "月曜日: 11時30分～15時00分, 17時30分～21時00分",
+      "火曜日: 11時30分～15時00分, 17時30分～21時00分",
+      "水曜日: 定休日",
+      "木曜日: 11時30分～15時00分, 17時30分～21時00分",
+      "金曜日: 11時30分～15時00分, 17時30分～21時00分",
+      "土曜日: 11時30分～15時00分, 17時30分～21時00分",
+      "日曜日: 11時30分～15時00分, 17時30分～21時00分"
+    ],
+    "phone": "011-681-9619",
+    "website": "http://r.goope.jp/popolo",
+    "id": 2314
+  },
+  {
+    "place_id": "ChIJNy382NgnC18RD9wNDfE4WIE",
+    "name": "SYNC CURRY SAPPORO（シンクカレー）",
+    "area": "札幌手稲区",
+    "genre": "その他",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ベビーカーでの入店も快く受け入れてくれるカレー屋さん。",
+    "score": 3,
+    "lat": 43.140066499999996,
+    "lng": 141.1919074,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJNy382NgnC18RD9wNDfE4WIE",
+    "image_url": "/photos/ChIJNy382NgnC18RD9wNDfE4WIE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "ベビーカーに乗った子供も快く入店させてくれました。"
+    ],
+    "address": "〒006-0853 北海道札幌市手稲区星置３条９丁目１０−１８",
+    "rating": 4.3,
+    "rating_count": 82,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～15時00分, 17時00分～19時00分",
+      "水曜日: 11時30分～15時00分",
+      "木曜日: 11時30分～15時00分, 17時00分～19時00分",
+      "金曜日: 11時30分～15時00分, 17時00分～19時00分",
+      "土曜日: 11時30分～15時00分, 17時00分～19時00分",
+      "日曜日: 11時30分～15時00分, 17時00分～19時00分"
+    ],
+    "phone": "011-694-7252",
+    "website": "https://sync-sapporo.com/",
+    "id": 2315
+  },
+  {
+    "place_id": "ChIJO_1pF7knC18RUizEo2iIy10",
+    "name": "熟成スパイスルゥカレー「和(なごみ)」",
+    "area": "札幌手稲区",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "リーズナブルな子供用カレーあり。漫画や絵本も充実。",
+    "score": 3,
+    "lat": 43.11387450000001,
+    "lng": 141.24635849999999,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJO_1pF7knC18RUizEo2iIy10",
+    "image_url": "/photos/ChIJO_1pF7knC18RUizEo2iIy10.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子どものカレーが300円とリーズナブル♪",
+      "漫画や絵本があり、ゆっくり出来そうな空間でした。",
+      "おもちゃや絵本もあって子連れの方にも優しい雰囲気でした。"
+    ],
+    "address": "〒006-0012 北海道札幌市手稲区富丘２条７丁目１−１",
+    "rating": 4.2,
+    "rating_count": 117,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "011-838-7724",
+    "website": "https://www.facebook.com/%E5%92%8C%E3%81%AA%E3%81%94%E3%81%BF-1578527958872124/",
+    "id": 2316
   }
 ]

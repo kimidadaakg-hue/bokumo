@@ -81,7 +81,7 @@ PROMPT_TMPL = """以下の飲食店について、Googleマップの実際のク
 """
 
 PLACES_FIELD_MASK_REVIEWS = (
-    "id,displayName,reviews,"
+    "id,displayName,reviews,photos,"
     "formattedAddress,rating,userRatingCount,"
     "regularOpeningHours,nationalPhoneNumber,websiteUri"
 )
@@ -145,6 +145,21 @@ def has_strong_evidence(evidence_list: list[str]) -> bool:
         return False
     text = " ".join(evidence_list)
     return any(kw in text for kw in STRONG_EVIDENCE_KEYWORDS)
+
+
+def area_from_address(address: str) -> str:
+    """住所から area 名（札幌XX区 / 函館 / 旭川 等）を推定."""
+    import re
+    if not address:
+        return "不明"
+    m = re.search(r"札幌市(\S+?区)", address)
+    if m:
+        return f"札幌{m.group(1)}"
+    # 道内市町村: 「○○市」「○○町」「○○村」を抽出して接尾辞を外す
+    m = re.search(r"北海道([^\s\d]+?[市町村])", address)
+    if m:
+        return re.sub(r"[市町村]$", "", m.group(1))
+    return "不明"
 
 
 # ---------- ユーティリティ ----------
@@ -282,6 +297,8 @@ def fetch_reviews(api_key: str, place_id: str) -> tuple[list[dict], dict]:
         with request.urlopen(req, timeout=20) as res:
             payload = json.loads(res.read().decode("utf-8"))
             reviews = payload.get("reviews", []) or []
+            photos = payload.get("photos", []) or []
+            first_photo_name = (photos[0].get("name", "") if photos else "")
             details = {
                 "address": payload.get("formattedAddress", ""),
                 "rating": payload.get("rating", 0),
@@ -289,6 +306,7 @@ def fetch_reviews(api_key: str, place_id: str) -> tuple[list[dict], dict]:
                 "hours": (payload.get("regularOpeningHours", {}) or {}).get("weekdayDescriptions", []),
                 "phone": payload.get("nationalPhoneNumber", ""),
                 "website": payload.get("websiteUri", ""),
+                "photo_name": first_photo_name,
             }
             return reviews, details
     except Exception as e:
@@ -386,7 +404,34 @@ def main() -> None:
               file=sys.stderr)
         sys.exit(1)
 
-    raw = json.loads(RAW_PATH.read_text(encoding="utf-8"))
+    raw_data = json.loads(RAW_PATH.read_text(encoding="utf-8"))
+    # shops_raw.json は dict {"places": [...]} or 旧 list [...] 両対応
+    if isinstance(raw_data, dict):
+        raw = raw_data.get("places", [])
+    else:
+        raw = raw_data
+    # Places API New 形式（id, displayName, formattedAddress, location, photos）を
+    # 旧形式（place_id, name, address, lat, lng, photo_reference）に正規化
+    normalized = []
+    for r in raw:
+        if not isinstance(r, dict):
+            continue
+        if "place_id" in r:
+            normalized.append(r)
+            continue
+        # New API 形式 → 旧形式に変換
+        loc = r.get("location") or {}
+        photos = r.get("photos") or []
+        photo_ref = (photos[0].get("name") if photos else "") if isinstance(photos, list) else ""
+        normalized.append({
+            "place_id": r.get("id", ""),
+            "name": (r.get("displayName") or {}).get("text", ""),
+            "address": r.get("formattedAddress", ""),
+            "lat": loc.get("latitude"),
+            "lng": loc.get("longitude"),
+            "photo_reference": photo_ref,
+        })
+    raw = normalized
     processed = load_processed()
     usage = load_photos_usage()
     shops = load_existing_shops()
@@ -449,20 +494,24 @@ def main() -> None:
 
             print(f"[{i}/{len(raw)}] {name}")
 
+            # --- STEP B: Reviews + 店舗詳細 取得 → Gemini リサーチ ---
+            # （fetch_hokkaido.py 経由の候補は photo_reference を持たないので
+            #   Place Details で photo_name を取った後にダウンロードする順序にする）
+            reviews, place_details = fetch_reviews(places_key, pid)
+            reviews_text = format_reviews(reviews)
+            time.sleep(0.3)
+
             # --- STEP A: Photo ダウンロード ---
+            # raw 由来 photo_ref を優先、無ければ Place Details 由来 photo_name にフォールバック
             image_url = ""
-            if photo_ref and usage["count"] < PHOTOS_MONTHLY_LIMIT:
-                image_url = download_photo(places_key, photo_ref, pid)
+            effective_photo_ref = photo_ref or place_details.get("photo_name", "")
+            if effective_photo_ref and usage["count"] < PHOTOS_MONTHLY_LIMIT:
+                image_url = download_photo(places_key, effective_photo_ref, pid)
                 if image_url:
                     usage["count"] += 1
                     save_photos_usage(usage)
                     print(f"    📷 image: {image_url}")
                 time.sleep(PHOTO_SLEEP)
-
-            # --- STEP B: Reviews + 店舗詳細 取得 → Gemini リサーチ ---
-            reviews, place_details = fetch_reviews(places_key, pid)
-            reviews_text = format_reviews(reviews)
-            time.sleep(0.3)
 
             research = gemini_research(gemini_key, name, address, reviews_text)
             gemini_count += 1
@@ -483,6 +532,14 @@ def main() -> None:
                 skipped += 1
                 continue
 
+            # 「子連れOK」だけは緩い包括タグなので、設備系タグが1つもなければ弾く
+            if clean["tags"] == ["子連れOK"]:
+                print(f"    → SKIP: 設備系タグなし（子連れOKのみは弱根拠）")
+                processed.add(pid)
+                save_processed(processed)
+                skipped += 1
+                continue
+
             # evidence(クチコミ引用) に強根拠キーワードが無ければ採用しない
             # （「家族で来た」「子供と」だけの弱根拠を排除）
             if not has_strong_evidence(clean["evidence"]):
@@ -493,10 +550,19 @@ def main() -> None:
                 continue
 
             # --- STEP C: shops.json に追記/更新 ---
+            # area は Place Details の正規化された住所優先。無ければ raw 由来。
+            full_address = place_details.get("address") or address
+            area = area_from_address(full_address)
+            # 既存特殊エリア: 円山/宮の森（中央区の細分化）は住所キーワードで上書き
+            if "宮ケ丘" in full_address or "宮の森" in full_address:
+                area = "宮の森"
+            elif "円山" in full_address or "南１条西２" in full_address:
+                area = "円山"
+
             entry = {
                 "place_id": pid,
                 "name": name,
-                "area": "宮の森" if ("宮ケ丘" in address or "宮の森" in address) else "円山",
+                "area": area,
                 "genre": clean["genre"],
                 "tags": clean["tags"],
                 "description": clean["description"],
