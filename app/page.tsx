@@ -120,34 +120,34 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* 募集中バナー */}
+      {/* 募集中バナー (コンパクト化) */}
       <section className="max-w-6xl mx-auto px-6 pb-8">
-        <div className="bg-gradient-to-r from-bokumo-pink to-bokumo-pink-light rounded-2xl px-6 py-5 md:py-6 text-center shadow-card border border-bokumo-line/60">
+        <div className="bg-gradient-to-r from-bokumo-pink to-bokumo-pink-light rounded-2xl px-4 py-4 md:px-6 md:py-6 text-center shadow-card border border-bokumo-line/60">
           <p className="inline-block text-[10px] tracking-[0.25em] text-bokumo-accent font-bold mb-2 px-3 py-0.5 rounded-full bg-white">
             WANTED
           </p>
-          <p className="text-base md:text-lg text-bokumo-ink font-bold mb-1" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
+          <p className="text-sm md:text-lg text-bokumo-ink font-bold mb-1" style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}>
             子連れにおすすめのお店を募集中！
           </p>
-          <p className="text-xs md:text-sm text-bokumo-ink/70 mb-4">
+          <p className="hidden md:block text-xs md:text-sm text-bokumo-ink/70 mb-4">
             あなたの知ってる素敵なお店を教えてください。確認後、サイトに掲載させていただきます。
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <div className="flex flex-row items-center justify-center gap-2 md:gap-3 mt-3 md:mt-0">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdG-VGN1WEj53rtg9OkX0ehH88nGK3ZKJPkOnfq174kyeUQOA/viewform"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-6 py-2.5 text-sm rounded-full bg-bokumo-accent text-white hover:opacity-90 transition shadow-sm font-bold"
+              className="flex-1 sm:flex-none px-4 md:px-6 py-2 md:py-2.5 text-xs md:text-sm rounded-full bg-bokumo-accent text-white hover:opacity-90 transition shadow-sm font-bold whitespace-nowrap"
             >
-              お店を提案する →
+              お店を提案
             </a>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfhF2zUpZVfjcUQu-NQaFqraAi7UwNQ8CMc_U8rD-CnDFVPnA/viewform"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-6 py-2.5 text-sm rounded-full bg-white text-bokumo-ink hover:bg-bokumo-ink hover:text-white transition shadow-sm font-bold"
+              className="flex-1 sm:flex-none px-4 md:px-6 py-2 md:py-2.5 text-xs md:text-sm rounded-full bg-white text-bokumo-ink hover:bg-bokumo-ink hover:text-white transition shadow-sm font-bold whitespace-nowrap"
             >
-              口コミを送る →
+              口コミを送る
             </a>
           </div>
         </div>
