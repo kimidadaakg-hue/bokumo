@@ -16,7 +16,7 @@ OUT_DIR = ROOT / "outputs" / "instagram"
 COST_DIR = ROOT / "logs"
 ENV_FILE = ROOT / ".env.local"
 
-PHOTOS_PER_SHOP = 5
+PHOTOS_PER_SHOP = 10
 MONTHLY_BUDGET_USD = 150.0
 DETAILS_COST_USD = 0.005   # Essentials SKU
 PHOTO_COST_USD = 0.007

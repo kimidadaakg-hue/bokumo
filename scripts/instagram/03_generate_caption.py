@@ -37,6 +37,42 @@ GENRE_TAGS = {
 }
 
 
+TIKTOK_BASE_TAGS = [
+    "#fyp", "#おすすめ", "#北海道グルメ", "#子連れ", "#ファミリー",
+    "#子連れランチ", "#札幌グルメ", "#bokumo",
+]
+
+
+def build_tiktok_caption(shop: dict, details: dict) -> str:
+    """TikTok用 (短め・ハッシュタグ最小限・FYP狙い)"""
+    name = shop["name"]
+    area = shop["area"]
+    genre = shop["genre"]
+    rating = details.get("rating")
+    lines = [
+        f"📍{area}の{genre}「{name}」",
+    ]
+    if rating:
+        lines.append(f"Google★{rating} の子連れOK店！")
+    else:
+        lines.append("子連れOKでファミリーにおすすめ！")
+    lines.append("")
+    lines.append("北海道の子連れOKなお店を毎日紹介中🌸")
+    lines.append("詳細→ boku-mo.com")
+    lines.append("")
+    hashtags = list(TIKTOK_BASE_TAGS)
+    if area in {"札幌", "札幌西区", "札幌北区南部", "札幌白石区", "札幌東区", "豊平", "円山", "平岸", "月寒・美園"}:
+        hashtags.append("#札幌")
+    elif "旭川" in area:
+        hashtags.append("#旭川")
+    elif "函館" in area:
+        hashtags.append("#函館")
+    elif "帯広" in area:
+        hashtags.append("#帯広")
+    lines.append(" ".join(hashtags))
+    return "\n".join(lines)
+
+
 def build_caption(shop: dict, details: dict) -> str:
     name = shop["name"]
     area = shop["area"]
@@ -95,7 +131,9 @@ def main() -> None:
         details = json.loads(details_file.read_text(encoding="utf-8"))
         caption = build_caption(shop, details)
         (shop_dir / "caption.txt").write_text(caption, encoding="utf-8")
-        print(f"[{sid}] caption.txt 生成 ({len(caption)} chars)")
+        tt_caption = build_tiktok_caption(shop, details)
+        (shop_dir / "caption_tiktok.txt").write_text(tt_caption, encoding="utf-8")
+        print(f"[{sid}] caption.txt={len(caption)}字 / caption_tiktok.txt={len(tt_caption)}字")
 
 
 if __name__ == "__main__":
