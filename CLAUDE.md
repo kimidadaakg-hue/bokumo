@@ -147,6 +147,54 @@ for kind, s in violations[:5]:
 
 ---
 
+## インスタ自動投稿ルール（NEVER FORGET）
+
+**現状の自動化フロー（2台のlaunchdジョブ）**
+
+| ジョブ | 時刻 | 内容 |
+|---|---|---|
+| `com.bokumo.daily.plist` | 毎朝 9:00 | `run_daily.py`：3店舗抽選 → 写真取得 → 分類 → キャプション生成 → 6枚レンダリング → SSDコピー |
+| `com.bokumo.post.plist` | 毎日 19:30 | `06_post_to_instagram.py`：R2アップ → IG カルーセル予約作成（**翌日19:30公開**） |
+
+**06_post_to_instagram.py の絶対ルール**
+
+- ✅ `scheduled_publish_time` は必須。`published=false` で予約コンテナを作る
+- ✅ 投稿日時は **`next_day_epoch_at(19, 30)` で翌日19:30固定**（即時公開禁止）
+- ✅ R2 アップロード先: `bokumo-instagram` バケット、キーは `{YYYYMMDD}/{shop_id}/{NN}.jpg`
+- ✅ 1店舗あたり画像 **2枚以上必須**（Instagram カルーセル仕様）。2枚未満ならスキップ
+- ✅ caption は `caption.txt` から読む。スクリプト側で改変しない
+- ✅ `--dry-run` モードを必ず残す（R2/IG API を叩かず確認のみ）
+- ✅ 失敗時は例外を握りつぶさず print して次の店へ（1店の失敗で全滅させない）
+- ✅ 投稿成功時のみ `posted_history.json` に追記（`mark_posted_locally`）
+- ❌ 即時 publish (`media_publish` 呼び出し) は禁止 → 24時間バッファで手動キャンセル可能にする
+- ❌ FB_PAGE_TOKEN / IG_USER_ID をコードに直書き禁止、`.env.local` から読む
+
+**run_daily.py 側のルール**
+
+- ✅ 出力先は `outputs/instagram/{YYYYMMDD}/shop_{id}/` 配下に統一
+- ✅ `processed/01.jpg〜06.jpg`（1080×1080）+ `tiktok/01.jpg〜06.jpg`（1080×1920）+ `caption.txt`
+- ✅ 5番目に `05_sync_gallery.py` を実行して `data/shops.json` の `gallery` と `public/photos/gallery/` を更新
+- ✅ 抽選ロジック（`01_select_shops.py`）は `posted_history.json` を見て**過去投稿済みを除外**
+
+**トークン運用**
+
+- `FB_PAGE_TOKEN` は無期限（Page Token）を使用。短命 User Token を直接使わない
+- 万一 401/トークン切れになったら `scripts/instagram/exchange_token.py` で再発行
+- `.env.local` は git 管理外、絶対にコミットしない
+
+**launchd 操作**
+
+```bash
+launchctl list | grep bokumo                                  # 状態確認
+launchctl start com.bokumo.post                               # 手動実行
+launchctl unload ~/Library/LaunchAgents/com.bokumo.post.plist # 停止
+launchctl load   ~/Library/LaunchAgents/com.bokumo.post.plist # 再起動
+```
+
+ログ: `~/Library/Logs/bokumo_daily.log` / `~/Library/Logs/bokumo_post.log`
+
+---
+
 ## サイト・インフラのルール
 
 別ドキュメント（プロジェクト初期に定めた構成ルール）に準拠：
