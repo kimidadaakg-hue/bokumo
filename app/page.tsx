@@ -16,6 +16,24 @@ const posts = (postsData as BlogPost[])
   .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 const PAGE_SIZE = 30;
 
+// 並び順用パラメータ（shops.json から事前計算した実測値）
+// C: 全体rating平均 / M: 全体rating_count中央値（ベイジアン平均の重み）
+const RATING_AVG_C = 4.08;
+const RATING_MIN_M = 204;
+
+// 設備タグ数（「子連れOK」は緩い包括タグなので除外して数える）
+const equipmentTagCount = (s: Shop): number =>
+  (s.tags || []).filter((t) => t !== "子連れOK").length;
+
+// ベイジアン補正評価（IMDb方式）
+//   br = (v/(v+M)) * R + (M/(v+M)) * C
+// レビュー数が少ない店の極端な高評価を抑え、件数の多い店を相対的に上げる。
+const bayesianRating = (s: Shop): number => {
+  const v = s.rating_count ?? 0;
+  const R = s.rating ?? 0;
+  return (v / (v + RATING_MIN_M)) * R + (RATING_MIN_M / (v + RATING_MIN_M)) * RATING_AVG_C;
+};
+
 export default function HomePage() {
   const [region, setRegion] = useState("すべて");
   const [subRegion, setSubRegion] = useState("");
@@ -41,18 +59,25 @@ export default function HomePage() {
     const allowedAreas = getAreasForRegion(region, subRegion, microRegion);
     const q = query.trim().toLowerCase();
 
-    return shops.filter((s) => {
-      // 地域フィルタ
-      if (allowedAreas && !allowedAreas.includes(s.area)) return false;
-      // ジャンル
-      if (genre !== "すべて" && s.genre !== genre) return false;
-      // タグ
-      if (selectedTags.length > 0 && !selectedTags.every((t) => s.tags.includes(t)))
-        return false;
-      // 店名検索 (大文字小文字無視・部分一致)
-      if (q && !s.name.toLowerCase().includes(q)) return false;
-      return true;
-    });
+    return shops
+      .filter((s) => {
+        // 地域フィルタ
+        if (allowedAreas && !allowedAreas.includes(s.area)) return false;
+        // ジャンル
+        if (genre !== "すべて" && s.genre !== genre) return false;
+        // タグ
+        if (selectedTags.length > 0 && !selectedTags.every((t) => s.tags.includes(t)))
+          return false;
+        // 店名検索 (大文字小文字無視・部分一致)
+        if (q && !s.name.toLowerCase().includes(q)) return false;
+        return true;
+      })
+      // 並び順: ① 設備タグ数（多い順） → ② ベイジアン補正評価（高い順）
+      .sort((a, b) => {
+        const tagDiff = equipmentTagCount(b) - equipmentTagCount(a);
+        if (tagDiff !== 0) return tagDiff;
+        return bayesianRating(b) - bayesianRating(a);
+      });
   }, [region, subRegion, microRegion, genre, selectedTags, query]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
@@ -309,7 +334,7 @@ export default function HomePage() {
 
           {/* SNSリンク */}
           <div className="mb-6">
-            <p className="text-xs text-bokumo-ink/70 mb-3">毎日3店舗を投稿中、フォローしてね！</p>
+            <p className="text-xs text-bokumo-ink/70 mb-3">ぞくぞく更新中、フォローしてね！</p>
             <div className="flex items-center justify-center gap-3">
               <a
                 href="https://www.instagram.com/bokumo2026/"
