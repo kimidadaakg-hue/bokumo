@@ -153,42 +153,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 特集記事 */}
+      {/* 特集記事 (コンパクト版) */}
       {posts.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 pb-8">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-baseline gap-3">
-              <h2
-                className="text-xl md:text-2xl font-bold text-bokumo-ink"
-                style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
-              >
-                <span className="text-bokumo-accent">★</span> 特集記事
-              </h2>
-              <p className="text-xs text-bokumo-sub">テーマ別おすすめまとめ</p>
-            </div>
+        <section className="max-w-6xl mx-auto px-6 pb-6">
+          <div className="flex items-center justify-between mb-2">
+            <h2
+              className="text-sm font-bold text-bokumo-ink"
+              style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+            >
+              <span className="text-bokumo-accent">★</span> 特集記事
+            </h2>
             <Link
               href="/blog"
-              className="text-xs text-bokumo-accent hover:underline font-bold whitespace-nowrap"
+              className="text-xs text-bokumo-accent hover:underline font-bold"
             >
               一覧を見る →
             </Link>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="flex flex-wrap gap-2">
             {posts.slice(0, 4).map((p) => (
               <Link
                 key={p.slug}
                 href={`/blog/${p.slug}`}
-                className="block bg-gradient-to-br from-white to-bokumo-pink-light/40 rounded-2xl shadow-card border border-bokumo-line/50 p-4 hover:border-bokumo-accent hover:shadow-md transition group"
+                className="inline-flex items-center gap-2 px-3 py-1.5 text-xs rounded-full bg-white border border-bokumo-line hover:border-bokumo-accent hover:text-bokumo-accent transition"
               >
-                <p className="inline-block text-[10px] tracking-wider text-bokumo-accent font-bold mb-2 px-2 py-0.5 rounded-full bg-white border border-bokumo-line">
-                  {p.category}
-                </p>
-                <h3
-                  className="text-sm md:text-base font-bold text-bokumo-ink leading-snug line-clamp-3 group-hover:text-bokumo-accent transition"
-                  style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
-                >
-                  {p.title}
-                </h3>
+                <span className="text-[10px] text-bokumo-accent font-bold">{p.category}</span>
+                <span className="text-bokumo-ink">{p.title}</span>
               </Link>
             ))}
           </div>
