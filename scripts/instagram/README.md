@@ -1,6 +1,6 @@
 # BOKUMO SNS 日次運用ガイド
 
-毎日3店舗 × 6枚の画像を生成し、Instagram に **完全自動で予約投稿** する。
+毎日3店舗 × 6枚の画像を生成し、Instagram に **完全自動で即時投稿** する。
 （TikTok は写真モードがモバイル限定なので手動）
 
 ## 自動化フロー
@@ -8,17 +8,17 @@
 | ジョブ | 時刻 | 内容 |
 |---|---|---|
 | `com.bokumo.daily.plist`  | 毎朝 9:00  | 画像生成パイプライン（`run_daily.py`） |
-| `com.bokumo.post.plist`   | 毎日 19:30 | Instagram 予約投稿（`06_post_to_instagram.py`） |
+| `com.bokumo.post.plist`   | 毎日 19:30 | Instagram 即時投稿（`06_post_to_instagram.py`） |
 
 ### 9:00 のジョブ：画像生成
 - 出力先: `outputs/instagram/{YYYYMMDD}/shop_{id}/`
 - 内訳: 3店舗 × 6枚 (1080×1080 IG用) + `tiktok/` (1080×1920) + `caption.txt`
 - ついでに `data/shops.json` の `gallery` と `public/photos/gallery/` も更新（`05_sync_gallery.py`）
 
-### 19:30 のジョブ：Instagram 予約投稿
-- `06_post_to_instagram.py` が R2 にアップロード後、Instagram Graph API で **翌日19:30公開の予約**を作成
-- `scheduled_publish_time` + `published=false` で予約コンテナ作成 → 即時公開はしない
-- 24時間のバッファがあるので、内容に問題があれば Meta Business Suite からキャンセル可能
+### 19:30 のジョブ：Instagram 即時投稿
+- `06_post_to_instagram.py` が R2 にアップロード後、Instagram Graph API でカルーセル作成 → `media_publish` で **即時公開**
+- ※ Meta の `scheduled_publish_time`（予約投稿）はホワイトリスト承認済みアカウント限定機能のため使えない
+- 内容に問題があれば、ジョブを止める（`launchctl unload`）か、公開後に Instagram から削除
 - 成功した店だけ `logs/posted_history.json` に追記され、翌日以降の抽選から除外
 
 ## 毎日の手動作業

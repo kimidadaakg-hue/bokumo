@@ -154,19 +154,25 @@ for kind, s in violations[:5]:
 | ジョブ | 時刻 | 内容 |
 |---|---|---|
 | `com.bokumo.daily.plist` | 毎朝 9:00 | `run_daily.py`：3店舗抽選 → 写真取得 → 分類 → キャプション生成 → 6枚レンダリング → SSDコピー |
-| `com.bokumo.post.plist` | 毎日 19:30 | `06_post_to_instagram.py`：R2アップ → IG カルーセル予約作成（**翌日19:30公開**） |
+| `com.bokumo.post.plist` | 毎日 19:30 | `06_post_to_instagram.py`：R2アップ → IG カルーセル作成 → **即時公開** |
+
+**Meta API 制約（重要・2026-05-04 判明）**
+- `scheduled_publish_time` を使った予約投稿は **Meta のコンテンツ公開ホワイトリスト承認済みアカウント限定**。一般アカウントが叩くと `(#3) User must be on whitelist` で 400 エラー
+- そのため本プロジェクトでは **即時公開のみ** サポート。予約は使わない
+- 投稿前に問題があれば 19:30 ジョブを止めるか、公開後に Instagram から削除して対応
 
 **06_post_to_instagram.py の絶対ルール**
 
-- ✅ `scheduled_publish_time` は必須。`published=false` で予約コンテナを作る
-- ✅ 投稿日時は **`next_day_epoch_at(19, 30)` で翌日19:30固定**（即時公開禁止）
+- ✅ 各画像コンテナを作成後、`status_code=FINISHED` になるまで `wait_container_ready()` でポーリング
+- ✅ CAROUSEL コンテナ作成 → `media_publish` で即時公開（19:30 のジョブ実行時点で公開）
 - ✅ R2 アップロード先: `bokumo-instagram` バケット、キーは `{YYYYMMDD}/{shop_id}/{NN}.jpg`
 - ✅ 1店舗あたり画像 **2枚以上必須**（Instagram カルーセル仕様）。2枚未満ならスキップ
 - ✅ caption は `caption.txt` から読む。スクリプト側で改変しない
 - ✅ `--dry-run` モードを必ず残す（R2/IG API を叩かず確認のみ）
 - ✅ 失敗時は例外を握りつぶさず print して次の店へ（1店の失敗で全滅させない）
+- ✅ HTTPError は必ずレスポンスボディを `RuntimeError` に含める（Meta API のエラー詳細が消えないように）
 - ✅ 投稿成功時のみ `posted_history.json` に追記（`mark_posted_locally`）
-- ❌ 即時 publish (`media_publish` 呼び出し) は禁止 → 24時間バッファで手動キャンセル可能にする
+- ❌ `scheduled_publish_time` / `published=false` を使った予約投稿は禁止（ホワイトリスト未承認のため不可）
 - ❌ FB_PAGE_TOKEN / IG_USER_ID をコードに直書き禁止、`.env.local` から読む
 
 **run_daily.py 側のルール**

@@ -1,11 +1,15 @@
-"""今日のレンダー済み画像6枚 × 3店舗を Instagram Graph API で投稿する。
+"""今日のレンダー済み画像6枚 × 3店舗を Instagram Graph API で即時投稿する。
 
 フロー:
   1. 各店の processed/01.jpg〜06.jpg を R2 にアップロード → 公開URL取得
   2. Instagram API で各画像の container 作成 (is_carousel_item=true)
-  3. CAROUSEL container 作成 (children=[6つのID])
-  4. media_publish で公開
-  5. 投稿完了したら mark_posted.py 相当を実行
+  3. 全 container が FINISHED になるまでポーリング
+  4. CAROUSEL container 作成 (children=[6つのID])
+  5. media_publish で即時公開
+  6. 投稿成功した店を posted_history.json に追記
+
+Note: scheduled_publish_time を使った予約投稿は Meta のホワイトリスト承認
+アカウント限定機能のため、本スクリプトは即時公開のみサポート。
 
 使い方:
   python3 scripts/instagram/06_post_to_instagram.py [--dry-run]
@@ -13,9 +17,9 @@
 import json
 import sys
 import time
-from datetime import date, datetime, timedelta
+from datetime import date
 from pathlib import Path
-from urllib import parse, request
+from urllib import error, parse, request
 
 import boto3
 
@@ -41,13 +45,36 @@ def load_env() -> dict:
 def http_post(url: str, params: dict) -> dict:
     data = parse.urlencode(params).encode()
     req = request.Request(url, data=data, method="POST")
-    with request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode("utf-8"))
+    try:
+        with request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {e.code} {e.reason}: {body}") from None
 
 
 def http_get(url: str) -> dict:
-    with request.urlopen(url, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+    try:
+        with request.urlopen(url, timeout=30) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {e.code} {e.reason}: {body}") from None
+
+
+def wait_container_ready(container_id: str, token: str, timeout: int = 120) -> str:
+    """Instagram の画像コンテナが FINISHED になるまでポーリング。"""
+    url = f"https://graph.facebook.com/v19.0/{container_id}?fields=status_code&access_token={token}"
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        res = http_get(url)
+        status = res.get("status_code")
+        if status == "FINISHED":
+            return status
+        if status == "ERROR":
+            raise RuntimeError(f"container {container_id} status=ERROR")
+        time.sleep(3)
+    raise RuntimeError(f"container {container_id} timeout (status={status})")
 
 
 def upload_to_r2(env: dict, local_path: Path, key: str) -> str:
@@ -81,12 +108,12 @@ def create_image_container(ig_id: str, token: str, image_url: str) -> str:
     return res["id"]
 
 
-def create_carousel(ig_id: str, token: str, child_ids: list, caption: str,
-                    scheduled_publish_time: int | None = None) -> str:
-    """CAROUSEL container 作成 → container_id
+def create_carousel(ig_id: str, token: str, child_ids: list, caption: str) -> str:
+    """CAROUSEL container 作成 → container_id（即時公開用）
 
-    scheduled_publish_time が指定されていれば、Instagram 側で予約投稿になる
-    （10分後〜6ヶ月先までの epoch 秒）。
+    Note: `scheduled_publish_time` は Meta のコンテンツ公開ホワイトリスト
+    承認済みアカウントのみ利用可能。一般アカウントでは使えないため、
+    即時公開フローのみサポートする。
     """
     url = f"https://graph.facebook.com/v19.0/{ig_id}/media"
     params = {
@@ -95,9 +122,6 @@ def create_carousel(ig_id: str, token: str, child_ids: list, caption: str,
         "caption": caption,
         "access_token": token,
     }
-    if scheduled_publish_time is not None:
-        params["published"] = "false"
-        params["scheduled_publish_time"] = str(scheduled_publish_time)
     res = http_post(url, params)
     if "id" not in res:
         raise RuntimeError(f"carousel container失敗: {res}")
@@ -115,15 +139,7 @@ def publish(ig_id: str, token: str, container_id: str) -> dict:
     return res
 
 
-def next_day_epoch_at(hour: int, minute: int) -> int:
-    """翌日の指定時刻 (ローカル) の epoch 秒を返す"""
-    now = datetime.now()
-    target = now.replace(hour=hour, minute=minute, second=0, microsecond=0) + timedelta(days=1)
-    return int(target.timestamp())
-
-
-def post_one_shop(env: dict, today: str, shop_id: int, shop_name: str,
-                  scheduled_epoch: int) -> bool:
+def post_one_shop(env: dict, today: str, shop_id: int, shop_name: str) -> bool:
     shop_dir = OUT_DIR / today / f"shop_{shop_id}"
     proc_dir = shop_dir / "processed"
     caption_file = shop_dir / "caption.txt"
@@ -136,9 +152,8 @@ def post_one_shop(env: dict, today: str, shop_id: int, shop_name: str,
         print(f"[{shop_id}] 画像が2枚未満、スキップ")
         return False
     caption = caption_file.read_text(encoding="utf-8")
-    schedule_str = datetime.fromtimestamp(scheduled_epoch).strftime("%Y-%m-%d %H:%M")
 
-    print(f"\n[{shop_id}] {shop_name}: {len(images)}枚 → 予約 {schedule_str}")
+    print(f"\n[{shop_id}] {shop_name}: {len(images)}枚 → 即時公開")
 
     if DRY_RUN:
         for img in images:
@@ -154,7 +169,7 @@ def post_one_shop(env: dict, today: str, shop_id: int, shop_name: str,
         image_urls.append(url)
         print(f"  ↑ {url}")
 
-    # Instagram カルーセル作成 (予約)
+    # Instagram カルーセル作成 → 即時公開
     ig_id = env["IG_USER_ID"]
     token = env["FB_PAGE_TOKEN"]
 
@@ -165,11 +180,18 @@ def post_one_shop(env: dict, today: str, shop_id: int, shop_name: str,
         time.sleep(1)
     print(f"  📦 image containers: {len(child_ids)} created")
 
-    carousel_id = create_carousel(
-        ig_id, token, child_ids, caption,
-        scheduled_publish_time=scheduled_epoch,
-    )
-    print(f"  ✅ 予約完了 (container: {carousel_id}, 公開予定: {schedule_str})")
+    for cid in child_ids:
+        wait_container_ready(cid, token)
+    print(f"  ⏳ all containers FINISHED")
+
+    carousel_id = create_carousel(ig_id, token, child_ids, caption)
+    print(f"  📦 carousel container: {carousel_id}")
+
+    wait_container_ready(carousel_id, token)
+    print(f"  ⏳ carousel FINISHED")
+
+    res = publish(ig_id, token, carousel_id)
+    print(f"  ✅ 公開完了 (media id: {res.get('id')})")
     return True
 
 
@@ -201,17 +223,13 @@ def main() -> None:
     if not selection_file.exists():
         raise SystemExit(f"本日の selected.json なし: {selection_file}")
 
-    # 翌日 19:30 (ローカル) を予約時刻に
-    scheduled_epoch = next_day_epoch_at(19, 30)
-    schedule_str = datetime.fromtimestamp(scheduled_epoch).strftime("%Y-%m-%d %H:%M")
-
     selected = json.loads(selection_file.read_text(encoding="utf-8"))
-    print(f"投稿対象: {len(selected)} 店 (today={today}, 公開予定: {schedule_str}, dry_run={DRY_RUN})")
+    print(f"投稿対象: {len(selected)} 店 (today={today}, 即時公開, dry_run={DRY_RUN})")
 
     posted_ids = []
     for s in selected:
         try:
-            ok = post_one_shop(env, today, s["id"], s["name"], scheduled_epoch)
+            ok = post_one_shop(env, today, s["id"], s["name"])
             if ok and not DRY_RUN:
                 posted_ids.append(s["id"])
         except Exception as e:
