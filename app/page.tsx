@@ -1,13 +1,19 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import shopsData from "@/data/shops.json";
+import postsData from "@/data/blog_posts.json";
 import type { Shop } from "@/types/shop";
+import type { BlogPost } from "@/types/blog";
 import ShopCard from "@/components/ShopCard";
 import FilterBar from "@/components/FilterBar";
 import RegionSelector, { getAreasForRegion } from "@/components/RegionSelector";
 
 const shops = shopsData as Shop[];
+const posts = (postsData as BlogPost[])
+  .slice()
+  .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 const PAGE_SIZE = 30;
 
 export default function HomePage() {
@@ -146,6 +152,48 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 特集記事 */}
+      {posts.length > 0 && (
+        <section className="max-w-6xl mx-auto px-6 pb-8">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-baseline gap-3">
+              <h2
+                className="text-xl md:text-2xl font-bold text-bokumo-ink"
+                style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+              >
+                <span className="text-bokumo-accent">★</span> 特集記事
+              </h2>
+              <p className="text-xs text-bokumo-sub">テーマ別おすすめまとめ</p>
+            </div>
+            <Link
+              href="/blog"
+              className="text-xs text-bokumo-accent hover:underline font-bold whitespace-nowrap"
+            >
+              一覧を見る →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {posts.slice(0, 4).map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="block bg-gradient-to-br from-white to-bokumo-pink-light/40 rounded-2xl shadow-card border border-bokumo-line/50 p-4 hover:border-bokumo-accent hover:shadow-md transition group"
+              >
+                <p className="inline-block text-[10px] tracking-wider text-bokumo-accent font-bold mb-2 px-2 py-0.5 rounded-full bg-white border border-bokumo-line">
+                  {p.category}
+                </p>
+                <h3
+                  className="text-sm md:text-base font-bold text-bokumo-ink leading-snug line-clamp-3 group-hover:text-bokumo-accent transition"
+                  style={{ fontFamily: "'M PLUS Rounded 1c', sans-serif" }}
+                >
+                  {p.title}
+                </h3>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* 地域セレクター (3階層) */}
       <RegionSelector
