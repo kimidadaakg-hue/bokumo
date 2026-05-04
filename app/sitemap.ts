@@ -4,6 +4,8 @@ import postsData from "@/data/blog_posts.json";
 import type { Shop } from "@/types/shop";
 import type { BlogPost } from "@/types/blog";
 
+export const dynamic = "force-static";
+
 const shops = shopsData as Shop[];
 const posts = postsData as BlogPost[];
 const SITE = "https://boku-mo.com";
