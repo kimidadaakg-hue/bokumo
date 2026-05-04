@@ -236,7 +236,9 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-center gap-4 text-xs text-bokumo-ink/50 mb-3">
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-bokumo-ink/50 mb-3">
+            <a href="/blog" className="hover:text-bokumo-accent transition">特集記事</a>
+            <span>|</span>
             <a href="/about" className="hover:text-bokumo-accent transition">BOKUMOについて</a>
             <span>|</span>
             <a href="/contact" className="hover:text-bokumo-accent transition">お問い合わせ</a>
