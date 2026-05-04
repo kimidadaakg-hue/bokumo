@@ -57,7 +57,7 @@ LOTS: dict[int, dict] = {
     },
 }
 
-# 子連れ向きを意識したジャンルキーワード（ベーカリー・パンケーキは除外）
+# 料理ジャンルキーワード（中立、Gemini 判定通過率 ≈ 13%）
 GENRE_KEYWORDS = [
     "カフェ", "ファミリーレストラン", "ラーメン", "うどん 蕎麦",
     "回転寿司", "焼肉", "とんかつ", "中華料理",
@@ -65,6 +65,17 @@ GENRE_KEYWORDS = [
     "寿司", "海鮮", "定食", "洋食",
     "パスタ", "お好み焼き", "スイーツ", "カレー",
 ]
+
+# 子連れ前提キーワード（Google が子連れ向け店を上位に返す → 通過率 30-50% 期待）
+# 2026-05-05 追加: 中立ジャンル網羅では掬えない「子連れに向いてる」店を狙う
+KIDS_FOCUS_KEYWORDS = [
+    "子連れ ランチ", "キッズメニュー", "ファミリー",
+    "子連れ カフェ", "お子様メニュー",
+    "個室 子連れ", "座敷 ランチ",
+]
+
+# 全キーワード（順序: ジャンル → 子連れ前提）
+ALL_KEYWORDS = GENRE_KEYWORDS + KIDS_FOCUS_KEYWORDS
 
 SLEEP_SEC = 0.5
 TEXT_SEARCH_COST = 0.032  # USD per request (Pro SKU)
@@ -74,19 +85,19 @@ ESTIMATED_PER_QUERY = 14  # サンプリング実測の平均純増
 GEMINI_PASS_RATE = 0.13   # 過去通過率
 
 
-def estimate_for_lots(lot_ids: list[int]) -> None:
+def estimate_for_lots(lot_ids: list[int], keywords: list[str]) -> None:
     """ドライラン: コスト・候補数を試算（API は叩かない）"""
     total_queries = 0
     for lid in lot_ids:
         lot = LOTS[lid]
-        n_queries = len(lot["queries"]) * len(GENRE_KEYWORDS)
+        n_queries = len(lot["queries"]) * len(keywords)
         total_queries += n_queries
         est_candidates = n_queries * ESTIMATED_PER_QUERY
         est_pass = int(est_candidates * GEMINI_PASS_RATE)
         ts_cost = n_queries * TEXT_SEARCH_COST
         downstream = est_candidates * (PLACE_DETAILS_COST + PHOTO_COST)
         print(f"--- ロット{lid}: {lot['name']} ---")
-        print(f"  エリア×ジャンル: {len(lot['queries'])} × {len(GENRE_KEYWORDS)} = {n_queries} クエリ")
+        print(f"  エリア×キーワード: {len(lot['queries'])} × {len(keywords)} = {n_queries} クエリ")
         print(f"  推定候補(純増): {est_candidates} 件")
         print(f"  推定追加(13%通過): {est_pass} 店")
         print(f"  Text Search コスト: ${ts_cost:.2f}")
@@ -96,9 +107,9 @@ def estimate_for_lots(lot_ids: list[int]) -> None:
     print(f"=== 合計 {total_queries} クエリ ===")
 
 
-def fetch_one_lot(api_key: str, lot_id: int, existing_pids: set[str]) -> dict[str, dict]:
+def fetch_one_lot(api_key: str, lot_id: int, existing_pids: set[str], keywords: list[str]) -> dict[str, dict]:
     lot = LOTS[lot_id]
-    print(f"=== ロット{lot_id}: {lot['name']} ===")
+    print(f"=== ロット{lot_id}: {lot['name']} (キーワード {len(keywords)}個) ===")
 
     all_places: dict[str, dict] = {}
     rejected = {"chain": 0, "name": 0, "genre": 0, "type": 0, "duplicate": 0}
@@ -106,8 +117,8 @@ def fetch_one_lot(api_key: str, lot_id: int, existing_pids: set[str]) -> dict[st
 
     for area in lot["queries"]:
         area_added = 0
-        for genre in GENRE_KEYWORDS:
-            query = f"{area} {genre}"
+        for keyword in keywords:
+            query = f"{area} {keyword}"
             data = text_search(api_key, query, "")
             total_calls += 1
             places = data.get("places", []) or []
@@ -152,13 +163,20 @@ def main() -> None:
                     help="実行するロット番号 (複数指定可。未指定なら全ロット)")
     ap.add_argument("--dry-run", action="store_true",
                     help="API を叩かず規模試算だけ表示")
+    ap.add_argument("--keywords", choices=["all", "genre", "kids"], default="all",
+                    help="使うキーワードセット: all=18ジャンル+7子連れ / genre=18ジャンルのみ / kids=7子連れのみ")
     args = ap.parse_args()
 
     lot_ids = sorted(set(args.lot or [1, 2, 3]))
+    keywords = {
+        "all": ALL_KEYWORDS,
+        "genre": GENRE_KEYWORDS,
+        "kids": KIDS_FOCUS_KEYWORDS,
+    }[args.keywords]
 
     if args.dry_run:
-        print("=== ドライラン（API課金なし）===\n")
-        estimate_for_lots(lot_ids)
+        print(f"=== ドライラン（API課金なし）keywords={args.keywords} ===\n")
+        estimate_for_lots(lot_ids, keywords)
         return
 
     api_key = load_key()
@@ -181,7 +199,7 @@ def main() -> None:
 
     new_places: dict[str, dict] = {}
     for lid in lot_ids:
-        got = fetch_one_lot(api_key, lid, existing_pids | prior_pids | new_places.keys())
+        got = fetch_one_lot(api_key, lid, existing_pids | prior_pids | new_places.keys(), keywords)
         new_places.update(got)
         time.sleep(SLEEP_SEC)
 
