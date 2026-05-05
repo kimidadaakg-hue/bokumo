@@ -31580,5 +31580,3582 @@
     "phone": "0166-27-5855",
     "website": "https://asahikawa-arashiyama.com/",
     "id": 2413
+  },
+  {
+    "place_id": "ChIJAQAt2A3mDF8RjI2xohP8FMk",
+    "name": "鮨みなと",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 43.768877499999995,
+    "lng": 142.3571249,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQAt2A3mDF8RjI2xohP8FMk",
+    "image_url": "/photos/ChIJAQAt2A3mDF8RjI2xohP8FMk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室で予約を取った"
+    ],
+    "address": "〒070-0033 北海道旭川市３条通５丁目左９",
+    "rating": 4.2,
+    "rating_count": 280,
+    "hours": [
+      "月曜日: 18時00分～23時00分",
+      "火曜日: 18時00分～23時00分",
+      "水曜日: 18時00分～23時00分",
+      "木曜日: 18時00分～23時00分",
+      "金曜日: 18時00分～23時00分",
+      "土曜日: 18時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-22-7722",
+    "website": "https://www.facebook.com/pages/%E9%AE%A8%E3%81%BF%E3%81%AA%E3%81%A8/117796841632423",
+    "id": 2414
+  },
+  {
+    "place_id": "ChIJEz1EZSHmDF8RmYC7MhpyYvE",
+    "name": "海と大地の旨いもん 旬鮮かぐら",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "仕切りのある小上がり席や個室があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.7539018,
+    "lng": 142.359537,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJEz1EZSHmDF8RmYC7MhpyYvE",
+    "image_url": "/photos/ChIJEz1EZSHmDF8RmYC7MhpyYvE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お店のつくり上、仕切りのある小上がり席が中心なので",
+      "個室のあるこちらへ"
+    ],
+    "address": "〒070-8003 北海道旭川市神楽３条１２丁目１−２ 旬鮮かぐら",
+    "rating": 3.6,
+    "rating_count": 304,
+    "hours": [
+      "月曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "火曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "水曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "木曜日: 定休日",
+      "金曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "土曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "日曜日: 11時30分～14時30分, 17時00分～22時00分"
+    ],
+    "phone": "0166-85-6620",
+    "website": "http://www.syunsenkagura.com/index.html",
+    "id": 2415
+  },
+  {
+    "place_id": "ChIJF9EKkg3mDF8Rv6fO3gfAJFI",
+    "name": "天売",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.768717099999996,
+    "lng": 142.359986,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJF9EKkg3mDF8Rv6fO3gfAJFI",
+    "image_url": "/photos/ChIJF9EKkg3mDF8Rv6fO3gfAJFI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "座敷に通されます"
+    ],
+    "address": "〒070-0034 北海道旭川市４条通７丁目 クロスビル ４F",
+    "rating": 4.3,
+    "rating_count": 219,
+    "hours": [
+      "月曜日: 18時00分～23時00分",
+      "火曜日: 18時00分～23時00分",
+      "水曜日: 18時00分～23時00分",
+      "木曜日: 18時00分～23時00分",
+      "金曜日: 18時00分～23時00分",
+      "土曜日: 18時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-25-0118",
+    "website": "",
+    "id": 2416
+  },
+  {
+    "place_id": "ChIJSYTCt4HmDF8R4EZ1m4wcFgw",
+    "name": "御飯屋 chari chari",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができるお店です。",
+    "score": 3,
+    "lat": 43.786361199999995,
+    "lng": 142.3838283,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJSYTCt4HmDF8R4EZ1m4wcFgw",
+    "image_url": "/photos/ChIJSYTCt4HmDF8R4EZ1m4wcFgw.jpg",
+    "is_chain": false,
+    "evidence": [
+      "靴を脱ぐ小上がりの半個室が2卓ありました。"
+    ],
+    "address": "〒070-0002 北海道旭川市新富２条１丁目１０−３０",
+    "rating": 4.3,
+    "rating_count": 179,
+    "hours": [
+      "月曜日: 11時00分～14時30分",
+      "火曜日: 11時00分～14時30分",
+      "水曜日: 11時00分～14時30分",
+      "木曜日: 11時00分～14時30分",
+      "金曜日: 11時00分～14時30分",
+      "土曜日: 11時00分～14時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-74-7027",
+    "website": "https://www.instagram.com/p/DBPVS0Ph8H3/",
+    "id": 2417
+  },
+  {
+    "place_id": "ChIJiVJXCx_kDF8RY_KxCQd6K1Q",
+    "name": "郷や",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "昔ながらの定食屋さん。座敷席があり、漫画や雑誌も豊富。",
+    "score": 3,
+    "lat": 43.797443699999995,
+    "lng": 142.40162740000002,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJiVJXCx_kDF8RY_KxCQd6K1Q",
+    "image_url": "/photos/ChIJiVJXCx_kDF8RY_KxCQd6K1Q.jpg",
+    "is_chain": false,
+    "evidence": [
+      "テーブル席や、靴を脱ぐ小上がりがありました。",
+      "漫画や雑誌が置いてあり、昭和な感じの雰囲気です。"
+    ],
+    "address": "〒079-8442 北海道旭川市流通団地２条３丁目４１",
+    "rating": 4,
+    "rating_count": 144,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～14時00分",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 11時00分～14時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-48-5223",
+    "website": "",
+    "id": 2418
+  },
+  {
+    "place_id": "ChIJM6-tdazmDF8RkqxXSfzV-qc",
+    "name": "としちゃん",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、ゆったり過ごせます。定食メニュー豊富。",
+    "score": 3,
+    "lat": 43.7993399,
+    "lng": 142.4280867,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJM6-tdazmDF8RkqxXSfzV-qc",
+    "image_url": "/photos/ChIJM6-tdazmDF8RkqxXSfzV-qc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はカウンターからテーブル席、小上がりと広目でした。",
+      "小上がりで揺ったりと座ると、次々とお客さんが来店。"
+    ],
+    "address": "〒079-8417 北海道旭川市永山７条１３丁目２−４",
+    "rating": 4,
+    "rating_count": 142,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-47-5512",
+    "website": "https://twitter.com/toshichan1010",
+    "id": 2419
+  },
+  {
+    "place_id": "ChIJWzj5LIHoDF8RRn4B2d9uavI",
+    "name": "マメ助",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "住宅街にあるアットホームな和食店。小上がり席があり、子連れでもゆっくり過ごせます。",
+    "score": 3,
+    "lat": 43.7406497,
+    "lng": 142.3623927,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJWzj5LIHoDF8RRn4B2d9uavI",
+    "image_url": "/photos/ChIJWzj5LIHoDF8RRn4B2d9uavI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "中は結構広く小上がりもあります"
+    ],
+    "address": "〒078-8322 北海道旭川市神楽岡１２条４丁目３−８",
+    "rating": 4.4,
+    "rating_count": 77,
+    "hours": [
+      "月曜日: 7時00分～18時30分",
+      "火曜日: 7時00分～18時30分",
+      "水曜日: 定休日",
+      "木曜日: 7時00分～18時30分",
+      "金曜日: 7時00分～18時30分",
+      "土曜日: 7時00分～18時30分",
+      "日曜日: 7時00分～18時30分"
+    ],
+    "phone": "0166-73-6199",
+    "website": "",
+    "id": 2420
+  },
+  {
+    "place_id": "ChIJ8VjGWRjnDF8RIS4QtjBN5uo",
+    "name": "Pizzeria Mio ピッツェリア ミオ",
+    "area": "旭川",
+    "genre": "イタリアン",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ベビーカー入店可能で、子連れでも安心して利用できるイタリアン。",
+    "score": 3,
+    "lat": 43.7448705,
+    "lng": 142.37057049999999,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8VjGWRjnDF8RIS4QtjBN5uo",
+    "image_url": "/photos/ChIJ8VjGWRjnDF8RIS4QtjBN5uo.jpg",
+    "is_chain": false,
+    "evidence": [
+      "ベビーカー入店も可能で、家族連れには非常にありがたい"
+    ],
+    "address": "〒078-8316 北海道旭川市神楽岡６条３丁目１−３−３４５０",
+    "rating": 4.6,
+    "rating_count": 67,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 17時30分～21時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～14時00分, 17時30分～21時00分",
+      "木曜日: 11時30分～14時00分, 17時30分～21時00分",
+      "金曜日: 11時30分～14時00分, 17時30分～21時00分",
+      "土曜日: 11時30分～14時00分, 17時30分～21時00分",
+      "日曜日: 11時30分～14時00分, 17時30分～21時00分"
+    ],
+    "phone": "050-8884-9802",
+    "website": "https://instagram.com/pizzeriamio1122?igshid=YmMyMTA2M2Y=",
+    "id": 2421
+  },
+  {
+    "place_id": "ChIJ7TWHJFXmDF8RZZNWpNHPcV8",
+    "name": "お好み焼き 粉もんず 豊岡本店",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "小上がりの個室があり、タッチパネル注文で子連れでも利用しやすい。",
+    "score": 4,
+    "lat": 43.7590436,
+    "lng": 142.41648400000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7TWHJFXmDF8RZZNWpNHPcV8",
+    "image_url": "/photos/ChIJ7TWHJFXmDF8RZZNWpNHPcV8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりの個室は広め、タッチパネル注文でわかりやすい！",
+      "店内とても広くゆっくり出来ました！"
+    ],
+    "address": "〒078-8234 北海道旭川市豊岡４条８丁目２−２７",
+    "rating": 3.7,
+    "rating_count": 138,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～22時00分",
+      "水曜日: 17時00分～22時00分",
+      "木曜日: 17時00分～22時00分",
+      "金曜日: 17時00分～22時00分",
+      "土曜日: 11時30分～21時30分",
+      "日曜日: 11時30分～21時30分"
+    ],
+    "phone": "0166-34-3832",
+    "website": "",
+    "id": 2422
+  },
+  {
+    "place_id": "ChIJxXCzfCbnDF8RPDJ2q3F8Jq0",
+    "name": "スサンタ・キッチン",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "子供メニューあり"
+    ],
+    "description": "小上がり席があり、お子様カレーも提供。子連れでも落ち着いて食事ができます。",
+    "score": 4,
+    "lat": 43.7694349,
+    "lng": 142.4574902,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJxXCzfCbnDF8RPDJ2q3F8Jq0",
+    "image_url": "/photos/ChIJxXCzfCbnDF8RPDJ2q3F8Jq0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりもあるので子連れでも落ち着いて食べられます。",
+      "お子様カレー（800円）などがあり、家族で選びやすいラインナップでした。"
+    ],
+    "address": "〒078-8207 北海道旭川市東旭川町上兵村３２８",
+    "rating": 4.6,
+    "rating_count": 265,
+    "hours": [
+      "月曜日: 11時00分～14時30分",
+      "火曜日: 定休日",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "金曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "土曜日: 11時00分～14時30分, 17時00分～19時00分",
+      "日曜日: 11時00分～14時30分, 17時00分～19時00分"
+    ],
+    "phone": "0166-36-6621",
+    "website": "https://m.facebook.com/susanthakitchen/",
+    "id": 2423
+  },
+  {
+    "place_id": "ChIJnaOm92HnDF8RmzSekihpdpc",
+    "name": "スパイスキッチン倍音",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "子供メニューあり"
+    ],
+    "description": "小上がり席があり、お子様ハヤシライスが100円と子連れに優しいお店です。",
+    "score": 4,
+    "lat": 43.7450997,
+    "lng": 142.37124269999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJnaOm92HnDF8RmzSekihpdpc",
+    "image_url": "/photos/ChIJnaOm92HnDF8RmzSekihpdpc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりは2テーブルあり、子連れでも利用しやすい造り",
+      "小学校6年生まで注文できるハヤシライスが100円",
+      "おこさまハヤシが100円という神サービス"
+    ],
+    "address": "〒078-8314 北海道旭川市神楽岡４条４丁目５−１２",
+    "rating": 4.5,
+    "rating_count": 131,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～14時00分, 17時00分～19時30分",
+      "木曜日: 11時00分～14時00分, 17時00分～19時30分",
+      "金曜日: 11時00分～14時00分, 17時00分～19時30分",
+      "土曜日: 11時00分～14時00分, 17時00分～19時30分",
+      "日曜日: 11時00分～14時00分"
+    ],
+    "phone": "080-5832-7803",
+    "website": "https://www.sk-vaion.com/",
+    "id": 2424
+  },
+  {
+    "place_id": "ChIJ7_uZL6jDDF8R8VthiGv_QUY",
+    "name": "KOTOBUKI SPICE（コトブキスパイス）",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ソファ席があり赤ちゃんを寝かせられる、子連れに優しいお店です。",
+    "score": 3,
+    "lat": 43.6664507,
+    "lng": 142.4045389,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7_uZL6jDDF8R8VthiGv_QUY",
+    "image_url": "/photos/ChIJ7_uZL6jDDF8R8VthiGv_QUY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "2階席に案内され、ソファー席もあり赤ちゃんを寝かせることができました。"
+    ],
+    "address": "〒078-8381 北海道旭川市西神楽１線１７号２９８−３４",
+    "rating": 4.5,
+    "rating_count": 70,
+    "hours": [
+      "月曜日: 10時00分～15時00分",
+      "火曜日: 10時00分～15時00分",
+      "水曜日: 定休日",
+      "木曜日: 定休日",
+      "金曜日: 定休日",
+      "土曜日: 10時00分～15時00分",
+      "日曜日: 10時00分～15時00分"
+    ],
+    "phone": "090-8080-8881",
+    "website": "https://instagram.com/kotobuki.spice?",
+    "id": 2425
+  },
+  {
+    "place_id": "ChIJxWM8UHTmDF8RnYG_F4FuRmw",
+    "name": "oyako café noi",
+    "area": "旭川",
+    "genre": "カフェ",
+    "tags": [
+      "個室あり",
+      "子連れOK",
+      "子供メニューあり"
+    ],
+    "description": "離乳食や子供用グッズ充実！個室でゆっくり寛げるカフェ",
+    "score": 5,
+    "lat": 43.775942,
+    "lng": 142.3613944,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJxWM8UHTmDF8RnYG_F4FuRmw",
+    "image_url": "/photos/ChIJxWM8UHTmDF8RnYG_F4FuRmw.jpg",
+    "is_chain": false,
+    "evidence": [
+      "離乳食があり中期後期完了期など",
+      "子供用のおもちゃ、食事用エプロン、食器の貸出が充実",
+      "授乳室、オムツ替えスペース、個室もあり",
+      "小さなお子様が遊べるおもちゃやスペースがあり"
+    ],
+    "address": "〒070-0043 北海道旭川市常盤通２丁目１９７１−１８",
+    "rating": 4.2,
+    "rating_count": 47,
+    "hours": [
+      "月曜日: 11時30分～15時00分",
+      "火曜日: 11時30分～15時00分",
+      "水曜日: 11時30分～15時00分",
+      "木曜日: 11時30分～15時00分",
+      "金曜日: 11時30分～15時00分",
+      "土曜日: 11時30分～15時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "090-7052-2452",
+    "website": "http://oyakocafenoi.com/",
+    "id": 2426
+  },
+  {
+    "place_id": "ChIJr2Pv9Q3mDF8RjC1tFEhFxD8",
+    "name": "菊膳（きくぜん）",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "個室あり",
+      "子連れOK"
+    ],
+    "description": "個室があり、小さい子連れでも安心してお食事ができます。",
+    "score": 4,
+    "lat": 43.768228,
+    "lng": 142.3595732,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJr2Pv9Q3mDF8RjC1tFEhFxD8",
+    "image_url": "/photos/ChIJr2Pv9Q3mDF8RjC1tFEhFxD8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小さい子がいたのですが、奥の部屋に案内してくれたり",
+      "子供用のサービスを色々してくれたりと、とても気持ちの良い対応をしてくださりました。"
+    ],
+    "address": "〒070-0033 北海道旭川市３条通７丁目 bieLuビル 3F",
+    "rating": 4.2,
+    "rating_count": 149,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 17時00分～23時00分"
+    ],
+    "phone": "0166-25-1635",
+    "website": "https://kikuzen-asahikawa.com/",
+    "id": 2427
+  },
+  {
+    "place_id": "ChIJK2vOeh_nDF8REIVlK0Nz2pA",
+    "name": "四季彩 旭川駅店",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室でゆっくり食事ができる居酒屋です。",
+    "score": 3,
+    "lat": 43.7679915,
+    "lng": 142.3601081,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJK2vOeh_nDF8REIVlK0Nz2pA",
+    "image_url": "/photos/ChIJK2vOeh_nDF8REIVlK0Nz2pA.jpg",
+    "is_chain": true,
+    "evidence": [
+      "個室があって飲み放題が安いお店を探してこちらになりました。",
+      "完全個室であずましく過ごせて良いです。"
+    ],
+    "address": "〒070-0033 北海道旭川市３条通７丁目７ ビルド・ビエル 6F",
+    "rating": 4.2,
+    "rating_count": 524,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 15時00分～0時00分",
+      "日曜日: 15時00分～0時00分"
+    ],
+    "phone": "080-7541-1251",
+    "website": "https://shikisaiasahikawaekimae.owst.jp/",
+    "id": 2428
+  },
+  {
+    "place_id": "ChIJ6aHEiRHmDF8RtB3Y6aBmaG8",
+    "name": "くいもの屋わん 旭川店",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "掘りごたつ式の個室があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.766183999999996,
+    "lng": 142.359826,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6aHEiRHmDF8RtB3Y6aBmaG8",
+    "image_url": "/photos/ChIJ6aHEiRHmDF8RtB3Y6aBmaG8.jpg",
+    "is_chain": true,
+    "evidence": [
+      "掘りごたつでした。"
+    ],
+    "address": "〒070-0032 北海道旭川市２条通８丁目右 1 号 ピアザビル B1F",
+    "rating": 4,
+    "rating_count": 332,
+    "hours": [
+      "月曜日: 17時00分～1時00分",
+      "火曜日: 17時00分～1時00分",
+      "水曜日: 17時00分～1時00分",
+      "木曜日: 17時00分～1時00分",
+      "金曜日: 17時00分～1時00分",
+      "土曜日: 17時00分～1時00分",
+      "日曜日: 17時00分～1時00分"
+    ],
+    "phone": "050-5484-2279",
+    "website": "https://wan-asahikawa.gorp.jp/",
+    "id": 2429
+  },
+  {
+    "place_id": "ChIJlTDAbFaZc18RJAhX2VNHse4",
+    "name": "ファミリー中華 とんとん",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷があり、小さい子連れも多い中華料理店です。",
+    "score": 3,
+    "lat": 42.9189405,
+    "lng": 143.17143009999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJlTDAbFaZc18RJAhX2VNHse4",
+    "image_url": "/photos/ChIJlTDAbFaZc18RJAhX2VNHse4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お店の雰囲気は良く座敷が３つだったかあるので小さい子連れも多かったですょ"
+    ],
+    "address": "〒080-0027 北海道帯広市西１７条南３丁目１−５",
+    "rating": 3.9,
+    "rating_count": 96,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "火曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "水曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "木曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "金曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "土曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "日曜日: 11時30分～14時00分, 17時00分～20時30分"
+    ],
+    "phone": "0155-36-6280",
+    "website": "",
+    "id": 2430
+  },
+  {
+    "place_id": "ChIJl4XsLT-Zc18Rp4tWqu9XOHA",
+    "name": "長寿庵",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "2階に広めの小上がり席があり、ゆったり過ごせます。",
+    "score": 3,
+    "lat": 42.9218687,
+    "lng": 143.2046246,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJl4XsLT-Zc18Rp4tWqu9XOHA",
+    "image_url": "/photos/ChIJl4XsLT-Zc18Rp4tWqu9XOHA.jpg",
+    "is_chain": false,
+    "evidence": [
+      "2階は小上がり席。広いです。"
+    ],
+    "address": "〒080-0010 北海道帯広市大通南９丁目１５",
+    "rating": 4.2,
+    "rating_count": 351,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 19時30分～0時00分",
+      "火曜日: 11時30分～14時00分, 19時30分～0時00分",
+      "水曜日: 11時30分～14時00分, 19時30分～0時00分",
+      "木曜日: 11時30分～14時00分, 19時30分～0時00分",
+      "金曜日: 11時30分～14時00分, 20時00分～1時00分",
+      "土曜日: 11時30分～14時00分, 20時00分～1時00分",
+      "日曜日: 11時30分～14時00分"
+    ],
+    "phone": "0155-22-5007",
+    "website": "",
+    "id": 2431
+  },
+  {
+    "place_id": "ChIJs92R2xCZc18RGTJlsQbbjx4",
+    "name": "そば処 ひば",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.9173329,
+    "lng": 143.22311159999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJs92R2xCZc18RGTJlsQbbjx4",
+    "image_url": "/photos/ChIJs92R2xCZc18RGTJlsQbbjx4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店員さんの対応や説明も小気味よく、気持ちが良い。",
+      "テーブル席と座布団の小上がり席があり、空いてる所に自由にどうぞと案内される"
+    ],
+    "address": "〒080-0810 北海道帯広市東１０条南１４丁目１",
+    "rating": 4,
+    "rating_count": 224,
+    "hours": [
+      "月曜日: 11時00分～14時30分",
+      "火曜日: 11時00分～14時30分",
+      "水曜日: 定休日",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～14時30分",
+      "土曜日: 11時00分～14時30分",
+      "日曜日: 11時00分～14時30分"
+    ],
+    "phone": "0155-21-6188",
+    "website": "",
+    "id": 2432
+  },
+  {
+    "place_id": "ChIJlRtAqDmZc18R2HFn1JfqMdg",
+    "name": "辰己寿し",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 42.9242085,
+    "lng": 143.203597,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJlRtAqDmZc18R2HFn1JfqMdg",
+    "image_url": "/photos/ChIJlRtAqDmZc18R2HFn1JfqMdg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室もカウンターもあります。"
+    ],
+    "address": "〒080-0011 北海道帯広市西１条南７丁目14−３",
+    "rating": 4.3,
+    "rating_count": 206,
+    "hours": [
+      "月曜日: 17時00分～21時30分",
+      "火曜日: 17時00分～21時30分",
+      "水曜日: 17時00分～21時30分",
+      "木曜日: 17時00分～21時30分",
+      "金曜日: 17時00分～21時30分",
+      "土曜日: 17時00分～21時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-24-6665",
+    "website": "",
+    "id": 2433
+  },
+  {
+    "place_id": "ChIJ9S0UVOCbc18RcE1oyvNFGqk",
+    "name": "千代寿司",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "個室あり",
+      "子連れOK"
+    ],
+    "description": "個室やバウンサーの貸し出しもあり、子連れでも安心して食事ができます。",
+    "score": 4,
+    "lat": 42.9095308,
+    "lng": 143.1789015,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9S0UVOCbc18RcE1oyvNFGqk",
+    "image_url": "/photos/ChIJ9S0UVOCbc18RcE1oyvNFGqk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室を用意していただき、赤ちゃん用のバウンサーも貸してもらった",
+      "お食い初めのやり方が書いてある紙が用意されていて、それに沿って進めることができた",
+      "店主ご夫婦も親しみやすい方々で、楽しく食事することができた"
+    ],
+    "address": "〒080-0026 北海道帯広市西１６条南５丁目２−２１",
+    "rating": 4.2,
+    "rating_count": 88,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～13時30分, 17時00分～21時00分",
+      "木曜日: 11時30分～13時30分, 17時00分～21時00分",
+      "金曜日: 11時30分～13時30分, 17時00分～21時00分",
+      "土曜日: 11時30分～13時30分, 17時00分～21時00分",
+      "日曜日: 11時30分～13時30分, 17時00分～21時00分"
+    ],
+    "phone": "0155-36-3345",
+    "website": "http://obihirochiyo16.web.fc2.com/",
+    "id": 2434
+  },
+  {
+    "place_id": "ChIJP6SpFW6Zc18RCczjLHhqj-g",
+    "name": "焼肉屋 斗膳",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "掘りごたつの小上がり個室があり、小さなお子様連れでも落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.909397999999996,
+    "lng": 143.2090672,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJP6SpFW6Zc18RCczjLHhqj-g",
+    "image_url": "/photos/ChIJP6SpFW6Zc18RCczjLHhqj-g.jpg",
+    "is_chain": false,
+    "evidence": [
+      "掘りごたつの小上がり４卓は個室"
+    ],
+    "address": "〒080-0801 北海道帯広市東１条南２０丁目１２",
+    "rating": 4.6,
+    "rating_count": 215,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～22時00分",
+      "水曜日: 17時00分～22時00分",
+      "木曜日: 17時00分～22時00分",
+      "金曜日: 17時00分～22時00分",
+      "土曜日: 11時30分～22時00分",
+      "日曜日: 11時30分～22時00分"
+    ],
+    "phone": "0155-29-3341",
+    "website": "",
+    "id": 2435
+  },
+  {
+    "place_id": "ChIJEfNysOaZc18R6iDCbzfJX8U",
+    "name": "YAKINIKU STEAK SUDOU",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 42.9198881,
+    "lng": 143.2030805,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJEfNysOaZc18R6iDCbzfJX8U",
+    "image_url": "/photos/ChIJEfNysOaZc18R6iDCbzfJX8U.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室もあるのでデートでも使えると思います！"
+    ],
+    "address": "〒080-0012 北海道帯広市西２条南１１丁目8−２ 747 北側 館 1F",
+    "rating": 4.7,
+    "rating_count": 24,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 17時00分～0時00分",
+      "日曜日: 17時00分～0時00分"
+    ],
+    "phone": "050-8883-5929",
+    "website": "https://yakinikusteak-sudou.com/",
+    "id": 2436
+  },
+  {
+    "place_id": "ChIJKz4VAwCbc18RdC_zkh1XnTk",
+    "name": "炭焼アダチホルモン",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "全席個室で周りを気にせず食事ができます。",
+    "score": 3,
+    "lat": 42.919335,
+    "lng": 143.1610819,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJKz4VAwCbc18RdC_zkh1XnTk",
+    "image_url": "/photos/ChIJKz4VAwCbc18RdC_zkh1XnTk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "完全個室なのは◎",
+      "すべて個室になってるので子連れの家族でも利用できそう！",
+      "プライベートな룸으로 주셔서 조용히 혼자 먹을 수 있었습니다。"
+    ],
+    "address": "〒080-0028 北海道帯広市西１８条南２丁目１０−１７",
+    "rating": 4.7,
+    "rating_count": 6,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 18時00分～23時00分",
+      "水曜日: 18時00分～23時00分",
+      "木曜日: 18時00分～23時00分",
+      "金曜日: 18時00分～23時00分",
+      "土曜日: 18時00分～23時00分",
+      "日曜日: 18時00分～23時00分"
+    ],
+    "phone": "0155-65-5943",
+    "website": "https://www.instagram.com/adachihorumon?igsh=ZDhyc2IyaHJ5ZTcy",
+    "id": 2437
+  },
+  {
+    "place_id": "ChIJmVrppAKbc18RmS44A004ro0",
+    "name": "焼肉屋みやび",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室で落ち着いて焼肉を楽しめるお店。子連れでも利用しやすい。",
+    "score": 3,
+    "lat": 42.9166149,
+    "lng": 143.15846729999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJmVrppAKbc18RmS44A004ro0",
+    "image_url": "/photos/ChIJmVrppAKbc18RmS44A004ro0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室は綺麗で落ち着いて肉に向き合えました。",
+      "部屋は掘りごたつの部屋タイプで壁は上部が空いています。",
+      "個室でゆっくり焼肉を楽しめます。"
+    ],
+    "address": "〒080-0028 北海道帯広市西１８条南３丁目５０−１１",
+    "rating": 4.6,
+    "rating_count": 57,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 11時00分～23時00分",
+      "日曜日: 11時00分～23時00分"
+    ],
+    "phone": "0155-66-8629",
+    "website": "",
+    "id": 2438
+  },
+  {
+    "place_id": "ChIJjUDqbhWZc18RaK1YoUcH7XA",
+    "name": "やきにく 遊美館",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、家族での利用にも適した焼肉店です。",
+    "score": 3,
+    "lat": 42.918133999999995,
+    "lng": 143.21037099999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJjUDqbhWZc18RaK1YoUcH7XA",
+    "image_url": "/photos/ChIJjUDqbhWZc18RaK1YoUcH7XA.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はカウンター席、テーブル席、小上がりあります。",
+      "席はかなり広めでテーブルや小上がりなども合わせると30〜40席はあるんじゃないでしょうか。",
+      "座敷とテーブル席があります。"
+    ],
+    "address": "〒080-0803 北海道帯広市東３条南１３丁目５",
+    "rating": 4.3,
+    "rating_count": 130,
+    "hours": [
+      "月曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "木曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "金曜日: 11時30分～14時30分, 17時00分～22時00分",
+      "土曜日: 17時00分～22時00分",
+      "日曜日: 17時00分～22時00分"
+    ],
+    "phone": "0155-21-1300",
+    "website": "https://japoncompany.business/obihiro/547669--",
+    "id": 2439
+  },
+  {
+    "place_id": "ChIJl4XsLT-Zc18RkUpFi3JIqPE",
+    "name": "あんじゅ",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "落ち着いた雰囲気の個室で美味しいお肉を堪能できます。",
+    "score": 3,
+    "lat": 42.9218924,
+    "lng": 143.2048117,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJl4XsLT-Zc18RkUpFi3JIqPE",
+    "image_url": "/photos/ChIJl4XsLT-Zc18RkUpFi3JIqPE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室って所がまたよかった!"
+    ],
+    "address": "〒080-0010 北海道帯広市大通南９丁目１５",
+    "rating": 4.3,
+    "rating_count": 203,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 17時00分～21時30分"
+    ],
+    "phone": "0155-26-5464",
+    "website": "",
+    "id": 2440
+  },
+  {
+    "place_id": "ChIJp04EDMqbc18RaSbejgIMrOQ",
+    "name": "焼肉の虎 本店",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり",
+      "子供メニューあり"
+    ],
+    "description": "全室個室でキッズスペース完備！お子様連れでも安心の焼肉店です。",
+    "score": 4,
+    "lat": 42.895914,
+    "lng": 143.20244359999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJp04EDMqbc18RaSbejgIMrOQ",
+    "image_url": "/photos/ChIJp04EDMqbc18RaSbejgIMrOQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "全室個室",
+      "キッズスペースあります",
+      "キッズメニューからデザートまで充実"
+    ],
+    "address": "〒080-0014 北海道帯広市西４条南３１丁目１−２",
+    "rating": 3.8,
+    "rating_count": 236,
+    "hours": [
+      "月曜日: 17時00分～22時30分",
+      "火曜日: 17時00分～22時30分",
+      "水曜日: 17時00分～22時30分",
+      "木曜日: 17時00分～22時30分",
+      "金曜日: 17時00分～22時30分",
+      "土曜日: 11時00分～22時30分",
+      "日曜日: 11時00分～22時30分"
+    ],
+    "phone": "0155-28-5656",
+    "website": "https://nikutora.jp/",
+    "id": 2441
+  },
+  {
+    "place_id": "ChIJeXy-F4Obc18RetShr4wnKbc",
+    "name": "とんかつ尚藤",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "小上がり席や個室があり、ファミリーでも利用しやすいとんかつ店。",
+    "score": 3,
+    "lat": 42.8979565,
+    "lng": 143.1907675,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJeXy-F4Obc18RetShr4wnKbc",
+    "image_url": "/photos/ChIJeXy-F4Obc18RetShr4wnKbc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりは１卓６人掛けの個室が3部屋",
+      "カウンターやテーブル席、小上がりもありました"
+    ],
+    "address": "〒080-0021 北海道帯広市西１１条南２９丁目８−２",
+    "rating": 4.3,
+    "rating_count": 148,
+    "hours": [
+      "月曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "木曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "金曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "土曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "日曜日: 11時00分～14時30分, 17時00分～20時30分"
+    ],
+    "phone": "0155-29-5420",
+    "website": "",
+    "id": 2442
+  },
+  {
+    "place_id": "ChIJG18sov6bc18RYUP7E8ty1dY",
+    "name": "とんかつ みた村",
+    "area": "帯広",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "小上がりの個室風スペースがあり、子連れでも利用しやすい。",
+    "score": 3,
+    "lat": 42.917401,
+    "lng": 143.16408400000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJG18sov6bc18RYUP7E8ty1dY",
+    "image_url": "/photos/ChIJG18sov6bc18RYUP7E8ty1dY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりがあり、個室ぽくなっているスペースあり。",
+      "お子様連れでも、行きやすいかと 思いますが、"
+    ],
+    "address": "〒080-0028 北海道帯広市西１８条南３丁目１９−２６",
+    "rating": 4.3,
+    "rating_count": 127,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～15時00分",
+      "木曜日: 11時30分～15時00分",
+      "金曜日: 11時30分～15時00分",
+      "土曜日: 11時30分～15時00分",
+      "日曜日: 11時30分～15時00分"
+    ],
+    "phone": "0155-34-0275",
+    "website": "https://japoncompany.business/obihiro/548318--",
+    "id": 2443
+  },
+  {
+    "place_id": "ChIJ4XrdY0aZc18Rb7S3yghr1T0",
+    "name": "東海樓",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "2階に小上がり席や個室があり、家族連れも多い中華料理店。",
+    "score": 3,
+    "lat": 42.921210599999995,
+    "lng": 143.19506859999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4XrdY0aZc18Rb7S3yghr1T0",
+    "image_url": "/photos/ChIJ4XrdY0aZc18Rb7S3yghr1T0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "2階は小上がり席で、部屋の間仕切りをかえれるようになっていて個室にもなる。",
+      "土曜日の夕方から利用した時は、2階席は家族連れが多く賑わっていて混んでいた。"
+    ],
+    "address": "〒080-0017 北海道帯広市西７条南９丁目５１",
+    "rating": 3.8,
+    "rating_count": 287,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "水曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "木曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "金曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "土曜日: 11時30分～14時00分, 17時00分～20時30分",
+      "日曜日: 11時30分～14時00分, 17時00分～20時30分"
+    ],
+    "phone": "0155-20-1658",
+    "website": "http://www.tonxton.com/spot-detail/?defaultBaseId=1&shop_id=10711703",
+    "id": 2444
+  },
+  {
+    "place_id": "ChIJKeVEDWWZc18RrzbKtYy-MBA",
+    "name": "中華食事処 孫悟空",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり"
+    ],
+    "description": "小上がり席や子供用椅子、絵本やおもちゃがあり、子連れでも利用しやすいお店です。",
+    "score": 4,
+    "lat": 42.907647999999995,
+    "lng": 143.20208599999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJKeVEDWWZc18RrzbKtYy-MBA",
+    "image_url": "/photos/ChIJKeVEDWWZc18RrzbKtYy-MBA.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はテーブル席と小上がり席5卓があって",
+      "部屋の奥には子供用の椅子が（バンボなど）用意してあった",
+      "絵本や、おもちゃも置いてあったので"
+    ],
+    "address": "〒080-0013 北海道帯広市西３条南２１丁目１３−１",
+    "rating": 3.9,
+    "rating_count": 161,
+    "hours": [
+      "月曜日: 11時00分～20時30分",
+      "火曜日: 11時00分～20時30分",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～20時30分",
+      "金曜日: 11時00分～20時30分",
+      "土曜日: 11時00分～20時30分",
+      "日曜日: 11時00分～20時30分"
+    ],
+    "phone": "0155-22-1741",
+    "website": "https://www.ne.jp/asahi/321/songoku/",
+    "id": 2445
+  },
+  {
+    "place_id": "ChIJx_hcKTyZc18RbEfg9vNOuX0",
+    "name": "日々名菜中華 点心坊",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.922153,
+    "lng": 143.211026,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJx_hcKTyZc18RbEfg9vNOuX0",
+    "image_url": "/photos/ChIJx_hcKTyZc18RbEfg9vNOuX0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "椅子席と小上がりがあります。"
+    ],
+    "address": "〒080-0804 北海道帯広市東４条南９丁目１９−２",
+    "rating": 3.5,
+    "rating_count": 82,
+    "hours": [
+      "月曜日: 11時00分～20時00分",
+      "火曜日: 11時00分～20時00分",
+      "水曜日: 11時00分～20時00分",
+      "木曜日: 11時00分～20時00分",
+      "金曜日: 11時00分～20時00分",
+      "土曜日: 11時00分～20時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-24-3867",
+    "website": "",
+    "id": 2446
+  },
+  {
+    "place_id": "ChIJh7j-pSSZc18R_iadoCd85TQ",
+    "name": "十勝Chinese掛村",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、小さなお子様連れでも落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.9101451,
+    "lng": 143.1984713,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJh7j-pSSZc18R_iadoCd85TQ",
+    "image_url": "/photos/ChIJh7j-pSSZc18R_iadoCd85TQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室も広くてゆったりできます。",
+      "個室が、沢山あり小上がり席も充分あります🫡",
+      "個室なので落ち着いて食事ができますね"
+    ],
+    "address": "〒080-0015 北海道帯広市西５条南１９丁目７",
+    "rating": 3.5,
+    "rating_count": 51,
+    "hours": [
+      "月曜日: 18時00分～22時30分",
+      "火曜日: 18時00分～22時30分",
+      "水曜日: 18時00分～22時30分",
+      "木曜日: 18時00分～22時30分",
+      "金曜日: 18時00分～22時30分",
+      "土曜日: 18時00分～22時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-67-0900",
+    "website": "http://www.vigorous-inc.com/",
+    "id": 2447
+  },
+  {
+    "place_id": "ChIJ8db740yac18RY9rhQjswS4Y",
+    "name": "あじ福 みなみ野店",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.882893800000005,
+    "lng": 143.1727192,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8db740yac18RY9rhQjswS4Y",
+    "image_url": "/photos/ChIJ8db740yac18RY9rhQjswS4Y.jpg",
+    "is_chain": false,
+    "evidence": [
+      "カウンター以外は小上がりになってます。"
+    ],
+    "address": "〒080-0861 北海道帯広市南の森東２丁目１２−１９",
+    "rating": 3.9,
+    "rating_count": 248,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～14時00分, 18時00分～20時00分",
+      "水曜日: 11時00分～14時00分, 18時00分～20時00分",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～14時00分, 18時00分～20時00分",
+      "土曜日: 11時00分～14時00分, 18時00分～20時00分",
+      "日曜日: 11時00分～14時00分, 18時00分～20時00分"
+    ],
+    "phone": "0155-48-3719",
+    "website": "",
+    "id": 2448
+  },
+  {
+    "place_id": "ChIJJ_ayR3WZc18RaM7wz8bPJLE",
+    "name": "四季の彩 れんが",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり"
+    ],
+    "description": "赤ちゃん用椅子あり。メニュー豊富で家族で利用しやすい。",
+    "score": 3,
+    "lat": 42.9242239,
+    "lng": 143.1853616,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ_ayR3WZc18RaM7wz8bPJLE",
+    "image_url": "/photos/ChIJJ_ayR3WZc18RaM7wz8bPJLE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "赤ちゃん用の椅子もあります。"
+    ],
+    "address": "〒080-0022 北海道帯広市西１２条南６丁目３−１ 3番地1",
+    "rating": 4.1,
+    "rating_count": 28,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～14時00分",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 定休日",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-65-0570",
+    "website": "https://japoncompany.business/obihiro/566911--",
+    "id": 2449
+  },
+  {
+    "place_id": "ChIJczE-rXyZc18R3VfbaiYo5ME",
+    "name": "すし勝",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "昔ながらの老舗寿司店。小上がり席があり、ファミリーでも利用しやすい。",
+    "score": 3,
+    "lat": 42.904522799999995,
+    "lng": 143.19904019999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJczE-rXyZc18R3VfbaiYo5ME",
+    "image_url": "/photos/ChIJczE-rXyZc18R3VfbaiYo5ME.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりもあるのでファミリーや小さな宴会でも大丈夫だと思います。"
+    ],
+    "address": "〒080-0015 北海道帯広市西５条南２４丁目１ 森本ビル 1F",
+    "rating": 4.3,
+    "rating_count": 42,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "水曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "木曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "金曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "土曜日: 17時00分～22時00分",
+      "日曜日: 17時00分～22時00分"
+    ],
+    "phone": "0155-23-2655",
+    "website": "",
+    "id": 2450
+  },
+  {
+    "place_id": "ChIJMRmmTkeZc18R4Y2LbbqQwJQ",
+    "name": "すしの久田",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "座敷や個室があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 42.920713,
+    "lng": 143.20198,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJMRmmTkeZc18R4Y2LbbqQwJQ",
+    "image_url": "/photos/ChIJMRmmTkeZc18R4Y2LbbqQwJQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "中はカウンター、座敷、テーブル個室があります。",
+      "落ち着いた雰囲気で、カウンター越しにご主人と会話をしながら美味しく戴きました。"
+    ],
+    "address": "〒080-0012 北海道帯広市西２条南１０丁目１１−５",
+    "rating": 3.8,
+    "rating_count": 56,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～22時00分",
+      "水曜日: 17時00分～22時00分",
+      "木曜日: 17時00分～22時00分",
+      "金曜日: 17時00分～22時00分",
+      "土曜日: 17時00分～22時00分",
+      "日曜日: 17時00分～22時00分"
+    ],
+    "phone": "0155-24-3448",
+    "website": "",
+    "id": 2451
+  },
+  {
+    "place_id": "ChIJV7d4Riafc18R_SKZ9pEccH0",
+    "name": "海鮮 蔵",
+    "area": "音更",
+    "genre": "和食",
+    "tags": [
+      "個室あり",
+      "子供メニューあり"
+    ],
+    "description": "個室でゆっくり食事ができ、お子様ランチも充実しています。",
+    "score": 4,
+    "lat": 42.9492711,
+    "lng": 143.2046546,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJV7d4Riafc18R_SKZ9pEccH0",
+    "image_url": "/photos/ChIJV7d4Riafc18R_SKZ9pEccH0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室でゆっくり食べられ良かったです",
+      "お子様ランチも色々のっていて食べごたえがありました"
+    ],
+    "address": "〒080-0301 北海道河東郡音更町木野大通西７丁目１",
+    "rating": 4,
+    "rating_count": 405,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～22時30分",
+      "水曜日: 11時00分～14時00分, 17時00分～22時30分",
+      "木曜日: 11時00分～14時00分, 17時00分～22時30分",
+      "金曜日: 11時00分～14時00分, 17時00分～22時30分",
+      "土曜日: 11時00分～14時00分, 17時00分～22時30分",
+      "日曜日: 11時00分～14時00分, 17時00分～22時30分"
+    ],
+    "phone": "0155-31-0299",
+    "website": "http://www.t-bamboo.com/index.html",
+    "id": 2452
+  },
+  {
+    "place_id": "ChIJhVDLrkCZc18RWCZzdt7C8Gg",
+    "name": "紀翔",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "落ち着いた個室で、ゆったり食事を楽しめます。",
+    "score": 3,
+    "lat": 42.920805,
+    "lng": 143.2027,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJhVDLrkCZc18RWCZzdt7C8Gg",
+    "image_url": "/photos/ChIJhVDLrkCZc18RWCZzdt7C8Gg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "落ち着いた個室で、お店の方のご対応も行き届いていて快適"
+    ],
+    "address": "〒080-0012 北海道帯広市西２条南１０丁目１０",
+    "rating": 4.2,
+    "rating_count": 53,
+    "hours": [
+      "月曜日: 18時00分～22時00分",
+      "火曜日: 18時00分～22時00分",
+      "水曜日: 18時00分～22時00分",
+      "木曜日: 18時00分～22時00分",
+      "金曜日: 18時00分～22時00分",
+      "土曜日: 18時00分～22時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-25-5259",
+    "website": "",
+    "id": 2453
+  },
+  {
+    "place_id": "ChIJj2H-DMubc18R9aKPeLkc1K8",
+    "name": "優月",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、昔ながらの雰囲気でくつろげるお好み焼き店。",
+    "score": 3,
+    "lat": 42.8900432,
+    "lng": 143.18200099999999,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJj2H-DMubc18R9aKPeLkc1K8",
+    "image_url": "/photos/ChIJj2H-DMubc18R9aKPeLkc1K8.jpg",
+    "is_chain": true,
+    "evidence": [
+      "店内はテーブル席が6席と座敷が5、6席あり広いです。"
+    ],
+    "address": "〒080-0026 北海道帯広市西１６条南３５丁目１−３",
+    "rating": 4.2,
+    "rating_count": 86,
+    "hours": [
+      "月曜日: 11時30分～21時00分",
+      "火曜日: 11時30分～21時00分",
+      "水曜日: 11時30分～21時00分",
+      "木曜日: 11時30分～21時00分",
+      "金曜日: 11時30分～21時00分",
+      "土曜日: 11時30分～21時00分",
+      "日曜日: 11時30分～21時00分"
+    ],
+    "phone": "0155-47-0125",
+    "website": "",
+    "id": 2454
+  },
+  {
+    "place_id": "ChIJp6WLSz2fc18R1qNhSkXfgSc",
+    "name": "お好み焼 道とん堀 音更店",
+    "area": "音更",
+    "genre": "その他",
+    "tags": [
+      "子連れOK",
+      "子供メニューあり"
+    ],
+    "description": "未就学児無料！自分で作るお好み焼きは子供も楽しめる",
+    "score": 4,
+    "lat": 42.956896199999996,
+    "lng": 143.2051329,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJp6WLSz2fc18R1qNhSkXfgSc",
+    "image_url": "/photos/ChIJp6WLSz2fc18R1qNhSkXfgSc.jpg",
+    "is_chain": true,
+    "evidence": [
+      "未就学児は料金もドリンクバーも無料",
+      "子供と一緒に作りながら食べれる"
+    ],
+    "address": "〒080-0301 北海道河東郡音更町木野大通西１１丁目２−２",
+    "rating": 3.6,
+    "rating_count": 289,
+    "hours": [
+      "月曜日: 11時30分～23時00分",
+      "火曜日: 11時30分～23時00分",
+      "水曜日: 11時30分～23時00分",
+      "木曜日: 11時30分～23時00分",
+      "金曜日: 11時30分～23時00分",
+      "土曜日: 11時30分～23時00分",
+      "日曜日: 11時30分～23時00分"
+    ],
+    "phone": "0155-32-5700",
+    "website": "https://dohtonbori.com/",
+    "id": 2455
+  },
+  {
+    "place_id": "ChIJs8Iw6N6bc18RZe8FcQC1BVk",
+    "name": "スーリヤ 帯広店",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり",
+      "子連れOK"
+    ],
+    "description": "小上がり席や子供用椅子があり、4歳以下は大人とシェア可能。子連れに優しいお店です。",
+    "score": 4,
+    "lat": 42.90522,
+    "lng": 143.183574,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJs8Iw6N6bc18RZe8FcQC1BVk",
+    "image_url": "/photos/ChIJs8Iw6N6bc18RZe8FcQC1BVk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "4歳以下は大人が頼んだら、一緒に食べることができるのいいですね。",
+      "小上がりもあるし、子ども用の椅子があるので子連れにもオススメです。",
+      "小上がり席があるしカレーの辛さ選べるので、子どもが小さい頃から行っています。"
+    ],
+    "address": "〒080-0846 北海道帯広市緑ケ丘７丁目１−１",
+    "rating": 4.4,
+    "rating_count": 240,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "火曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "0155-21-3630",
+    "website": "https://nepali-curry.com/shop/surya_obihiro/",
+    "id": 2456
+  },
+  {
+    "place_id": "ChIJAw80AtiZc18Rz2vNpCC10Aw",
+    "name": "完全個室居酒屋 凪",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "全室個室で落ち着いた雰囲気。周りを気にせずゆっくり食事できます。",
+    "score": 3,
+    "lat": 42.922018,
+    "lng": 143.202292,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJAw80AtiZc18Rz2vNpCC10Aw",
+    "image_url": "/photos/ChIJAw80AtiZc18Rz2vNpCC10Aw.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室も広く周りの声も聞こえることもなく落ちついた雰囲気で食事出来ました。",
+      "全室個室なので、落ち着いた雰囲気で高級感もあり、また利用したいです！"
+    ],
+    "address": "〒080-0012 北海道帯広市西２条南９丁目10番地1 R Build 2F",
+    "rating": 4.3,
+    "rating_count": 14,
+    "hours": [
+      "月曜日: 17時00分～23時30分",
+      "火曜日: 17時00分～23時30分",
+      "水曜日: 17時00分～23時30分",
+      "木曜日: 17時00分～23時30分",
+      "金曜日: 17時00分～23時30分",
+      "土曜日: 17時00分～23時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-66-6653",
+    "website": "https://nagiobihiro.com/",
+    "id": 2457
+  },
+  {
+    "place_id": "ChIJy_GkiqWZc18RDDwHqDAYwyc",
+    "name": "個室居酒屋 団欒 帯広駅前店",
+    "area": "帯広",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室居酒屋で、プライベート空間でゆったり過ごせます。",
+    "score": 3,
+    "lat": 42.919669299999995,
+    "lng": 143.2034515,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJy_GkiqWZc18RDDwHqDAYwyc",
+    "image_url": "/photos/ChIJy_GkiqWZc18RDDwHqDAYwyc.jpg",
+    "is_chain": true,
+    "evidence": [
+      "個室居酒屋って名前ですけど普通にのれんで区切ってるだけ",
+      "ボックス席で、のれんが付いていて ゆっくりできます。"
+    ],
+    "address": "〒080-0011 北海道帯広市西１条南１１丁目１１−３ 小枝銀座ビル 2F",
+    "rating": 4.3,
+    "rating_count": 1186,
+    "hours": [
+      "月曜日: 16時00分～0時00分",
+      "火曜日: 16時00分～0時00分",
+      "水曜日: 16時00分～0時00分",
+      "木曜日: 16時00分～0時00分",
+      "金曜日: 16時00分～0時00分",
+      "土曜日: 16時00分～0時00分",
+      "日曜日: 16時00分～0時00分"
+    ],
+    "phone": "080-7976-5998",
+    "website": "https://danranobihiro.owst.jp/",
+    "id": 2458
+  },
+  {
+    "place_id": "ChIJ8-i8FGaZc18RuyP-2SfMC8Q",
+    "name": "個室居酒屋 和の音 帯広駅前店",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "落ち着いた個室空間で、ゆったりと食事を楽しめます。",
+    "score": 3,
+    "lat": 42.919658399999996,
+    "lng": 143.2034629,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8-i8FGaZc18RuyP-2SfMC8Q",
+    "image_url": "/photos/ChIJ8-i8FGaZc18RuyP-2SfMC8Q.jpg",
+    "is_chain": false,
+    "evidence": [
+      "完全個室の落ち着いた雰囲気"
+    ],
+    "address": "〒080-0011 北海道帯広市西１条南１１丁目11−３ 小枝銀座ビル 1階",
+    "rating": 4.2,
+    "rating_count": 170,
+    "hours": [
+      "月曜日: 16時00分～0時00分",
+      "火曜日: 16時00分～0時00分",
+      "水曜日: 16時00分～0時00分",
+      "木曜日: 16時00分～0時00分",
+      "金曜日: 16時00分～1時00分",
+      "土曜日: 16時00分～1時00分",
+      "日曜日: 16時00分～0時00分"
+    ],
+    "phone": "070-6514-6465",
+    "website": "https://www.hotpepper.jp/strJ004422320/",
+    "id": 2459
+  },
+  {
+    "place_id": "ChIJ-xMc3z-Zc18RmAsnPR0FqAc",
+    "name": "御食事処 古季庵",
+    "area": "帯広",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "個室や座敷があり、落ち着いて食事ができる和食店です。",
+    "score": 3,
+    "lat": 42.9312087,
+    "lng": 143.16635929999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-xMc3z-Zc18RmAsnPR0FqAc",
+    "image_url": "/photos/ChIJ-xMc3z-Zc18RmAsnPR0FqAc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "帯広では貴重な個室のある食堂になります。",
+      "和風の店内で奥の座敷に着座。"
+    ],
+    "address": "〒080-0047 北海道帯広市西１７条北１丁目４２−５",
+    "rating": 4.1,
+    "rating_count": 148,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "水曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "木曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "金曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "土曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0155-29-3336",
+    "website": "http://kokian.jp/",
+    "id": 2460
+  },
+  {
+    "place_id": "ChIJZSrzx-kXcl8RnxxpiF-BKsU",
+    "name": "cafe fika (カフェ フィーカ)",
+    "area": "釧路",
+    "genre": "カフェ",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり",
+      "子連れOK"
+    ],
+    "description": "小上がり席や子供椅子あり。子連れでも安心して過ごせるカフェ。",
+    "score": 4,
+    "lat": 42.9891049,
+    "lng": 144.4103438,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJZSrzx-kXcl8RnxxpiF-BKsU",
+    "image_url": "/photos/ChIJZSrzx-kXcl8RnxxpiF-BKsU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "赤ちゃん連れで小上がりを使用",
+      "小さいお子さま連れでしたら事前に小上がり席を予約",
+      "テーブル席でも、子ども椅子はあります",
+      "小上がり席だと、待っている間に型はめおもちゃで遊んだり"
+    ],
+    "address": "〒085-0814 北海道釧路市緑ケ岡４丁目６−８",
+    "rating": 4.2,
+    "rating_count": 52,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～17時00分",
+      "木曜日: 11時00分～17時00分",
+      "金曜日: 11時00分～17時00分",
+      "土曜日: 11時00分～17時00分",
+      "日曜日: 11時00分～17時00分"
+    ],
+    "phone": "0154-65-5608",
+    "website": "https://www.instagram.com/cafefika.kushiro/",
+    "id": 2461
+  },
+  {
+    "place_id": "ChIJhbmjwFw9cl8R7BxRr59bwnc",
+    "name": "展望レストラン まいづる",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "子供メニューあり"
+    ],
+    "description": "景色を眺めながら、お子様ランチのようなメニューも楽しめるレストラン。",
+    "score": 3,
+    "lat": 42.9782063,
+    "lng": 144.3855276,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJhbmjwFw9cl8R7BxRr59bwnc",
+    "image_url": "/photos/ChIJhbmjwFw9cl8R7BxRr59bwnc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "茄子、ホタテ等お子様ランチ的で楽しかったです"
+    ],
+    "address": "〒085-0836 北海道釧路市幣舞町４−２８ 学習センターまなぽっと 幣舞9F, 生涯",
+    "rating": 4,
+    "rating_count": 152,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～19時00分",
+      "水曜日: 11時00分～19時00分",
+      "木曜日: 11時00分～19時00分",
+      "金曜日: 11時00分～19時00分",
+      "土曜日: 11時00分～19時00分",
+      "日曜日: 11時00分～19時00分"
+    ],
+    "phone": "0154-44-4455",
+    "website": "http://www.kushiro-bunka.or.jp/manabo/restaurant.html",
+    "id": 2462
+  },
+  {
+    "place_id": "ChIJJyUemeQ9cl8R_Clktywpzoo",
+    "name": "レストラン 八白",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、ゆったり食事ができる洋食店です。",
+    "score": 3,
+    "lat": 43.0160391,
+    "lng": 144.3271418,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJJyUemeQ9cl8R_Clktywpzoo",
+    "image_url": "/photos/ChIJJyUemeQ9cl8R_Clktywpzoo.jpg",
+    "is_chain": false,
+    "evidence": [
+      "少々待って小上がりを案内されて着座"
+    ],
+    "address": "〒084-0912 北海道釧路市星が浦大通１丁目４−３５",
+    "rating": 3.9,
+    "rating_count": 566,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "火曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "土曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "日曜日: 11時00分～15時00分, 17時00分～21時00分"
+    ],
+    "phone": "0154-52-1713",
+    "website": "https://happaku.net/",
+    "id": 2463
+  },
+  {
+    "place_id": "ChIJq4zzZtoXcl8R2ssKtVo7fRU",
+    "name": "麺小僧",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりの座敷席があり、小さなお子様連れでも利用しやすいラーメン店です。",
+    "score": 3,
+    "lat": 43.006959699999996,
+    "lng": 144.3824976,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJq4zzZtoXcl8R2ssKtVo7fRU",
+    "image_url": "/photos/ChIJq4zzZtoXcl8R2ssKtVo7fRU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は、カウンターが5席ほどと、小上がりの座敷席が4卓あります。"
+    ],
+    "address": "〒085-0052 北海道釧路市中園町１２−２",
+    "rating": 4.2,
+    "rating_count": 325,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 17時00分～20時00分",
+      "火曜日: 定休日",
+      "水曜日: 定休日",
+      "木曜日: 11時30分～14時00分, 17時00分～20時00分",
+      "金曜日: 11時30分～14時00分, 17時00分～20時00分",
+      "土曜日: 11時30分～14時00分, 17時00分～20時00分",
+      "日曜日: 11時30分～14時00分, 17時00分～20時00分"
+    ],
+    "phone": "",
+    "website": "https://www.menkozou.com/",
+    "id": 2464
+  },
+  {
+    "place_id": "ChIJqXPGh60Xcl8RycCArKd17EE",
+    "name": "ら～めん つちや",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、小さい子連れに嬉しいラーメン店。",
+    "score": 3,
+    "lat": 43.001730099999996,
+    "lng": 144.4010789,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJqXPGh60Xcl8RycCArKd17EE",
+    "image_url": "/photos/ChIJqXPGh60Xcl8RycCArKd17EE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりの座敷は小さい子連れ用と買いてあった"
+    ],
+    "address": "〒088-0623 北海道釧路郡釧路町光和５丁目５−１３−１",
+    "rating": 4.1,
+    "rating_count": 45,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 11時00分～14時00分",
+      "日曜日: 11時00分～14時00分"
+    ],
+    "phone": "",
+    "website": "",
+    "id": 2465
+  },
+  {
+    "place_id": "ChIJhxdtcHg-cl8ROFFaXnfoVOA",
+    "name": "麺屋さいか",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があるので、小さなお子様連れでも安心してお食事ができます。",
+    "score": 3,
+    "lat": 43.0111048,
+    "lng": 144.2969818,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJhxdtcHg-cl8ROFFaXnfoVOA",
+    "image_url": "/photos/ChIJhxdtcHg-cl8ROFFaXnfoVOA.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はテーブル席のほかに小上がり（座敷）もあり"
+    ],
+    "address": "〒084-0917 北海道釧路市大楽毛１丁目８−１９",
+    "rating": 3.9,
+    "rating_count": 204,
+    "hours": [
+      "月曜日: 11時00分～14時30分",
+      "火曜日: 11時00分～14時30分",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～14時30分",
+      "金曜日: 11時00分～14時30分",
+      "土曜日: 11時00分～14時30分",
+      "日曜日: 11時00分～14時30分"
+    ],
+    "phone": "0154-64-5801",
+    "website": "https://m.facebook.com/menyasaika/?locale2=ja_JP",
+    "id": 2466
+  },
+  {
+    "place_id": "ChIJh5cTCvMXcl8Ry_CdqGFhAm4",
+    "name": "そば処八松庵",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "広々とした座敷席があり、ゆったり食事ができます。",
+    "score": 3,
+    "lat": 42.9827301,
+    "lng": 144.4274213,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJh5cTCvMXcl8Ry_CdqGFhAm4",
+    "image_url": "/photos/ChIJh5cTCvMXcl8Ry_CdqGFhAm4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は、テーブル席が6卓、小上がりの座敷席が5卓と席数が多く、広々としていてゆったりと食事ができます。"
+    ],
+    "address": "〒085-0806 北海道釧路市武佐３丁目１０−１",
+    "rating": 4.2,
+    "rating_count": 418,
+    "hours": [
+      "月曜日: 11時00分～19時30分",
+      "火曜日: 11時00分～19時30分",
+      "水曜日: 11時00分～19時30分",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～19時30分",
+      "土曜日: 11時00分～19時30分",
+      "日曜日: 11時00分～19時30分"
+    ],
+    "phone": "0154-46-6935",
+    "website": "https://twitter.com/hassyoan",
+    "id": 2467
+  },
+  {
+    "place_id": "ChIJmxeuFV09cl8R9BpH3dPBFw0",
+    "name": "東家 ぬさまい分店",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.9795818,
+    "lng": 144.3844202,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJmxeuFV09cl8R9BpH3dPBFw0",
+    "image_url": "/photos/ChIJmxeuFV09cl8R9BpH3dPBFw0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "窓際の座敷席に陣取りメニューを拝見。"
+    ],
+    "address": "〒085-0841 北海道釧路市南大通１丁目１−５",
+    "rating": 4.3,
+    "rating_count": 371,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～15時00分",
+      "木曜日: 11時00分～15時00分",
+      "金曜日: 11時00分～15時00分",
+      "土曜日: 11時00分～15時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0154-41-5768",
+    "website": "",
+    "id": 2468
+  },
+  {
+    "place_id": "ChIJsxKtbPY9cl8RlSi1ChoAJUg",
+    "name": "鶴乃庵そば処",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ゆったり食事ができるお蕎麦屋さん。",
+    "score": 3,
+    "lat": 43.01451060000001,
+    "lng": 144.3476368,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJsxKtbPY9cl8RlSi1ChoAJUg",
+    "image_url": "/photos/ChIJsxKtbPY9cl8RlSi1ChoAJUg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "テーブル席と座敷もありました😳"
+    ],
+    "address": "〒084-0906 北海道釧路市鳥取大通５丁目３−８",
+    "rating": 4.3,
+    "rating_count": 203,
+    "hours": [
+      "月曜日: 11時00分～14時30分",
+      "火曜日: 11時00分～14時30分",
+      "水曜日: 11時00分～14時30分",
+      "木曜日: 11時00分～14時30分",
+      "金曜日: 11時00分～14時30分",
+      "土曜日: 11時00分～14時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0154-51-2828",
+    "website": "",
+    "id": 2469
+  },
+  {
+    "place_id": "ChIJ2QE_x_c9cl8ReznbPSWJ9dY",
+    "name": "玉川庵",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 43.016156099999996,
+    "lng": 144.3453902,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2QE_x_c9cl8ReznbPSWJ9dY",
+    "image_url": "/photos/ChIJ2QE_x_c9cl8ReznbPSWJ9dY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お座敷と椅子席があります。"
+    ],
+    "address": "〒084-0906 北海道釧路市鳥取大通５丁目１７−１７",
+    "rating": 3.9,
+    "rating_count": 542,
+    "hours": [
+      "月曜日: 11時00分～19時00分",
+      "火曜日: 11時00分～19時00分",
+      "水曜日: 11時00分～19時00分",
+      "木曜日: 11時00分～19時00分",
+      "金曜日: 11時00分～19時00分",
+      "土曜日: 11時00分～19時00分",
+      "日曜日: 11時00分～19時00分"
+    ],
+    "phone": "0154-51-4628",
+    "website": "",
+    "id": 2470
+  },
+  {
+    "place_id": "ChIJV3gHkHgXcl8RD22W8R536YY",
+    "name": "五利家",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "子連れOK"
+    ],
+    "description": "座敷あり、子供への対応も温かい蕎麦店",
+    "score": 4,
+    "lat": 43.00959230000001,
+    "lng": 144.3830662,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJV3gHkHgXcl8RD22W8R536YY",
+    "image_url": "/photos/ChIJV3gHkHgXcl8RD22W8R536YY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内も綺麗で広く椅子席、カウンター、小上がりもあります。",
+      "子供連れでしたが、子供に対しても本当に優しく温かい対応をしてくれて、店内に絵本などもあり待ち時間も助かります。"
+    ],
+    "address": "〒085-0057 北海道釧路市愛国西１丁目２−３",
+    "rating": 4.2,
+    "rating_count": 137,
+    "hours": [
+      "月曜日: 11時00分～14時30分, 16時00分～19時00分",
+      "火曜日: 11時00分～14時30分, 16時00分～19時00分",
+      "水曜日: 11時00分～14時30分, 16時00分～19時00分",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～14時30分, 16時00分～19時00分",
+      "土曜日: 11時00分～15時00分, 16時00分～19時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0154-65-5786",
+    "website": "https://japoncompany.business/kushiro/547576-",
+    "id": 2471
+  },
+  {
+    "place_id": "ChIJRQ95JH49cl8RG4elQCHILAU",
+    "name": "はま長",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。おにぎりも人気です。",
+    "score": 3,
+    "lat": 42.995194,
+    "lng": 144.3769102,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJRQ95JH49cl8RG4elQCHILAU",
+    "image_url": "/photos/ChIJRQ95JH49cl8RG4elQCHILAU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "座敷合わせて30席以上あります。"
+    ],
+    "address": "〒085-0041 北海道釧路市春日町４−５",
+    "rating": 4,
+    "rating_count": 154,
+    "hours": [
+      "月曜日: 11時00分～15時00分, 17時00分～19時00分",
+      "火曜日: 11時00分～15時00分, 17時00分～19時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～19時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～19時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～19時00分",
+      "土曜日: 11時00分～15時00分, 17時00分～19時00分",
+      "日曜日: 11時00分～15時00分, 17時00分～19時00分"
+    ],
+    "phone": "0154-22-5866",
+    "website": "",
+    "id": 2472
+  },
+  {
+    "place_id": "ChIJDad1DDEWcl8RSlMVCtevbp4",
+    "name": "竹家",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "広めの小上がり席があり、他のお客さんを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 43.0075195,
+    "lng": 144.38326229999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJDad1DDEWcl8RSlMVCtevbp4",
+    "image_url": "/photos/ChIJDad1DDEWcl8RSlMVCtevbp4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "真ん中に広い小上がり席があり、他のお客さんを気にせずゆっくりご飯を食べれました。"
+    ],
+    "address": "〒085-0052 北海道釧路市中園町１１−２",
+    "rating": 4,
+    "rating_count": 92,
+    "hours": [
+      "月曜日: 11時00分～19時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～19時00分",
+      "木曜日: 11時00分～19時00分",
+      "金曜日: 11時00分～19時00分",
+      "土曜日: 11時30分～19時00分",
+      "日曜日: 11時00分～19時00分"
+    ],
+    "phone": "0154-22-0314",
+    "website": "",
+    "id": 2473
+  },
+  {
+    "place_id": "ChIJl_sKXgYYcl8RmVXznkhTG60",
+    "name": "長寿庵",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席やテーブル席が多く、家族連れも多く利用する蕎麦・寿司店。",
+    "score": 3,
+    "lat": 42.9671984,
+    "lng": 144.4245028,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJl_sKXgYYcl8RmVXznkhTG60",
+    "image_url": "/photos/ChIJl_sKXgYYcl8RmVXznkhTG60.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり席やテーブル席の数も多く、店内は広いです。",
+      "お客さんも家族連れや団体さんが多く繁盛していました。"
+    ],
+    "address": "〒085-0805 北海道釧路市桜ケ岡１丁目１０−３１ 10番31号 31号",
+    "rating": 3.9,
+    "rating_count": 223,
+    "hours": [
+      "月曜日: 11時00分～20時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～20時00分",
+      "木曜日: 11時00分～20時00分",
+      "金曜日: 11時00分～20時00分",
+      "土曜日: 11時00分～20時00分",
+      "日曜日: 11時00分～20時00分"
+    ],
+    "phone": "0154-91-3697",
+    "website": "https://choujuan-946.com/",
+    "id": 2474
+  },
+  {
+    "place_id": "ChIJ2_pHSFEWcl8RjdXng3Qr3yU",
+    "name": "金太楼",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、お子様用のメニューもあるお寿司屋さんです。",
+    "score": 3,
+    "lat": 43.016590099999995,
+    "lng": 144.409485,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_pHSFEWcl8RjdXng3Qr3yU",
+    "image_url": "/photos/ChIJ2_pHSFEWcl8RjdXng3Qr3yU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小さな子供用に厚焼き卵の中にごはんをサンドしたお寿司を出してくれたり",
+      "座敷には置いてありました"
+    ],
+    "address": "〒088-0616 北海道釧路郡釧路町曙４丁目１１−１２",
+    "rating": 4.5,
+    "rating_count": 56,
+    "hours": [
+      "月曜日: 11時50分～13時30分, 17時00分～20時30分",
+      "火曜日: 11時50分～13時30分, 17時00分～20時30分",
+      "水曜日: 定休日",
+      "木曜日: 11時50分～13時30分, 17時00分～20時30分",
+      "金曜日: 11時50分～13時30分, 17時00分～20時30分",
+      "土曜日: 11時50分～13時30分, 17時00分～20時30分",
+      "日曜日: 11時50分～13時30分, 17時00分～20時30分"
+    ],
+    "phone": "0154-37-5233",
+    "website": "",
+    "id": 2475
+  },
+  {
+    "place_id": "ChIJO2BOmUcWcl8RAhsW8DFTO2s",
+    "name": "焼肉 ごしき苑",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "掘りごたつ式の個室が中心で、プライベートな空間で落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.01494520000001,
+    "lng": 144.3872712,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJO2BOmUcWcl8RAhsW8DFTO2s",
+    "image_url": "/photos/ChIJO2BOmUcWcl8RAhsW8DFTO2s.jpg",
+    "is_chain": false,
+    "evidence": [
+      "掘りごたつ式の個室が中心なので、家族連れやデート、",
+      "個室が多いこともあり、落ち着いて食べられました。",
+      "座敷は堀炬燵でゆったり座れます。"
+    ],
+    "address": "〒085-0063 北海道釧路市文苑１丁目９−９",
+    "rating": 4.3,
+    "rating_count": 249,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～22時00分",
+      "水曜日: 17時00分～22時00分",
+      "木曜日: 17時00分～22時00分",
+      "金曜日: 17時00分～22時00分",
+      "土曜日: 16時00分～22時00分",
+      "日曜日: 16時00分～22時00分"
+    ],
+    "phone": "0154-65-9141",
+    "website": "",
+    "id": 2476
+  },
+  {
+    "place_id": "ChIJgR85Z3k9cl8RwdoP15X6zOI",
+    "name": "焼肉大鵬",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "個室や小上がり席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.991929999999996,
+    "lng": 144.3710736,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJgR85Z3k9cl8RwdoP15X6zOI",
+    "image_url": "/photos/ChIJgR85Z3k9cl8RwdoP15X6zOI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "特に個室は綺麗で落ち着くんで知っておくと重宝するお店だと思います",
+      "店内は、ボックス席、小上がりでファミリー向け。"
+    ],
+    "address": "〒085-0026 北海道釧路市寿３丁目４−８",
+    "rating": 3.8,
+    "rating_count": 200,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 17時00分～22時30分",
+      "水曜日: 17時00分～22時30分",
+      "木曜日: 17時00分～22時30分",
+      "金曜日: 17時00分～22時30分",
+      "土曜日: 16時00分～22時30分",
+      "日曜日: 16時00分～22時30分"
+    ],
+    "phone": "0154-24-9156",
+    "website": "https://yakiniku-taiho.owst.jp/",
+    "id": 2477
+  },
+  {
+    "place_id": "ChIJYcMBm_sXcl8RwLcYuPaFjN8",
+    "name": "焼肉菜包 朴然 春採店",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室でゆったり焼肉を楽しめる。ファミリー層にも人気。",
+    "score": 3,
+    "lat": 42.9780792,
+    "lng": 144.4129102,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJYcMBm_sXcl8RwLcYuPaFjN8",
+    "image_url": "/photos/ChIJYcMBm_sXcl8RwLcYuPaFjN8.jpg",
+    "is_chain": true,
+    "evidence": [
+      "別料金で個室に案内してもらえたり、ゆっくりゆったり静かに焼肉を味わえる空間はありがたいですね！",
+      "プライベート感の高い個室（一部有料）が用意されており、家族や友人との食事、宴会など、様々なシーンで周囲を気にせずゆったりと過ごせます。"
+    ],
+    "address": "〒085-0813 北海道釧路市春採７丁目１−１５",
+    "rating": 3.8,
+    "rating_count": 386,
+    "hours": [
+      "月曜日: 11時00分～22時30分",
+      "火曜日: 11時00分～22時30分",
+      "水曜日: 11時00分～22時30分",
+      "木曜日: 11時00分～22時30分",
+      "金曜日: 11時00分～22時30分",
+      "土曜日: 11時00分～22時30分",
+      "日曜日: 11時00分～22時30分"
+    ],
+    "phone": "0154-47-2989",
+    "website": "http://bokuzen.com/shop/harutori/",
+    "id": 2478
+  },
+  {
+    "place_id": "ChIJme6OMCkWcl8RMYR08ALykIM",
+    "name": "とんかつ あげ幕",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ボリューム満点のカツがリーズナブルに楽しめるお店。",
+    "score": 3,
+    "lat": 43.0040646,
+    "lng": 144.3729835,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJme6OMCkWcl8RMYR08ALykIM",
+    "image_url": "/photos/ChIJme6OMCkWcl8RMYR08ALykIM.jpg",
+    "is_chain": false,
+    "evidence": [
+      "4人座敷席が7席あります。"
+    ],
+    "address": "〒085-0047 北海道釧路市新川町１３−６",
+    "rating": 4.1,
+    "rating_count": 155,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～14時00分",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 11時00分～14時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0154-22-6693",
+    "website": "https://tabelog.com/hokkaido/A0112/A011201/1016121/",
+    "id": 2479
+  },
+  {
+    "place_id": "ChIJKx19yGA9cl8Rc0eqVtwtc94",
+    "name": "とんき",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "広々とした店内で、座敷席もあり、ゆったり食事ができます。",
+    "score": 3,
+    "lat": 42.9836646,
+    "lng": 144.38656849999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJKx19yGA9cl8Rc0eqVtwtc94",
+    "image_url": "/photos/ChIJKx19yGA9cl8Rc0eqVtwtc94.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は広くて清潔、座敷とテーブル席"
+    ],
+    "address": "〒085-0014 北海道釧路市末広町３丁目５ 笛園ビル",
+    "rating": 3.8,
+    "rating_count": 48,
+    "hours": [
+      "月曜日: 11時30分～14時30分",
+      "火曜日: 11時30分～14時30分",
+      "水曜日: 11時30分～14時30分",
+      "木曜日: 11時30分～14時30分",
+      "金曜日: 11時30分～14時30分",
+      "土曜日: 11時30分～14時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0154-23-6101",
+    "website": "",
+    "id": 2480
+  },
+  {
+    "place_id": "ChIJ101O_9kXcl8R-AhpeGuQpoc",
+    "name": "陽陽亭",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "子連れOK"
+    ],
+    "description": "座敷席があり、お子様も喜んで食事を楽しめるお店です。",
+    "score": 3,
+    "lat": 42.992823,
+    "lng": 144.389966,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ101O_9kXcl8R-AhpeGuQpoc",
+    "image_url": "/photos/ChIJ101O_9kXcl8R-AhpeGuQpoc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "一家で昼に入店しました。",
+      "2歳の娘も大変喜んで食べてました。",
+      "既に小上がりは満席て、カウンターで着座。"
+    ],
+    "address": "〒085-0004 北海道釧路市新富町１５−１９",
+    "rating": 4.1,
+    "rating_count": 210,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～13時30分",
+      "木曜日: 11時00分～13時30分",
+      "金曜日: 11時00分～13時30分",
+      "土曜日: 11時00分～13時30分",
+      "日曜日: 11時00分～13時30分"
+    ],
+    "phone": "0154-24-3025",
+    "website": "",
+    "id": 2481
+  },
+  {
+    "place_id": "ChIJS_crz9AXcl8RTWEzw3BHqwc",
+    "name": "中国料理 楓林",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "掘りごたつの小上がり席があり、子連れでも利用しやすい中華料理店です。",
+    "score": 3,
+    "lat": 42.9943242,
+    "lng": 144.3889324,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJS_crz9AXcl8RTWEzw3BHqwc",
+    "image_url": "/photos/ChIJS_crz9AXcl8RTWEzw3BHqwc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "掘りごたつの小上がり席、テーブル席、カウンター席があります。"
+    ],
+    "address": "〒085-0005 北海道釧路市松浦町８−２",
+    "rating": 3.9,
+    "rating_count": 266,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～14時00分",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 11時00分～14時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0120-250-134",
+    "website": "https://www.fuurin-kusiro.com/",
+    "id": 2482
+  },
+  {
+    "place_id": "ChIJ8Tku76Eicl8R4MKuo5Z5ijc",
+    "name": "陽華亭",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ゆったり食事ができます。",
+    "score": 3,
+    "lat": 42.956220599999995,
+    "lng": 144.42623210000002,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8Tku76Eicl8R4MKuo5Z5ijc",
+    "image_url": "/photos/ChIJ8Tku76Eicl8R4MKuo5Z5ijc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "大半は座敷テーブルは正座が辛い",
+      "テーブルが埋まってましたが、座敷に通されました。"
+    ],
+    "address": "〒085-0803 北海道釧路市益浦３丁目１−２",
+    "rating": 3.9,
+    "rating_count": 285,
+    "hours": [
+      "月曜日: 11時00分～20時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～20時00分",
+      "木曜日: 11時00分～20時00分",
+      "金曜日: 11時00分～20時00分",
+      "土曜日: 11時00分～20時00分",
+      "日曜日: 11時00分～20時00分"
+    ],
+    "phone": "0154-91-5521",
+    "website": "",
+    "id": 2483
+  },
+  {
+    "place_id": "ChIJV8QjHRAWcl8RfXaf9yxfmpY",
+    "name": "レストランサンクス・ア・ロット",
+    "area": "釧路",
+    "genre": "イタリアン",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "広めの個室があり、落ち着いた雰囲気で食事が楽しめます。",
+    "score": 3,
+    "lat": 43.022281,
+    "lng": 144.358151,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJV8QjHRAWcl8RfXaf9yxfmpY",
+    "image_url": "/photos/ChIJV8QjHRAWcl8RfXaf9yxfmpY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "広めの個室もあるのは便利かと思います。",
+      "4名から10名まで利用できる個室も完備"
+    ],
+    "address": "〒084-0910 北海道釧路市昭和中央４丁目９−１",
+    "rating": 4.1,
+    "rating_count": 221,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "0154-53-4640",
+    "website": "http://thanks946.sakura.ne.jp/",
+    "id": 2484
+  },
+  {
+    "place_id": "ChIJvSYJrfc9cl8RbnnTUqDbJnE",
+    "name": "Joie",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、子連れ客も利用している様子が見られます。",
+    "score": 3,
+    "lat": 43.0153974,
+    "lng": 144.34514579999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJvSYJrfc9cl8RbnnTUqDbJnE",
+    "image_url": "/photos/ChIJvSYJrfc9cl8RbnnTUqDbJnE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "カウンター席と座敷もありで、子連れも1組いて賑やかな感じ。"
+    ],
+    "address": "〒084-0906 北海道釧路市鳥取大通５丁目１６−２０",
+    "rating": 4.5,
+    "rating_count": 75,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "水曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "木曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "金曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "土曜日: 11時30分～13時30分, 17時30分～21時30分",
+      "日曜日: 11時30分～13時30分, 17時30分～21時00分"
+    ],
+    "phone": "0154-53-3055",
+    "website": "",
+    "id": 2485
+  },
+  {
+    "place_id": "ChIJX0JxAYM9cl8RmtZ1T-Z3TcI",
+    "name": "喰処 鮭番屋",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ベビーカーでの利用も可能。家族で海鮮を楽しめる名店。",
+    "score": 4,
+    "lat": 42.9960731,
+    "lng": 144.36233009999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJX0JxAYM9cl8RmtZ1T-Z3TcI",
+    "image_url": "/photos/ChIJX0JxAYM9cl8RmtZ1T-Z3TcI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "家族4人でベビーカーありの乳児を連れて訪問"
+    ],
+    "address": "〒085-0024 北海道釧路市浜町４−１１",
+    "rating": 4.3,
+    "rating_count": 1130,
+    "hours": [
+      "月曜日: 7時30分～14時00分",
+      "火曜日: 7時30分～14時00分",
+      "水曜日: 定休日",
+      "木曜日: 7時30分～14時00分",
+      "金曜日: 7時30分～14時00分",
+      "土曜日: 7時30分～14時00分",
+      "日曜日: 7時30分～14時00分"
+    ],
+    "phone": "0120-051-595",
+    "website": "https://www.syake-banya.jp/user_data/kuidokoro",
+    "id": 2486
+  },
+  {
+    "place_id": "ChIJzwZusmA9cl8R0UV6S0ZVNhU",
+    "name": "絹本店",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室でゆっくり食事を楽しめるお店です。",
+    "score": 3,
+    "lat": 42.9831958,
+    "lng": 144.3866667,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJzwZusmA9cl8R0UV6S0ZVNhU",
+    "image_url": "/photos/ChIJzwZusmA9cl8R0UV6S0ZVNhU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室でゆっくり出来るのでお勧めです"
+    ],
+    "address": "〒085-0014 北海道釧路市末広町３丁目３",
+    "rating": 3.9,
+    "rating_count": 203,
+    "hours": [
+      "月曜日: 17時00分～22時00分",
+      "火曜日: 17時00分～22時00分",
+      "水曜日: 17時00分～22時00分",
+      "木曜日: 17時00分～22時00分",
+      "金曜日: 17時00分～22時00分",
+      "土曜日: 17時00分～22時00分",
+      "日曜日: 17時00分～22時00分"
+    ],
+    "phone": "0154-24-7453",
+    "website": "http://www.kinu.me/",
+    "id": 2487
+  },
+  {
+    "place_id": "ChIJpcj4a8MXcl8RtoZyJX4Ia_k",
+    "name": "展望レストランワンピース",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "子連れに優しい小上がりあり。景色も楽しめる。",
+    "score": 3,
+    "lat": 42.9919441,
+    "lng": 144.4033423,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJpcj4a8MXcl8RtoZyJX4Ia_k",
+    "image_url": "/photos/ChIJpcj4a8MXcl8RtoZyJX4Ia_k.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子連れに優しい小上がりも1つあったようです"
+    ],
+    "address": "〒085-0815 北海道釧路市材木町２１−７８",
+    "rating": 4.1,
+    "rating_count": 130,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～14時45分, 17時00分～19時45分",
+      "水曜日: 11時30分～14時45分, 17時00分～19時45分",
+      "木曜日: 11時30分～14時45分",
+      "金曜日: 11時30分～14時45分, 17時00分～19時45分",
+      "土曜日: 11時30分～14時45分, 17時00分～19時45分",
+      "日曜日: 11時30分～14時45分, 17時00分～19時45分"
+    ],
+    "phone": "0154-43-2888",
+    "website": "https://tabelog.com/hokkaido/A0112/A011201/1020676/",
+    "id": 2488
+  },
+  {
+    "place_id": "ChIJwwqKAQAXcl8R-d5y0Q4Cl4M",
+    "name": "エベレストダイニング釧路店",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、ゆったり食事ができます。",
+    "score": 3,
+    "lat": 42.9969257,
+    "lng": 144.4342571,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJwwqKAQAXcl8R-d5y0Q4Cl4M",
+    "image_url": "/photos/ChIJwwqKAQAXcl8R-d5y0Q4Cl4M.jpg",
+    "is_chain": true,
+    "evidence": [
+      "小上がりもありました。"
+    ],
+    "address": "〒088-0628 北海道釧路郡釧路町東陽大通西１丁目２ １SUN EAST A号室",
+    "rating": 4.6,
+    "rating_count": 45,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "0154-65-7655",
+    "website": "https://nepali-curry.com/",
+    "id": 2489
+  },
+  {
+    "place_id": "ChIJ4cTfjjEWcl8RJy7LifLOeM8",
+    "name": "からす亭",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、家族連れでもゆっくり過ごせる洋食店です。",
+    "score": 3,
+    "lat": 43.0064444,
+    "lng": 144.38293819999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4cTfjjEWcl8RJy7LifLOeM8",
+    "image_url": "/photos/ChIJ4cTfjjEWcl8RJy7LifLOeM8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥に小上がりもあり、家族連れでもゆっくり出来そうな空間で良かったです。",
+      "カウンター席、奥に座敷もあり一人でも複数人でも利用しやすいです。"
+    ],
+    "address": "〒085-0052 北海道釧路市中園町７−１６",
+    "rating": 4.3,
+    "rating_count": 292,
+    "hours": [
+      "月曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "火曜日: 定休日",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "金曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "土曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "日曜日: 11時00分～20時00分"
+    ],
+    "phone": "0154-23-3099",
+    "website": "https://karasutei.com/",
+    "id": 2490
+  },
+  {
+    "place_id": "ChIJQVvsE_EXcl8R5H0JjapZoKg",
+    "name": "きっさこ イペ",
+    "area": "釧路",
+    "genre": "カフェ",
+    "tags": [
+      "個室あり",
+      "子連れOK"
+    ],
+    "description": "赤ちゃん連れでもゆっくりできる個室やキッズスペースあり。アレルギー対応ケーキも。",
+    "score": 4,
+    "lat": 43.0098591,
+    "lng": 144.37294079999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJQVvsE_EXcl8R5H0JjapZoKg",
+    "image_url": "/photos/ChIJQVvsE_EXcl8R5H0JjapZoKg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "赤ちゃん連れで利用しました。キッズスペースに机を置いたような席に案内してもらい、ちょうど空いている時間だったのもあってゆっくりできました。",
+      "子連れで個室を利用しました。おもちゃもあり、助かりました。",
+      "赤ちゃん連れで利用できるお店がなかなか見つからないなか、久しぶりにカフェに行けてリフレッシュできました。"
+    ],
+    "address": "〒085-0055 北海道釧路市治水町１２−１０ コーチャンフォー釧路文化ホール2階",
+    "rating": 4.6,
+    "rating_count": 15,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～18時30分",
+      "木曜日: 11時30分～18時30分",
+      "金曜日: 11時30分～18時30分",
+      "土曜日: 11時30分～18時30分",
+      "日曜日: 11時30分～18時30分"
+    ],
+    "phone": "070-8550-1439",
+    "website": "https://ipe.amebaownd.com/",
+    "id": 2491
+  },
+  {
+    "place_id": "ChIJV88ylEAWcl8RIhj9zXw_Ino",
+    "name": "カフェレストラン ポン・ヌフ",
+    "area": "釧路",
+    "genre": "洋食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "小上がりの個室があり、小さなお子様連れでも安心。",
+    "score": 3,
+    "lat": 43.0176861,
+    "lng": 144.3835109,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJV88ylEAWcl8RIhj9zXw_Ino",
+    "image_url": "/photos/ChIJV88ylEAWcl8RIhj9zXw_Ino.jpg",
+    "is_chain": false,
+    "evidence": [
+      "「小上がりの個室」があるのも大きなポイント！小さなお子様連れのファミリーやママ会でも…"
+    ],
+    "address": "〒085-0063 北海道釧路市文苑１丁目２４−３",
+    "rating": 4.1,
+    "rating_count": 224,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "0154-38-0070",
+    "website": "https://pontneuf1994.com/",
+    "id": 2492
+  },
+  {
+    "place_id": "ChIJ846W_DkWcl8RFChRVcgbmXQ",
+    "name": "オフィス&レンタルスペース YOURs",
+    "area": "釧路",
+    "genre": "その他",
+    "tags": [
+      "子供メニューあり",
+      "個室あり",
+      "子連れOK"
+    ],
+    "description": "子供用メニューあり、個室利用で周りを気にせず食事ができます。",
+    "score": 4,
+    "lat": 43.011192199999996,
+    "lng": 144.3827814,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ846W_DkWcl8RFChRVcgbmXQ",
+    "image_url": "/photos/ChIJ846W_DkWcl8RFChRVcgbmXQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子供用のメニューもあるので子供連れでの来店も可能",
+      "個室(有料)を予約されると周りを気にせず食事ができる"
+    ],
+    "address": "〒085-0057 北海道釧路市愛国西１丁目１１−６ ２階",
+    "rating": 4.1,
+    "rating_count": 157,
+    "hours": [
+      "月曜日: 9時00分～21時00分",
+      "火曜日: 9時00分～21時00分",
+      "水曜日: 9時00分～21時00分",
+      "木曜日: 9時00分～21時00分",
+      "金曜日: 9時00分～21時00分",
+      "土曜日: 9時00分～21時00分",
+      "日曜日: 9時00分～21時00分"
+    ],
+    "phone": "0154-36-7272",
+    "website": "https://www.icom946.com/yours/",
+    "id": 2493
+  },
+  {
+    "place_id": "ChIJb0Ro7WY9cl8RTHkPUlNO9eo",
+    "name": "醍醐",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "掘りごたつ式の個室があり、家族での利用に便利です。",
+    "score": 3,
+    "lat": 42.983815,
+    "lng": 144.381664,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJb0Ro7WY9cl8RTHkPUlNO9eo",
+    "image_url": "/photos/ChIJb0Ro7WY9cl8RTHkPUlNO9eo.jpg",
+    "is_chain": false,
+    "evidence": [
+      "家族四人で懐石を頂きました。個室に案内され6人掛け位の広いテーブルの掘りごたつでした。",
+      "奥の畳のあった宴会場が、テーブル席になってました。"
+    ],
+    "address": "〒085-0016 北海道釧路市錦町５丁目３−３ 2F 三ツ輪ビル地階",
+    "rating": 4.1,
+    "rating_count": 177,
+    "hours": [
+      "月曜日: 11時00分～14時00分, 17時00分～21時00分",
+      "火曜日: 11時00分～14時00分, 17時00分～21時00分",
+      "水曜日: 11時00分～14時00分, 17時00分～21時00分",
+      "木曜日: 11時00分～14時00分, 17時00分～21時00分",
+      "金曜日: 11時00分～14時00分, 17時00分～21時00分",
+      "土曜日: 11時00分～14時00分, 17時00分～21時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0154-22-4466",
+    "website": "https://shikinoaziwaidaigo.my.canva.site/",
+    "id": 2494
+  },
+  {
+    "place_id": "ChIJR5GhqGE9cl8RYNctccGFVEM",
+    "name": "駒形家",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "格式高い空間で旬の郷土料理を堪能。個室や大広間あり。",
+    "score": 3,
+    "lat": 42.9855705,
+    "lng": 144.38764609999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJR5GhqGE9cl8RYNctccGFVEM",
+    "image_url": "/photos/ChIJR5GhqGE9cl8RYNctccGFVEM.jpg",
+    "is_chain": false,
+    "evidence": [
+      "少人数向けの個室から最大30名まで対応可能な大広間があり",
+      "座敷"
+    ],
+    "address": "〒085-0013 北海道釧路市栄町６丁目２",
+    "rating": 4.2,
+    "rating_count": 318,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～14時30分, 17時00分～21時30分",
+      "水曜日: 11時00分～14時30分, 17時00分～21時30分",
+      "木曜日: 11時00分～14時30分, 17時00分～21時30分",
+      "金曜日: 11時00分～14時30分, 17時00分～21時30分",
+      "土曜日: 11時00分～14時30分, 17時00分～21時30分",
+      "日曜日: 11時00分～14時30分, 17時00分～21時30分"
+    ],
+    "phone": "0154-24-4658",
+    "website": "http://www.komagataya.com/",
+    "id": 2495
+  },
+  {
+    "place_id": "ChIJKfTo9mA9cl8RtgnfMaZelAU",
+    "name": "ふく亭 釧路本店",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "個室あり",
+      "座敷あり"
+    ],
+    "description": "個室や座敷があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 42.9844407,
+    "lng": 144.38851080000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJKfTo9mA9cl8RtgnfMaZelAU",
+    "image_url": "/photos/ChIJKfTo9mA9cl8RtgnfMaZelAU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室も沢山あり、接待などでの利用も良いですね。",
+      "小上がり椅子テーブルに通された時に聞くと「ありません」と言われました。",
+      "清潔で広々した店内。",
+      "一人でしたが個室でゆっくり出来ました。"
+    ],
+    "address": "〒085-0013 北海道釧路市栄町４丁目２",
+    "rating": 3.5,
+    "rating_count": 221,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0154-24-8744",
+    "website": "https://www.fukutei.net/group/honten/",
+    "id": 2496
+  },
+  {
+    "place_id": "ChIJQ3dKpt89cl8R3GF8MPlVGbI",
+    "name": "食事処なかやま",
+    "area": "釧路",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.013713599999996,
+    "lng": 144.31054770000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ3dKpt89cl8R3GF8MPlVGbI",
+    "image_url": "/photos/ChIJQ3dKpt89cl8R3GF8MPlVGbI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "４人がけ座敷が５つあります"
+    ],
+    "address": "〒084-0912 北海道釧路市星が浦大通４丁目４−１９",
+    "rating": 3.8,
+    "rating_count": 62,
+    "hours": [
+      "月曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "火曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "水曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "木曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "金曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "土曜日: 11時00分～14時30分, 17時00分～20時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0154-53-1790",
+    "website": "",
+    "id": 2497
+  },
+  {
+    "place_id": "ChIJqbz2_g5XbV8RbqSPpvg3Ff4",
+    "name": "〆屋十兵衛",
+    "area": "北見",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室でゆったりラーメンやパフェを楽しめるお店です。",
+    "score": 3,
+    "lat": 43.8051976,
+    "lng": 143.89041140000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJqbz2_g5XbV8RbqSPpvg3Ff4",
+    "image_url": "/photos/ChIJqbz2_g5XbV8RbqSPpvg3Ff4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室もあり、ゆったりとした空間で食べれて"
+    ],
+    "address": "〒090-0046 北海道北見市北６条西３丁目１０ ABCビル 1F",
+    "rating": 4.9,
+    "rating_count": 8,
+    "hours": [
+      "月曜日: 20時00分～1時00分",
+      "火曜日: 20時00分～1時00分",
+      "水曜日: 20時00分～1時00分",
+      "木曜日: 20時00分～1時00分",
+      "金曜日: 20時00分～1時30分",
+      "土曜日: 20時00分～1時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "090-3396-3610",
+    "website": "https://www.instagram.com/samurai_juubei/",
+    "id": 2498
+  },
+  {
+    "place_id": "ChIJ3dtuAABRbV8RmiIPOOxn0Io",
+    "name": "中華そば つちだ",
+    "area": "北見",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、小さなお子さん連れのご家族も利用しやすいです。",
+    "score": 3,
+    "lat": 43.835389899999996,
+    "lng": 143.9261247,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3dtuAABRbV8RmiIPOOxn0Io",
+    "image_url": "/photos/ChIJ3dtuAABRbV8RmiIPOOxn0Io.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりもあり、小さいお子さん連れのご家族も来ていました。",
+      "席は多く、椅子席、小上がり席が充分にありファミリーでも利用しやすいです！",
+      "小上がりがあり子連れは◎"
+    ],
+    "address": "〒090-0001 北海道北見市小泉４０９−１",
+    "rating": 3.4,
+    "rating_count": 41,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "水曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "木曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "金曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "土曜日: 11時00分～15時00分, 17時00分～20時00分",
+      "日曜日: 11時00分～15時00分, 17時00分～20時00分"
+    ],
+    "phone": "0157-51-6458",
+    "website": "",
+    "id": 2499
+  },
+  {
+    "place_id": "ChIJ8Tmu6iZXbV8RN9-yMfn-SvQ",
+    "name": "きたほのか",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.8201898,
+    "lng": 143.9138524,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8Tmu6iZXbV8RN9-yMfn-SvQ",
+    "image_url": "/photos/ChIJ8Tmu6iZXbV8RN9-yMfn-SvQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "客席奥には4名用の小上り席",
+      "座敷席も奥にあるようです"
+    ],
+    "address": "〒090-0803 北海道北見市春光町３丁目１−３",
+    "rating": 4.1,
+    "rating_count": 250,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～15時00分",
+      "木曜日: 11時00分～15時00分",
+      "金曜日: 11時00分～15時00分",
+      "土曜日: 11時00分～15時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0157-24-5856",
+    "website": "http://kitahonoka.com/",
+    "id": 2500
+  },
+  {
+    "place_id": "ChIJj91UQhxXbV8RWO1QcMH7Ki0",
+    "name": "そば処いちい",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、夜遅くまで営業している蕎麦店です。",
+    "score": 2,
+    "lat": 43.8051738,
+    "lng": 143.890287,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJj91UQhxXbV8RWO1QcMH7Ki0",
+    "image_url": "/photos/ChIJj91UQhxXbV8RWO1QcMH7Ki0.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりもあり、この辺りでは、なくてはならないお店なのかなと思いました😊",
+      "座敷もあり団体もソロも両方いけます‼︎",
+      "店内が思いの外広く、座敷もあり団体もソロも両方いけます‼︎"
+    ],
+    "address": "〒090-0046 北海道北見市北６条西３丁目１２",
+    "rating": 3.8,
+    "rating_count": 95,
+    "hours": [
+      "月曜日: 20時00分～3時00分",
+      "火曜日: 20時00分～3時00分",
+      "水曜日: 20時00分～3時00分",
+      "木曜日: 20時00分～3時00分",
+      "金曜日: 20時00分～3時00分",
+      "土曜日: 20時00分～3時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0157-61-9775",
+    "website": "",
+    "id": 2501
+  },
+  {
+    "place_id": "ChIJtU0ts_Kwcl8RbsdvOngVxsI",
+    "name": "そば処 いなだ屋 置戸本店",
+    "area": "置戸",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ゆったり食事ができる蕎麦屋さんです。",
+    "score": 3,
+    "lat": 43.6771764,
+    "lng": 143.5892628,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJtU0ts_Kwcl8RbsdvOngVxsI",
+    "image_url": "/photos/ChIJtU0ts_Kwcl8RbsdvOngVxsI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり、テーブル両方あります。"
+    ],
+    "address": "〒099-1100 北海道常呂郡置戸町置戸９４−１",
+    "rating": 4,
+    "rating_count": 349,
+    "hours": [
+      "月曜日: 11時00分～18時00分",
+      "火曜日: 11時00分～18時00分",
+      "水曜日: 11時00分～18時00分",
+      "木曜日: 11時00分～18時00分",
+      "金曜日: 11時00分～18時00分",
+      "土曜日: 11時00分～18時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0157-52-3772",
+    "website": "https://tabelog.com/hokkaido/A0110/A011003/1001244/",
+    "id": 2502
+  },
+  {
+    "place_id": "ChIJQ4Iv1VJWbV8Rv9V6SuOtQC0",
+    "name": "伊予製麺 北見店",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "子供メニューあり"
+    ],
+    "description": "座敷や子供用椅子、お子様メニューがあり、子連れでも安心して食事ができます。",
+    "score": 4,
+    "lat": 43.798556,
+    "lng": 143.862168,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ4Iv1VJWbV8Rv9V6SuOtQC0",
+    "image_url": "/photos/ChIJQ4Iv1VJWbV8Rv9V6SuOtQC0.jpg",
+    "is_chain": true,
+    "evidence": [
+      "座敷あり",
+      "子ども椅子あり",
+      "お子様メニューあり"
+    ],
+    "address": "〒090-0836 北海道北見市東三輪１丁目３１−３９",
+    "rating": 4,
+    "rating_count": 783,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～21時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "0157-26-2226",
+    "website": "https://www.iyoseimen.com/shoplist/kitami-ten/",
+    "id": 2503
+  },
+  {
+    "place_id": "ChIJszIl-xxXbV8RcY8SLjjujZ4",
+    "name": "和牛焼肉・としお",
+    "area": "北見",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、ゆったりと食事が楽しめます。",
+    "score": 3,
+    "lat": 43.8051173,
+    "lng": 143.8890346,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJszIl-xxXbV8RcY8SLjjujZ4",
+    "image_url": "/photos/ChIJszIl-xxXbV8RcY8SLjjujZ4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "2階の座敷席でゆったりと食事。"
+    ],
+    "address": "〒090-0047 北海道北見市北７条西４丁目２−２",
+    "rating": 4.3,
+    "rating_count": 108,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0157-25-1040",
+    "website": "",
+    "id": 2504
+  },
+  {
+    "place_id": "ChIJDZisIQBXbV8R615HoSStpC4",
+    "name": "WOODSTOCK",
+    "area": "北見",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、様々な客層に対応。デパートレストランのような雰囲気。",
+    "score": 3,
+    "lat": 43.8041714,
+    "lng": 143.8958647,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJDZisIQBXbV8R615HoSStpC4",
+    "image_url": "/photos/ChIJDZisIQBXbV8R615HoSStpC4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりあり椅子席ありでデパートレストランっぽいとこもあり対応も優しかった"
+    ],
+    "address": "〒090-0040 北海道北見市大通西２丁目１",
+    "rating": 3.6,
+    "rating_count": 24,
+    "hours": [
+      "月曜日: 11時00分～19時30分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～19時30分",
+      "木曜日: 11時00分～19時30分",
+      "金曜日: 11時00分～19時30分",
+      "土曜日: 11時00分～19時30分",
+      "日曜日: 11時00分～19時30分"
+    ],
+    "phone": "",
+    "website": "",
+    "id": 2505
+  },
+  {
+    "place_id": "ChIJ______-wEl8RjaXjASxtzpk",
+    "name": "松寿し",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "小上がりの座敷や個室があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 44.121294999999996,
+    "lng": 144.0708245,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ______-wEl8RjaXjASxtzpk",
+    "image_url": "/photos/ChIJ______-wEl8RjaXjASxtzpk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりが３卓",
+      "奥にも席がいっぱいある",
+      "店の奥には宴会用の個室もありそう"
+    ],
+    "address": "〒093-0093 北海道北見市常呂町常呂３２５",
+    "rating": 4.4,
+    "rating_count": 289,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 17時00分～21時00分",
+      "火曜日: 11時30分～14時00分, 17時00分～21時00分",
+      "水曜日: 11時30分～14時00分, 17時00分～21時00分",
+      "木曜日: 11時30分～14時00分, 17時00分～21時00分",
+      "金曜日: 11時30分～14時00分, 17時00分～21時00分",
+      "土曜日: 11時30分～14時00分, 17時00分～21時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0152-54-2715",
+    "website": "http://matsuzushi.n43.jp/index2.html",
+    "id": 2506
+  },
+  {
+    "place_id": "ChIJGwmRJxxXbV8RQIzeQDt7o0Q",
+    "name": "咲くら",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室で落ち着いて食事ができる居酒屋です。",
+    "score": 3,
+    "lat": 43.806248,
+    "lng": 143.893022,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJGwmRJxxXbV8RQIzeQDt7o0Q",
+    "image_url": "/photos/ChIJGwmRJxxXbV8RQIzeQDt7o0Q.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は個室で仕切られてる感じで ゆっくり食事ができる感じです。"
+    ],
+    "address": "〒090-0044 北海道北見市北４条西１丁目１４",
+    "rating": 4.3,
+    "rating_count": 96,
+    "hours": [
+      "月曜日: 18時00分～23時00分",
+      "火曜日: 18時00分～23時00分",
+      "水曜日: 18時00分～23時00分",
+      "木曜日: 18時00分～23時00分",
+      "金曜日: 18時00分～23時00分",
+      "土曜日: 18時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0157-22-7588",
+    "website": "",
+    "id": 2507
+  },
+  {
+    "place_id": "ChIJVbg42ydXbV8Rk_qb3U_A2XQ",
+    "name": "酒場 吟米 GINBEI",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "掘りごたつ式の座敷があり、お子様連れでもゆったり過ごせます。",
+    "score": 3,
+    "lat": 43.805113500000004,
+    "lng": 143.8914595,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJVbg42ydXbV8Rk_qb3U_A2XQ",
+    "image_url": "/photos/ChIJVbg42ydXbV8Rk_qb3U_A2XQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "座敷ありです。",
+      "座敷は掘りごたつになっています。"
+    ],
+    "address": "〒090-0835 北海道北見市北５条西３丁目 ステラビル １F",
+    "rating": 4.6,
+    "rating_count": 425,
+    "hours": [
+      "月曜日: 17時30分～0時00分",
+      "火曜日: 17時30分～0時00分",
+      "水曜日: 17時30分～0時00分",
+      "木曜日: 17時30分～0時00分",
+      "金曜日: 17時30分～0時00分",
+      "土曜日: 17時30分～0時00分",
+      "日曜日: 17時30分～0時00分"
+    ],
+    "phone": "0157-24-9400",
+    "website": "https://sakabaginbei.com/",
+    "id": 2508
+  },
+  {
+    "place_id": "ChIJaQmreXVXbV8RfZBnWlVa6Po",
+    "name": "季節の台所 彩",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、お子様連れでも利用しやすい和食店です。",
+    "score": 3,
+    "lat": 43.786376399999995,
+    "lng": 143.893494,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJaQmreXVXbV8RfZBnWlVa6Po",
+    "image_url": "/photos/ChIJaQmreXVXbV8RfZBnWlVa6Po.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりもあって子供も入れそうでした"
+    ],
+    "address": "〒090-0814 北海道北見市光葉町２６",
+    "rating": 4.3,
+    "rating_count": 213,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 10時30分～14時00分",
+      "水曜日: 10時30分～14時00分",
+      "木曜日: 10時30分～14時00分",
+      "金曜日: 10時30分～14時00分",
+      "土曜日: 10時30分～14時00分",
+      "日曜日: 10時30分～14時00分"
+    ],
+    "phone": "0157-33-1267",
+    "website": "http://kitami-tower.com/irodori/",
+    "id": 2509
+  },
+  {
+    "place_id": "ChIJ6Xx_379WbV8RuwoBGQi-9No",
+    "name": "鉄板将's",
+    "area": "北見",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席あり。ただし、狭いので注意が必要な場合も。",
+    "score": 2,
+    "lat": 43.825201,
+    "lng": 143.87479299999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6Xx_379WbV8RuwoBGQi-9No",
+    "image_url": "/photos/ChIJ6Xx_379WbV8RuwoBGQi-9No.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり子供と四人で通されたけど狭すぎて厳しい💦",
+      "小上がりで掘りごたつですが、狭いので男性は出入りがきついかな。"
+    ],
+    "address": "〒090-0070 北海道北見市美山町西５丁目４７−４２",
+    "rating": 3.8,
+    "rating_count": 60,
+    "hours": [
+      "月曜日: 11時00分～22時00分",
+      "火曜日: 11時00分～22時00分",
+      "水曜日: 11時00分～22時00分",
+      "木曜日: 11時00分～22時00分",
+      "金曜日: 11時00分～22時00分",
+      "土曜日: 11時00分～22時00分",
+      "日曜日: 11時00分～22時00分"
+    ],
+    "phone": "0157-33-4177",
+    "website": "",
+    "id": 2510
+  },
+  {
+    "place_id": "ChIJ39fCzYZRbV8REyuLYMHddKI",
+    "name": "いなかふぇ たんの 木倉屋",
+    "area": "北見",
+    "genre": "カフェ",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、ゆったり過ごせるカフェ。お子様連れでも安心。",
+    "score": 3,
+    "lat": 43.864632,
+    "lng": 143.93915800000002,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ39fCzYZRbV8REyuLYMHddKI",
+    "image_url": "/photos/ChIJ39fCzYZRbV8REyuLYMHddKI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "あたたかい木の空間に涼しい風が通る小上がりでゆったり"
+    ],
+    "address": "〒099-2102 北海道北見市端野町二区１２６２−１",
+    "rating": 4.3,
+    "rating_count": 93,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 11時00分～15時00分",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～15時00分",
+      "金曜日: 11時00分～15時00分",
+      "土曜日: 11時00分～15時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0157-56-3694",
+    "website": "https://kikuraya.com/",
+    "id": 2511
+  },
+  {
+    "place_id": "ChIJD21bZhxXbV8R4w9yope8ODE",
+    "name": "花鳥風月",
+    "area": "北見",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせず焼肉を楽しめます。",
+    "score": 3,
+    "lat": 43.804625699999995,
+    "lng": 143.8909344,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJD21bZhxXbV8R4w9yope8ODE",
+    "image_url": "/photos/ChIJD21bZhxXbV8R4w9yope8ODE.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室あり、飲み放題付きコースありで、職場の懇親会で何度か利用。"
+    ],
+    "address": "〒090-0045 北海道北見市北５条西３丁目13−１ プラザジョイフルビル 1F",
+    "rating": 4.2,
+    "rating_count": 115,
+    "hours": [
+      "月曜日: 17時00分～23時30分",
+      "火曜日: 17時00分～23時30分",
+      "水曜日: 17時00分～23時30分",
+      "木曜日: 17時00分～23時30分",
+      "金曜日: 17時00分～23時30分",
+      "土曜日: 17時00分～23時30分",
+      "日曜日: 17時00分～22時30分"
+    ],
+    "phone": "0157-22-2100",
+    "website": "https://kachou.info/",
+    "id": 2512
+  },
+  {
+    "place_id": "ChIJr8HCahxXbV8RjP41waQoxus",
+    "name": "ななしぐれ別邸",
+    "area": "北見",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "掘りごたつ式の座敷個室があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 43.8051976,
+    "lng": 143.89217870000002,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJr8HCahxXbV8RjP41waQoxus",
+    "image_url": "/photos/ChIJr8HCahxXbV8RjP41waQoxus.jpg",
+    "is_chain": true,
+    "evidence": [
+      "座敷の個室になっており静かな雰囲気。",
+      "掘りごたつになっているので足も楽です。"
+    ],
+    "address": "〒090-0044 北海道北見市北４条西２丁目１６−１",
+    "rating": 3.6,
+    "rating_count": 117,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 17時00分～0時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0157-57-3957",
+    "website": "http://nanashigure.com/",
+    "id": 2513
+  },
+  {
+    "place_id": "ChIJdSsOUhxXbV8RW0-4hLUtaU4",
+    "name": "割烹・石崎",
+    "area": "北見",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気で食事ができます。",
+    "score": 2,
+    "lat": 43.805726799999995,
+    "lng": 143.8902329,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJdSsOUhxXbV8RW0-4hLUtaU4",
+    "image_url": "/photos/ChIJdSsOUhxXbV8RW0-4hLUtaU4.jpg",
+    "is_chain": false,
+    "evidence": [
+      "2階に座敷が2部屋"
+    ],
+    "address": "〒090-0036 北海道北見市幸町５丁目５−７",
+    "rating": 4.5,
+    "rating_count": 31,
+    "hours": [
+      "月曜日: 11時00分～14時00分, 17時00分～23時00分",
+      "火曜日: 11時00分～14時00分, 17時00分～23時00分",
+      "水曜日: 11時00分～14時00分, 17時00分～23時00分",
+      "木曜日: 11時00分～14時00分, 17時00分～23時00分",
+      "金曜日: 11時00分～14時00分, 17時00分～23時00分",
+      "土曜日: 11時00分～14時00分, 17時00分～23時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0157-61-7111",
+    "website": "https://kappoishizaki.com/",
+    "id": 2514
+  },
+  {
+    "place_id": "ChIJjQLLqr4QdV8ROveaucAWuIs",
+    "name": "カフェドのり",
+    "area": "苫小牧",
+    "genre": "カフェ",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "奥の小上がりは仕切り可能で、ゆったりソファもあり。",
+    "score": 3,
+    "lat": 42.640436,
+    "lng": 141.6159111,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJjQLLqr4QdV8ROveaucAWuIs",
+    "image_url": "/photos/ChIJjQLLqr4QdV8ROveaucAWuIs.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥の小上がりはガラス戸ですが仕切ることができて",
+      "ゆったりソファーもありくつろぐこともできました！"
+    ],
+    "address": "〒053-0005 北海道苫小牧市元中野町４丁目４−１０",
+    "rating": 4.6,
+    "rating_count": 65,
+    "hours": [
+      "月曜日: 11時00分～20時00分",
+      "火曜日: 11時00分～20時00分",
+      "水曜日: 11時00分～20時00分",
+      "木曜日: 11時00分～20時00分",
+      "金曜日: 11時00分～20時00分",
+      "土曜日: 11時00分～20時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0144-34-8389",
+    "website": "https://embed.ricoh360.com/933f75ce-6dfe-46fe-a8ab-0666c02350a3",
+    "id": 2515
   }
 ]
