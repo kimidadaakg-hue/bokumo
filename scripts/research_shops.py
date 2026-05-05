@@ -148,17 +148,33 @@ def has_strong_evidence(evidence_list: list[str]) -> bool:
 
 
 def area_from_address(address: str) -> str:
-    """住所から area 名（札幌XX区 / 函館 / 旭川 等）を推定."""
+    """住所から area 名（札幌XX区 / 函館 / 旭川 等）を推定.
+
+    Place Details の住所は通常 '北海道札幌市中央区...' の順だが、
+    たまに英語混じりの逆順 '... 函館市 北海道 040-0011' で返ってくる。
+    両方の順序に対応する。
+
+    「町」「村」は「本町」「東町」のような地名と衝突するので、
+    必ず「○○郡△△町/村」のセットでのみ採用する。
+    """
     import re
     if not address:
         return "不明"
-    m = re.search(r"札幌市(\S+?区)", address)
-    if m:
-        return f"札幌{m.group(1)}"
-    # 道内市町村: 「○○市」「○○町」「○○村」を抽出して接尾辞を外す
-    m = re.search(r"北海道([^\s\d]+?[市町村])", address)
-    if m:
-        return re.sub(r"[市町村]$", "", m.group(1))
+    # 札幌の区
+    if "札幌市" in address:
+        m = re.search(r"札幌市\s*(\S+?区)", address)
+        if m:
+            return f"札幌{m.group(1)}"
+    # 北海道内の市町村
+    if "北海道" in address:
+        # ① 「○○市」を最優先（北海道の市は必ず「○○市」表記）
+        m = re.search(r"([^\s\d、,\-_／/]+市)", address)
+        if m:
+            return re.sub(r"市$", "", m.group(1))
+        # ② 「○○郡△△町/村」のセット（「本町」のような地名混入防止）
+        m = re.search(r"[^\s\d、,\-_／/]+郡\s*([^\s\d、,\-_／/]+[町村])", address)
+        if m:
+            return re.sub(r"[町村]$", "", m.group(1))
     return "不明"
 
 

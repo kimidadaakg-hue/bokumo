@@ -8825,19 +8825,7 @@
       "日曜日: 11時15分～14時30分, 17時30分～19時00分"
     ],
     "phone": "0155-62-5596",
-    "website": "http://west-river-hokkaido.com/",
-    "gallery": [
-      "/photos/gallery/261/01.jpg",
-      "/photos/gallery/261/02.jpg",
-      "/photos/gallery/261/03.jpg",
-      "/photos/gallery/261/04.jpg",
-      "/photos/gallery/261/05.jpg",
-      "/photos/gallery/261/06.jpg",
-      "/photos/gallery/261/07.jpg",
-      "/photos/gallery/261/08.jpg",
-      "/photos/gallery/261/09.jpg",
-      "/photos/gallery/261/10.jpg"
-    ]
+    "website": "http://west-river-hokkaido.com/"
   },
   {
     "id": 262,
@@ -9222,19 +9210,7 @@
       "日曜日: 10時00分～16時00分"
     ],
     "phone": "011-788-5763",
-    "website": "https://earth.owst.jp/",
-    "gallery": [
-      "/photos/gallery/272/01.jpg",
-      "/photos/gallery/272/02.jpg",
-      "/photos/gallery/272/03.jpg",
-      "/photos/gallery/272/04.jpg",
-      "/photos/gallery/272/05.jpg",
-      "/photos/gallery/272/06.jpg",
-      "/photos/gallery/272/07.jpg",
-      "/photos/gallery/272/08.jpg",
-      "/photos/gallery/272/09.jpg",
-      "/photos/gallery/272/10.jpg"
-    ]
+    "website": "https://earth.owst.jp/"
   },
   {
     "id": 273,
@@ -28192,19 +28168,7 @@
     ],
     "phone": "011-691-8313",
     "website": "http://j-potager.com/",
-    "id": 2313,
-    "gallery": [
-      "/photos/gallery/2313/01.jpg",
-      "/photos/gallery/2313/02.jpg",
-      "/photos/gallery/2313/03.jpg",
-      "/photos/gallery/2313/04.jpg",
-      "/photos/gallery/2313/05.jpg",
-      "/photos/gallery/2313/06.jpg",
-      "/photos/gallery/2313/07.jpg",
-      "/photos/gallery/2313/08.jpg",
-      "/photos/gallery/2313/09.jpg",
-      "/photos/gallery/2313/10.jpg"
-    ]
+    "id": 2313
   },
   {
     "place_id": "ChIJz8fubBMnC18ROUzuhnCOfVo",
@@ -30284,7 +30248,7 @@
   {
     "place_id": "ChIJRQTbVnD0nl8R973hFTW2VcI",
     "name": "焼肉物語 牛若 本店 Ushiwaka Yakiniku Honten",
-    "area": "不明",
+    "area": "函館",
     "genre": "その他",
     "tags": [
       "個室あり"
@@ -30765,5 +30729,956 @@
     "phone": "050-5493-2456",
     "website": "https://h846100.gorp.jp/",
     "id": 2386
+  },
+  {
+    "place_id": "ChIJ8XLnYc31nl8RwdCK1zvHlu8",
+    "name": "えほんカフェ ひっぽ",
+    "area": "函館",
+    "genre": "カフェ",
+    "tags": [
+      "座敷あり",
+      "子連れOK"
+    ],
+    "description": "畳の小上がりがあり、小さなお子さん連れでも利用しやすいカフェです。",
+    "score": 4,
+    "lat": 41.8166582,
+    "lng": 140.7706608,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8XLnYc31nl8RwdCK1zvHlu8",
+    "image_url": "/photos/ChIJ8XLnYc31nl8RwdCK1zvHlu8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "奥に畳の小上がりがあり、小さなお子さん連れでも利用しやすい感じ",
+      "畳敷きのスペースも備えていて、親子共々楽しむことが出来る"
+    ],
+    "address": "〒041-0832 北海道函館市神山３丁目６４−２",
+    "rating": 4.4,
+    "rating_count": 55,
+    "hours": [
+      "月曜日: 11時00分～18時00分",
+      "火曜日: 定休日",
+      "水曜日: 定休日",
+      "木曜日: 11時00分～18時00分",
+      "金曜日: 11時00分～18時00分",
+      "土曜日: 11時00分～18時00分",
+      "日曜日: 11時00分～18時00分"
+    ],
+    "phone": "0138-87-2691",
+    "website": "http://hakodate-ehoncafe-hippo.com/",
+    "id": 2387
+  },
+  {
+    "place_id": "ChIJ30iDsaD3nl8RMFuiY7q7jyc",
+    "name": "Tea Room AliCe",
+    "area": "函館",
+    "genre": "カフェ",
+    "tags": [
+      "個室あり",
+      "子供メニューあり"
+    ],
+    "description": "可愛い店内で個室もあり、お子様パンケーキも提供。",
+    "score": 4,
+    "lat": 41.8244128,
+    "lng": 140.7362947,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ30iDsaD3nl8RMFuiY7q7jyc",
+    "image_url": "/photos/ChIJ30iDsaD3nl8RMFuiY7q7jyc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室予約していたので、落ち着いて食べることができました。",
+      "お子様パンケーキもあるので、パンケーキが食べれる年齢の子供とも来れるようなお店でした。"
+    ],
+    "address": "〒041-0812 北海道函館市昭和３丁目３１−２３",
+    "rating": 4.2,
+    "rating_count": 98,
+    "hours": [
+      "月曜日: 11時00分～16時30分",
+      "火曜日: 11時00分～16時30分",
+      "水曜日: 11時00分～16時30分",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～16時30分",
+      "土曜日: 11時00分～16時30分",
+      "日曜日: 11時00分～16時30分"
+    ],
+    "phone": "070-4065-5878",
+    "website": "https://www.hotpepper.jp/strJ001262274/",
+    "id": 2388
+  },
+  {
+    "place_id": "ChIJv-X-FZ_znl8RSvdOy4UfPMc",
+    "name": "はこだてキッズプラザ",
+    "area": "函館",
+    "genre": "その他",
+    "tags": [
+      "ベビーカーOK",
+      "子連れOK"
+    ],
+    "description": "乳幼児から小学生まで楽しめる遊び場。託児所も完備。",
+    "score": 5,
+    "lat": 41.772911,
+    "lng": 140.7286681,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJv-X-FZ_znl8RSvdOy4UfPMc",
+    "image_url": "/photos/ChIJv-X-FZ_znl8RSvdOy4UfPMc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "ベビーパークは1歳11ヶ月まで",
+      "0歳と２歳がいてベビーパーク内で",
+      "0歳から小学校低学年まで向け",
+      "2歳未満の子供だけのスペースがあり",
+      "館内用のベビーカーを貸し出してくれました"
+    ],
+    "address": "〒040-0063 北海道函館市若松町２０−20番1号 4階",
+    "rating": 4.2,
+    "rating_count": 169,
+    "hours": [
+      "月曜日: 10時00分～18時00分",
+      "火曜日: 10時00分～18時00分",
+      "水曜日: 10時00分～18時00分",
+      "木曜日: 10時00分～18時00分",
+      "金曜日: 10時00分～18時00分",
+      "土曜日: 10時00分～18時00分",
+      "日曜日: 10時00分～18時00分"
+    ],
+    "phone": "0138-26-7000",
+    "website": "http://hakodate-miraiproject.jp/kidsplaza/",
+    "id": 2389
+  },
+  {
+    "place_id": "ChIJZSDxfSj0nl8ROhhAWBT1otw",
+    "name": "ベビー・子供用品バースデイ美原店",
+    "area": "函館",
+    "genre": "その他",
+    "tags": [
+      "ベビーカーOK"
+    ],
+    "description": "ベビーカーでも店内を広く移動でき、遊び場もあるのでお子様連れでも安心です。",
+    "score": 4,
+    "lat": 41.8157888,
+    "lng": 140.7500591,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJZSDxfSj0nl8ROhhAWBT1otw",
+    "image_url": "/photos/ChIJZSDxfSj0nl8ROhhAWBT1otw.jpg",
+    "is_chain": true,
+    "evidence": [
+      "ベビーカーでも買い物しやすい",
+      "遊び場もあります"
+    ],
+    "address": "〒041-0806 北海道函館市美原１丁目３２−１２",
+    "rating": 3.8,
+    "rating_count": 37,
+    "hours": [
+      "月曜日: 10時00分～19時00分",
+      "火曜日: 10時00分～19時00分",
+      "水曜日: 10時00分～19時00分",
+      "木曜日: 10時00分～19時00分",
+      "金曜日: 10時00分～19時00分",
+      "土曜日: 10時00分～19時00分",
+      "日曜日: 10時00分～19時00分"
+    ],
+    "phone": "0138-62-5121",
+    "website": "https://www.shimamura.gr.jp/shop/map_detail_3163.html?utm_source=gbp&utm_medium=search&utm_campaign=storepage",
+    "id": 2390
+  },
+  {
+    "place_id": "ChIJkbMdhMXznl8R2XMTf1o6OY8",
+    "name": "はこだて浪漫館",
+    "area": "函館",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "お座敷席があり、お子様連れでもゆっくり食事ができます。",
+    "score": 3,
+    "lat": 41.771873299999996,
+    "lng": 140.7250638,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJkbMdhMXznl8R2XMTf1o6OY8",
+    "image_url": "/photos/ChIJkbMdhMXznl8R2XMTf1o6OY8.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はテーブル席の他に、お座敷席もあるので、子連れにも優しい設計でした。"
+    ],
+    "address": "〒040-0063 北海道函館市若松町９−２３",
+    "rating": 3.8,
+    "rating_count": 66,
+    "hours": [
+      "月曜日: 6時00分～13時00分",
+      "火曜日: 6時00分～13時00分",
+      "水曜日: 6時00分～13時00分",
+      "木曜日: 6時00分～13時00分",
+      "金曜日: 6時00分～13時00分",
+      "土曜日: 6時00分～13時00分",
+      "日曜日: 6時00分～13時00分"
+    ],
+    "phone": "0138-26-4707",
+    "website": "https://hakodate-romankan.com/",
+    "id": 2391
+  },
+  {
+    "place_id": "ChIJhXzM14_2nl8RUTLjIUP69JM",
+    "name": "山の猿 函館昭和店",
+    "area": "函館",
+    "genre": "和食",
+    "tags": [
+      "個室あり",
+      "座敷あり"
+    ],
+    "description": "全席個室で掘りごたつ席あり。周りを気にせず家族でゆっくり食事が楽しめます。",
+    "score": 4,
+    "lat": 41.8247151,
+    "lng": 140.7355312,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJhXzM14_2nl8RUTLjIUP69JM",
+    "image_url": "/photos/ChIJhXzM14_2nl8RUTLjIUP69JM.jpg",
+    "is_chain": true,
+    "evidence": [
+      "全席個室で掘りごたつなので、家族、友人と食事にピッタリです。",
+      "なので、周りに気を使わなくてもいいので気が楽です。"
+    ],
+    "address": "〒041-0812 北海道函館市昭和３丁目３１−１６",
+    "rating": 3.9,
+    "rating_count": 990,
+    "hours": [
+      "月曜日: 11時00分～1時00分",
+      "火曜日: 11時00分～1時00分",
+      "水曜日: 11時00分～1時00分",
+      "木曜日: 11時00分～1時00分",
+      "金曜日: 11時00分～1時00分",
+      "土曜日: 11時00分～1時00分",
+      "日曜日: 11時00分～1時00分"
+    ],
+    "phone": "0138-34-5829",
+    "website": "https://store.aix-group.co.jp/detail/21",
+    "id": 2392
+  },
+  {
+    "place_id": "ChIJl38qTgXznl8RzH8SWf0LP-I",
+    "name": "北斗房",
+    "area": "函館",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "落ち着いた個室でゆったり食事ができます。子連れでも安心。",
+    "score": 3,
+    "lat": 41.7668992,
+    "lng": 140.7201427,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJl38qTgXznl8RzH8SWf0LP-I",
+    "image_url": "/photos/ChIJl38qTgXznl8RzH8SWf0LP-I.jpg",
+    "is_chain": false,
+    "evidence": [
+      "やはり店内も落ち着いた大人の雰囲気。",
+      "落ち着いた雰囲気でたぶん全個室？"
+    ],
+    "address": "〒040-0065 北海道函館市豊川町１３−４",
+    "rating": 4,
+    "rating_count": 237,
+    "hours": [
+      "月曜日: 17時00分～23時00分",
+      "火曜日: 17時00分～23時00分",
+      "水曜日: 17時00分～23時00分",
+      "木曜日: 17時00分～23時00分",
+      "金曜日: 17時00分～23時00分",
+      "土曜日: 17時00分～23時00分",
+      "日曜日: 17時00分～23時00分"
+    ],
+    "phone": "0138-24-0138",
+    "website": "https://tabelog.com/hokkaido/A0105/A010501/1061686/",
+    "id": 2393
+  },
+  {
+    "place_id": "ChIJJRwgdFn2nl8RxopiXnLlokQ",
+    "name": "個室温泉花家族",
+    "area": "函館",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "プライベートな空間で温泉を楽しめる個室温泉施設です。",
+    "score": 3,
+    "lat": 41.8405108,
+    "lng": 140.7362116,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJJRwgdFn2nl8RxopiXnLlokQ",
+    "image_url": "/photos/ChIJJRwgdFn2nl8RxopiXnLlokQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "露天風呂もある家族風呂（貸切風呂）です。",
+      "個室なんで大変あずましかったです。",
+      "そして個室風呂自体がとても広く、使用するたびにお湯入れ替え、お掃除されてるらしく、運営体制には好感が持てます"
+    ],
+    "address": "〒041-0802 北海道函館市石川町２２６−１０",
+    "rating": 4.2,
+    "rating_count": 298,
+    "hours": [
+      "月曜日: 10時00分～23時00分",
+      "火曜日: 10時00分～23時00分",
+      "水曜日: 10時00分～23時00分",
+      "木曜日: 10時00分～23時00分",
+      "金曜日: 10時00分～23時00分",
+      "土曜日: 10時00分～23時00分",
+      "日曜日: 10時00分～23時00分"
+    ],
+    "phone": "0138-47-0800",
+    "website": "http://www.e-hanakazoku.com/",
+    "id": 2394
+  },
+  {
+    "place_id": "ChIJZ_WbYnr0nl8RicynjnkSXIY",
+    "name": "旬味 鹿六",
+    "area": "函館",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "ほぼ個室で落ち着ける和食居酒屋。ランチもおすすめ。",
+    "score": 3,
+    "lat": 41.788312999999995,
+    "lng": 140.7525593,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJZ_WbYnr0nl8RicynjnkSXIY",
+    "image_url": "/photos/ChIJZ_WbYnr0nl8RicynjnkSXIY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "ほぼ個室なのも良いですね。"
+    ],
+    "address": "〒040-0011 北海道函館市本町３１−８ 池垣ビル 1F",
+    "rating": 3.9,
+    "rating_count": 146,
+    "hours": [
+      "月曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "火曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "水曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "木曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "金曜日: 11時30分～14時00分, 17時00分～22時00分",
+      "土曜日: 17時00分～22時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0138-33-4488",
+    "website": "http://syunmi-karoku.com/",
+    "id": 2395
+  },
+  {
+    "place_id": "ChIJF2TcuHH0nl8RbSVdQcu1xcI",
+    "name": "四季花菜",
+    "area": "函館",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "個室あり"
+    ],
+    "description": "座敷や個室があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 41.791273499999996,
+    "lng": 140.7497646,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJF2TcuHH0nl8RbSVdQcu1xcI",
+    "image_url": "/photos/ChIJF2TcuHH0nl8RbSVdQcu1xcI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "お座敷 区切られていて2名でもゆっくり過ごせます",
+      "２階個室席は冷房が入れられていて",
+      "小上がりの半個室（上が空いている）になっています",
+      "個室でお食事できるので、記念日などに良いでしょう"
+    ],
+    "address": "〒040-0015 北海道函館市梁川町２１−１８",
+    "rating": 4.1,
+    "rating_count": 148,
+    "hours": [
+      "月曜日: 11時30分～14時30分, 17時00分～22時30分",
+      "火曜日: 11時30分～14時30分, 17時00分～22時30分",
+      "水曜日: 11時30分～14時30分, 17時00分～22時30分",
+      "木曜日: 11時30分～14時30分, 17時00分～22時30分",
+      "金曜日: 11時30分～14時30分, 17時00分～22時30分",
+      "土曜日: 11時30分～14時30分, 17時00分～22時30分",
+      "日曜日: 11時30分～14時30分, 17時00分～22時30分"
+    ],
+    "phone": "0138-55-1515",
+    "website": "https://h905600.gorp.jp/",
+    "id": 2396
+  },
+  {
+    "place_id": "ChIJ_bwpoMznDF8RBfN-xzs0Y7U",
+    "name": "にゃん福",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりの座敷席があり、家族連れでも利用しやすいラーメン店です。",
+    "score": 3,
+    "lat": 43.75271,
+    "lng": 142.3993175,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_bwpoMznDF8RBfN-xzs0Y7U",
+    "image_url": "/photos/ChIJ_bwpoMznDF8RBfN-xzs0Y7U.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は小綺麗にされており、カウンターが10席程度、テーブル席2つに小上がりが2つでした。家族連れでも大丈夫です。",
+      "テーブル席と座敷にそれぞれ2卓あります。"
+    ],
+    "address": "〒078-8343 北海道旭川市東光３条４丁目４−２５",
+    "rating": 4.4,
+    "rating_count": 260,
+    "hours": [
+      "月曜日: 11時00分～21時00分",
+      "火曜日: 11時00分～21時00分",
+      "水曜日: 11時00分～16時00分",
+      "木曜日: 11時00分～21時00分",
+      "金曜日: 11時00分～21時00分",
+      "土曜日: 11時00分～21時00分",
+      "日曜日: 11時00分～21時00分"
+    ],
+    "phone": "0166-31-2829",
+    "website": "https://asahikawa-nyanpuku.com/",
+    "id": 2397
+  },
+  {
+    "place_id": "ChIJWQ_2e1rmDF8RrZsN8SJETaU",
+    "name": "らーめん越乃屋",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり"
+    ],
+    "description": "小上がり席は床暖房付きで安心。子供用カトラリーも完備。",
+    "score": 4,
+    "lat": 43.762932199999995,
+    "lng": 142.40033990000003,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJWQ_2e1rmDF8RrZsN8SJETaU",
+    "image_url": "/photos/ChIJWQ_2e1rmDF8RrZsN8SJETaU.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内はカウンター、テーブル席、小上がり2卓。",
+      "小上がりは床暖房つきで足元がしっかり暖かく、子ども用カトラリーも用意されていて安心感あり。"
+    ],
+    "address": "〒078-8236 北海道旭川市豊岡６条４丁目１−１６",
+    "rating": 4.3,
+    "rating_count": 365,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～14時00分, 17時00分～20時00分",
+      "水曜日: 11時00分～14時00分, 17時00分～20時00分",
+      "木曜日: 11時00分～14時00分, 17時00分～20時00分",
+      "金曜日: 11時00分～14時00分, 17時00分～20時00分",
+      "土曜日: 11時00分～14時00分, 17時00分～20時00分",
+      "日曜日: 11時00分～14時00分"
+    ],
+    "phone": "0166-38-8010",
+    "website": "https://www.instagram.com/koshinoya0o0v",
+    "id": 2398
+  },
+  {
+    "place_id": "ChIJ38Y3VpflDF8RqVk9Y39NtGY",
+    "name": "十割の香 和寒 雪割そば",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり"
+    ],
+    "description": "お座敷や子供椅子があり、子連れでも安心して食事ができます。",
+    "score": 4,
+    "lat": 43.794101,
+    "lng": 142.31875,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ38Y3VpflDF8RqVk9Y39NtGY",
+    "image_url": "/photos/ChIJ38Y3VpflDF8RqVk9Y39NtGY.jpg",
+    "is_chain": false,
+    "evidence": [
+      "２歳児と行きましたが、お座敷、子供椅子や食器もありました。",
+      "お店の人もフレンドリーで優しく、サービスありで好印象！"
+    ],
+    "address": "〒070-0821 北海道旭川市近文町２５丁目２１２２−１８２",
+    "rating": 4,
+    "rating_count": 303,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 定休日",
+      "水曜日: 定休日",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～15時00分",
+      "土曜日: 11時00分～15時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0166-85-6624",
+    "website": "https://japoncompany.business/asahikawa/542002--",
+    "id": 2399
+  },
+  {
+    "place_id": "ChIJBZR3MmDvDF8R__23iIJm_sA",
+    "name": "手作りうどん 杉",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がりの座敷席があり、子供用食器の用意もあるうどん店。",
+    "score": 3,
+    "lat": 43.7816007,
+    "lng": 142.3070645,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJBZR3MmDvDF8R__23iIJm_sA",
+    "image_url": "/photos/ChIJBZR3MmDvDF8R__23iIJm_sA.jpg",
+    "is_chain": false,
+    "evidence": [
+      "席はテーブル席、小上がりの上にはテーブル席が二間、奥に座れる小上がり一間があったように見えました。",
+      "子供用の食器も出してくれましたが、離乳食もまだなのでお断りしましたがうどんが食べれるようになったら利用させていただこうと思いました。"
+    ],
+    "address": "〒070-8045 北海道旭川市忠和５条１丁目６−１５",
+    "rating": 4.4,
+    "rating_count": 234,
+    "hours": [
+      "月曜日: 11時00分～15時00分",
+      "火曜日: 11時00分～15時00分",
+      "水曜日: 定休日",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～15時00分",
+      "土曜日: 11時00分～15時00分",
+      "日曜日: 11時00分～15時00分"
+    ],
+    "phone": "0166-86-0318",
+    "website": "https://udonsugi.amebaownd.com/",
+    "id": 2400
+  },
+  {
+    "place_id": "ChIJj50TTl7mDF8R8fux02rjzJM",
+    "name": "蕎麦屋 備忠",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "落ち着いた雰囲気で、小上がり席もあり、ゆったり過ごせます。",
+    "score": 3,
+    "lat": 43.770341599999995,
+    "lng": 142.39803569999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJj50TTl7mDF8R8fux02rjzJM",
+    "image_url": "/photos/ChIJj50TTl7mDF8R8fux02rjzJM.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内は清潔感と落ち着きがあり、小上がりもあってゆったりと過ごせます。"
+    ],
+    "address": "〒078-8242 北海道旭川市豊岡１２条３丁目１",
+    "rating": 4.2,
+    "rating_count": 208,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時30分～15時00分",
+      "水曜日: 11時30分～15時00分",
+      "木曜日: 11時30分～15時00分",
+      "金曜日: 11時30分～15時00分",
+      "土曜日: 11時30分～15時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-34-6676",
+    "website": "",
+    "id": 2401
+  },
+  {
+    "place_id": "ChIJS3fyEVbvDF8RDhql9-hKn_M",
+    "name": "旭川お城の鯉寿し",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "お城のような外観、店内に鯉がいる和食店。小上がり席あり。",
+    "score": 3,
+    "lat": 43.7704531,
+    "lng": 142.3236272,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJS3fyEVbvDF8RDhql9-hKn_M",
+    "image_url": "/photos/ChIJS3fyEVbvDF8RDhql9-hKn_M.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がり席かテーブル席かを聞かれ、小上がり席をチョイスしました。"
+    ],
+    "address": "〒070-8046 北海道旭川市忠和６条７丁目１−１７",
+    "rating": 3.8,
+    "rating_count": 677,
+    "hours": [
+      "月曜日: 11時30分～14時30分, 17時30分～20時30分",
+      "火曜日: 定休日",
+      "水曜日: 11時30分～14時30分, 17時30分～20時30分",
+      "木曜日: 11時30分～14時30分, 17時30分～20時30分",
+      "金曜日: 11時30分～14時30分, 17時30分～20時30分",
+      "土曜日: 11時30分～14時30分, 17時30分～20時30分",
+      "日曜日: 11時30分～14時30分, 17時30分～20時30分"
+    ],
+    "phone": "0166-62-1450",
+    "website": "https://www.koizushi.co.jp/",
+    "id": 2402
+  },
+  {
+    "place_id": "ChIJkW192s3nDF8RFeNgfpeICOI",
+    "name": "やきにくのチャンプ",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "キッズチェアあり",
+      "個室あり",
+      "子連れOK"
+    ],
+    "description": "半個室で子供用食器もあり、子連れでも安心して食事が楽しめます。",
+    "score": 4,
+    "lat": 43.743311299999995,
+    "lng": 142.3901742,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJkW192s3nDF8RFeNgfpeICOI",
+    "image_url": "/photos/ChIJkW192s3nDF8RFeNgfpeICOI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "半個室で子供たちもゆっくり食べられてよかったです。",
+      "子供用の食器やカトラリーもあり嬉しかったです。",
+      "小さい子がいても、お子様用の器だったり、ハサミを貸していただけるので、とても助かります！"
+    ],
+    "address": "〒078-8353 北海道旭川市東光１３条２丁目４−２５",
+    "rating": 4.5,
+    "rating_count": 598,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 11時00分～0時00分",
+      "日曜日: 11時00分～0時00分"
+    ],
+    "phone": "0166-73-7229",
+    "website": "https://yakinikunochamp.owst.jp/",
+    "id": 2403
+  },
+  {
+    "place_id": "ChIJ6T-3UwDnDF8Rl0YKcAZ6wbc",
+    "name": "やきにく屋にくまる",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室あり。落ち着いた雰囲気で焼肉を楽しめます。",
+    "score": 3,
+    "lat": 43.747297599999996,
+    "lng": 142.4103611,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6T-3UwDnDF8Rl0YKcAZ6wbc",
+    "image_url": "/photos/ChIJ6T-3UwDnDF8Rl0YKcAZ6wbc.jpg",
+    "is_chain": false,
+    "evidence": [
+      "１階席と2階席があって、個室もあるようです。"
+    ],
+    "address": "〒078-8348 北海道旭川市東光８条６丁目３−７",
+    "rating": 4.4,
+    "rating_count": 33,
+    "hours": [
+      "月曜日: 11時00分～14時00分, 17時00分～22時00分",
+      "火曜日: 11時00分～14時00分, 17時00分～22時00分",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分, 17時00分～22時00分",
+      "金曜日: 11時00分～14時00分, 17時00分～22時00分",
+      "土曜日: 17時00分～22時00分",
+      "日曜日: 17時00分～22時00分"
+    ],
+    "phone": "0166-73-5533",
+    "website": "https://yakinikuyanikumaru.owst.jp/",
+    "id": 2404
+  },
+  {
+    "place_id": "ChIJFb6R6Q3mDF8RVKkUMkizF7U",
+    "name": "焼肉 銀鍵",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室でゆっくり食事ができる焼肉店。店員さんの対応も良い。",
+    "score": 3,
+    "lat": 43.768757,
+    "lng": 142.3587681,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJFb6R6Q3mDF8RVKkUMkizF7U",
+    "image_url": "/photos/ChIJFb6R6Q3mDF8RVKkUMkizF7U.jpg",
+    "is_chain": false,
+    "evidence": [
+      "テレビ付きの個室でゆっくり食事ができます。",
+      "個室でタバコも吸えました！"
+    ],
+    "address": "〒070-0033 北海道旭川市３条通６丁目９ 斎藤ビル 1F",
+    "rating": 3.9,
+    "rating_count": 282,
+    "hours": [
+      "月曜日: 17時30分～2時00分",
+      "火曜日: 17時30分～2時00分",
+      "水曜日: 17時30分～2時00分",
+      "木曜日: 17時30分～2時00分",
+      "金曜日: 17時30分～2時00分",
+      "土曜日: 17時30分～2時00分",
+      "日曜日: 17時30分～0時00分"
+    ],
+    "phone": "0166-24-9587",
+    "website": "https://tabelog.com/hokkaido/A0104/A010401/1008997/",
+    "id": 2405
+  },
+  {
+    "place_id": "ChIJ9dZBfQDlDF8RzxNCNxCb5rc",
+    "name": "やきにくのチャンプ 末広店",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "半個室の小上がり席があり、子連れでも安心",
+    "score": 4,
+    "lat": 43.806412900000005,
+    "lng": 142.3900964,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9dZBfQDlDF8RzxNCNxCb5rc",
+    "image_url": "/photos/ChIJ9dZBfQDlDF8RzxNCNxCb5rc.jpg",
+    "is_chain": true,
+    "evidence": [
+      "お店の方から\"まだ小上がりもご案内できますがそちらにしますか？\"とご案内して下さり、すごく気配りの良いお店だなと思いました。半個室の小上がりだったのですごく助かりました★"
+    ],
+    "address": "〒071-8131 北海道旭川市末広１条５丁目１−２０",
+    "rating": 4.2,
+    "rating_count": 49,
+    "hours": [
+      "月曜日: 17時00分～0時00分",
+      "火曜日: 17時00分～0時00分",
+      "水曜日: 17時00分～0時00分",
+      "木曜日: 17時00分～0時00分",
+      "金曜日: 17時00分～0時00分",
+      "土曜日: 11時00分～0時00分",
+      "日曜日: 11時00分～0時00分"
+    ],
+    "phone": "0166-73-8329",
+    "website": "https://www.hotpepper.jp/strJ004402174/",
+    "id": 2406
+  },
+  {
+    "place_id": "ChIJF8sOpiDmDF8Rj9SL4eB3VZQ",
+    "name": "とんかつ屋 松波",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり",
+      "キッズチェアあり"
+    ],
+    "description": "座敷と子供用椅子があり、子連れでも利用しやすいとんかつ店です。",
+    "score": 3,
+    "lat": 43.7513081,
+    "lng": 142.35560859999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJF8sOpiDmDF8Rj9SL4eB3VZQ",
+    "image_url": "/photos/ChIJF8sOpiDmDF8Rj9SL4eB3VZQ.jpg",
+    "is_chain": false,
+    "evidence": [
+      "子供用3脚ありました",
+      "奥に小上がり席があります"
+    ],
+    "address": "〒070-8005 北海道旭川市神楽５条１２丁目１−２",
+    "rating": 4.1,
+    "rating_count": 194,
+    "hours": [
+      "月曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "火曜日: 定休日",
+      "水曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "木曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "金曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "土曜日: 11時00分～14時30分, 17時00分～20時30分",
+      "日曜日: 11時00分～14時30分, 17時00分～20時30分"
+    ],
+    "phone": "0166-63-7077",
+    "website": "https://japoncompany.business/asahikawa/544681--",
+    "id": 2407
+  },
+  {
+    "place_id": "ChIJlyW5Y1_mDF8RjBdJwUVFCfM",
+    "name": "ひのや",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、家族連れでも利用しやすいとんかつ店です。",
+    "score": 3,
+    "lat": 43.7664773,
+    "lng": 142.4054016,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJlyW5Y1_mDF8RjBdJwUVFCfM",
+    "image_url": "/photos/ChIJlyW5Y1_mDF8RjBdJwUVFCfM.jpg",
+    "is_chain": false,
+    "evidence": [
+      "店内には小上がりもあって、家族連れでも使いやすいです。"
+    ],
+    "address": "〒078-8239 北海道旭川市豊岡９条５丁目３−２３",
+    "rating": 3.9,
+    "rating_count": 107,
+    "hours": [
+      "月曜日: 11時00分～20時30分",
+      "火曜日: 11時00分～14時00分, 17時00分～20時30分",
+      "水曜日: 11時00分～20時30分",
+      "木曜日: 定休日",
+      "金曜日: 11時00分～20時30分",
+      "土曜日: 11時00分～20時30分",
+      "日曜日: 11時00分～20時30分"
+    ],
+    "phone": "0166-34-5595",
+    "website": "",
+    "id": 2408
+  },
+  {
+    "place_id": "ChIJhfEBneTjDF8RIvogV3gSx8M",
+    "name": "うえすぎとんかつの店",
+    "area": "旭川",
+    "genre": "洋食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いた雰囲気で食事ができます。",
+    "score": 3,
+    "lat": 43.813251699999995,
+    "lng": 142.43613349999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJhfEBneTjDF8RIvogV3gSx8M",
+    "image_url": "/photos/ChIJhfEBneTjDF8RIvogV3gSx8M.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりに上がりメニューを見ると"
+    ],
+    "address": "〒079-8412 北海道旭川市永山２条２０丁目１−５",
+    "rating": 4.1,
+    "rating_count": 118,
+    "hours": [
+      "月曜日: 12時00分～14時00分",
+      "火曜日: 12時00分～14時00分",
+      "水曜日: 定休日",
+      "木曜日: 12時00分～14時00分",
+      "金曜日: 12時00分～14時00分",
+      "土曜日: 12時00分～14時00分",
+      "日曜日: 12時00分～14時00分"
+    ],
+    "phone": "0166-48-1271",
+    "website": "",
+    "id": 2409
+  },
+  {
+    "place_id": "ChIJjSsmcjzkDF8Rr10f71bAdIg",
+    "name": "牛かつ こばやし",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷席があり、落ち着いて食事ができます。",
+    "score": 3,
+    "lat": 43.8018813,
+    "lng": 142.38393299999998,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJjSsmcjzkDF8Rr10f71bAdIg",
+    "image_url": "/photos/ChIJjSsmcjzkDF8Rr10f71bAdIg.jpg",
+    "is_chain": false,
+    "evidence": [
+      "カウンターと小上がり座敷があり、一人でもグループでも居心地◎。"
+    ],
+    "address": "〒071-8131 北海道旭川市末広１条１丁目７−１３",
+    "rating": 4.2,
+    "rating_count": 190,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～14時00分",
+      "水曜日: 11時00分～14時00分",
+      "木曜日: 11時00分～14時00分",
+      "金曜日: 11時00分～14時00分",
+      "土曜日: 11時00分～14時00分",
+      "日曜日: 11時00分～14時00分"
+    ],
+    "phone": "0166-51-5765",
+    "website": "https://www.facebook.com/pages/category/Bar/%E7%89%9B%E3%81%8B%E3%81%A4-%E3%81%93%E3%81%B0%E3%82%84%E3%81%97-694143610774536/",
+    "id": 2410
+  },
+  {
+    "place_id": "ChIJAQBzGz7kDF8R1qEagurr4VI",
+    "name": "かつや食堂",
+    "area": "旭川",
+    "genre": "その他",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "小上がり席があり、家族連れでも安心して利用できます。",
+    "score": 3,
+    "lat": 43.805332199999995,
+    "lng": 142.3865065,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQBzGz7kDF8R1qEagurr4VI",
+    "image_url": "/photos/ChIJAQBzGz7kDF8R1qEagurr4VI.jpg",
+    "is_chain": false,
+    "evidence": [
+      "テーブルは小上がり席と真ん中に6人がけ",
+      "小上がりもあるので家族連れ、おひとり様と安心して訪問出来ます！"
+    ],
+    "address": "〒071-8131 北海道旭川市末広１条４丁目２−１",
+    "rating": 4.2,
+    "rating_count": 361,
+    "hours": [
+      "月曜日: 定休日",
+      "火曜日: 11時00分～14時30分",
+      "水曜日: 11時00分～14時30分",
+      "木曜日: 11時00分～14時30分",
+      "金曜日: 11時00分～14時30分",
+      "土曜日: 11時00分～14時30分",
+      "日曜日: 定休日"
+    ],
+    "phone": "0166-51-9325",
+    "website": "",
+    "id": 2411
+  },
+  {
+    "place_id": "ChIJo4mFktnnDF8RxYXnWPa1Cso",
+    "name": "けいなのおばんざい ramo",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "座敷あり"
+    ],
+    "description": "座敷があり、家族や子供連れでも利用しやすいお店です。",
+    "score": 3,
+    "lat": 43.765161,
+    "lng": 142.3718547,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJo4mFktnnDF8RxYXnWPa1Cso",
+    "image_url": "/photos/ChIJo4mFktnnDF8RxYXnWPa1Cso.jpg",
+    "is_chain": false,
+    "evidence": [
+      "小上がりで家族、子供と一緒に行けそうな場所でした。"
+    ],
+    "address": "〒070-0034 北海道旭川市４条通１５丁目８２３−８",
+    "rating": 4.8,
+    "rating_count": 20,
+    "hours": [
+      "月曜日: 11時00分～14時00分",
+      "火曜日: 11時00分～20時00分",
+      "水曜日: 11時00分～20時00分",
+      "木曜日: 11時00分～20時00分",
+      "金曜日: 11時00分～20時00分",
+      "土曜日: 11時00分～14時00分",
+      "日曜日: 定休日"
+    ],
+    "phone": "080-6084-7266",
+    "website": "https://www.instagram.com/ramo_asahikawa?igsh=MWphYTMxbTZodXdtaw%3D%3D&utm_source=qr",
+    "id": 2412
+  },
+  {
+    "place_id": "ChIJkz31swzmDF8Ru3QS47X4NPk",
+    "name": "Japanese & Modern Chinese 嵐山",
+    "area": "旭川",
+    "genre": "和食",
+    "tags": [
+      "個室あり"
+    ],
+    "description": "個室があるので、周りを気にせずゆっくり食事ができます。",
+    "score": 3,
+    "lat": 43.7724282,
+    "lng": 142.3606117,
+    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJkz31swzmDF8Ru3QS47X4NPk",
+    "image_url": "/photos/ChIJkz31swzmDF8Ru3QS47X4NPk.jpg",
+    "is_chain": false,
+    "evidence": [
+      "個室に通して頂けたので、ゆったり食事を楽しめました。"
+    ],
+    "address": "〒070-0037 北海道旭川市７条通６丁目",
+    "rating": 4,
+    "rating_count": 83,
+    "hours": [
+      "月曜日: 11時30分～14時30分, 17時30分～20時00分",
+      "火曜日: 11時30分～14時30分, 17時30分～20時00分",
+      "水曜日: 11時30分～14時30分, 17時30分～20時00分",
+      "木曜日: 11時30分～14時30分, 17時30分～20時00分",
+      "金曜日: 11時30分～14時30分, 17時30分～20時00分",
+      "土曜日: 11時30分～14時30分, 17時30分～20時00分",
+      "日曜日: 11時30分～14時30分, 17時30分～20時00分"
+    ],
+    "phone": "0166-27-5855",
+    "website": "https://asahikawa-arashiyama.com/",
+    "id": 2413
   }
 ]
