@@ -27,6 +27,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ENV_FILE = ROOT / ".env.local"
 OUT_DIR = ROOT / "outputs" / "instagram"
 HISTORY = ROOT / "logs" / "posted_history.json"
+FAILED_ATTEMPTS = ROOT / "logs" / "failed_attempts.json"
 
 DRY_RUN = "--dry-run" in sys.argv
 
@@ -60,6 +61,49 @@ def http_get(url: str) -> dict:
     except error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
         raise RuntimeError(f"HTTP {e.code} {e.reason}: {body}") from None
+
+
+def verify_token(token: str) -> None:
+    """投稿前にトークンの有効性を確認。無効なら起動しない（無駄なコンテナ作成を回避）。
+
+    過去事故 (2026-05-05): 権限切れトークンに気づかず 18 個の image container を作成 →
+    spam 判定されて 24h ブロックされた。プリフライトチェックで根本回避。
+    """
+    url = f"https://graph.facebook.com/v19.0/me?access_token={token}"
+    try:
+        res = http_get(url)
+    except RuntimeError as e:
+        raise SystemExit(f"❌ トークン検証失敗: {e}\n   投稿スクリプトを起動しません。")
+    if "id" not in res:
+        raise SystemExit(f"❌ トークン無効: {res}\n   exchange_token.py で再発行してください。")
+    print(f"✓ トークン検証OK (id={res.get('id')})")
+
+
+def load_failed_attempts() -> dict:
+    """{'YYYYMMDD': [shop_id, ...]} 形式の失敗履歴を読む."""
+    if FAILED_ATTEMPTS.exists():
+        return json.loads(FAILED_ATTEMPTS.read_text(encoding="utf-8"))
+    return {}
+
+
+def record_failure(shop_id: int) -> None:
+    """今日の失敗を記録（24h以内の同一店再試行を防ぐ）."""
+    today = date.today().strftime("%Y%m%d")
+    data = load_failed_attempts()
+    if today not in data:
+        data[today] = []
+    if shop_id not in data[today]:
+        data[today].append(shop_id)
+    FAILED_ATTEMPTS.parent.mkdir(parents=True, exist_ok=True)
+    FAILED_ATTEMPTS.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
+def is_recently_failed(shop_id: int) -> bool:
+    """本日中に投稿失敗した shop_id か（同日リトライ禁止）."""
+    today = date.today().strftime("%Y%m%d")
+    return shop_id in load_failed_attempts().get(today, [])
 
 
 def wait_container_ready(container_id: str, token: str, timeout: int = 120) -> str:
@@ -218,6 +262,10 @@ def main() -> None:
     if missing:
         raise SystemExit(f".env.local 未設定: {missing}")
 
+    # 安全装置 ①: プリフライト — トークンが切れてたら起動しない
+    if not DRY_RUN:
+        verify_token(env["FB_PAGE_TOKEN"])
+
     today = date.today().strftime("%Y%m%d")
     selection_file = OUT_DIR / today / "selected.json"
     if not selection_file.exists():
@@ -227,16 +275,32 @@ def main() -> None:
     print(f"投稿対象: {len(selected)} 店 (today={today}, 即時公開, dry_run={DRY_RUN})")
 
     posted_ids = []
+    failed_count = 0
     for s in selected:
+        # 安全装置 ③: 同日リトライ禁止 — 今日既に失敗した店はスキップ
+        if not DRY_RUN and is_recently_failed(s["id"]):
+            print(f"\n[{s['id']}] {s['name']}: 本日既に失敗 → スキップ（同日リトライ禁止）")
+            continue
+
         try:
             ok = post_one_shop(env, today, s["id"], s["name"])
             if ok and not DRY_RUN:
                 posted_ids.append(s["id"])
         except Exception as e:
             print(f"  ❌ エラー: {e}")
+            failed_count += 1
+            if not DRY_RUN:
+                record_failure(s["id"])
+                # 安全装置 ②: フェイルファスト — 1店目で失敗したら残り中止
+                if not posted_ids:
+                    print(f"\n❌ 初回投稿失敗 → 残り {len(selected) - selected.index(s) - 1} 店スキップ"
+                          f"（spam判定回避のため）")
+                    break
 
     if posted_ids:
         mark_posted_locally(posted_ids)
+    if failed_count > 0:
+        print(f"\n⚠️ 失敗 {failed_count} 件は logs/failed_attempts.json に記録（同日リトライ禁止）")
 
 
 if __name__ == "__main__":

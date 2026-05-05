@@ -251,6 +251,25 @@ for kind, s in violations[:5]:
 - ❌ `scheduled_publish_time` / `published=false` を使った予約投稿は禁止（ホワイトリスト未承認のため不可）
 - ❌ FB_PAGE_TOKEN / IG_USER_ID をコードに直書き禁止、`.env.local` から読む
 
+**spam 判定回避の3段安全装置（2026-05-06 追加）**
+
+過去事故: トークン権限切れ＋手動リカバリで同じ画像を短時間に何度もアップして
+Meta から「Application request limit reached」で 24h ブロックされた。
+
+| # | 安全装置 | 動作 | 効果 |
+|---|---|---|---|
+| 1 | **`verify_token()` プリフライト** | 投稿開始前に `GET /me?access_token=` で検証。失敗なら起動しない | 権限切れトークンで18個の無駄コンテナを作る事故を回避 |
+| 2 | **フェイルファスト** | 1店目失敗かつ posted_ids が空なら残り全店スキップ | 同じ問題で連鎖的に全店分のコンテナを作る spam 化を回避 |
+| 3 | **`failed_attempts.json` 同日リトライ禁止** | 失敗した shop_id を `logs/failed_attempts.json` の今日の配列に記録、同日中の再試行をスキップ | 手動リカバリで同じ画像を再投稿して spam 判定される事故を回避 |
+
+`failed_attempts.json` の構造:
+```json
+{
+  "20260506": [272, 2313, 261]
+}
+```
+日付キーが今日かどうかで判定 → 翌日になると自動的にリセットされる挙動。手動でリセットしたい時はファイル削除 or 該当キー削除。
+
 **run_daily.py 側のルール**
 
 - ✅ 出力先は `outputs/instagram/{YYYYMMDD}/shop_{id}/` 配下に統一
