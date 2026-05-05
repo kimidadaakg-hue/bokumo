@@ -28643,40 +28643,6 @@
     "id": 2326
   },
   {
-    "place_id": "ChIJoYU-nYopC18RdPQ9iVP5r4c",
-    "name": "保育園キッズプラス",
-    "area": "札幌中央区",
-    "genre": "その他",
-    "tags": [
-      "ベビーカーOK"
-    ],
-    "description": "乳幼児から未就学児まで安心して預けられる保育園です。",
-    "score": 5,
-    "lat": 43.0461086,
-    "lng": 141.3461586,
-    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJoYU-nYopC18RdPQ9iVP5r4c",
-    "image_url": "/photos/ChIJoYU-nYopC18RdPQ9iVP5r4c.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ベビーカーを置いて行ける"
-    ],
-    "address": "〒064-0810 北海道札幌市中央区南１０条西９丁目２−１０",
-    "rating": 4.5,
-    "rating_count": 8,
-    "hours": [
-      "月曜日: 7時00分～20時00分",
-      "火曜日: 7時00分～20時00分",
-      "水曜日: 7時00分～20時00分",
-      "木曜日: 7時00分～20時00分",
-      "金曜日: 7時00分～20時00分",
-      "土曜日: 7時00分～20時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "011-521-4150",
-    "website": "http://www.hoiku-kidsplus.com/",
-    "id": 2327
-  },
-  {
     "place_id": "ChIJWZmJNgopC18RpR475YEGLWQ",
     "name": "合同会社MEDEL キッズルームめでる",
     "area": "円山",
@@ -28712,37 +28678,6 @@
     "phone": "011-676-4164",
     "website": "https://www.medel-the-kids.com/",
     "id": 2328
-  },
-  {
-    "place_id": "ChIJ___rCScqC18R6iqmiMMe1to",
-    "name": "札幌市中島児童会館",
-    "area": "札幌中央区",
-    "genre": "その他",
-    "tags": [
-      "ベビーカーOK",
-      "子連れOK"
-    ],
-    "description": "乳幼児〜未就学児が楽しめる無料の室内遊び場。おむつ替え・授乳スペース完備。",
-    "score": 5,
-    "lat": 43.0476727,
-    "lng": 141.3545275,
-    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJ___rCScqC18R6iqmiMMe1to",
-    "image_url": "/photos/ChIJ___rCScqC18R6iqmiMMe1to.jpg",
-    "is_chain": false,
-    "evidence": [
-      "おむつ替え、授乳できます。",
-      "赤ちゃんをワンオペ抱っこやベビーカーで",
-      "無料のキッズスペースは貴重な場所",
-      "おむつ替えスペースあり",
-      "ハイハイ出来る広さで運動に最適です"
-    ],
-    "address": "〒064-0931 北海道札幌市中央区中島公園１−１",
-    "rating": 4.8,
-    "rating_count": 19,
-    "hours": [],
-    "phone": "011-511-3397",
-    "website": "http://g-kan.syaa.jp/jidoukaikan/?area=chuo",
-    "id": 2329
   },
   {
     "place_id": "ChIJTXjhf_UpC18Rbqb2LwQ9Gmg",
@@ -29925,41 +29860,6 @@
     "phone": "011-613-6663",
     "website": "https://r.gnavi.co.jp/m70n7phz0000/",
     "id": 2363
-  },
-  {
-    "place_id": "ChIJwVr9vuAmC18RZh86_-qxiKU",
-    "name": "医療法人 明日風こどもクリニック",
-    "area": "札幌手稲区",
-    "genre": "その他",
-    "tags": [
-      "個室あり"
-    ],
-    "description": "完全予約制・完全個室で待ち時間も少ない。効率化されたシステムが特徴。",
-    "score": 3,
-    "lat": 43.1444727,
-    "lng": 141.2308179,
-    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJwVr9vuAmC18RZh86_-qxiKU",
-    "image_url": "/photos/ChIJwVr9vuAmC18RZh86_-qxiKU.jpg",
-    "is_chain": false,
-    "evidence": [
-      "完全予約制。完全個室。",
-      "待合室が個室になっていて待ち時間も少ない"
-    ],
-    "address": "〒006-0861 北海道札幌市手稲区明日風５丁目９−１",
-    "rating": 3.4,
-    "rating_count": 42,
-    "hours": [
-      "月曜日: 8時30分～12時00分, 14時00分～18時00分",
-      "火曜日: 8時30分～12時00分, 14時00分～18時00分",
-      "水曜日: 8時30分～12時00分, 14時00分～18時00分",
-      "木曜日: 8時30分～12時00分",
-      "金曜日: 8時30分～12時00分, 14時00分～18時00分",
-      "土曜日: 8時30分～12時00分",
-      "日曜日: 定休日"
-    ],
-    "phone": "011-685-0122",
-    "website": "http://www.asukaze-kodomo.com/",
-    "id": 2364
   },
   {
     "place_id": "ChIJaQp7iEwnC18RvXfX21zT-h8",

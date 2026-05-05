@@ -81,7 +81,7 @@ PROMPT_TMPL = """以下の飲食店について、Googleマップの実際のク
 """
 
 PLACES_FIELD_MASK_REVIEWS = (
-    "id,displayName,reviews,photos,"
+    "id,displayName,reviews,photos,types,primaryType,"
     "formattedAddress,rating,userRatingCount,"
     "regularOpeningHours,nationalPhoneNumber,websiteUri"
 )
@@ -145,6 +145,25 @@ def has_strong_evidence(evidence_list: list[str]) -> bool:
         return False
     text = " ".join(evidence_list)
     return any(kw in text for kw in STRONG_EVIDENCE_KEYWORDS)
+
+
+# Place Type が飲食店系か判定（非飲食店の混入防止）
+# Places API New の types は細分化されている（ramen_restaurant など *_restaurant 形）。
+FOOD_BASE_TYPES = {
+    "restaurant", "cafe", "bakery", "meal_takeaway", "meal_delivery", "food",
+}
+
+
+def is_food_place(types: list[str]) -> bool:
+    """Place Types が飲食店系を1つでも含めば True."""
+    if not types:
+        return False
+    for t in types:
+        if t in FOOD_BASE_TYPES:
+            return True
+        if t.endswith("_restaurant"):
+            return True
+    return False
 
 
 def area_from_address(address: str) -> str:
@@ -315,6 +334,8 @@ def fetch_reviews(api_key: str, place_id: str) -> tuple[list[dict], dict]:
             reviews = payload.get("reviews", []) or []
             photos = payload.get("photos", []) or []
             first_photo_name = (photos[0].get("name", "") if photos else "")
+            types = payload.get("types", []) or []
+            primary_type = payload.get("primaryType", "")
             details = {
                 "address": payload.get("formattedAddress", ""),
                 "rating": payload.get("rating", 0),
@@ -323,6 +344,8 @@ def fetch_reviews(api_key: str, place_id: str) -> tuple[list[dict], dict]:
                 "phone": payload.get("nationalPhoneNumber", ""),
                 "website": payload.get("websiteUri", ""),
                 "photo_name": first_photo_name,
+                "types": types,
+                "primary_type": primary_type,
             }
             return reviews, details
     except Exception as e:
@@ -446,6 +469,8 @@ def main() -> None:
             "lat": loc.get("latitude"),
             "lng": loc.get("longitude"),
             "photo_reference": photo_ref,
+            "types": r.get("types", []) or [],
+            "primary_type": r.get("primaryType", ""),
         })
     raw = normalized
     processed = load_processed()
@@ -498,6 +523,16 @@ def main() -> None:
                 skipped += 1
                 continue
 
+            # raw 段階で types が分かっている場合、非飲食店なら早期 SKIP
+            # （fetch_hokkaido.py 経由なら types がある。Place Details を叩かない節約）
+            raw_types = r.get("types", [])
+            if raw_types and not is_food_place(raw_types):
+                print(f"[{i}/{len(raw)}] SKIP(non-food): {name} types={raw_types[:3]}")
+                processed.add(pid)
+                save_processed(processed)
+                skipped += 1
+                continue
+
             # 名前ベースのフィルタ（チェーン・夜業態・居酒屋等を除外）
             if _is_excluded_name(name):
                 print(f"[{i}/{len(raw)}] SKIP(NG): {name}")
@@ -527,6 +562,15 @@ def main() -> None:
             reviews, place_details = fetch_reviews(places_key, pid)
             reviews_text = format_reviews(reviews)
             time.sleep(0.3)
+
+            # raw 段階で types が無かった場合の最終フィルタ（Place Details 由来 types で確認）
+            details_types = place_details.get("types", [])
+            if details_types and not is_food_place(details_types):
+                print(f"    → SKIP: 飲食店ではない (types={details_types[:3]})")
+                processed.add(pid)
+                save_processed(processed)
+                skipped += 1
+                continue
 
             # --- STEP A: Photo ダウンロード ---
             # raw 由来 photo_ref を優先、無ければ Place Details 由来 photo_name にフォールバック
