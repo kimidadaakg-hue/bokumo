@@ -198,10 +198,11 @@ for kind, s in violations[:5]:
 
 ## インスタ自動投稿ルール（NEVER FORGET）
 
-**現状の自動化フロー（2台のlaunchdジョブ）**
+**現状の自動化フロー（3台のlaunchdジョブ）**
 
 | ジョブ | 時刻 | 内容 |
 |---|---|---|
+| `com.bokumo.research.plist` | 毎朝 4:00 | `research_shops.py`：Gemini 1日1000件まで判定 → shops.json 追加。未処理0件なら即終了（課金 $0） |
 | `com.bokumo.daily.plist` | 毎朝 9:00 | `run_daily.py`：3店舗抽選 → 写真取得 → 分類 → キャプション生成 → 6枚レンダリング → SSDコピー |
 | `com.bokumo.post.plist` | 毎日 19:30 | `06_post_to_instagram.py`：R2アップ → IG カルーセル作成 → **即時公開** |
 
@@ -240,13 +241,21 @@ for kind, s in violations[:5]:
 **launchd 操作**
 
 ```bash
-launchctl list | grep bokumo                                  # 状態確認
-launchctl start com.bokumo.post                               # 手動実行
-launchctl unload ~/Library/LaunchAgents/com.bokumo.post.plist # 停止
-launchctl load   ~/Library/LaunchAgents/com.bokumo.post.plist # 再起動
+launchctl list | grep bokumo                                      # 状態確認
+launchctl start com.bokumo.post                                   # 手動実行
+launchctl unload ~/Library/LaunchAgents/com.bokumo.post.plist     # 停止
+launchctl load   ~/Library/LaunchAgents/com.bokumo.post.plist     # 再起動
+launchctl unload ~/Library/LaunchAgents/com.bokumo.research.plist # researchジョブ停止
 ```
 
-ログ: `~/Library/Logs/bokumo_daily.log` / `~/Library/Logs/bokumo_post.log`
+ログ: `~/Library/Logs/bokumo_daily.log` / `~/Library/Logs/bokumo_post.log` / `~/Library/Logs/bokumo_research.log`
+
+**研究ジョブ（com.bokumo.research）について**:
+- 毎朝 4:00 に `bokumo_research.sh` 経由で `research_shops.py` を1回実行
+- Gemini 1日1000件上限で自動停止（=> 約1〜2時間で完了）
+- 未処理候補が0件なら API を叩かず即終了（課金 $0）
+- 新規ロットを `fetch_hokkaido.py` で発掘すれば、翌朝から自動的に処理再開
+- 完全停止したいときは `launchctl unload` で外す
 
 ---
 

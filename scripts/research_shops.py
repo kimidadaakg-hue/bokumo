@@ -462,6 +462,17 @@ def main() -> None:
     print(f"Place Photos 今月使用: {usage['count']}/{PHOTOS_MONTHLY_LIMIT}")
     print()
 
+    # 早期終了: 全件 processed なら API を1回も叩かずに終了
+    unprocessed_count = sum(
+        1 for r in raw
+        if r.get("place_id") and r.get("place_id") not in processed
+    )
+    print(f"未処理候補: {unprocessed_count} 件")
+    if unprocessed_count == 0:
+        print("✓ 未処理 0 件 → API を叩かずに終了")
+        return
+    print()
+
     gemini_count = 0
     success = 0
     failed = 0
