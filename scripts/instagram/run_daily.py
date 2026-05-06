@@ -16,6 +16,7 @@ STEPS = [
     "04c_render_tiktok.py",
     "05_sync_gallery.py",
     "copy_to_preview.py",
+    "copy_to_icloud.py",   # iPhone (TikTok 投稿用) 受け渡し
 ]
 
 

@@ -51,17 +51,20 @@ DARK_PANEL = (28, 28, 32)
 
 # ---------- ユーティリティ ----------
 def fit_canvas(img: Image.Image) -> Image.Image:
-    """元画像を 1080x1350 (4:5 縦長) にセンタークロップ。"""
+    """元画像を 1080x1350 (4:5 縦長) にセンタークロップ。
+
+    JPEG 保存できるよう必ず RGB で返す（PNG 等の RGBA 元画像にも対応）。
+    """
+    if img.mode != "RGB":
+        img = img.convert("RGB")
     w, h = img.size
     target_ratio = CANVAS_W / CANVAS_H  # 0.8
     src_ratio = w / h
     if src_ratio > target_ratio:
-        # 元画像が横長すぎる → 左右をクロップ
         new_w = int(h * target_ratio)
         x0 = (w - new_w) // 2
         img = img.crop((x0, 0, x0 + new_w, h))
     else:
-        # 元画像が縦長 or 同等 → 上下をクロップ
         new_h = int(w / target_ratio)
         y0 = (h - new_h) // 2
         img = img.crop((0, y0, w, y0 + new_h))
