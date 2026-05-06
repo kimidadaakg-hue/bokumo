@@ -36,8 +36,8 @@ OUT_DIR = ROOT / "outputs" / "instagram"
 # 手書き風（学校教科書風） — 親近感とファミリー向けの温かみ
 FONT_BOLD = ROOT / "assets" / "fonts" / "KleeOne-SemiBold.ttf"
 FONT_REG = ROOT / "assets" / "fonts" / "KleeOne-Regular.ttf"
-# 筆書き手書き風（slide1_cover 用、参考画像風レイアウト）
-FONT_BRUSH = ROOT / "assets" / "fonts" / "YujiBoku-Regular.ttf"
+# マジックペン手書き風（slide1_cover 用、カジュアル & シャープ）
+FONT_BRUSH = ROOT / "assets" / "fonts" / "YuseiMagic-Regular.ttf"
 
 
 def font_brush(size: int) -> ImageFont.FreeTypeFont:
@@ -251,28 +251,36 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
             fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
         )
 
-    # ---- 下部キャッチコピー（極大、筆書き） ----
-    catch = "♡ 子連れに優しいお店 ♡"
-    fnt_catch = font_brush(76)
+    # ---- 下部キャッチコピー（極大、手書き） ----
+    catch = "子連れに優しいお店"
+    fnt_catch = font_brush(110)
     cw, _, cox, _ = text_w(draw, catch, fnt_catch)
-    # 大きすぎる場合は縮小
-    if cw > CANVAS_W - 80:
-        fnt_catch = font_brush(64)
+    # 大きすぎる場合は段階的に縮小
+    for sz in (110, 96, 86, 76):
+        fnt_catch = font_brush(sz)
         cw, _, cox, _ = text_w(draw, catch, fnt_catch)
-    catch_y = CANVAS_H - 250
+        if cw <= CANVAS_W - 60:
+            break
+    catch_y = CANVAS_H - 270
     draw_outline(
         draw, ((CANVAS_W - cw) // 2 - cox, catch_y),
         catch, fnt_catch, fill=WHITE,
-        stroke=(35, 15, 25), stroke_w=5,
+        stroke=(35, 15, 25), stroke_w=6,
     )
 
-    # ---- 設備タグ（中央、大） ----
+    # ---- 設備タグ（中央、大、手書きフォント） ----
     facility_tags = [t for t in (tags or []) if t and t != "子連れOK"][:3]
     if facility_tags:
         tag_line = "  ・  ".join(facility_tags)
-        fnt_tag, sz_tag = fit_text(
-            draw, tag_line, max_w=900, base_size=52, min_size=36, bold=True,
-        )
+        # フィット試行
+        fnt_tag = font_brush(60)
+        tw_check, _, _, _ = text_w(draw, tag_line, fnt_tag)
+        if tw_check > 900:
+            fnt_tag = font_brush(50)
+            tw_check, _, _, _ = text_w(draw, tag_line, fnt_tag)
+        if tw_check > 900:
+            fnt_tag = font_brush(42)
+        sz_tag = fnt_tag.size
         tw, _, tox, _ = text_w(draw, tag_line, fnt_tag)
         check_size = 54
         gap = 18
