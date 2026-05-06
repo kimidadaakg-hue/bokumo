@@ -85,16 +85,16 @@ def vertical_area_size(area: str) -> int:
     """area の文字数に応じた縦書き用フォントサイズ."""
     n = len(area or "")
     if n <= 2:
-        return 230
+        return 270
     if n == 3:
-        return 200
+        return 230
     if n == 4:
-        return 170
+        return 195
     if n == 5:
-        return 145
+        return 170
     if n == 6:
-        return 125
-    return 110
+        return 145
+    return 125
 
 CANVAS_W = 1080
 CANVAS_H = 1350
@@ -253,10 +253,9 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     img = fit_canvas(Image.open(raw))
     draw = ImageDraw.Draw(img)
 
-    # ---- 左上: 縦書きで地名（極大、サブエリアレベル＝2階層まで） ----
-    # 「大通」「平岸」「函館ベイエリア」などの micro は「札幌中央区」「札幌豊平区」「函館」等に集約。
+    # ---- 左上: 縦書きで地名（極大、micro レベル ＝ area そのまま） ----
     # 「・」は縦書き時に縦点点（︙）の方が自然なので置換。
-    v_text = to_display_area(area).replace("・", "︙")
+    v_text = (area or "").replace("・", "︙")
     if v_text:
         v_size = vertical_area_size(v_text)
         fnt_v = font_brush(v_size)
