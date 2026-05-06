@@ -177,67 +177,98 @@ def draw_star_icon(draw, x, y, size=24, color=GOLD):
 
 
 # ---------- スライド ----------
-def slide1_cover(raw: Path, name: str, area: str, genre: str) -> Image.Image:
-    """シズル感優先。写真は暗くせず、上下に薄帯のみ。"""
+def slide1_cover(raw: Path, name: str, area: str, genre: str,
+                 tags: list | None = None) -> Image.Image:
+    """子連れ強調レイアウト（2026-05-06 改訂）。
+
+    上部: 「今日のおすすめ」リボン（既存）
+    下部帯: ハートキャッチコピー → 店名 → 設備タグ → BOKUMO
+    エリア・ジャンルは slide2 で表示するためここでは省略。
+    """
     img = fit_canvas(Image.open(raw))
 
     # 上部の白いリボン（左寄せ・小さく）
     ribbon_w, ribbon_h = 180, 90
     img = paste_alpha_rect(img, (40, 0, 40 + ribbon_w, ribbon_h), (255, 255, 255, 240))
-    # リボン下部の三角形（旗の切れ込み風）
     overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
     od.polygon([(40, ribbon_h), (40 + ribbon_w / 2, ribbon_h - 22),
                 (40 + ribbon_w, ribbon_h)], fill=(255, 255, 255, 240))
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
-    # リボン中身
     draw.text((40 + ribbon_w / 2 - text_w(draw, "今日の", font(24))[0] / 2, 16),
               "今日の", font=font(24), fill=PINK_DEEP)
     draw.text((40 + ribbon_w / 2 - text_w(draw, "おすすめ", font(28))[0] / 2, 44),
               "おすすめ", font=font(28), fill=PINK_DEEP)
 
-    # 下部に細い半透明ダーク帯（シズル感を残しつつ店名を読ませる）
-    band_h = 200
+    # 下部の半透明ダーク帯（高さ拡大して情報量増）
+    band_h = 320
     img = paste_alpha_rect(img, (0, CANVAS_H - band_h, CANVAS_W, CANVAS_H),
-                            (0, 0, 0, 150))
+                            (0, 0, 0, 165))
     draw = ImageDraw.Draw(img)
 
-    # エリア・ジャンル（小さく・薄く）
-    sub = f"{area} ・ {genre}"
-    fnt_sub = font(28, False)
-    sw, _, sox, _ = text_w(draw, sub, fnt_sub)
-    draw.text(((CANVAS_W - sw) // 2 - sox, CANVAS_H - band_h + 24),
-              sub, font=fnt_sub, fill=(255, 255, 255, 220))
+    y_base = CANVAS_H - band_h
 
-    # 店名（大きく）
+    # キャッチコピー（ハート付き）
+    catch = "♡ 子連れに優しいお店 ♡"
+    fnt_catch = font(34, False)
+    cw, _, cox, _ = text_w(draw, catch, fnt_catch)
+    draw.text(((CANVAS_W - cw) // 2 - cox, y_base + 26),
+              catch, font=fnt_catch, fill=PINK_SOFT)
+
+    # 店名（最大表示）
     nm = sanitize(name)
-    fnt_nm, _ = fit_text(draw, nm, max_w=920, base_size=64, min_size=36)
+    fnt_nm, sz_nm = fit_text(draw, nm, max_w=940, base_size=72, min_size=40)
     nw, _, nox, _ = text_w(draw, nm, fnt_nm)
-    draw.text(((CANVAS_W - nw) // 2 - nox, CANVAS_H - band_h + 70),
+    draw.text(((CANVAS_W - nw) // 2 - nox, y_base + 86),
               nm, font=fnt_nm, fill=WHITE)
 
-    # 区切り線
-    line_y = CANVAS_H - 50
-    draw.line(((CANVAS_W - 80) // 2, line_y, (CANVAS_W + 80) // 2, line_y),
-              fill=(255, 255, 255, 180), width=2)
+    # 区切り（細い線）
+    sep_y = y_base + 86 + sz_nm + 20
+    draw.line(((CANVAS_W - 100) // 2, sep_y, (CANVAS_W + 100) // 2, sep_y),
+              fill=(255, 255, 255, 140), width=2)
 
-    # BOKUMO（小さく中央下）
-    bf = font(26)
+    # 設備タグ（「子連れOK」除く、最大3個）
+    facility_tags = [t for t in (tags or []) if t and t != "子連れOK"][:3]
+    if facility_tags:
+        # チェックマーク✓ + タグを「・」で区切り
+        tag_line = "  ・  ".join(facility_tags)
+        fnt_tag, _ = fit_text(draw, tag_line, max_w=940, base_size=30,
+                              min_size=22, bold=False)
+        tw, _, tox, _ = text_w(draw, tag_line, fnt_tag)
+        # 左にチェック付き、中央寄せ
+        check_w = 36
+        total_w = tw + check_w
+        start_x = (CANVAS_W - total_w) // 2
+        # チェックマーク（簡易・✓記号は環境差あるので円＋線で描画）
+        cx, cy = start_x + 12, sep_y + 28
+        draw.ellipse((cx - 12, cy - 12, cx + 12, cy + 12), fill=PINK)
+        draw.line((cx - 5, cy + 1, cx - 1, cy + 5), fill=WHITE, width=3)
+        draw.line((cx - 1, cy + 5, cx + 7, cy - 4), fill=WHITE, width=3)
+        # タグテキスト
+        draw.text((start_x + check_w - tox, sep_y + 18),
+                  tag_line, font=fnt_tag, fill=(245, 245, 245))
+
+    # BOKUMO（最下部）
+    bf = font(24)
     bw, _, box, _ = text_w(draw, "BOKUMO", bf)
-    draw.text(((CANVAS_W - bw) // 2 - box, CANVAS_H - 38),
-              "BOKUMO", font=bf, fill=WHITE)
+    draw.text(((CANVAS_W - bw) // 2 - box, CANVAS_H - 36),
+              "BOKUMO", font=bf, fill=(220, 220, 220))
     return img
 
 
-def slide2_info(raw: Path, name: str, address: str, hours: str, rating, count) -> Image.Image:
-    """上部に半透明ダーク情報パネル。写真はしっかり見える。"""
+def slide2_info(raw: Path, name: str, address: str, hours: str, rating, count,
+                area: str = "", genre: str = "") -> Image.Image:
+    """上部に半透明ダーク情報パネル。写真はしっかり見える。
+
+    エリア・ジャンルは slide1 から移動してきた（2026-05-06）。
+    """
     img = fit_canvas(Image.open(raw))
 
-    # 上部に半透明ダークパネル（角丸）
+    # 上部に半透明ダークパネル（角丸）— エリア・ジャンル分高さ拡大
     pad = 24
     panel_x1, panel_y1 = pad, pad
-    panel_x2, panel_y2 = CANVAS_W - pad, 380
+    panel_x2, panel_y2 = CANVAS_W - pad, 420
     img = paste_alpha_rounded(img, (panel_x1, panel_y1, panel_x2, panel_y2),
                               (*DARK_PANEL, 195), radius=20)
     draw = ImageDraw.Draw(img)
@@ -250,7 +281,14 @@ def slide2_info(raw: Path, name: str, address: str, hours: str, rating, count) -
     nm = sanitize(name)
     fnt_nm, sz_nm = fit_text(draw, nm, max_w=inner_w, base_size=52, min_size=32)
     draw.text((inner_x, y), nm, font=fnt_nm, fill=WHITE)
-    y += sz_nm + 18
+    y += sz_nm + 8
+
+    # エリア・ジャンル（slide1 から移動、店名直下に小さく）
+    if area or genre:
+        loc = " ・ ".join(x for x in (area, genre) if x)
+        fnt_loc = font(24, False)
+        draw.text((inner_x, y), loc, font=fnt_loc, fill=PINK_SOFT)
+        y += 36
 
     # ★評価
     if rating and rating != "-":
@@ -418,8 +456,8 @@ def render_shop(shop_dir: Path, shop: dict, details: dict) -> None:
         # 食事写真の割り当て:
         # food_paths[2] (3番目に選ばれた料理写真) をカバーに使う方が
         # クオリティ的に良いことが多いため、food[0] と food[2] を入れ替えて表示。
-        ("01.jpg", slide1_cover(food_paths[2], name, area, genre)),
-        ("02.jpg", slide2_info(food_paths[1], name, address, hours, rating, count)),
+        ("01.jpg", slide1_cover(food_paths[2], name, area, genre, tags)),
+        ("02.jpg", slide2_info(food_paths[1], name, address, hours, rating, count, area, genre)),
         ("03.jpg", slide_plain(food_paths[0])),
         ("04.jpg", slide4_kidpoint(interior_paths[0], tags, area, genre)),
         ("05.jpg", slide_plain(interior_paths[1])),
