@@ -44,12 +44,45 @@ def font_brush(size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(FONT_BRUSH), size)
 
 
-def vertical_area_size(area: str) -> int:
-    """area の文字数に応じた縦書き用フォントサイズ.
+# BOKUMO サイトの RegionSelector.tsx と同期。
+# micro エリア（大通/すすきの/平岸/函館ベイエリア 等）を sub エリア（中央区/豊平区/函館 等）に集約。
+# 札幌の区は都市名込みで「札幌中央区」のように表示し、地理的曖昧さを避ける。
+SUB_AREA_DISPLAY = {
+    # 札幌中央区とその micro
+    "札幌中央区": "札幌中央区", "大通": "札幌中央区", "すすきの": "札幌中央区",
+    "札幌駅周辺": "札幌中央区", "中島公園・山鼻": "札幌中央区",
+    "円山": "札幌中央区", "宮の森": "札幌中央区",
+    # 札幌北区
+    "札幌北区": "札幌北区", "札幌北区南部": "札幌北区",
+    "札幌北区北部": "札幌北区", "麻生・新琴似": "札幌北区",
+    # 札幌他区
+    "札幌東区": "札幌東区",
+    "札幌白石区": "札幌白石区",
+    "札幌厚別区": "札幌厚別区",
+    "札幌豊平区": "札幌豊平区", "平岸": "札幌豊平区",
+    "月寒・美園": "札幌豊平区", "豊平": "札幌豊平区",
+    "札幌清田区": "札幌清田区",
+    "札幌南区": "札幌南区",
+    "札幌西区": "札幌西区",
+    "札幌手稲区": "札幌手稲区",
+    # 小樽
+    "小樽": "小樽", "小樽駅周辺": "小樽", "小樽運河・堺町": "小樽",
+    # 函館（道南）— micro を「函館」に集約
+    "函館": "函館", "五稜郭": "函館", "函館駅前": "函館",
+    "函館ベイエリア": "函館", "函館郊外": "函館",
+    # 旭川 — micro を「旭川」に集約
+    "旭川": "旭川", "旭川駅周辺": "旭川", "旭川郊外": "旭川",
+    "旭川永山": "旭川", "旭川神楽": "旭川",
+}
 
-    BOKUMO サイトで使われている area 値（2-7文字）をそのまま表示するため、
-    文字数に応じてサイズを自動調整。
-    """
+
+def to_display_area(area: str) -> str:
+    """3階層のうち上 2 階層レベル（subArea）に集約した表示用ラベル."""
+    return SUB_AREA_DISPLAY.get(area, area or "")
+
+
+def vertical_area_size(area: str) -> int:
+    """area の文字数に応じた縦書き用フォントサイズ."""
     n = len(area or "")
     if n <= 2:
         return 230
@@ -220,9 +253,10 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     img = fit_canvas(Image.open(raw))
     draw = ImageDraw.Draw(img)
 
-    # ---- 左上: 縦書きで地名（極大、area をそのまま表示） ----
-    # 「・」は縦書き時に縦点点（︙）の方が自然なので置換。BOKUMO サイトの area 値を尊重。
-    v_text = (area or "").replace("・", "︙")
+    # ---- 左上: 縦書きで地名（極大、サブエリアレベル＝2階層まで） ----
+    # 「大通」「平岸」「函館ベイエリア」などの micro は「札幌中央区」「札幌豊平区」「函館」等に集約。
+    # 「・」は縦書き時に縦点点（︙）の方が自然なので置換。
+    v_text = to_display_area(area).replace("・", "︙")
     if v_text:
         v_size = vertical_area_size(v_text)
         fnt_v = font_brush(v_size)
