@@ -5,6 +5,10 @@
 4: 店内① + 子連れおすすめ情報
 5: 店内②（テキストなし）
 6: BOKUMO 宣伝
+
+Instagram のプロフィールグリッドは 4:5 (1080x1350) で表示するため、
+1080x1080 だと上下が cropされてテキスト見切れが発生する。
+2026-05-06 から 1080x1350 (縦長 4:5) に統一。
 """
 import json
 import re
@@ -32,7 +36,8 @@ OUT_DIR = ROOT / "outputs" / "instagram"
 FONT_BOLD = ROOT / "assets" / "fonts" / "NotoSansJP-Bold.otf"
 FONT_REG = ROOT / "assets" / "fonts" / "NotoSansJP-Regular.otf"
 
-CANVAS = 1080
+CANVAS_W = 1080
+CANVAS_H = 1350
 PINK = (224, 91, 124)
 PINK_DEEP = (175, 58, 92)
 PINK_SOFT = (251, 232, 238)
@@ -45,12 +50,26 @@ DARK_PANEL = (28, 28, 32)
 
 
 # ---------- ユーティリティ ----------
-def fit_square(img: Image.Image) -> Image.Image:
+def fit_canvas(img: Image.Image) -> Image.Image:
+    """元画像を 1080x1350 (4:5 縦長) にセンタークロップ。"""
     w, h = img.size
-    side = min(w, h)
-    img = img.crop(((w - side) // 2, (h - side) // 2,
-                    (w + side) // 2, (h + side) // 2))
-    return img.resize((CANVAS, CANVAS), Image.LANCZOS)
+    target_ratio = CANVAS_W / CANVAS_H  # 0.8
+    src_ratio = w / h
+    if src_ratio > target_ratio:
+        # 元画像が横長すぎる → 左右をクロップ
+        new_w = int(h * target_ratio)
+        x0 = (w - new_w) // 2
+        img = img.crop((x0, 0, x0 + new_w, h))
+    else:
+        # 元画像が縦長 or 同等 → 上下をクロップ
+        new_h = int(w / target_ratio)
+        y0 = (h - new_h) // 2
+        img = img.crop((0, y0, w, y0 + new_h))
+    return img.resize((CANVAS_W, CANVAS_H), Image.LANCZOS)
+
+
+# 後方互換のエイリアス
+fit_square = fit_canvas
 
 
 def font(size: int, bold: bool = True) -> ImageFont.FreeTypeFont:
@@ -157,7 +176,7 @@ def draw_star_icon(draw, x, y, size=24, color=GOLD):
 # ---------- スライド ----------
 def slide1_cover(raw: Path, name: str, area: str, genre: str) -> Image.Image:
     """シズル感優先。写真は暗くせず、上下に薄帯のみ。"""
-    img = fit_square(Image.open(raw))
+    img = fit_canvas(Image.open(raw))
 
     # 上部の白いリボン（左寄せ・小さく）
     ribbon_w, ribbon_h = 180, 90
@@ -177,7 +196,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str) -> Image.Image:
 
     # 下部に細い半透明ダーク帯（シズル感を残しつつ店名を読ませる）
     band_h = 200
-    img = paste_alpha_rect(img, (0, CANVAS - band_h, CANVAS, CANVAS),
+    img = paste_alpha_rect(img, (0, CANVAS_H - band_h, CANVAS_W, CANVAS_H),
                             (0, 0, 0, 150))
     draw = ImageDraw.Draw(img)
 
@@ -185,37 +204,37 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str) -> Image.Image:
     sub = f"{area} ・ {genre}"
     fnt_sub = font(28, False)
     sw, _, sox, _ = text_w(draw, sub, fnt_sub)
-    draw.text(((CANVAS - sw) // 2 - sox, CANVAS - band_h + 24),
+    draw.text(((CANVAS_W - sw) // 2 - sox, CANVAS_H - band_h + 24),
               sub, font=fnt_sub, fill=(255, 255, 255, 220))
 
     # 店名（大きく）
     nm = sanitize(name)
     fnt_nm, _ = fit_text(draw, nm, max_w=920, base_size=64, min_size=36)
     nw, _, nox, _ = text_w(draw, nm, fnt_nm)
-    draw.text(((CANVAS - nw) // 2 - nox, CANVAS - band_h + 70),
+    draw.text(((CANVAS_W - nw) // 2 - nox, CANVAS_H - band_h + 70),
               nm, font=fnt_nm, fill=WHITE)
 
     # 区切り線
-    line_y = CANVAS - 50
-    draw.line(((CANVAS - 80) // 2, line_y, (CANVAS + 80) // 2, line_y),
+    line_y = CANVAS_H - 50
+    draw.line(((CANVAS_W - 80) // 2, line_y, (CANVAS_W + 80) // 2, line_y),
               fill=(255, 255, 255, 180), width=2)
 
     # BOKUMO（小さく中央下）
     bf = font(26)
     bw, _, box, _ = text_w(draw, "BOKUMO", bf)
-    draw.text(((CANVAS - bw) // 2 - box, CANVAS - 38),
+    draw.text(((CANVAS_W - bw) // 2 - box, CANVAS_H - 38),
               "BOKUMO", font=bf, fill=WHITE)
     return img
 
 
 def slide2_info(raw: Path, name: str, address: str, hours: str, rating, count) -> Image.Image:
     """上部に半透明ダーク情報パネル。写真はしっかり見える。"""
-    img = fit_square(Image.open(raw))
+    img = fit_canvas(Image.open(raw))
 
     # 上部に半透明ダークパネル（角丸）
     pad = 24
     panel_x1, panel_y1 = pad, pad
-    panel_x2, panel_y2 = CANVAS - pad, 380
+    panel_x2, panel_y2 = CANVAS_W - pad, 380
     img = paste_alpha_rounded(img, (panel_x1, panel_y1, panel_x2, panel_y2),
                               (*DARK_PANEL, 195), radius=20)
     draw = ImageDraw.Draw(img)
@@ -273,16 +292,16 @@ def slide2_info(raw: Path, name: str, address: str, hours: str, rating, count) -
 
 
 def slide_plain(raw: Path) -> Image.Image:
-    return fit_square(Image.open(raw))
+    return fit_canvas(Image.open(raw))
 
 
 def slide4_kidpoint(raw: Path, tags: list, area: str, genre: str) -> Image.Image:
     """店内 + 子連れおすすめ。下部に半透明帯のみ、写真メイン。"""
-    img = fit_square(Image.open(raw))
+    img = fit_canvas(Image.open(raw))
 
     # 下部に半透明ダーク帯
     band_h = 280
-    img = paste_alpha_rect(img, (0, CANVAS - band_h, CANVAS, CANVAS),
+    img = paste_alpha_rect(img, (0, CANVAS_H - band_h, CANVAS_W, CANVAS_H),
                             (0, 0, 0, 165))
     draw = ImageDraw.Draw(img)
 
@@ -292,16 +311,16 @@ def slide4_kidpoint(raw: Path, tags: list, area: str, genre: str) -> Image.Image
     lw, lh, lox, loy = text_w(draw, label, fnt_lb)
     pad_x, pad_y = 18, 10
     bx = 50
-    by = CANVAS - band_h + 32
+    by = CANVAS_H - band_h + 32
     draw.rounded_rectangle((bx, by, bx + lw + pad_x * 2, by + lh + pad_y * 2),
                             radius=(lh + pad_y * 2) // 2, fill=PINK)
     draw.text((bx + pad_x - lox, by + pad_y - loy), label, font=fnt_lb, fill=WHITE)
 
     # 大見出し
     headline = "子連れで安心できる空間"
-    fnt_hd, _ = fit_text(draw, headline, max_w=CANVAS - 100, base_size=56, min_size=40)
+    fnt_hd, _ = fit_text(draw, headline, max_w=CANVAS_W - 100, base_size=56, min_size=40)
     hw, _, hox, _ = text_w(draw, headline, fnt_hd)
-    draw.text(((CANVAS - hw) // 2 - hox, CANVAS - band_h + 100),
+    draw.text(((CANVAS_W - hw) // 2 - hox, CANVAS_H - band_h + 100),
               headline, font=fnt_hd, fill=WHITE)
 
     # 特徴
@@ -311,38 +330,39 @@ def slide4_kidpoint(raw: Path, tags: list, area: str, genre: str) -> Image.Image
     elif "子連れOK" in features and len(features) == 1:
         features = features + [f"{area}の{genre}"]
     feat_text = "  ・  ".join(features[:3])
-    fnt_f, _ = fit_text(draw, feat_text, max_w=CANVAS - 100, base_size=32, min_size=22, bold=False)
+    fnt_f, _ = fit_text(draw, feat_text, max_w=CANVAS_W - 100, base_size=32, min_size=22, bold=False)
     fw, _, fox, _ = text_w(draw, feat_text, fnt_f)
-    draw.text(((CANVAS - fw) // 2 - fox, CANVAS - band_h + 180),
+    draw.text(((CANVAS_W - fw) // 2 - fox, CANVAS_H - band_h + 180),
               feat_text, font=fnt_f, fill=(230, 230, 230))
 
     # 下のCTA
     cta = "詳しくは『BOKUMO』で検索"
     fnt_c = font(26, False)
     cw, _, cox, _ = text_w(draw, cta, fnt_c)
-    draw.text(((CANVAS - cw) // 2 - cox, CANVAS - 50),
+    draw.text(((CANVAS_W - cw) // 2 - cox, CANVAS_H - 50),
               cta, font=fnt_c, fill=(220, 220, 220))
     return img
 
 
 def slide6_promo() -> Image.Image:
-    img = Image.new("RGB", (CANVAS, CANVAS), CREAM)
+    img = Image.new("RGB", (CANVAS_W, CANVAS_H), CREAM)
     draw = ImageDraw.Draw(img)
 
     # 上部ピンク帯（装飾のみ）
-    draw.rectangle((0, 0, CANVAS, 60), fill=PINK)
+    draw.rectangle((0, 0, CANVAS_W, 60), fill=PINK)
 
-    y = 290
+    # 1080x1350 の中央寄せレイアウト（旧 1080x1080 の y=290 → 比例で y=425 程度）
+    y = 360
     for line, sz, color in [
         ("北海道の", 58, INK),
         ("子連れOKなお店を", 64, INK),
         ("ぞくぞく更新中！", 72, PINK_DEEP),
     ]:
         w, _, ox, _ = text_w(draw, line, font(sz))
-        draw.text(((CANVAS - w) // 2 - ox, y), line, font=font(sz), fill=color)
+        draw.text(((CANVAS_W - w) // 2 - ox, y), line, font=font(sz), fill=color)
         y += sz + 20
     y += 60
-    draw.line((220, y, CANVAS - 220, y), fill=PINK, width=3)
+    draw.line((220, y, CANVAS_W - 220, y), fill=PINK, width=3)
     y += 50
 
     for line, sz, color in [
@@ -351,12 +371,12 @@ def slide6_promo() -> Image.Image:
         ("よろしくお願いします！", 44, PINK_DEEP),
     ]:
         w, _, ox, _ = text_w(draw, line, font(sz))
-        draw.text(((CANVAS - w) // 2 - ox, y), line, font=font(sz), fill=color)
+        draw.text(((CANVAS_W - w) // 2 - ox, y), line, font=font(sz), fill=color)
         y += sz + 30
 
     badge_w, badge_h = 480, 86
-    bx = (CANVAS - badge_w) // 2
-    by = CANVAS - 120
+    bx = (CANVAS_W - badge_w) // 2
+    by = CANVAS_H - 140
     draw.rounded_rectangle((bx, by, bx + badge_w, by + badge_h), radius=43, fill=PINK)
     bw, bh, ox, oy = text_w(draw, "boku-mo.com", font(40))
     draw.text((bx + (badge_w - bw) // 2 - ox, by + (badge_h - bh) // 2 - oy),
