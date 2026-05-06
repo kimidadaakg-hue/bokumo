@@ -58,6 +58,7 @@ PINK = (224, 91, 124)
 PINK_DEEP = (175, 58, 92)
 PINK_SOFT = (251, 232, 238)
 CREAM = (253, 247, 240)
+BEIGE = (245, 222, 179)  # キャッチコピーの差別化色（wheat 系）
 INK = (38, 38, 42)
 GRAY = (130, 130, 135)
 GOLD = (212, 175, 55)
@@ -209,63 +210,62 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     # ---- 左上: 縦書きで地名（極大） ----
     v_text = short_area(area)  # "札幌" / "函館" / "旭川" 等
     if v_text:
-        v_size = 200
+        v_size = 230
         fnt_v = font_brush(v_size)
-        v_x = 60
-        v_y = 80
+        v_x = 50
+        v_y = 70
         line_h = int(v_size * 1.05)
         for i, ch in enumerate(v_text):
             draw_outline(
                 draw, (v_x, v_y + i * line_h), ch, fnt_v,
-                fill=WHITE, stroke=(35, 15, 25), stroke_w=6,
+                fill=WHITE, stroke=(35, 15, 25), stroke_w=7,
             )
 
     # ---- 右上: BOKUMO + サブタイトル ----
-    # 英字部分は Klee One Bold（筆書きは英字が読みづらいため）
     title = "BOKUMO"
-    fnt_title = font(56, True)
+    fnt_title = font(64, True)
     tw, _, tox, _ = text_w(draw, title, fnt_title)
-    title_x = CANVAS_W - tw - 60 - tox
-    title_y = 70
+    title_x = CANVAS_W - tw - 50 - tox
+    title_y = 60
     draw_outline(
         draw, (title_x, title_y), title, fnt_title,
-        fill=WHITE, stroke=(35, 15, 25), stroke_w=4,
+        fill=WHITE, stroke=(35, 15, 25), stroke_w=5,
     )
     # サブ「by 北海道 子連れガイド」
     sub = "by 北海道 子連れガイド"
-    fnt_sub = font(22, False)
+    fnt_sub = font(26, False)
     sw, _, sox, _ = text_w(draw, sub, fnt_sub)
     draw_outline(
-        draw, (CANVAS_W - sw - 60 - sox, title_y + 80),
+        draw, (CANVAS_W - sw - 50 - sox, title_y + 90),
         sub, fnt_sub,
         fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
     )
     # ジャンル/ファミリー強調
     if genre:
         tag_g = f"-{genre} 子連れOK-"
-        fnt_g = font(20, False)
+        fnt_g = font(24, False)
         gw, _, gox, _ = text_w(draw, tag_g, fnt_g)
         draw_outline(
-            draw, (CANVAS_W - gw - 60 - gox, title_y + 115),
+            draw, (CANVAS_W - gw - 50 - gox, title_y + 130),
             tag_g, fnt_g,
             fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
         )
 
-    # ---- 下部キャッチコピー（極大、手書き） ----
+    # ---- 下部キャッチコピー（極大、ベージュで強調） ----
     catch = "子連れに優しいお店"
-    fnt_catch = font_brush(110)
+    fnt_catch = font_brush(120)
     cw, _, cox, _ = text_w(draw, catch, fnt_catch)
     # 大きすぎる場合は段階的に縮小
-    for sz in (110, 96, 86, 76):
+    for sz in (120, 108, 96, 86):
         fnt_catch = font_brush(sz)
         cw, _, cox, _ = text_w(draw, catch, fnt_catch)
-        if cw <= CANVAS_W - 60:
+        if cw <= CANVAS_W - 50:
             break
-    catch_y = CANVAS_H - 270
+    catch_y = CANVAS_H - 290
     draw_outline(
         draw, ((CANVAS_W - cw) // 2 - cox, catch_y),
-        catch, fnt_catch, fill=WHITE,
-        stroke=(35, 15, 25), stroke_w=6,
+        catch, fnt_catch, fill=BEIGE,
+        stroke=(35, 15, 25), stroke_w=7,
     )
 
     # ---- 設備タグ（中央、大、手書きフォント） ----
@@ -273,20 +273,20 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     if facility_tags:
         tag_line = "  ・  ".join(facility_tags)
         # フィット試行
-        fnt_tag = font_brush(60)
+        fnt_tag = font_brush(72)
         tw_check, _, _, _ = text_w(draw, tag_line, fnt_tag)
-        if tw_check > 900:
-            fnt_tag = font_brush(50)
+        if tw_check > 920:
+            fnt_tag = font_brush(60)
             tw_check, _, _, _ = text_w(draw, tag_line, fnt_tag)
-        if tw_check > 900:
-            fnt_tag = font_brush(42)
+        if tw_check > 920:
+            fnt_tag = font_brush(50)
         sz_tag = fnt_tag.size
         tw, _, tox, _ = text_w(draw, tag_line, fnt_tag)
-        check_size = 54
-        gap = 18
+        check_size = 64
+        gap = 20
         total_w = tw + check_size + gap
         start_x = (CANVAS_W - total_w) // 2
-        tag_y = CANVAS_H - 130
+        tag_y = CANVAS_H - 140
 
         cy = tag_y + check_size // 2 + sz_tag // 6
         cx = start_x + check_size // 2
@@ -302,14 +302,14 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
             fill=PINK,
         )
         # ✓
-        draw.line((cx - 11, cy + 3, cx - 2, cy + 12), fill=WHITE, width=6)
-        draw.line((cx - 2, cy + 12, cx + 14, cy - 8), fill=WHITE, width=6)
+        draw.line((cx - 14, cy + 4, cx - 3, cy + 14), fill=WHITE, width=7)
+        draw.line((cx - 3, cy + 14, cx + 16, cy - 9), fill=WHITE, width=7)
 
-        # タグテキスト（筆書き）
+        # タグテキスト（手書き）
         draw_outline(
             draw, (start_x + check_size + gap - tox, tag_y),
             tag_line, fnt_tag, fill=WHITE,
-            stroke=(35, 15, 25), stroke_w=3,
+            stroke=(35, 15, 25), stroke_w=4,
         )
 
     return img
