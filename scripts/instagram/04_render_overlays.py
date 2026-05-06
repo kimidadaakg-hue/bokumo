@@ -179,81 +179,108 @@ def draw_star_icon(draw, x, y, size=24, color=GOLD):
 # ---------- スライド ----------
 def slide1_cover(raw: Path, name: str, area: str, genre: str,
                  tags: list | None = None) -> Image.Image:
-    """子連れ強調レイアウト（2026-05-06 改訂）。
+    """子連れ強調レイアウト（2026-05-06 改訂2）。
 
-    上部: 「今日のおすすめ」リボン（既存）
-    下部帯: ハートキャッチコピー → 店名 → 設備タグ → BOKUMO
-    エリア・ジャンルは slide2 で表示するためここでは省略。
+    - 写真ベタ表示、半透明ダーク帯なし（写真の主役感を最大化）
+    - 上部: ピンクのピル型「今日のおすすめ」リボン（モダン）
+    - 写真下部に直接: キャッチコピー大 + 設備タグ大 + BOKUMO
+    - 文字はストロークアウトラインで写真上でも視認性確保
+    - 店名は省略（slide2 に表示）
     """
     img = fit_canvas(Image.open(raw))
 
-    # 上部の白いリボン（左寄せ・小さく）
-    ribbon_w, ribbon_h = 180, 90
-    img = paste_alpha_rect(img, (40, 0, 40 + ribbon_w, ribbon_h), (255, 255, 255, 240))
-    overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
-    od.polygon([(40, ribbon_h), (40 + ribbon_w / 2, ribbon_h - 22),
-                (40 + ribbon_w, ribbon_h)], fill=(255, 255, 255, 240))
-    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
+    # ---- 上部リボン（モダン: ピンク角丸ピル + ドロップシャドウ） ----
+    ribbon_w, ribbon_h = 250, 72
+    ribbon_x, ribbon_y = 40, 40
+    # ドロップシャドウ
+    img = paste_alpha_rounded(
+        img,
+        (ribbon_x + 4, ribbon_y + 5,
+         ribbon_x + ribbon_w + 4, ribbon_y + ribbon_h + 5),
+        (0, 0, 0, 90), radius=ribbon_h // 2,
+    )
+    # 本体（ピンク）
+    img = paste_alpha_rounded(
+        img,
+        (ribbon_x, ribbon_y, ribbon_x + ribbon_w, ribbon_y + ribbon_h),
+        (*PINK, 255), radius=ribbon_h // 2,
+    )
     draw = ImageDraw.Draw(img)
-    draw.text((40 + ribbon_w / 2 - text_w(draw, "今日の", font(24))[0] / 2, 16),
-              "今日の", font=font(24), fill=PINK_DEEP)
-    draw.text((40 + ribbon_w / 2 - text_w(draw, "おすすめ", font(28))[0] / 2, 44),
-              "おすすめ", font=font(28), fill=PINK_DEEP)
+    # アクセント（左に小さなドット）
+    dot_r = 5
+    dot_cx = ribbon_x + 28
+    dot_cy = ribbon_y + ribbon_h // 2
+    draw.ellipse((dot_cx - dot_r, dot_cy - dot_r,
+                  dot_cx + dot_r, dot_cy + dot_r), fill=WHITE)
+    # ラベル
+    label = "今日のおすすめ"
+    fnt_lb = font(28, True)
+    lw, lh, lox, loy = text_w(draw, label, fnt_lb)
+    draw.text((dot_cx + 14 - lox,
+               ribbon_y + (ribbon_h - lh) // 2 - loy),
+              label, font=fnt_lb, fill=WHITE)
 
-    # 下部の半透明ダーク帯（高さ拡大して情報量増）
-    band_h = 320
-    img = paste_alpha_rect(img, (0, CANVAS_H - band_h, CANVAS_W, CANVAS_H),
-                            (0, 0, 0, 165))
-    draw = ImageDraw.Draw(img)
+    # ---- 写真下部に直接テキスト（背景ナシ・ストロークで視認性確保） ----
 
-    y_base = CANVAS_H - band_h
-
-    # キャッチコピー（ハート付き）
+    # キャッチコピー（大）
     catch = "♡ 子連れに優しいお店 ♡"
-    fnt_catch = font(34, False)
+    fnt_catch = font(56, True)
     cw, _, cox, _ = text_w(draw, catch, fnt_catch)
-    draw.text(((CANVAS_W - cw) // 2 - cox, y_base + 26),
-              catch, font=fnt_catch, fill=PINK_SOFT)
+    catch_y = CANVAS_H - 280
+    draw_outline(
+        draw, ((CANVAS_W - cw) // 2 - cox, catch_y),
+        catch, fnt_catch, fill=WHITE,
+        stroke=(35, 15, 25), stroke_w=4,
+    )
 
-    # 店名（最大表示）
-    nm = sanitize(name)
-    fnt_nm, sz_nm = fit_text(draw, nm, max_w=940, base_size=72, min_size=40)
-    nw, _, nox, _ = text_w(draw, nm, fnt_nm)
-    draw.text(((CANVAS_W - nw) // 2 - nox, y_base + 86),
-              nm, font=fnt_nm, fill=WHITE)
-
-    # 区切り（細い線）
-    sep_y = y_base + 86 + sz_nm + 20
-    draw.line(((CANVAS_W - 100) // 2, sep_y, (CANVAS_W + 100) // 2, sep_y),
-              fill=(255, 255, 255, 140), width=2)
-
-    # 設備タグ（「子連れOK」除く、最大3個）
+    # 設備タグ（最大3個、大きく中央寄せ・チェックマーク付き）
     facility_tags = [t for t in (tags or []) if t and t != "子連れOK"][:3]
     if facility_tags:
-        # チェックマーク✓ + タグを「・」で区切り
         tag_line = "  ・  ".join(facility_tags)
-        fnt_tag, _ = fit_text(draw, tag_line, max_w=940, base_size=30,
-                              min_size=22, bold=False)
+        fnt_tag, sz_tag = fit_text(
+            draw, tag_line, max_w=900, base_size=46, min_size=32, bold=True,
+        )
         tw, _, tox, _ = text_w(draw, tag_line, fnt_tag)
-        # 左にチェック付き、中央寄せ
-        check_w = 36
-        total_w = tw + check_w
+        check_size = 48
+        gap = 18
+        total_w = tw + check_size + gap
         start_x = (CANVAS_W - total_w) // 2
-        # チェックマーク（簡易・✓記号は環境差あるので円＋線で描画）
-        cx, cy = start_x + 12, sep_y + 28
-        draw.ellipse((cx - 12, cy - 12, cx + 12, cy + 12), fill=PINK)
-        draw.line((cx - 5, cy + 1, cx - 1, cy + 5), fill=WHITE, width=3)
-        draw.line((cx - 1, cy + 5, cx + 7, cy - 4), fill=WHITE, width=3)
+        tag_y = CANVAS_H - 170
+
+        # チェックマーク（影付き ピンク丸）
+        cx_shadow = start_x + check_size // 2 + 3
+        cy_shadow = tag_y + check_size // 2 + 3 + sz_tag // 6
+        draw.ellipse(
+            (cx_shadow - check_size // 2, cy_shadow - check_size // 2,
+             cx_shadow + check_size // 2, cy_shadow + check_size // 2),
+            fill=(0, 0, 0, 100),
+        )
+        cx = start_x + check_size // 2
+        cy = tag_y + check_size // 2 + sz_tag // 6
+        draw.ellipse(
+            (cx - check_size // 2, cy - check_size // 2,
+             cx + check_size // 2, cy + check_size // 2),
+            fill=PINK,
+        )
+        # ✓ 形状
+        draw.line((cx - 10, cy + 3, cx - 2, cy + 11), fill=WHITE, width=5)
+        draw.line((cx - 2, cy + 11, cx + 12, cy - 7), fill=WHITE, width=5)
+
         # タグテキスト
-        draw.text((start_x + check_w - tox, sep_y + 18),
-                  tag_line, font=fnt_tag, fill=(245, 245, 245))
+        draw_outline(
+            draw, (start_x + check_size + gap - tox, tag_y),
+            tag_line, fnt_tag, fill=WHITE,
+            stroke=(35, 15, 25), stroke_w=3,
+        )
 
     # BOKUMO（最下部）
-    bf = font(24)
+    bf = font(30, True)
     bw, _, box, _ = text_w(draw, "BOKUMO", bf)
-    draw.text(((CANVAS_W - bw) // 2 - box, CANVAS_H - 36),
-              "BOKUMO", font=bf, fill=(220, 220, 220))
+    draw_outline(
+        draw, ((CANVAS_W - bw) // 2 - box, CANVAS_H - 70),
+        "BOKUMO", bf, fill=WHITE,
+        stroke=(35, 15, 25), stroke_w=3,
+    )
     return img
 
 
