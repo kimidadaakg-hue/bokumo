@@ -36,8 +36,8 @@ OUT_DIR = ROOT / "outputs" / "instagram"
 # 手書き風（学校教科書風） — 親近感とファミリー向けの温かみ
 FONT_BOLD = ROOT / "assets" / "fonts" / "KleeOne-SemiBold.ttf"
 FONT_REG = ROOT / "assets" / "fonts" / "KleeOne-Regular.ttf"
-# マジックペン手書き風（slide1_cover 用、カジュアル & シャープ）
-FONT_BRUSH = ROOT / "assets" / "fonts" / "YuseiMagic-Regular.ttf"
+# 丸くてポップな手書き風（slide1_cover 用、子供向けに親しみやすい）
+FONT_BRUSH = ROOT / "assets" / "fonts" / "MochiyPopOne-Regular.ttf"
 
 
 def font_brush(size: int) -> ImageFont.FreeTypeFont:
