@@ -44,13 +44,24 @@ def font_brush(size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(FONT_BRUSH), size)
 
 
-def short_area(area: str) -> str:
-    """縦書き表示用に area を 2-3 文字に圧縮."""
-    if not area:
-        return ""
-    if area.startswith("札幌"):
-        return "札幌"
-    return area[:3]
+def vertical_area_size(area: str) -> int:
+    """area の文字数に応じた縦書き用フォントサイズ.
+
+    BOKUMO サイトで使われている area 値（2-7文字）をそのまま表示するため、
+    文字数に応じてサイズを自動調整。
+    """
+    n = len(area or "")
+    if n <= 2:
+        return 230
+    if n == 3:
+        return 200
+    if n == 4:
+        return 170
+    if n == 5:
+        return 145
+    if n == 6:
+        return 125
+    return 110
 
 CANVAS_W = 1080
 CANVAS_H = 1350
@@ -209,18 +220,21 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     img = fit_canvas(Image.open(raw))
     draw = ImageDraw.Draw(img)
 
-    # ---- 左上: 縦書きで地名（極大） ----
-    v_text = short_area(area)  # "札幌" / "函館" / "旭川" 等
+    # ---- 左上: 縦書きで地名（極大、area をそのまま表示） ----
+    # 「・」は縦書き時に縦点点（︙）の方が自然なので置換。BOKUMO サイトの area 値を尊重。
+    v_text = (area or "").replace("・", "︙")
     if v_text:
-        v_size = 230
+        v_size = vertical_area_size(v_text)
         fnt_v = font_brush(v_size)
         v_x = 50
         v_y = 70
         line_h = int(v_size * 1.05)
+        # ストローク幅も文字サイズに比例
+        stroke_w = max(4, v_size // 35)
         for i, ch in enumerate(v_text):
             draw_outline(
                 draw, (v_x, v_y + i * line_h), ch, fnt_v,
-                fill=WHITE, stroke=STROKE_DARK, stroke_w=7,
+                fill=WHITE, stroke=STROKE_DARK, stroke_w=stroke_w,
             )
 
     # ---- 右上: BOKUMO + サブタイトル ----
