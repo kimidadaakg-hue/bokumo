@@ -64,6 +64,8 @@ GRAY = (130, 130, 135)
 GOLD = (212, 175, 55)
 WHITE = (255, 255, 255)
 DARK_PANEL = (28, 28, 32)
+# 文字縁取り色（暗ピンクブラウン、黒よりも柔らかい）
+STROKE_DARK = (110, 55, 75)
 
 
 # ---------- ユーティリティ ----------
@@ -218,7 +220,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
         for i, ch in enumerate(v_text):
             draw_outline(
                 draw, (v_x, v_y + i * line_h), ch, fnt_v,
-                fill=WHITE, stroke=(35, 15, 25), stroke_w=7,
+                fill=WHITE, stroke=STROKE_DARK, stroke_w=7,
             )
 
     # ---- 右上: BOKUMO + サブタイトル ----
@@ -229,7 +231,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     title_y = 60
     draw_outline(
         draw, (title_x, title_y), title, fnt_title,
-        fill=WHITE, stroke=(35, 15, 25), stroke_w=5,
+        fill=WHITE, stroke=STROKE_DARK, stroke_w=5,
     )
     # サブ「by 北海道 子連れガイド」
     sub = "by 北海道 子連れガイド"
@@ -238,7 +240,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     draw_outline(
         draw, (CANVAS_W - sw - 50 - sox, title_y + 90),
         sub, fnt_sub,
-        fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
+        fill=WHITE, stroke=STROKE_DARK, stroke_w=2,
     )
     # ジャンル/ファミリー強調
     if genre:
@@ -248,7 +250,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
         draw_outline(
             draw, (CANVAS_W - gw - 50 - gox, title_y + 130),
             tag_g, fnt_g,
-            fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
+            fill=WHITE, stroke=STROKE_DARK, stroke_w=2,
         )
 
     # ---- 下部キャッチコピー（極大、ベージュで強調） ----
@@ -265,7 +267,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
     draw_outline(
         draw, ((CANVAS_W - cw) // 2 - cox, catch_y),
         catch, fnt_catch, fill=BEIGE,
-        stroke=(35, 15, 25), stroke_w=7,
+        stroke=STROKE_DARK, stroke_w=7,
     )
 
     # ---- 設備タグ（中央、大、手書きフォント） ----
@@ -309,7 +311,7 @@ def slide1_cover(raw: Path, name: str, area: str, genre: str,
         draw_outline(
             draw, (start_x + check_size + gap - tox, tag_y),
             tag_line, fnt_tag, fill=WHITE,
-            stroke=(35, 15, 25), stroke_w=4,
+            stroke=STROKE_DARK, stroke_w=4,
         )
 
     return img
