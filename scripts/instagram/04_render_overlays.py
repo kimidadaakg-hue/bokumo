@@ -33,8 +33,9 @@ def sanitize(s: str) -> str:
 ROOT = Path(__file__).resolve().parents[2]
 SHOPS = ROOT / "data" / "shops.json"
 OUT_DIR = ROOT / "outputs" / "instagram"
-FONT_BOLD = ROOT / "assets" / "fonts" / "NotoSansJP-Bold.otf"
-FONT_REG = ROOT / "assets" / "fonts" / "NotoSansJP-Regular.otf"
+# 手書き風（学校教科書風） — 親近感とファミリー向けの温かみ
+FONT_BOLD = ROOT / "assets" / "fonts" / "KleeOne-SemiBold.ttf"
+FONT_REG = ROOT / "assets" / "fonts" / "KleeOne-Regular.ttf"
 
 CANVAS_W = 1080
 CANVAS_H = 1350
