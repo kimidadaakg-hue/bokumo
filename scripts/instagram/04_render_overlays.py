@@ -36,6 +36,21 @@ OUT_DIR = ROOT / "outputs" / "instagram"
 # 手書き風（学校教科書風） — 親近感とファミリー向けの温かみ
 FONT_BOLD = ROOT / "assets" / "fonts" / "KleeOne-SemiBold.ttf"
 FONT_REG = ROOT / "assets" / "fonts" / "KleeOne-Regular.ttf"
+# 筆書き手書き風（slide1_cover 用、参考画像風レイアウト）
+FONT_BRUSH = ROOT / "assets" / "fonts" / "YujiBoku-Regular.ttf"
+
+
+def font_brush(size: int) -> ImageFont.FreeTypeFont:
+    return ImageFont.truetype(str(FONT_BRUSH), size)
+
+
+def short_area(area: str) -> str:
+    """縦書き表示用に area を 2-3 文字に圧縮."""
+    if not area:
+        return ""
+    if area.startswith("札幌"):
+        return "札幌"
+    return area[:3]
 
 CANVAS_W = 1080
 CANVAS_H = 1350
@@ -180,108 +195,115 @@ def draw_star_icon(draw, x, y, size=24, color=GOLD):
 # ---------- スライド ----------
 def slide1_cover(raw: Path, name: str, area: str, genre: str,
                  tags: list | None = None) -> Image.Image:
-    """子連れ強調レイアウト（2026-05-06 改訂2）。
+    """参考画像風レイアウト（2026-05-06 改訂3）。
 
-    - 写真ベタ表示、半透明ダーク帯なし（写真の主役感を最大化）
-    - 上部: ピンクのピル型「今日のおすすめ」リボン（モダン）
-    - 写真下部に直接: キャッチコピー大 + 設備タグ大 + BOKUMO
-    - 文字はストロークアウトラインで写真上でも視認性確保
-    - 店名は省略（slide2 に表示）
+    - 左上: 縦書きで地名（極大、筆書き手書きフォント YujiBoku）
+    - 右上: BOKUMO ロゴ + サブタイトル
+    - 写真メイン（ベタ表示）
+    - 下部: キャッチコピー大 + 設備タグ大
+    - 全テキストに白フィル + ダークアウトライン
     """
     img = fit_canvas(Image.open(raw))
-
-    # ---- 上部リボン（モダン: ピンク角丸ピル + ドロップシャドウ） ----
-    ribbon_w, ribbon_h = 250, 72
-    ribbon_x, ribbon_y = 40, 40
-    # ドロップシャドウ
-    img = paste_alpha_rounded(
-        img,
-        (ribbon_x + 4, ribbon_y + 5,
-         ribbon_x + ribbon_w + 4, ribbon_y + ribbon_h + 5),
-        (0, 0, 0, 90), radius=ribbon_h // 2,
-    )
-    # 本体（ピンク）
-    img = paste_alpha_rounded(
-        img,
-        (ribbon_x, ribbon_y, ribbon_x + ribbon_w, ribbon_y + ribbon_h),
-        (*PINK, 255), radius=ribbon_h // 2,
-    )
     draw = ImageDraw.Draw(img)
-    # アクセント（左に小さなドット）
-    dot_r = 5
-    dot_cx = ribbon_x + 28
-    dot_cy = ribbon_y + ribbon_h // 2
-    draw.ellipse((dot_cx - dot_r, dot_cy - dot_r,
-                  dot_cx + dot_r, dot_cy + dot_r), fill=WHITE)
-    # ラベル
-    label = "今日のおすすめ"
-    fnt_lb = font(28, True)
-    lw, lh, lox, loy = text_w(draw, label, fnt_lb)
-    draw.text((dot_cx + 14 - lox,
-               ribbon_y + (ribbon_h - lh) // 2 - loy),
-              label, font=fnt_lb, fill=WHITE)
 
-    # ---- 写真下部に直接テキスト（背景ナシ・ストロークで視認性確保） ----
+    # ---- 左上: 縦書きで地名（極大） ----
+    v_text = short_area(area)  # "札幌" / "函館" / "旭川" 等
+    if v_text:
+        v_size = 200
+        fnt_v = font_brush(v_size)
+        v_x = 60
+        v_y = 80
+        line_h = int(v_size * 1.05)
+        for i, ch in enumerate(v_text):
+            draw_outline(
+                draw, (v_x, v_y + i * line_h), ch, fnt_v,
+                fill=WHITE, stroke=(35, 15, 25), stroke_w=6,
+            )
 
-    # キャッチコピー（大）
+    # ---- 右上: BOKUMO + サブタイトル ----
+    # 英字部分は Klee One Bold（筆書きは英字が読みづらいため）
+    title = "BOKUMO"
+    fnt_title = font(56, True)
+    tw, _, tox, _ = text_w(draw, title, fnt_title)
+    title_x = CANVAS_W - tw - 60 - tox
+    title_y = 70
+    draw_outline(
+        draw, (title_x, title_y), title, fnt_title,
+        fill=WHITE, stroke=(35, 15, 25), stroke_w=4,
+    )
+    # サブ「by 北海道 子連れガイド」
+    sub = "by 北海道 子連れガイド"
+    fnt_sub = font(22, False)
+    sw, _, sox, _ = text_w(draw, sub, fnt_sub)
+    draw_outline(
+        draw, (CANVAS_W - sw - 60 - sox, title_y + 80),
+        sub, fnt_sub,
+        fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
+    )
+    # ジャンル/ファミリー強調
+    if genre:
+        tag_g = f"-{genre} 子連れOK-"
+        fnt_g = font(20, False)
+        gw, _, gox, _ = text_w(draw, tag_g, fnt_g)
+        draw_outline(
+            draw, (CANVAS_W - gw - 60 - gox, title_y + 115),
+            tag_g, fnt_g,
+            fill=WHITE, stroke=(35, 15, 25), stroke_w=2,
+        )
+
+    # ---- 下部キャッチコピー（極大、筆書き） ----
     catch = "♡ 子連れに優しいお店 ♡"
-    fnt_catch = font(56, True)
+    fnt_catch = font_brush(76)
     cw, _, cox, _ = text_w(draw, catch, fnt_catch)
-    catch_y = CANVAS_H - 280
+    # 大きすぎる場合は縮小
+    if cw > CANVAS_W - 80:
+        fnt_catch = font_brush(64)
+        cw, _, cox, _ = text_w(draw, catch, fnt_catch)
+    catch_y = CANVAS_H - 250
     draw_outline(
         draw, ((CANVAS_W - cw) // 2 - cox, catch_y),
         catch, fnt_catch, fill=WHITE,
-        stroke=(35, 15, 25), stroke_w=4,
+        stroke=(35, 15, 25), stroke_w=5,
     )
 
-    # 設備タグ（最大3個、大きく中央寄せ・チェックマーク付き）
+    # ---- 設備タグ（中央、大） ----
     facility_tags = [t for t in (tags or []) if t and t != "子連れOK"][:3]
     if facility_tags:
         tag_line = "  ・  ".join(facility_tags)
         fnt_tag, sz_tag = fit_text(
-            draw, tag_line, max_w=900, base_size=46, min_size=32, bold=True,
+            draw, tag_line, max_w=900, base_size=52, min_size=36, bold=True,
         )
         tw, _, tox, _ = text_w(draw, tag_line, fnt_tag)
-        check_size = 48
+        check_size = 54
         gap = 18
         total_w = tw + check_size + gap
         start_x = (CANVAS_W - total_w) // 2
-        tag_y = CANVAS_H - 170
+        tag_y = CANVAS_H - 130
 
-        # チェックマーク（影付き ピンク丸）
-        cx_shadow = start_x + check_size // 2 + 3
-        cy_shadow = tag_y + check_size // 2 + 3 + sz_tag // 6
-        draw.ellipse(
-            (cx_shadow - check_size // 2, cy_shadow - check_size // 2,
-             cx_shadow + check_size // 2, cy_shadow + check_size // 2),
-            fill=(0, 0, 0, 100),
-        )
-        cx = start_x + check_size // 2
         cy = tag_y + check_size // 2 + sz_tag // 6
+        cx = start_x + check_size // 2
+        # ピンク丸 (影付き)
+        draw.ellipse(
+            (cx - check_size // 2 + 4, cy - check_size // 2 + 4,
+             cx + check_size // 2 + 4, cy + check_size // 2 + 4),
+            fill=(0, 0, 0, 110),
+        )
         draw.ellipse(
             (cx - check_size // 2, cy - check_size // 2,
              cx + check_size // 2, cy + check_size // 2),
             fill=PINK,
         )
-        # ✓ 形状
-        draw.line((cx - 10, cy + 3, cx - 2, cy + 11), fill=WHITE, width=5)
-        draw.line((cx - 2, cy + 11, cx + 12, cy - 7), fill=WHITE, width=5)
+        # ✓
+        draw.line((cx - 11, cy + 3, cx - 2, cy + 12), fill=WHITE, width=6)
+        draw.line((cx - 2, cy + 12, cx + 14, cy - 8), fill=WHITE, width=6)
 
-        # タグテキスト
+        # タグテキスト（筆書き）
         draw_outline(
             draw, (start_x + check_size + gap - tox, tag_y),
             tag_line, fnt_tag, fill=WHITE,
             stroke=(35, 15, 25), stroke_w=3,
         )
 
-    # BOKUMO（最下部）
-    bf = font(30, True)
-    bw, _, box, _ = text_w(draw, "BOKUMO", bf)
-    draw_outline(
-        draw, ((CANVAS_W - bw) // 2 - box, CANVAS_H - 70),
-        "BOKUMO", bf, fill=WHITE,
-        stroke=(35, 15, 25), stroke_w=3,
-    )
     return img
 
 
