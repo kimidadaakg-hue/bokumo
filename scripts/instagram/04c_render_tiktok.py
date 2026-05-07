@@ -1,6 +1,12 @@
-"""processed/*.jpg (1080×1080) → tiktok/*.jpg (1080×1920) に変換。
-正方形画像を中央に配置し、上下を「同じ画像のブラー拡大版」で埋める。
+"""processed/*.jpg (1080×1350) → tiktok/*.jpg (1080×1920) に変換。
+
+縦長 4:5 のカバー/コンテンツ画像を中央に配置し、上下を「同じ画像のブラー拡大版」で埋める。
 TikTok・縦長フォーマット用。
+
+スライド別ロジック:
+- 0 (カバー): カバー側で BOKUMO ロゴ + 地名 + キャッチを焼き込み済みなのでテキスト追加なし
+- 1〜4 (コンテンツ): 上下のぼかし帯に BOKUMO ロゴ + CTA を追加
+- 5 (プロモ): 上下にピンク帯 + BOKUMO ロゴ + アカウント情報
 """
 import json
 from datetime import date
@@ -10,11 +16,12 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = ROOT / "outputs" / "instagram"
 FONT_BOLD = ROOT / "assets" / "fonts" / "NotoSansJP-Bold.otf"
+FONT_KLEE = ROOT / "assets" / "fonts" / "KleeOne-SemiBold.ttf"
 
 W, H = 1080, 1920
-SQUARE = 1080
-PAD_TOP = (H - SQUARE) // 2  # 420
-PAD_BOTTOM = H - SQUARE - PAD_TOP
+SRC_W, SRC_H = 1080, 1350           # processed/ の実サイズ（4:5）
+PAD_TOP = (H - SRC_H) // 2          # 285
+PAD_BOTTOM = H - SRC_H - PAD_TOP    # 285
 
 PINK = (224, 91, 124)
 PINK_DEEP = (175, 58, 92)
@@ -22,8 +29,9 @@ CREAM = (253, 247, 240)
 WHITE = (255, 255, 255)
 
 
-def font(sz: int):
-    return ImageFont.truetype(str(FONT_BOLD), sz)
+def font(sz: int, bold: bool = True):
+    path = FONT_BOLD if bold else FONT_KLEE
+    return ImageFont.truetype(str(path), sz)
 
 
 def text_w(draw, text, fnt):
@@ -36,59 +44,60 @@ def draw_centered(draw, text, y, fnt, color, x_center=W // 2):
     draw.text((x_center - w // 2 - ox, y), text, font=fnt, fill=color)
 
 
-def make_blur_bg(square_img: Image.Image) -> Image.Image:
-    """正方形画像を縦長サイズに拡大→強くブラー → 背景にする"""
-    # 横幅基準で拡大
-    bg = square_img.resize((W, int(square_img.height * W / square_img.width)),
-                            Image.LANCZOS)
-    # 高さがHに足りなければ更に拡大
+def make_blur_bg(src_img: Image.Image) -> Image.Image:
+    """元画像を縦長サイズに拡大→強くブラー → 背景にする"""
+    bg = src_img.resize((W, int(src_img.height * W / src_img.width)),
+                        Image.LANCZOS)
     if bg.height < H:
         bg = bg.resize((int(W * H / bg.height), H), Image.LANCZOS)
-    # 中央クロップで W×H に
     left = (bg.width - W) // 2
     top = (bg.height - H) // 2
     bg = bg.crop((left, top, left + W, top + H))
-    # ブラー
     bg = bg.filter(ImageFilter.GaussianBlur(radius=40))
-    # 暗くして主役を引き立てる
     overlay = Image.new("RGBA", (W, H), (0, 0, 0, 90))
     bg = Image.alpha_composite(bg.convert("RGBA"), overlay).convert("RGB")
     return bg
 
 
-def make_vertical(square_path: Path, slide_index: int) -> Image.Image:
-    """正方形画像から1080×1920を作る"""
-    sq = Image.open(square_path)
-    # 6枚目（プロモ）は背景なしでクリーム単色
+def make_vertical(src_path: Path, slide_index: int) -> Image.Image:
+    """1080×1350 から 1080×1920 を作る"""
+    src = Image.open(src_path).convert("RGB")
+    # サイズ正規化（万一違うサイズが混ざっても保険）
+    if src.size != (SRC_W, SRC_H):
+        src = src.resize((SRC_W, SRC_H), Image.LANCZOS)
+
+    # 6枚目（プロモ）はピンク帯 + 中央配置
     if slide_index == 5:
         canvas = Image.new("RGB", (W, H), CREAM)
-        # 上下に少しピンクの帯
-        ImageDraw.Draw(canvas).rectangle((0, 0, W, PAD_TOP), fill=PINK)
-        ImageDraw.Draw(canvas).rectangle((0, H - PAD_BOTTOM, W, H), fill=PINK)
+        d0 = ImageDraw.Draw(canvas)
+        d0.rectangle((0, 0, W, PAD_TOP), fill=PINK)
+        d0.rectangle((0, H - PAD_BOTTOM, W, H), fill=PINK)
     else:
-        canvas = make_blur_bg(sq)
+        canvas = make_blur_bg(src)
 
-    # 中央に正方形を配置
-    canvas.paste(sq, (0, PAD_TOP))
+    # 中央に元画像を配置
+    canvas.paste(src, (0, PAD_TOP))
 
-    # 上部にロゴ・下部にCTA
     draw = ImageDraw.Draw(canvas)
-    if slide_index != 5:
-        # 上部: BOKUMO ロゴ
-        draw_centered(draw, "BOKUMO", 110, font(96), color=WHITE)
-        draw_centered(draw, "北海道の子連れOKなお店", 230, font(40), color=WHITE)
 
-        # 下部: CTA
-        cta_y = PAD_TOP + SQUARE + 80
-        draw_centered(draw, "詳しくは『BOKUMO』で検索", cta_y, font(48), color=WHITE)
-        draw_centered(draw, "@bokumo2026 をフォロー", cta_y + 90, font(40), color=WHITE)
-    else:
-        # 6枚目はカバー画像が中央にあるだけ。上下のピンク帯にテキスト
-        draw_centered(draw, "BOKUMO", 130, font(110), color=WHITE)
-        draw_centered(draw, "for Hokkaido families", 270, font(34), color=WHITE)
-        cta_y = PAD_TOP + SQUARE + 110
+    if slide_index == 0:
+        # カバー: 既にロゴ・地名・キャッチが焼き込み済みなのでテキスト追加なし
+        pass
+    elif slide_index == 5:
+        # プロモ: ピンク帯にロゴ + アカウント情報
+        draw_centered(draw, "BOKUMO", 80, font(96), color=WHITE)
+        draw_centered(draw, "for Hokkaido families", 200, font(34), color=WHITE)
+        cta_y = PAD_TOP + SRC_H + 70
         draw_centered(draw, "@bokumo2026", cta_y, font(64), color=WHITE)
-        draw_centered(draw, "boku-mo.com", cta_y + 100, font(50), color=WHITE)
+        draw_centered(draw, "boku-mo.com", cta_y + 100, font(40), color=WHITE)
+    else:
+        # コンテンツ写真 (1〜4): 上下のぼかし帯に BOKUMO + CTA
+        draw_centered(draw, "BOKUMO", 75, font(80), color=WHITE)
+        draw_centered(draw, "北海道の子連れOKなお店", 185, font(34), color=WHITE)
+
+        cta_y = PAD_TOP + SRC_H + 60
+        draw_centered(draw, "詳しくは『BOKUMO』で検索", cta_y, font(40), color=WHITE)
+        draw_centered(draw, "@bokumo2026 をフォロー", cta_y + 80, font(34), color=WHITE)
 
     return canvas
 
