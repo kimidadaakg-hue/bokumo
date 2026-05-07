@@ -11,6 +11,7 @@ STEPS = [
     "01_select_shops.py",
     "02_fetch_photos.py",
     "02b_classify_photos.py",
+    "02c_blur_faces.py",   # 顔ブラー（プライバシー保護）
     "03_generate_caption.py",
     "04_render_overlays.py",
     "04c_render_tiktok.py",
