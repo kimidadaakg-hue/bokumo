@@ -22175,7 +22175,19 @@
       "日曜日: 11時30分～20時00分"
     ],
     "phone": "011-892-1477",
-    "website": "https://fqv7.jougennotuki.com/hokkaido/index.html"
+    "website": "https://fqv7.jougennotuki.com/hokkaido/index.html",
+    "gallery": [
+      "/photos/gallery/1635/01.jpg",
+      "/photos/gallery/1635/02.jpg",
+      "/photos/gallery/1635/03.jpg",
+      "/photos/gallery/1635/04.jpg",
+      "/photos/gallery/1635/05.jpg",
+      "/photos/gallery/1635/06.jpg",
+      "/photos/gallery/1635/07.jpg",
+      "/photos/gallery/1635/08.jpg",
+      "/photos/gallery/1635/09.jpg",
+      "/photos/gallery/1635/10.jpg"
+    ]
   },
   {
     "place_id": "ChIJQaNoKRArC18RFUG58e-2V-k",
@@ -27242,7 +27254,19 @@
     ],
     "phone": "011-890-1275",
     "website": "http://coco.cococica.com/wa-satoh/index.asp",
-    "id": 2280
+    "id": 2280,
+    "gallery": [
+      "/photos/gallery/2280/01.jpg",
+      "/photos/gallery/2280/02.jpg",
+      "/photos/gallery/2280/03.jpg",
+      "/photos/gallery/2280/04.jpg",
+      "/photos/gallery/2280/05.jpg",
+      "/photos/gallery/2280/06.jpg",
+      "/photos/gallery/2280/07.jpg",
+      "/photos/gallery/2280/08.jpg",
+      "/photos/gallery/2280/09.jpg",
+      "/photos/gallery/2280/10.jpg"
+    ]
   },
   {
     "place_id": "ChIJ-U9zSZ0sC18RQyYu2ziCJHE",
@@ -29382,45 +29406,6 @@
     "id": 2346
   },
   {
-    "place_id": "ChIJy7MMI3MsC18RM0QWLyKB6Hc",
-    "name": "川下公園リラックスプラザ",
-    "area": "札幌白石区",
-    "genre": "その他",
-    "tags": [
-      "子連れOK",
-      "子供メニューあり"
-    ],
-    "description": "無料で遊べる屋内施設！食事もリーズナブルで子連れに嬉しい。",
-    "score": 4,
-    "lat": 43.063783699999995,
-    "lng": 141.44402159999999,
-    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJy7MMI3MsC18RM0QWLyKB6Hc",
-    "image_url": "/photos/ChIJy7MMI3MsC18RM0QWLyKB6Hc.jpg",
-    "is_chain": false,
-    "evidence": [
-      "無料で思いつ切り遊べます！",
-      "お子様ラーメンは美味しくないです",
-      "子供用の広場と遊具があり",
-      "子供を遊ばせに来たりもします",
-      "子供広場になっており冬でも遊べる場所"
-    ],
-    "address": "〒003-0869 北海道札幌市白石区川下２６５１−３",
-    "rating": 4,
-    "rating_count": 549,
-    "hours": [
-      "月曜日: 定休日",
-      "火曜日: 9時00分～19時00分",
-      "水曜日: 9時00分～19時00分",
-      "木曜日: 9時00分～19時00分",
-      "金曜日: 9時00分～19時00分",
-      "土曜日: 9時00分～19時00分",
-      "日曜日: 9時00分～19時00分"
-    ],
-    "phone": "011-879-5311",
-    "website": "https://www.sapporo-park.or.jp/kawasimo/relaxplaza/",
-    "id": 2347
-  },
-  {
     "place_id": "ChIJ9-Q8aJ8rC18RIqCo6iLXHIU",
     "name": "K’s Kitchen 東札幌店",
     "area": "札幌白石区",
@@ -30823,45 +30808,6 @@
     "id": 2388
   },
   {
-    "place_id": "ChIJv-X-FZ_znl8RSvdOy4UfPMc",
-    "name": "はこだてキッズプラザ",
-    "area": "函館",
-    "genre": "その他",
-    "tags": [
-      "ベビーカーOK",
-      "子連れOK"
-    ],
-    "description": "乳幼児から小学生まで楽しめる遊び場。託児所も完備。",
-    "score": 5,
-    "lat": 41.772911,
-    "lng": 140.7286681,
-    "tabelog_url": "https://www.google.com/maps/place/?q=place_id:ChIJv-X-FZ_znl8RSvdOy4UfPMc",
-    "image_url": "/photos/ChIJv-X-FZ_znl8RSvdOy4UfPMc.jpg",
-    "is_chain": false,
-    "evidence": [
-      "ベビーパークは1歳11ヶ月まで",
-      "0歳と２歳がいてベビーパーク内で",
-      "0歳から小学校低学年まで向け",
-      "2歳未満の子供だけのスペースがあり",
-      "館内用のベビーカーを貸し出してくれました"
-    ],
-    "address": "〒040-0063 北海道函館市若松町２０−20番1号 4階",
-    "rating": 4.2,
-    "rating_count": 169,
-    "hours": [
-      "月曜日: 10時00分～18時00分",
-      "火曜日: 10時00分～18時00分",
-      "水曜日: 10時00分～18時00分",
-      "木曜日: 10時00分～18時00分",
-      "金曜日: 10時00分～18時00分",
-      "土曜日: 10時00分～18時00分",
-      "日曜日: 10時00分～18時00分"
-    ],
-    "phone": "0138-26-7000",
-    "website": "http://hakodate-miraiproject.jp/kidsplaza/",
-    "id": 2389
-  },
-  {
     "place_id": "ChIJZSDxfSj0nl8ROhhAWBT1otw",
     "name": "ベビー・子供用品バースデイ美原店",
     "area": "函館",
@@ -31355,7 +31301,19 @@
     ],
     "phone": "0166-73-7229",
     "website": "https://yakinikunochamp.owst.jp/",
-    "id": 2403
+    "id": 2403,
+    "gallery": [
+      "/photos/gallery/2403/01.jpg",
+      "/photos/gallery/2403/02.jpg",
+      "/photos/gallery/2403/03.jpg",
+      "/photos/gallery/2403/04.jpg",
+      "/photos/gallery/2403/05.jpg",
+      "/photos/gallery/2403/06.jpg",
+      "/photos/gallery/2403/07.jpg",
+      "/photos/gallery/2403/08.jpg",
+      "/photos/gallery/2403/09.jpg",
+      "/photos/gallery/2403/10.jpg"
+    ]
   },
   {
     "place_id": "ChIJ6T-3UwDnDF8Rl0YKcAZ6wbc",
